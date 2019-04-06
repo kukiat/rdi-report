@@ -109,4 +109,14 @@ const Partner = ({ data }) => {
   )
 }
 
+Partner.defaultProps = {
+  data: {
+    partnersListJson: {
+      details: {
+        partnerName2: '',
+        partnerName1: '',
+      },
+    },
+  },
+}
 export default withBody()(Partner)
