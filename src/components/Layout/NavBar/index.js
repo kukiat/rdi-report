@@ -1,20 +1,20 @@
-import React from "react"
-import { Link } from "gatsby"
-import Styled from "styled-components"
-import "./index.css"
+import React from 'react'
+import { Link } from 'gatsby'
+import Styled from 'styled-components'
+import './index.css'
 
 const navItemList = [
   {
-    path: "/graph",
-    name: "Home",
+    path: '/graph',
+    name: 'Home',
   },
   {
-    path: "/partners",
-    name: "R&D Company",
+    path: '/partners',
+    name: 'R&D Company',
   },
   {
-    path: "/reports",
-    name: "Download",
+    path: '/reports',
+    name: 'Download',
   },
 ]
 
@@ -82,7 +82,7 @@ const NavBarWrapper = ({ children }) => (
 
 export default () => (
   <NavBarWrapper>
-    <Link>
+    <Link to="/">
       <NavLogo>
         <NavLogoImage src="/static/images/sti.png" alt="" />
       </NavLogo>
