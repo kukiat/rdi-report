@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 import withBody from '../../hoc/withBody'
 import { LayoutWrapper, PartnersTable, PartnersList } from '../../components'
 import { getPartnersList, getPartnersType } from '../../utils/selector/partners'
@@ -10,6 +10,7 @@ export const query = graphql`
     allFile(filter: { relativeDirectory: { eq: "company" } }) {
       edges {
         node {
+          name
           childImageSharp {
             fixed {
               src

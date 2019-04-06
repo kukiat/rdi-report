@@ -19,8 +19,9 @@ exports.createPages = async ({ graphql, actions }) => {
       path: `/partners/${node.id}`,
       component: pathFile.resolve('./src/components/partner/index.js'),
       context: {
-        pageId: node.id,
+        id: 'efb723cf-62ed-588d-958e-8552181a98bc',
       },
     })
+    return Promise.resolve()
   })
 }

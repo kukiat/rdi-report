@@ -5,45 +5,39 @@ import './index.css'
 import { LayoutWrapper } from '../../components'
 import withBody from '../../hoc/withBody'
 
-export const data = graphql`
-  {
-    allPartnersDetailJson(filter: { companyName: { eq: "rdi" } }) {
-      edges {
-        node {
-          id
-          companyName
-          contacts {
-            contactName {
-              name
-              role
-              tel
-              email
-            }
-            contact
-            tel
-            tel2
-            homepage
-          }
-          portfolio {
-            research
-            product
-            product2
-          }
-          history {
-            year
-            status
-            cost
-            income
-            totalEmployee
-            research
-            service
-          }
-          details {
-            partnerName2
-            partnerName1
-            descriptions
-          }
+export const query = graphql`
+  query($id: String!) {
+    partnersListJson(id: { eq: $id }) {
+      id
+      contacts {
+        contactName {
+          name
+          role
+          tel
         }
+        contact
+        tel
+        tel2
+        homepage
+      }
+      portfolio {
+        research
+        product
+        product2
+      }
+      history {
+        year
+        status
+        cost
+        income
+        totalEmployee
+        research
+        service
+      }
+      details {
+        partnerName2
+        partnerName1
+        descriptions
       }
     }
   }
@@ -149,7 +143,7 @@ class Partner extends Component {
   state = {
     type: 'details',
     tabIndex: 0,
-    partnerDetail: this.props.data.allPartnersDetailJson.edges[0].node,
+    partnerDetail: this.props.data.partnersListJson,
   }
 
   changeTab = (type, tabIndex) => {
@@ -179,6 +173,7 @@ class Partner extends Component {
 
   render() {
     const { partnerDetail, type } = this.state
+    console.log(this.props)
     return (
       <LayoutWrapper>
         <div className="partner-page container">

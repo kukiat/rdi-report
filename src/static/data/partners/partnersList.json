@@ -2,232 +2,201 @@
   {
     "path": "1",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/1.png",
     "name": "บจ.ชาระมิงค์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f2eaa8ce98e04457b38d65ef5764da4f~mv2.png/v1/fill/w_399,h_86,al_c,lg_1,q_80/OutsideCapital-logo.webp"
+    "details": {
+      "partnerName2": "บจ.เอ็นเอสที ฟู้ด อินกรีเดียนท์ จำกัด",
+      "partnerName1": "NST FOOD INGREDIENTS LIMITED",
+      "descriptions": [
+        "วืดปัจฉิมนิเทศบ๋อยพอเพียง เกมส์ ป๋อหลอสารขัณฑ์ซิมโฟนีทาวน์ สไลด์กู๋ ภูมิทัศน์ เยอบีรา คอร์รัปชันเซาท์ อุตสาหการอิกัวนาเซ่นไหว้ ภคันทลาพาธ เสือโคร่งผลักดันโต๋เต๋คอนแท็คสเตย์ พุทธภูมิอิมพีเรียลธรรมาภิบาล ไกด์เจล ดีพาร์ทเมนท์กัมมันตะเทรด สโรชาธุหร่ำ ใช้งาน กู๋เพลย์บอยซะล็อบบี้หลวงตา",
+        "โค้กสตาร์ทการันตีสตรอเบอรีเก๋ากี้ สตรอเบอร์รีคาราโอเกะแป๋ว ตัวเองคอร์ปเบิร์นมัฟฟินเบนโล เลกเชอร์กู๋ ไลฟ์วิปสหัสวรรษเซรามิกม้าหินอ่อน นาฏยศาลาสเตย์ โกะพุทธภูมิ โบกี้เนิร์สเซอรี่ เอ็กซ์เพรสเฉิ่ม วัจนะ สเตย์คาร์แฟนซีเปียโน เท็กซ์ฟิวเจอร์ซานตาคลอสเอ็กซ์เพรส แอ็กชั่นเทวาสโรชามั้ย สลัมวอฟเฟิลชาร์ตวืด ม้งอันตรกิริยา แจ๊กพอตซีรีส์วาซาบิออสซี่",
+        "เซ็กซี่เรซินวอลนัท ไรเฟิลติ๋มรอยัลตี้ฟอยล์เคส ท็อปบูตเทรลเล่อร์ น็อค ไทม์น็อคแอปพริคอทบัลลาสต์ อิเลียดสปอตพรีเมียร์ บอยคอตเซ่นไหว้ตัวตน โปรดักชั่นกราวนด์ไฟแนนซ์ วอลซ์ "
+      ]
+    },
+    "contacts": {
+      "contactName": {
+        "name": "จิราภรณ์",
+        "role": "ผู้ช่วยผู้จัดการ",
+        "tel": "02-812-7700-120",
+        "email": "JIRAPORN@NSTFOOD.COM"
+      },
+      "contact": "736 ถนนมหาไชย วังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200",
+      "tel": "02-812-7700-120",
+      "tel2": "02-812-7705",
+      "homepage": ""
+    },
+    "history": {
+      "year": "2533",
+      "status": "ถือหุ้นโดยคนไทยทั้งหมด",
+      "cost": "10,000,000.00",
+      "income": "19,714,536.39",
+      "totalEmployee": "75",
+      "research": "พัฒนาสินค้าใหม่",
+      "service": "สารสกัดสมุนไพร เครื่องเทศออแกนิค"
+    },
+    "portfolio": {
+      "research": "",
+      "product": "",
+      "product2": ""
+    }
   },
   {
     "path": "2",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/2.jpg",
-    "name": "บมจ.จีเอฟพีที จำกัด (มหาชน)",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_174c28b532474b398f62c79291ee1372~mv2.png/v1/fill/w_317,h_69,al_c,lg_1,q_80/intuition-logo.webp"
+    "name": "บมจ.จีเอฟพีที จำกัด (มหาชน)"
   },
   {
     "path": "3",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/3.jpg",
-    "name": " บจ.พนัสโพลทรี่ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.พนัสโพลทรี่ จำกัด"
   },
   {
     "path": "4",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/4.png",
-    "name": " บจ.ระนองโฟรเซ่นฟู้ดส์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.ระนองโฟรเซ่นฟู้ดส์ จำกัด"
   },
   {
     "path": "5",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/5.png",
-    "name": "บจ.คิงฟิชเชอร์ โฮลดิ้งส์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "บจ.คิงฟิชเชอร์ โฮลดิ้งส์ จำกัด"
   },
   {
     "path": "6",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/6.png",
-    "name": " บจ.ไฮ คิว ผลิตภัณฑ์อาหาร จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_28db2f17df984d6f83f19e6647054241~mv2.png/v1/fill/w_384,h_161,al_c,lg_1,q_80/monroe-consulting-logo.webp"
+    "name": " บจ.ไฮ คิว ผลิตภัณฑ์อาหาร จำกัด"
   },
   {
     "type": "WHOLESALE/RETAIL",
     "path": "7",
-    "url": "/static/images/company/7.jpg",
-    "name": " บจ.ลัคกี้ ยูเนี่ยน ฟู้ดส์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_29d431769e604f9d925c7d161fd04009~mv2.png/v1/fill/w_280,h_127,al_c,lg_1,q_80/aquis-logo.webp"
+    "name": " บจ.ลัคกี้ ยูเนี่ยน ฟู้ดส์ จำกัด"
   },
   {
     "path": "8",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/8.jpg",
-    "name": " บมจ.ซีเฟรชอินดัสตรี จำกัด (มหาชน)",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_ec04051ac0354177a8300b7186bb4731~mv2.png/v1/fill/w_393,h_113,al_c,lg_1,q_80/forward-role-logo.webp"
+    "name": " บมจ.ซีเฟรชอินดัสตรี จำกัด (มหาชน)"
   },
   {
     "path": "9",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/9.jpg",
-    "name": " บจ.ไทยคอสมอสฟู้ดส์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_c4ed3ae5f0a54fcf922229f82330283d~mv2.png/v1/fill/w_301,h_120,al_c,lg_1,q_80/sirius-people.webp"
+    "name": " บจ.ไทยคอสมอสฟู้ดส์ จำกัด"
   },
   {
     "path": "10",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/10.jpg",
-    "name": " บจ.ผลไม้แปรรูปวรพร จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f2eaa8ce98e04457b38d65ef5764da4f~mv2.png/v1/fill/w_399,h_86,al_c,lg_1,q_80/OutsideCapital-logo.webp"
+    "name": " บจ.ผลไม้แปรรูปวรพร จำกัด"
   },
   {
     "path": "11",
     "type": "SERVICES",
-    "url": "/static/images/company/11.jpg",
-    "name": " บจ.พี เอ เอส พืชผลส่งออกและไซโล จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_174c28b532474b398f62c79291ee1372~mv2.png/v1/fill/w_317,h_69,al_c,lg_1,q_80/intuition-logo.webp"
+    "name": " บจ.พี เอ เอส พืชผลส่งออกและไซโล จำกัด"
   },
   {
     "path": "12",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/12.jpg",
-    "name": " บมจ.ยูนิวานิชน้ำมันปาล์ม จำกัด (มหาชน)",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บมจ.ยูนิวานิชน้ำมันปาล์ม จำกัด (มหาชน)"
   },
   {
     "path": "13",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/13.jpg",
-    "name": " บจ.เชียงใหม่เฟรชมิลค์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.เชียงใหม่เฟรชมิลค์ จำกัด"
   },
   {
     "path": "14",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/14.png",
-    "name": " บจ.เจ้าคุณเกษตรพืชผล จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.เจ้าคุณเกษตรพืชผล จำกัด"
   },
   {
     "path": "15",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/15.jpg",
-    "name": "บจ.เยเนอรัลแคนดี้ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f2eaa8ce98e04457b38d65ef5764da4f~mv2.png/v1/fill/w_399,h_86,al_c,lg_1,q_80/OutsideCapital-logo.webp"
+    "name": "บจ.เยเนอรัลแคนดี้ จำกัด"
   },
   {
     "path": "16",
     "type": "SERVICES",
-    "url": "/static/images/company/16.jpg",
-    "name": "บจ.พรีม่า เฮิร์บ (ประเทศไทย) จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_174c28b532474b398f62c79291ee1372~mv2.png/v1/fill/w_317,h_69,al_c,lg_1,q_80/intuition-logo.webp"
+    "name": "บจ.พรีม่า เฮิร์บ (ประเทศไทย) จำกัด"
   },
   {
     "path": "17",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/17.png",
-    "name": "  บจ.อัลเฟรโด เอ็นเตอร์ไพรส์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "  บจ.อัลเฟรโด เอ็นเตอร์ไพรส์ จำกัด"
   },
   {
     "path": "18",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/18.png",
-    "name": "บจ.เอฟ-พลัส จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "บจ.เอฟ-พลัส จำกัด"
   },
   {
     "path": "19",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/19.jpg",
-    "name": "บจ.มอนเด นิสซิน (ประเทศไทย) จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "บจ.มอนเด นิสซิน (ประเทศไทย) จำกัด"
   },
   {
     "path": "20",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/20.jpg",
-    "name": " บจ.กรีนสปอต จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.กรีนสปอต จำกัด"
   },
   {
     "path": "21",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/21.jpg",
-    "name": " บจ.แฟนซี เวิลด์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.แฟนซี เวิลด์ จำกัด"
   },
   {
     "path": "22",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/22.jpg",
-    "name": "บจ.เอส.เอส.การสุรา จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "บจ.เอส.เอส.การสุรา จำกัด"
   },
   {
     "path": "23",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/23.png",
-    "name": " บจ.เอช แอนด์ บี อินเตอร์เท็กซ์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f2eaa8ce98e04457b38d65ef5764da4f~mv2.png/v1/fill/w_399,h_86,al_c,lg_1,q_80/OutsideCapital-logo.webp"
+    "name": " บจ.เอช แอนด์ บี อินเตอร์เท็กซ์ จำกัด"
   },
   {
     "path": "24",
     "type": "SERVICES",
-    "url": "/static/images/company/24.jpg",
-    "name": "  บจ.บิ๊กสตาร์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_174c28b532474b398f62c79291ee1372~mv2.png/v1/fill/w_317,h_69,al_c,lg_1,q_80/intuition-logo.webp"
+    "name": "  บจ.บิ๊กสตาร์ จำกัด"
   },
   {
     "path": "25",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/25.jpg",
-    "name": "บจ.เอส.ที.ไรซิ่ง จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "บจ.เอส.ที.ไรซิ่ง จำกัด"
   },
   {
     "path": "26",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/26.jpg",
-    "name": "บจ.ปุ๋ยอินทรีย์เกษตรไทย จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "บจ.ปุ๋ยอินทรีย์เกษตรไทย จำกัด"
   },
   {
     "path": "27",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/27.jpg",
-    "name": " บจ.อินเตอร์อิงค์ จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.อินเตอร์อิงค์ จำกัด"
   },
   {
     "path": "28",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/28.png",
-    "name": "บจ.ดี.ดี.โพลียูเรเทน จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": "บจ.ดี.ดี.โพลียูเรเทน จำกัด"
   },
   {
     "path": "29",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/29.png",
-    "name": " บจ.บูเคมี อินดัสตรี จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.บูเคมี อินดัสตรี จำกัด"
   },
   {
     "path": "30",
     "type": "MANUFACTURING",
-    "url": "/static/images/company/30.jpg",
-    "name": " บจ.พีซีซีเอ แล็บบอราเทอรี่  จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.พีซีซีเอ แล็บบอราเทอรี่  จำกัด"
   },
   {
     "path": "31",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/31.jpg",
-    "name": " บจ.ดีเอฟที (ประเทศไทย) จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f2eaa8ce98e04457b38d65ef5764da4f~mv2.png/v1/fill/w_399,h_86,al_c,lg_1,q_80/OutsideCapital-logo.webp"
+    "name": " บจ.ดีเอฟที (ประเทศไทย) จำกัด"
   },
   {
     "path": "32",
     "type": "SERVICES",
-    "url": "/static/images/company/32.png",
-    "name": "   บจ.ดันล้อป แอดฮีซีฟส์ (ประเทศไทย) จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_174c28b532474b398f62c79291ee1372~mv2.png/v1/fill/w_317,h_69,al_c,lg_1,q_80/intuition-logo.webp"
+    "name": "   บจ.ดันล้อป แอดฮีซีฟส์ (ประเทศไทย) จำกัด"
   },
   {
     "path": "33",
     "type": "WHOLESALE/RETAIL",
-    "url": "/static/images/company/33.png",
-    "name": " บจ.นิวไลฟ์ฟาร์ม่า จำกัด",
-    "placeholder": "https://static.wixstatic.com/media/fa873f_f3fd3260aa004599a47428ec25d09ca6~mv2.png/v1/fill/w_458,h_212,al_c,lg_1,q_80/Halcyon-Knight-logo.webp"
+    "name": " บจ.นิวไลฟ์ฟาร์ม่า จำกัด"
   }
 ]
