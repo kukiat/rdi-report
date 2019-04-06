@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "aos": "^2.3.4",
+    "babel-plugin-styled-components": "^1.10.0",
     "chart.js": "^2.8.0",
     "classnames": "^2.2.6",
     "gatsby": "^2.3.5",
@@ -14,6 +15,7 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.11",
     "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-sharp": "^2.1.17",
@@ -23,6 +25,7 @@
     "react-countup": "^4.1.2",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
+    "styled-components": "^4.2.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
