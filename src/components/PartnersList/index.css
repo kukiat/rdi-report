@@ -1,0 +1,150 @@
+.partners-list {
+}
+
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners-list-wrapper {
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-items: center;
+  /* animation: appear-bottom 1s ease; */
+}
+.partners-list-header {
+  text-align: center;
+}
+.partners-list-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  animation: appear-top 1s ease;
+}
+
+.partners-list-content {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  animation: appear-bottom 1s ease;
+}
+
+.partners-main-images {
+  max-width: 90%;
+  max-height: 120px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.partners-images {
+  height: 120px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.partners-text {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #7e7e7e !important;
+}
+.partners-text:hover {
+  color: #755682 !important;
+}
+
+.placeholder-content {
+  position: absolute;
+  top: 15px;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  padding: 10px 30px;
+}
+
+.placeholder-content > p {
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+}
+
+.placeholder-image-wrapper {
+  transition: top 1s ease-in-out, opacity 0.6s ease-in-out;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.placeholder-image {
+}
+
+.partners-images:hover .placeholder-image-wrapper {
+  opacity: 0;
+  top: 270px;
+}
+
+.partners-images:hover .placeholder-content {
+  opacity: 1;
+}
+
+@keyframes opacity1 {
+  0% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

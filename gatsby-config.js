@@ -14,6 +14,14 @@ module.exports = {
         path: `${__dirname}/src/static/images`,
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `partners`,
+        path: `${__dirname}/src/static/data/partners`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
   ],

@@ -1,3 +1,5 @@
-import { LayoutWrapper } from "./Layout"
+import { LayoutWrapper } from './Layout'
+import PartnersTable from './PartnersTable'
+import PartnersList from './PartnersList'
 
-export { LayoutWrapper }
+export { LayoutWrapper, PartnersTable, PartnersList }

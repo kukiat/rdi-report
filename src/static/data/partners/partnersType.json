@@ -1,0 +1,18 @@
+[
+  {
+    "type": "all",
+    "name": "ALL"
+  },
+  {
+    "type": "MANUFACTURING",
+    "name": "MANUFACTURING"
+  },
+  {
+    "type": "SERVICES",
+    "name": "SERVICES"
+  },
+  {
+    "type": "WHOLESALE/RETAIL",
+    "name": "WHOLESALE & RETAIL"
+  }
+]
