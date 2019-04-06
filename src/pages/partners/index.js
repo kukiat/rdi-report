@@ -1,5 +1,5 @@
-import React from 'react'
-import { graphql, StaticQuery } from 'gatsby'
+import React, { useState } from 'react'
+import { graphql } from 'gatsby'
 import withBody from '../../hoc/withBody'
 import { LayoutWrapper, PartnersTable, PartnersList } from '../../components'
 import { getPartnersList, getPartnersType } from '../../utils/selector/partners'
@@ -40,56 +40,53 @@ export const query = graphql`
   }
 `
 
-class Partners extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      type: 'all',
-      partnersList: getPartnersList(this.props.data),
-      partnersType: getPartnersType(this.props.data),
-    }
+const usePartnersData = (data) => {
+  const [partnersList, setPartnersList] = useState(getPartnersList(data))
+  const [partnersType, setpartnersType] = useState(getPartnersType(data))
+  return {
+    partnersList,
+    partnersType,
+  }
+}
+
+const Partners = (props) => {
+  const [type, setType] = useState('all')
+  const { partnersList, partnersType } = usePartnersData(props.data)
+
+  const onFilterPartnerType = (_type) => {
+    if (type === _type) return
+    setType(_type)
   }
 
-  onFilterPartnerType = (type) => {
-    if (type === this.state.type) return
-    this.setState({ type })
+  const filterType = (type) => {
+    return partnersList.filter((partner) => type === 'all' || partner.type === type)
   }
 
-  filterType = (type) => {
-    return this.state.partnersList.filter((pn) => type === 'all' || pn.type === type)
-  }
-
-  render() {
-    const { partnersType } = this.state
-    const { type } = this.state
-    return (
-      <LayoutWrapper>
-        <div className="partners-page container">
-          <div className="row">
-            <div className="col-8 offset-2">
-              <div className="partners-list-header">
-                <div className="partners-list-title">IN OUR CORNER</div>
-                <div className="partners-list-content">
-                  We're proud of the company we keep. Over 500 customers from 50+ countries and counting. Here's a
-                  sampling of the amazing businesses we partner with and their stories.
-                </div>
+  return (
+    <LayoutWrapper>
+      <div className="partners-page container">
+        <div className="row">
+          <div className="col-8 offset-2">
+            <div className="partners-list-header">
+              <div className="partners-list-title">IN OUR CORNER</div>
+              <div className="partners-list-content">
+                We're proud of the company we keep. Over 500 customers from 50+ countries and counting. Here's a
+                sampling of the amazing businesses we partner with and their stories.
               </div>
             </div>
           </div>
-          <div style={{ marginTop: 30 }}>
-            <div>
-              <PartnersTable onFilterPartnerType={this.onFilterPartnerType} partnerlist={partnersType} type={type} />
-            </div>
-          </div>
-          <div className="row" style={{ width: '100%' }}>
-            <div className="col-10 offset-1">
-              <PartnersList partners={this.filterType(type)} />
-            </div>
+        </div>
+        <div style={{ marginTop: 30 }}>
+          <PartnersTable onFilterPartnerType={onFilterPartnerType} partnerlist={partnersType} type={type} />
+        </div>
+        <div className="row" style={{ width: '100%' }}>
+          <div className="col-10 offset-1">
+            <PartnersList partners={filterType(type)} />
           </div>
         </div>
-      </LayoutWrapper>
-    )
-  }
+      </div>
+    </LayoutWrapper>
+  )
 }
 
 export default withBody()(Partners)

@@ -1,0 +1,8 @@
+.partner-history-item {
+  display: flex;
+  margin-top: 10px;
+}
+.partner-history-title {
+  margin-right: 15px;
+  font-weight: bold;
+}

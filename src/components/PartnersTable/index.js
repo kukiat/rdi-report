@@ -3,44 +3,6 @@ import classNames from 'classnames'
 import Styled from 'styled-components'
 import './index.css'
 
-class PartnersTableItem extends React.PureComponent {
-  handleFilter = () => {
-    const { onFilterPartnerType, type } = this.props
-    onFilterPartnerType(type)
-  }
-
-  render() {
-    const { name, active } = this.props
-    return (
-      <ListItemStyled className={classNames('list-item', { active })} onClick={this.handleFilter}>
-        <div className="list-content">{name}</div>
-      </ListItemStyled>
-    )
-  }
-}
-
-class PartnersTable extends React.PureComponent {
-  render() {
-    const { onFilterPartnerType, active, type } = this.props
-
-    return (
-      <TableStyled>
-        <ListsStyled>
-          {this.props.partnerlist.map((partner, index) => (
-            <PartnersTableItem
-              key={index}
-              active={type === partner.type}
-              onFilterPartnerType={onFilterPartnerType}
-              {...partner}
-            />
-          ))}
-        </ListsStyled>
-      </TableStyled>
-    )
-  }
-}
-export default PartnersTable
-
 const TableStyled = Styled.div`
   display: flex;
   justify-content: center;
@@ -66,3 +28,34 @@ const ListItemStyled = Styled.div`
   padding: 15px 20px;
   color: #000;
 `
+
+const PartnersTableItem = ({ active, onFilterPartnerType, type, name }) => {
+  const handleFilter = () => {
+    onFilterPartnerType(type)
+  }
+
+  return (
+    <ListItemStyled className={classNames('list-item', { active })} onClick={() => onFilterPartnerType(type)}>
+      <div className="list-content">{name}</div>
+    </ListItemStyled>
+  )
+}
+
+const PartnersTable = ({ partnerlist, onFilterPartnerType, type }) => {
+  return (
+    <TableStyled>
+      <ListsStyled>
+        {partnerlist.map((partner, index) => (
+          <PartnersTableItem
+            key={index}
+            active={type === partner.type}
+            onFilterPartnerType={onFilterPartnerType}
+            {...partner}
+          />
+        ))}
+      </ListsStyled>
+    </TableStyled>
+  )
+}
+
+export default PartnersTable
