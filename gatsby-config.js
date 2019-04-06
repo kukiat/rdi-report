@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `partners`,
-        path: `${__dirname}/src/static/data/partners`,
+        name: `data`,
+        path: `${__dirname}/src/static/data`,
       },
     },
     `gatsby-transformer-sharp`,

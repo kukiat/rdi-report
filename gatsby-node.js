@@ -1,7 +1,26 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const pathFile = require('path')
 
-// You can delete this file if you're not using it
+exports.createPages = async ({ graphql, actions }) => {
+  const result = await graphql(`
+    {
+      allPartnersListJson {
+        edges {
+          node {
+            path
+            id
+          }
+        }
+      }
+    }
+  `)
+
+  return result.data.allPartnersListJson.edges.forEach(({ node }) => {
+    actions.createPage({
+      path: `/partners/${node.id}`,
+      component: pathFile.resolve('./src/components/partner/index.js'),
+      context: {
+        pageId: node.id,
+      },
+    })
+  })
+}

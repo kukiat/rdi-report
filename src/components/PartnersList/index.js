@@ -22,7 +22,7 @@ class PartnersList extends React.PureComponent {
               className="partners-list-wrapper col-3"
               key={uuid()}
             >
-              <Link style={{ width: '100%', cursor: 'pointer' }} to={`/${partner.path}`}>
+              <Link style={{ width: '100%', cursor: 'pointer' }} to={`/partners/${partner.id}`}>
                 <div className="partners-images">
                   <img
                     className="partners-main-images"

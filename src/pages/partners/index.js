@@ -29,6 +29,7 @@ export const query = graphql`
     allPartnersListJson {
       edges {
         node {
+          id
           path
           type
           name
