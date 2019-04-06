@@ -67,16 +67,16 @@ const Partners = (props) => {
       <div className="partners-page container">
         <div className="row">
           <div className="col-8 offset-2">
-            <div className="partners-list-header">
-              <div className="partners-list-title">IN OUR CORNER</div>
-              <div className="partners-list-content">
+            <div className="partners-header">
+              <div className="partners-title">IN OUR CORNER</div>
+              <div className="partners-content">
                 We're proud of the company we keep. Over 500 customers from 50+ countries and counting. Here's a
                 sampling of the amazing businesses we partner with and their stories.
               </div>
             </div>
           </div>
         </div>
-        <div style={{ marginTop: 30 }}>
+        <div className="partner-table-wrapper">
           <PartnersTable onFilterPartnerType={onFilterPartnerType} partnerlist={partnersType} type={type} />
         </div>
         <div className="row" style={{ width: '100%' }}>

@@ -1,0 +1,27 @@
+.partner-table-wrapper {
+  margin-top: 30px;
+}
+
+.partners-page {
+  min-height: 700px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+.partners-header {
+  text-align: center;
+}
+
+.partners-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  animation: appear-top 1s ease;
+}
+
+.partners-content {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  animation: appear-bottom 1s ease;
+}
