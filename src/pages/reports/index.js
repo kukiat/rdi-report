@@ -1,6 +1,12 @@
-import React from "react"
-import "./index.css"
+import React from 'react'
+import withBody from '../../hoc/withBody'
+import { LayoutWrapper } from '../../components'
+import './index.css'
 
-const Reports = () => <h1>Reports</h1>
+const Reports = () => (
+  <LayoutWrapper>
+    <h1>Reports</h1>
+  </LayoutWrapper>
+)
 
-export default Reports
+export default withBody()(Reports)

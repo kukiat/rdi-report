@@ -1,6 +1,12 @@
-import React from "react"
-import "./index.css"
+import React from 'react'
+import withBody from '../../hoc/withBody'
+import { LayoutWrapper } from '../../components'
+import './index.css'
 
-const Partners = () => <h1>Partners</h1>
+const Partners = () => (
+  <LayoutWrapper>
+    <h1>Partners</h1>
+  </LayoutWrapper>
+)
 
-export default Partners
+export default withBody()(Partners)
