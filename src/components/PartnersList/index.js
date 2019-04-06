@@ -15,7 +15,7 @@ const PartnersList = (props) => {
                 cursor: 'pointer',
                 textDecoration: 'none',
               }}
-              to={`/partners/${partner.id}`}
+              to={`/partners/${partner.path}`}
             >
               <div className="partners-images">
                 <img className="partners-main-images" src={partner.src} alt="" />

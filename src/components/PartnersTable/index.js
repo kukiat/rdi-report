@@ -30,10 +30,6 @@ const ListItemStyled = Styled.div`
 `
 
 const PartnersTableItem = ({ active, onFilterPartnerType, type, name }) => {
-  const handleFilter = () => {
-    onFilterPartnerType(type)
-  }
-
   return (
     <ListItemStyled className={classNames('list-item', { active })} onClick={() => onFilterPartnerType(type)}>
       <div className="list-content">{name}</div>

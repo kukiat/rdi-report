@@ -50,19 +50,6 @@ class Reports extends React.Component {
               สามารถค้นหาไฟล์ได้ที่ช่องค้นหาข้างล่าง
             </div>
           </div>
-          {/* <div className='report-search input-group'>
-            <input
-              type='text'
-              onChange={this.search}
-              className='form-control report-search-input'
-              placeholder='ค้นหาเอกสารด้วย ชื่อไฟล์, รายละเอียด, วันที่'
-            />
-            <div className='input-group-append'>
-              <button className='btn btn-outline-danger' type='button'>
-                ค้นหาไฟล์
-              </button>
-            </div>
-          </div> */}
           <div className="report-content row" data-aos="fade-up" data-aos-duration={1000}>
             {reports}
           </div>
