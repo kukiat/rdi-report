@@ -1,0 +1,80 @@
+.report-container {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 16px;
+  min-height: 500px;
+}
+
+.report-title {
+  font-size: 30px;
+  text-align: center;
+  animation: appear-top 1s ease;
+}
+
+.report-header-detail {
+  margin-top: 30px;
+  animation: appear-bottom 1s ease;
+}
+
+.report-search {
+  width: 80%;
+  margin: 40px auto;
+  outline-color: #ff632a !important;
+}
+
+.report-search-input {
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  padding: 20px;
+  border-color: #ff632a;
+}
+
+.report-search-input:focus {
+  box-shadow: none !important;
+  border: solid 1px #ff632a !important;
+}
+
+.report-search button {
+  width: 100px;
+  background-color: #ff632a;
+  color: #fff;
+  outline: none;
+  border-radius: 7px;
+}
+
+.report-search button:focus {
+  box-shadow: none !important;
+  border: solid 1px #ff632a !important;
+}
+
+.report-content {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.report-item {
+  margin-top: 30px;
+}
+
+.report-item-image {
+  margin-left: -10px;
+}
+
+.report-item-detail {
+  margin-top: 15px;
+}
+
+.report-item-detail-name {}
+
+.report-item-detail-text {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #2e2e2e;
+}
+
+.report-item-detail-date {
+  margin-top: 2px;
+}
