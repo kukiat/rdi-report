@@ -22,6 +22,12 @@ module.exports = {
         path: `${__dirname}/src/static/data`,
       },
     },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/PageLayout`),
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
   ],

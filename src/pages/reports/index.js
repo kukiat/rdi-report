@@ -1,5 +1,4 @@
 import React from 'react'
-import withBody from '../../hoc/withBody'
 import { LayoutWrapper } from '../../components'
 import _Reports from '../../static/data/reports.json'
 import pdf from '../../static/images/pdf.png'
@@ -23,7 +22,7 @@ const ReportItem = ({ id, name, detail, date }) => {
 }
 
 const Reports = () => {
-  const reports = _Reports.map((report) => <ReportItem {...report} />)
+  const reports = _Reports.map((report, index) => <ReportItem key={index} {...report} />)
 
   return (
     <LayoutWrapper>
@@ -42,4 +41,4 @@ const Reports = () => {
   )
 }
 
-export default withBody()(Reports)
+export default Reports

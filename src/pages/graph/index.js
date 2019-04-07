@@ -1,6 +1,5 @@
 import React from 'react'
 import { LayoutWrapper } from '../../components'
-import withBody from '../../hoc/withBody'
 import './index.css'
 
 const Graph = () => (
@@ -9,4 +8,4 @@ const Graph = () => (
   </LayoutWrapper>
 )
 
-export default withBody()(Graph)
+export default Graph

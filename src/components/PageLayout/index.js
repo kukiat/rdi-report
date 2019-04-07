@@ -1,9 +1,9 @@
 import React, { useEffect, Fragment } from 'react'
-import Body from './Body'
+import DocumentHead from './DocumentHead'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const withBody = (options) => (Component) => (props) => {
+const PageLauout = ({ children }) => {
   useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -13,10 +13,10 @@ const withBody = (options) => (Component) => (props) => {
   }, [])
   return (
     <Fragment>
-      <Body {...options} />
-      <Component {...props} />
+      <DocumentHead />
+      {children}
     </Fragment>
   )
 }
 
-export default withBody
+export default PageLauout

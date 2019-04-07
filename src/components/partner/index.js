@@ -6,7 +6,6 @@ import { LayoutWrapper } from '../../components'
 import PartnerDetails from './PartnerDetails'
 import PartnerContacts from './PartnerContacts'
 import PartnerHistory from './PartnerHistory'
-import withBody from '../../hoc/withBody'
 
 const Partner = ({ data }) => {
   const [type, setType] = useState('details')
@@ -109,4 +108,4 @@ export const query = graphql`
   }
 `
 
-export default withBody()(Partner)
+export default Partner

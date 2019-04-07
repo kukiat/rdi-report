@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { graphql } from 'gatsby'
-import withBody from '../../hoc/withBody'
 import { LayoutWrapper, PartnersTable, PartnersList } from '../../components'
 import { getPartnersList, getPartnersType } from '../../utils/selector/partners'
 import './index.css'
@@ -81,4 +80,4 @@ const Partners = (props) => {
   )
 }
 
-export default withBody()(Partners)
+export default Partners

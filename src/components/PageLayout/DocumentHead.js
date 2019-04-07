@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
-const Body = ({ description, lang, meta, keywords, title }) => {
+const DocumentHead = ({ description, lang, meta, keywords, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -81,7 +81,7 @@ const Body = ({ description, lang, meta, keywords, title }) => {
   )
 }
 
-Body.defaultProps = {
+DocumentHead.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [],
@@ -89,7 +89,7 @@ Body.defaultProps = {
   title: '',
 }
 
-Body.propTypes = {
+DocumentHead.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
@@ -97,4 +97,4 @@ Body.propTypes = {
   title: PropTypes.string,
 }
 
-export default Body
+export default DocumentHead
