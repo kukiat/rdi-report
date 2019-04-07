@@ -1,6 +1,6 @@
 import React from 'react'
 import { LayoutWrapper } from '../../components'
-import _Reports from '../../static/data/reports.json'
+import { reports } from '../../static/data'
 import pdf from '../../static/images/pdf.png'
 import './index.css'
 
@@ -22,8 +22,6 @@ const ReportItem = ({ id, name, detail, date }) => {
 }
 
 const Reports = () => {
-  const reports = _Reports.map((report, index) => <ReportItem key={index} {...report} />)
-
   return (
     <LayoutWrapper>
       <div className="report-container container">
@@ -34,7 +32,9 @@ const Reports = () => {
           </div>
         </div>
         <div className="report-content row" data-aos="fade-up" data-aos-duration={1000}>
-          {reports}
+          {reports.map((report, index) => (
+            <ReportItem key={index} {...report} />
+          ))}
         </div>
       </div>
     </LayoutWrapper>
