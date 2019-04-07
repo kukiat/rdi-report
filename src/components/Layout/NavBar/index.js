@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Styled from 'styled-components'
+import logoNav from '../../../static/images/sti.png'
 import './index.css'
 
 const navItemList = [
   {
-    path: '/graph',
+    path: '/',
     name: 'Home',
   },
   {
@@ -84,7 +85,7 @@ export default () => (
   <NavBarWrapper>
     <Link to="/">
       <NavLogo>
-        <NavLogoImage src="/static/images/sti.png" alt="" />
+        <NavLogoImage src={logoNav} alt="" />
       </NavLogo>
     </Link>
 

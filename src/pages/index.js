@@ -1,5 +1,6 @@
-import React from "react"
+import React from 'react'
+import GraphPage from './graph'
 
-const IndexPage = () => <h1>Hi people</h1>
+const IndexPage = () => <GraphPage />
 
 export default IndexPage
