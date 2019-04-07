@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import { graphql } from 'gatsby'
 import { LayoutWrapper, PartnersTable, PartnersList } from '../../components'
 import { getPartnersList, getPartnersType } from '../../utils/selector/partners'
@@ -41,8 +41,9 @@ export const query = graphql`
 
 const Partners = (props) => {
   const [type, setType] = useState('all')
-  const partnersType = getPartnersType(props.data)
-  const partnersList = getPartnersList(props.data)
+
+  const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
+  const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
 
   const onFilterPartnerType = (_type) => {
     if (type === _type) return
