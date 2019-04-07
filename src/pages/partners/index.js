@@ -46,8 +46,7 @@ const Partners = (props) => {
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
 
   const onFilterPartnerType = (_type) => {
-    if (type === _type) return
-    setType(_type)
+    return type === _type || setType(_type)
   }
 
   const filterType = (type) => {

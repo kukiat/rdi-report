@@ -9,11 +9,11 @@ import PartnerHistory from './PartnerHistory'
 
 const Partner = ({ data }) => {
   const [type, setType] = useState('details')
+
   const partnerDetail = data.partnersListJson
 
   const changeTab = (_type) => {
-    if (_type === type) return
-    setType(_type)
+    return _type === type || setType(_type)
   }
 
   const managePartnerGroupByType = (_type = 'details') => {
@@ -38,8 +38,10 @@ const Partner = ({ data }) => {
               src={`/static/c3e371dc5864fe9a4d8c80f6fa4fbfa0/f3646/1.png`}
               style={{ borderRadius: 10, marginBottom: 20 }}
             />
-            {/* <div className="partner-page-left-name">{partnerDetail.details.partnerName2}</div> */}
-            {/* <div className="partner-page-left-name">{partnerDetail.details.partnerName1}</div> */}
+            <div className="partner-page-left-wrapper">
+              <div className="partner-page-left-name">{partnerDetail.details.partnerName2}</div>
+              <div className="partner-page-left-name">{partnerDetail.details.partnerName1}</div>
+            </div>
           </div>
           <div className="col-8 partner-page-right">
             <div className="partner-tab">

@@ -3,7 +3,7 @@ import './index.css'
 
 const PartnerContacts = ({ data: contacts }) => {
   return (
-    <div className="container">
+    <div className="container partner-contact-container">
       <div className="partner-content-header font-th">ข้อมูลการติดต่อ</div>
       <div className="partner-content-item row">
         <div className="partner-content-title col-3 font-th">ชื่อผู้ติดต่อ</div>

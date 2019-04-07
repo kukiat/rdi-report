@@ -63,7 +63,7 @@ a {
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0 20px;
 }
 .partner-content-title {
   font-weight: bold;
@@ -134,4 +134,9 @@ a {
 }
 .partner-contact-title {
   margin-right: 15px;
+}
+
+.partner-page-left-wrapper {
+  text-align: center;
+  margin: 30px 0 0 0;
 }
