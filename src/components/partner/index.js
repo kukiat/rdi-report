@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import { graphql } from 'gatsby'
 import classNames from 'classnames'
 import './index.css'

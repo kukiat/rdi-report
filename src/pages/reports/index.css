@@ -5,6 +5,9 @@
   min-height: 500px;
 }
 
+.report-header {
+}
+
 .report-title {
   font-size: 30px;
   text-align: center;
@@ -67,7 +70,8 @@
   margin-top: 15px;
 }
 
-.report-item-detail-name {}
+.report-item-detail-name {
+}
 
 .report-item-detail-text {
   margin-top: 5px;

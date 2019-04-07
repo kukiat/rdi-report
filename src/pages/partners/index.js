@@ -40,18 +40,10 @@ export const query = graphql`
   }
 `
 
-const usePartnersData = (data) => {
-  const [partnersList, setPartnersList] = useState(getPartnersList(data))
-  const [partnersType, setpartnersType] = useState(getPartnersType(data))
-  return {
-    partnersList,
-    partnersType,
-  }
-}
-
 const Partners = (props) => {
   const [type, setType] = useState('all')
-  const { partnersList, partnersType } = usePartnersData(props.data)
+  const partnersType = getPartnersType(props.data)
+  const partnersList = getPartnersList(props.data)
 
   const onFilterPartnerType = (_type) => {
     if (type === _type) return

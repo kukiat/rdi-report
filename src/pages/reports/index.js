@@ -5,9 +5,7 @@ import _Reports from '../../static/data/report/reports'
 import pdf from '../../static/images/pdf.png'
 import './index.css'
 
-const ReportItem = (props) => {
-  const { id, name, detail, date } = props
-
+const ReportItem = ({ id, name, detail, date }) => {
   return (
     <div key={id} className="report-item col-4">
       <a href="/static/files/sample-report.pdf" download={name}>
@@ -24,45 +22,24 @@ const ReportItem = (props) => {
   )
 }
 
-class Reports extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      searchKeyword: '',
-    }
-  }
+const Reports = () => {
+  const reports = _Reports.map((report) => <ReportItem {...report} />)
 
-  search = ({ target }) => this.setState({ searchKeyword: target.value })
-
-  render() {
-    const { searchKeyword } = this.state
-    const reports = _Reports
-      .filter(({ name, detail, date }) => String(name + detail + date).includes(searchKeyword))
-      .map((report) => <ReportItem {...report} />)
-
-    return (
-      <LayoutWrapper>
-        <div className="report-container container">
-          <div className="report-header">
-            <div className="report-title font-th">ดาวน์โหลดเอกสาร</div>
-            <div className="report-header-detail font-th">
-              เอกสารสถิติข้อมูลย้อนหลังจำนวนทั้งสิ้น {reports.length} ไฟล์พร้อมให้ดาวน์โหลดแล้ว
-              สามารถค้นหาไฟล์ได้ที่ช่องค้นหาข้างล่าง
-            </div>
-          </div>
-          <div className="report-content row" data-aos="fade-up" data-aos-duration={1000}>
-            {reports}
+  return (
+    <LayoutWrapper>
+      <div className="report-container container">
+        <div className="report-header">
+          <div className="report-title font-th">ดาวน์โหลดเอกสาร</div>
+          <div className="report-header-detail font-th">
+            เอกสารสถิติข้อมูลย้อนหลังจำนวนทั้งสิ้น {reports.length} ไฟล์พร้อมให้ดาวน์โหลดแล้ว
           </div>
         </div>
-      </LayoutWrapper>
-    )
-  }
+        <div className="report-content row" data-aos="fade-up" data-aos-duration={1000}>
+          {reports}
+        </div>
+      </div>
+    </LayoutWrapper>
+  )
 }
-
-// const Reports = () => (
-//   <LayoutWrapper>
-//     <h1> Reports </h1>
-//   </LayoutWrapper>
-// )
 
 export default withBody()(Reports)
