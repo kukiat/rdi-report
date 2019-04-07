@@ -1,27 +1,16 @@
 const pathFile = require('path')
+const partners = require('./src/static/data/partnersList.json')
 
 exports.createPages = async ({ graphql, actions }) => {
-  const result = await graphql(`
-    {
-      allPartnersListJson {
-        edges {
-          node {
-            path
-            id
-          }
-        }
-      }
-    }
-  `)
+  const { createPage } = actions
 
-  return result.data.allPartnersListJson.edges.forEach(({ node }) => {
-    actions.createPage({
-      path: `/partners/${node.path}`,
-      component: pathFile.resolve('./src/components/partner/index.js'),
+  for (let partner of partners) {
+    createPage({
+      path: `/partners/${partner.path}`,
+      component: pathFile.resolve(`src/components/partner/index.js`),
       context: {
-        id: node.path,
+        id: partner.path,
       },
     })
-    return Promise.resolve()
-  })
+  }
 }

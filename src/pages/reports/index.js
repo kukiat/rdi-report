@@ -1,7 +1,7 @@
 import React from 'react'
 import withBody from '../../hoc/withBody'
 import { LayoutWrapper } from '../../components'
-import _Reports from '../../static/data/report/reports'
+import _Reports from '../../static/data/reports.json'
 import pdf from '../../static/images/pdf.png'
 import './index.css'
 
