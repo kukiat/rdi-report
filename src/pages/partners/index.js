@@ -59,7 +59,7 @@ const Partners = (props) => {
         <div className="row">
           <div className="col-8 offset-2">
             <div className="partners-header">
-              <div className="partners-title">IN OUR CORNER</div>
+              <div className="partners-title">R&D Company</div>
               <div className="partners-content">
                 We're proud of the company we keep. Over 500 customers from 50+ countries and counting. Here's a
                 sampling of the amazing businesses we partner with and their stories.

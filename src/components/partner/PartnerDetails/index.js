@@ -5,8 +5,10 @@ const PartnerDetails = ({ data }) => {
   const { descriptions, partnerName1, partnerName2 } = data
   return (
     <div className="partner-details-container">
-      <div className="partner-page-left-name font-th">{partnerName2}</div>
-      <div className="partner-page-left-name font-th">{partnerName1}</div>
+      <div className="partner-detail-header-wrapper">
+        <div className="partner-detail-header font-th">{partnerName2}</div>
+        <div className="partner-detail-header font-th">{partnerName1}</div>
+      </div>
       {descriptions.map((content, index) => (
         <div key={index} className="partner-description">
           <p className="font-th">{content}</p>
