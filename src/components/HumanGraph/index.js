@@ -25,7 +25,7 @@ const ServiceIcon = ({ total, text }) => {
     icons.push(
       <div className="graph-human-icon">
         <span className="tooltiptext">{text}</span>
-        <img src={'../../static/images/graph/service.png'} alt="" height="33px" width="15px" />
+        <img src={require('../../static/images/graph/service.png')} alt="" height="33px" width="15px" />
       </div>
     )
   }
@@ -42,7 +42,7 @@ const MerchantIcon = ({ total, text }) => {
     icons.push(
       <div className="graph-human-icon">
         <span className="tooltiptext">{total}</span>
-        <img src={'../../static/images/graph/merchant.png'} alt="" height="33px" />
+        <img src={require('../../static/images/graph/merchant.png')} alt="" height="33px" />
       </div>
     )
   }
