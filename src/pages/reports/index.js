@@ -1,14 +1,19 @@
 import React from 'react'
 import { LayoutWrapper } from '../../components'
 import { reports } from '../../static/data'
-import pdf from '../../static/images/pdf.png'
 import './index.css'
 
 const ReportItem = ({ id, name, detail, date }) => {
   return (
     <div key={id} className="report-item col-4">
       <a href="/static/files/sample-report.pdf" download={name}>
-        <img width={60} src={pdf} alt="" className="report-item-image" width="60px" />
+        <img
+          width={60}
+          src={require('../../static/images/others/pdf.png')}
+          alt=""
+          className="report-item-image"
+          width="60px"
+        />
       </a>
       <div className="report-item-detail">
         <a href="/static/files/sample-report.pdf" download={name} className="report-item-detail-name">

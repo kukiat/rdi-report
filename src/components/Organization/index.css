@@ -1,0 +1,29 @@
+.org-content-section {
+  padding: 20px 60px;
+}
+.org-content-header > h1 {
+  position: absolute;
+  right: 55px;
+  width: 530px;
+  text-align: right;
+  font-weight: bold;
+  color: #755682;
+}
+
+.org-content-desc > p {
+  color: #333333;
+  font-size: 13px;
+}
+
+.mgt20 {
+  margin-top: 20px;
+}
+.mgt50 {
+  margin-top: 120px;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}

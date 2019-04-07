@@ -1,0 +1,145 @@
+import React from 'react'
+import './index.css'
+
+const LaborIcon = ({ total, text }) => {
+  const amount = parseInt(total / 2000) + 1
+  const icons = []
+  for (let index = 0; index < amount; index += 1) {
+    icons.push(
+      <div className="graph-human-icon">
+        <span className="tooltiptext">{total}</span>
+        <img src={require('../../static/images/graph/labor.png')} alt="" height="33px" />
+      </div>
+    )
+  }
+
+  icons.push(<div className="graph-human-total">{text}</div>)
+
+  return icons
+}
+
+const ServiceIcon = ({ total, text }) => {
+  const amount = parseInt(total / 2000) + 1
+  const icons = []
+  for (let index = 0; index < amount; index += 1) {
+    icons.push(
+      <div className="graph-human-icon">
+        <span className="tooltiptext">{text}</span>
+        <img src={'../../static/images/graph/service.png'} alt="" height="33px" width="15px" />
+      </div>
+    )
+  }
+
+  icons.push(<div className="graph-human-total">{text}</div>)
+
+  return icons
+}
+
+const MerchantIcon = ({ total, text }) => {
+  const amount = parseInt(total / 2000) + 1
+  const icons = []
+  for (let index = 0; index < amount; index += 1) {
+    icons.push(
+      <div className="graph-human-icon">
+        <span className="tooltiptext">{total}</span>
+        <img src={'../../static/images/graph/merchant.png'} alt="" height="33px" />
+      </div>
+    )
+  }
+
+  icons.push(<div className="graph-human-total">{text}</div>)
+
+  return icons
+}
+
+const HumanGraph = () => {
+  return (
+    <div className="human-graph">
+      <div className="graph-header">
+        <div className="graph-human-title font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการในปี 2560</div>
+        <div className="graph-desc align-center font-th" style={{ marginTop: 10 }}>
+          {' '}
+          บุคลากรด้านการวิจัยและพัฒนาแบบรายหัว (Head Count) และแบบเทียบเป็นการทำงานเต็มเวลา (Full Time Equivalent)
+        </div>
+      </div>
+      <div className="graph-human-graph">
+        <div className="row">
+          <div className="col-6">
+            <div className="graph-human-graph-title align-right">Normal (person)</div>
+          </div>
+          <div className="col-6 spliter">
+            <div className="graph-human-graph-title align-left">FTE (person - year)</div>
+          </div>
+        </div>
+
+        <div className="graph-human-graph-title-topic font-th">การค้าส่ง / ค้าปลีก</div>
+        <div className="row">
+          <div className="col-6">
+            <div className="graph-human-graph-left">
+              {' '}
+              <MerchantIcon total={15707} text={'15,707'} />{' '}
+            </div>
+          </div>
+          <div className="col-6 spliter">
+            <div className="graph-human-graph-right">
+              {' '}
+              <MerchantIcon total={15373} text={'15,373'} />{' '}
+            </div>
+          </div>
+        </div>
+
+        <div className="graph-human-graph-title-topic font-th">การบริการ</div>
+        <div className="row">
+          <div className="col-6">
+            <div className="graph-human-graph-left">
+              {' '}
+              <ServiceIcon total={20584} text={'20,584'} />{' '}
+            </div>
+          </div>
+          <div className="col-6 spliter">
+            <div className="graph-human-graph-right">
+              {' '}
+              <ServiceIcon total={18464} text={'18,464'} />{' '}
+            </div>
+          </div>
+        </div>
+
+        <div className="graph-human-graph-title-topic font-th">การผลิต</div>
+        <div className="row">
+          <div className="col-6">
+            <div className="graph-human-graph-left">
+              {' '}
+              <LaborIcon total={55840} text={'55,840'} />{' '}
+            </div>
+          </div>
+          <div className="col-6 spliter">
+            <div className="graph-human-graph-right">
+              {' '}
+              <LaborIcon total={52506} text={'52,506'} />{' '}
+            </div>
+          </div>
+        </div>
+
+        <div className="graph-human-graph-title-topic font-th" style={{ color: '#7a5699' }}>
+          รวมทั้งสิ้น
+        </div>
+        <div className="row">
+          <div className="col-6">
+            <div className="graph-human-graph-left graph-human-total-all font-th"> 92,131 </div>
+          </div>
+          <div className="col-6 spliter">
+            <div className="graph-human-graph-right graph-human-total-all font-th">
+              {' '}
+              86,343 <span style={{ marginLeft: 20 }}>คน</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="graph-desc align-center font-th">
+        จากสติถิพบว่า กว่า 2 ใน 3 ของบุคคลากรด้านวิจัยและพัฒนา อยู่ในอุตสาหกรรมการผลิต{' '}
+      </div>
+    </div>
+  )
+}
+
+export default HumanGraph

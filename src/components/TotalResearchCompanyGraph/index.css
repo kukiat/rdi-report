@@ -1,0 +1,35 @@
+.xxdd {
+  padding-top: 30px;
+  text-align: center;
+  color: #7f7f7f;
+}
+
+.tr-graph-page {
+  margin-top: 20px;
+}
+
+.awdas {
+  padding-top: 50px;
+  color: rgb(122, 86, 153);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.tr-graph-detail {
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+.adaaaa {
+  font-size: 16px;
+  text-align: left !important;
+  color: #7f7f7f;
+}
+
+@keyframes animation-bg {
+  0% {
+    background-color: #fff;
+  }
+  100.0% {
+    background-color: #f4f4f4;
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, Fragment } from 'react'
 import DocumentHead from './DocumentHead'
 import AOS from 'aos'
+import './index.css'
 import 'aos/dist/aos.css'
 
 const PageLauout = ({ children }) => {

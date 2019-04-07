@@ -1,0 +1,67 @@
+.header-graph-container {
+}
+
+.bg-header-graph {
+  height: 600px;
+  background-image: linear-gradient(
+    to right bottom,
+    #c32a90,
+    #ae218c,
+    #991a88,
+    #841483,
+    #6e0f7d,
+    #620d7a,
+    #560c77,
+    #490b74,
+    #440b74,
+    #3e0b74,
+    #380b74,
+    #320b74
+  );
+}
+.bg-header-graph-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.bg-header-graph-landing-text {
+  position: block;
+  top: 160px;
+}
+.bg-image {
+  display: block;
+  animation: appear-right 1.6s ease;
+}
+
+.bg-title {
+  font-family: helvetica, helvetica, helvetica, sans-serif !important;
+  letter-spacing: 0.02em;
+  width: 350px;
+  line-height: 1.24;
+  animation: appear-left 1s ease;
+}
+.bg-title > b {
+  letter-spacing: 0.02em;
+  font-size: 36px;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+.bg-line {
+  margin: 20px 0;
+  height: 3px;
+  width: 170px;
+  background-color: #b9a4bc;
+  animation: appear-left 1.6s ease;
+}
+
+.bg-desc {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f2f2f2;
+  animation: appear-bottom 1.6s ease;
+}
+/* 
+@keyframes appear-left-title {
+
+} */

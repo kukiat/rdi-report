@@ -1,0 +1,94 @@
+.human-graph {
+  width: 100%;
+  margin-top: 40px;
+}
+.graph-human-graph {
+  margin-left: auto;
+  text-align: center;
+  padding: 0px 100px 40px;
+  border-radius: 5px;
+}
+.graph-header {
+  padding-top: 20px;
+}
+.graph-human-title {
+  color: #2079ad;
+  font-size: 25px;
+  text-align: center;
+}
+.graph-human-icon {
+  display: inline-block;
+  width: 20px;
+  cursor: pointer;
+}
+.graph-human-icon .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  top: -30px;
+}
+.graph-human-icon:hover .tooltiptext {
+  visibility: visible;
+}
+.graph-human-graph {
+  margin-top: 30px;
+}
+.graph-human-graph-left {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.graph-human-graph-right {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.graph-human-graph-title {
+  font-size: 20px;
+  color: #7a5699;
+  margin-bottom: 30px;
+}
+.graph-human-total {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7a5699c4;
+}
+.graph-human-total-all {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #7a5699;
+  padding: 0;
+  font-size: 30px;
+}
+.graph-human-graph-title-topic {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #7a5699c4;
+  padding: 2px 0;
+}
+
+.spliter {
+  border-left: 2px solid #7a569959;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  width: 100%;
+  text-align: center;
+}
