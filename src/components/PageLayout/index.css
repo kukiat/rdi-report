@@ -23,15 +23,15 @@ body {
 
 @font-face {
   font-family: defaultFont;
-  src: url('/static/fonts/iris2.woff');
+  src: url('/src/static//fonts/iris2.woff');
 }
 
 @font-face {
   font-family: irisFont;
-  src: url('/static/fonts/iris.woff');
+  src: url('/src/static//fonts/iris1.woff');
 }
 
 @font-face {
   font-family: boldFont;
-  src: url('/static/fonts/iris3.woff');
+  src: url('/src/static//fonts/iris3.woff');
 }

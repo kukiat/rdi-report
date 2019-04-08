@@ -98,49 +98,46 @@ const data2 = {
   ],
 }
 
-export default () => {
+const TotalResearchCompanyGraph = () => {
   return (
     <div className="tr-graph-page">
-      <div className="tr-graph-detail">
-        <div className="row tr-graph-detail-wrapper">
-          <div className="awdas col-5">
-            <p
-              className="graph-human-title font-th"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              // style={{ fonSize: 40 }}
-            >
-              จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
-            </p>
-            <p className="adaaaa font-th" data-aos="fade-right">
-              เปรียบเทียบกับจำนวนผู้ประกอบการทั้งหมด ซึ่งประกอบไปด้วยข้อมูลของบริษัทในอุตสาหกรรมการผลิต อุตสาหกรรมบริการ
-              และอุตสาหกรรมค้าส่ง/ค้าปลีก
-            </p>
-          </div>
-          <div className="col-7" data-aos="fade-left">
-            <Line data={data} />
-            <div className="xxdd" data-aos="fade-up">
-              <p className="font-th">จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
-            </div>
+      <div className="row tr-graph-detail-wrapper">
+        <div className="awdas col-5">
+          <p className="graph-human-title font-th" data-aos="fade-right">
+            จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
+          </p>
+          <p className="adaaaa font-th" data-aos="fade-right" data-aos-duration="600">
+            เปรียบเทียบกับจำนวนผู้ประกอบการทั้งหมด ซึ่งประกอบไปด้วยข้อมูลของบริษัทในอุตสาหกรรมการผลิต อุตสาหกรรมบริการ
+            และอุตสาหกรรมค้าส่ง/ค้าปลีก
+          </p>
+        </div>
+        <div className="col-7" data-aos="fade-left">
+          <Line data={data} />
+          <div className="tr-graph-desc" data-aos="fade-up">
+            <p className="font-th">จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
           </div>
         </div>
+      </div>
 
-        <div className="row tr-graph-detail-wrapper">
-          <div className="col-7">
-            <Line data={data2} />
-            <div className="col-12 xxdd">
-              <p className="font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
-            </div>
+      <div className="row tr-graph-detail-wrapper">
+        <div className="col-7" data-aos="fade-right">
+          <Line data={data2} />
+          <div className="col-12 tr-graph-desc" data-aos="fade-up">
+            <p className="font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>
-          <div className="awdas col-5">
-            <p className="graph-human-title font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560</p>
-            <p className="adaaaa font-th">
-              โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
-              รองลงมาคือภาคการบริการ และอุตสาหกรรมค้าส่ง/ค้าปลีกตามลำดับ
-            </p>
-          </div>
+        </div>
+        <div className="awdas col-5">
+          <p className="graph-human-title font-th" data-aos="fade-left">
+            ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560
+          </p>
+          <p className="adaaaa font-th" data-aos="fade-left" data-aos-duration="600">
+            โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
+            รองลงมาคือภาคการบริการ และอุตสาหกรรมค้าส่ง/ค้าปลีกตามลำดับ
+          </p>
         </div>
       </div>
     </div>
   )
 }
+
+export default TotalResearchCompanyGraph

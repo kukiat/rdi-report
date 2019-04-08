@@ -11,6 +11,10 @@
   color: #755682;
 }
 
+.org-content-desc {
+  margin-top: 65px;
+  text-align: right;
+}
 .org-content-desc-text {
   color: #333333;
   font-size: 20px;

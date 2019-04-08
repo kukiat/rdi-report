@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 
-export default () => {
+const Organization = () => {
   return (
     <div className="org-page row">
       <div className="col-6" data-aos="fade-right">
@@ -11,7 +11,7 @@ export default () => {
         <div className="org-content-header">
           <h1 className="font-de">RDI SURVEY 2018</h1>
         </div>
-        <div className="org-content-desc mgt50 text-right">
+        <div className="org-content-desc">
           <p className="org-content-desc-text font-th">
             รายงานผลการสำรวจการวิจัยและพัฒนาและกิจกรรมนวัตกรรม ในภาคอุตสาหกรรมของประเทศไทย ประจำปี 2561
           </p>
@@ -20,3 +20,5 @@ export default () => {
     </div>
   )
 }
+
+export default Organization

@@ -1,4 +1,4 @@
-.xxdd {
+.tr-graph-desc {
   padding-top: 30px;
   text-align: center;
   color: #7f7f7f;
@@ -6,6 +6,8 @@
 
 .tr-graph-page {
   margin-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 20px;
 }
 
 .awdas {
@@ -14,10 +16,6 @@
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-}
-.tr-graph-detail {
-  padding-bottom: 30px;
-  border-radius: 20px;
 }
 .adaaaa {
   font-size: 16px;
