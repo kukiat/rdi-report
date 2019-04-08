@@ -25,6 +25,9 @@
   color: #7f7f7f;
 }
 
+.tr-graph-detail-wrapper {
+  margin-top: 70px;
+}
 @keyframes animation-bg {
   0% {
     background-color: #fff;

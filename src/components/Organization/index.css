@@ -1,20 +1,25 @@
+.org-page {
+  margin-top: 30px;
+}
+
 .org-content-section {
-  padding: 20px 60px;
+  padding: 20px 60px !important;
 }
 .org-content-header > h1 {
-  position: absolute;
-  right: 55px;
-  width: 530px;
   text-align: right;
   font-weight: bold;
   color: #755682;
 }
 
-.org-content-desc > p {
+.org-content-desc-text {
   color: #333333;
-  font-size: 13px;
+  font-size: 20px;
 }
 
+.org-image {
+  width: 470px;
+  height: 310px;
+}
 .mgt20 {
   margin-top: 20px;
 }

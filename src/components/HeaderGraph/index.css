@@ -60,6 +60,7 @@
   font-weight: bold;
   color: #f2f2f2;
   animation: appear-bottom 1.6s ease;
+  max-width: 510px;
 }
 /* 
 @keyframes appear-left-title {

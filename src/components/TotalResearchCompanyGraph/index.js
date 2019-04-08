@@ -102,7 +102,7 @@ export default () => {
   return (
     <div className="tr-graph-page">
       <div className="tr-graph-detail">
-        <div className="row" style={{ marginTop: '70px' }}>
+        <div className="row tr-graph-detail-wrapper">
           <div className="awdas col-5">
             <p
               className="graph-human-title font-th"
@@ -125,7 +125,7 @@ export default () => {
           </div>
         </div>
 
-        <div className="row" style={{ marginTop: 70 }}>
+        <div className="row tr-graph-detail-wrapper">
           <div className="col-7">
             <Line data={data2} />
             <div className="col-12 xxdd">
