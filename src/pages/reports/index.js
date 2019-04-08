@@ -12,7 +12,6 @@ const ReportItem = ({ id, name, detail, date }) => {
           src={require('../../static/images/others/pdf.png')}
           alt=""
           className="report-item-image"
-          width="60px"
         />
       </a>
       <div className="report-item-detail">

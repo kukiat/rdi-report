@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { graphql } from 'gatsby'
-import classNames from 'classnames'
 import './index.css'
 import { LayoutWrapper } from '../../components'
 import PartnerDetails from './PartnerDetails'

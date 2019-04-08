@@ -5,7 +5,7 @@ export default () => {
   return (
     <div className="org-page row" style={{ marginTop: 50 }}>
       <div className="col-6" data-aos="fade-right">
-        <img width={470} height={310} src={require('../../static/images/others/4.png')} />
+        <img width={470} height={310} src={require('../../static/images/others/4.png')}  alt=""/>
       </div>
       <div className="col-6 org-content-section" data-aos="fade-left">
         <div className="org-content-header">

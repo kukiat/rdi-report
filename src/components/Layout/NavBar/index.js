@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Styled from 'styled-components'
-import logoNav from '../../../static/images/sti.png'
+import logoNav from '../../../static/images/others/sti.png'
 import './index.css'
 
 const navItemList = [

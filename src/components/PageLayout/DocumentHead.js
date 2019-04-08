@@ -11,7 +11,6 @@ const DocumentHead = ({ description, lang, meta, keywords, title }) => {
           siteMetadata {
             title
             description
-            author
           }
         }
       }
