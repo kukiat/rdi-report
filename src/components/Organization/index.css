@@ -3,7 +3,7 @@
 }
 
 .org-content-section {
-  padding: 20px 30px !important;
+  padding: 0px 30px !important;
 }
 .org-content-header > h1 {
   text-align: center;
@@ -16,15 +16,15 @@
   margin-top: 20px;
 }
 .org-content-desc-text-title {
-  color: #696969;
+  color: #7a7a7a;
   font-size: 19px;
   font-weight: bold;
   text-align: left;
   margin: 10px 0;
 }
 .org-content-desc-text {
-  color: #7f7f7f;
-  font-size: 17px;
+  color: #7a7a7a;
+  font-size: 18px;
   text-indent: 20px;
 }
 .org-content-desc-bottom {
@@ -32,8 +32,8 @@
   margin-top: 30px;
 }
 .org-content-desc-bottom-text {
-  color: #7f7f7f;
-  font-size: 16px;
+  color: #7a7a7a;
+  font-size: 18px;
   text-indent: 20px;
 }
 

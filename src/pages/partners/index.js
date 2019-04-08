@@ -59,10 +59,11 @@ const Partners = (props) => {
         <div className="row">
           <div className="col-8 offset-2">
             <div className="partners-header">
-              <div className="partners-title">R&D Company</div>
-              <div className="partners-content">
-                We're proud of the company we keep. Over 500 customers from 50+ countries and counting. Here's a
-                sampling of the amazing businesses we partner with and their stories.
+              <div className="partners-title font-th">
+                ทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านการวิจัยและพัฒนา และกิจกรรมนวัตกรรมประจำปี 2561
+              </div>
+              <div className="partners-content font-th">
+                รายละเอียดข้อมูลเบื้องต้นเกี่ยวกับกิจการที่ดำเนินการลงทุนวิจัยและพัฒนาในอุตสาหกรรมต่างๆ ของประเทศไทย เพื่อเป็นฐานข้อมูลในการเผยแพร่สำหรับผู้ที่สนใจ
               </div>
             </div>
           </div>
