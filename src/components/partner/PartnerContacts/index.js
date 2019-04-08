@@ -12,7 +12,7 @@ const PartnerContacts = ({ data: contacts }) => {
         <div className="col-4 font-th">{contacts.contactName.role || '-'}</div>
       </div>
       <div className="partner-content-item row">
-        <div className="partner-content-title col-2 font-th">บเอร์ติดต่อ</div>
+        <div className="partner-content-title col-2 font-th">เยอร์ติดต่อ</div>
         <div className="col-4 font-th">{contacts.contactName.tel || '-'}</div>
         <div className="partner-content-title col-2 font-th">Email</div>
         <div className="col-4 font-th">{contacts.contactName.email || '-'}</div>
