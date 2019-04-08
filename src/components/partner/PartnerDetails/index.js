@@ -5,7 +5,7 @@ const PartnerDetails = ({ data }) => {
   const { descriptions, partnerName1, partnerName2 } = data
   return (
     <div className="partner-details-container">
-      <div className="partner-detail-header-wrapper">
+      <div className="partner-content-header partner-section-header-wrapper">
         <div className="partner-detail-header font-th">{partnerName2}</div>
         <div className="partner-detail-header font-th">{partnerName1}</div>
       </div>
