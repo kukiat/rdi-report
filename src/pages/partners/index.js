@@ -57,7 +57,7 @@ const Partners = (props) => {
     <LayoutWrapper>
       <div className="partners-page container">
         <div className="row">
-          <div className="col-8 offset-2">
+          <div className="col-10 offset-1">
             <div className="partners-header">
               <div className="partners-title font-th">
                 ทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านการวิจัยและพัฒนา และกิจกรรมนวัตกรรมประจำปี 2561
