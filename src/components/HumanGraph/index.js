@@ -6,14 +6,18 @@ const LaborIcon = ({ total, text }) => {
   const icons = []
   for (let index = 0; index < amount; index += 1) {
     icons.push(
-      <div className="graph-human-icon">
+      <div className="graph-human-icon" key={index}>
         <span className="tooltiptext">{total}</span>
         <img src={require('../../static/images/graph/labor.png')} alt="" height="33px" />
       </div>
     )
   }
 
-  icons.push(<div className="graph-human-total">{text}</div>)
+  icons.push(
+    <div key={amount} className="graph-human-total">
+      {text}
+    </div>
+  )
 
   return icons
 }
@@ -23,14 +27,18 @@ const ServiceIcon = ({ total, text }) => {
   const icons = []
   for (let index = 0; index < amount; index += 1) {
     icons.push(
-      <div className="graph-human-icon">
+      <div className="graph-human-icon" key={index}>
         <span className="tooltiptext">{text}</span>
         <img src={require('../../static/images/graph/service.png')} alt="" height="33px" width="15px" />
       </div>
     )
   }
 
-  icons.push(<div className="graph-human-total">{text}</div>)
+  icons.push(
+    <div key={amount} className="graph-human-total">
+      {text}
+    </div>
+  )
 
   return icons
 }
@@ -40,14 +48,18 @@ const MerchantIcon = ({ total, text }) => {
   const icons = []
   for (let index = 0; index < amount; index += 1) {
     icons.push(
-      <div className="graph-human-icon">
+      <div className="graph-human-icon" key={index}>
         <span className="tooltiptext">{total}</span>
         <img src={require('../../static/images/graph/merchant.png')} alt="" height="33px" />
       </div>
     )
   }
 
-  icons.push(<div className="graph-human-total">{text}</div>)
+  icons.push(
+    <div key={amount} className="graph-human-total">
+      {text}
+    </div>
+  )
 
   return icons
 }

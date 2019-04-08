@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { graphql } from 'gatsby'
 import './index.css'
 import { LayoutWrapper } from '../../components'
