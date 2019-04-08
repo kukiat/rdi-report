@@ -107,8 +107,6 @@ export default () => {
             <p
               className="graph-human-title font-th"
               data-aos="fade-right"
-              data-aos-duration="1000"
-              // style={{ fonSize: 40 }}
             >
               จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
             </p>
@@ -126,13 +124,19 @@ export default () => {
         </div>
 
         <div className="row" style={{ marginTop: 70 }}>
-          <div className="col-7">
+          <div
+            className="col-7"
+            data-aos="fade-right"
+          >
             <Line data={data2} />
             <div className="col-12 xxdd">
               <p className="font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
             </div>
           </div>
-          <div className="awdas col-5">
+          <div
+            className="awdas col-5"
+            data-aos="fade-left"
+          >
             <p className="graph-human-title font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560</p>
             <p className="adaaaa font-th">
               โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
