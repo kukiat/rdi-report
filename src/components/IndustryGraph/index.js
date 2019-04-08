@@ -227,23 +227,23 @@ export default () => {
       <Description />
       <div className="industry-graph-detail">
         <div className="row">
-          <div className="col-8">
+          <div className="col-8" data-aos="fade-right">
             <Bar data={dataI} options={optionsI} plugins={plugins} />
           </div>
-          <div className="col-4" style={{ textAlign: 'center' }}>
-            <p className="ax_wd font-th" style={{ fontSize: 20, color: '#7f7f7f' }}>
+          <div className="col-4 ig-content" data-aos="fade-left">
+            <p className="font-th ig-content-text">
               ค่าใช้จ่ายด้านการวิจัยและพัฒนาส่วนใหญ่มาจาก อุตสาหกรรมยานยนต์ อุตสาหกรรมอาหาร และอุตสาหกรรมปิโตรเลียม
             </p>
           </div>
         </div>
         <div style={{ marginTop: 130 }} />
         <div className="row">
-          <div className="col-4 ax_wd2" style={{ textAlign: 'center' }}>
-            <p className="font-th" style={{ fontSize: 20, color: '#7f7f7f' }}>
+          <div className="col-4 ig-content" data-aos="fade-right">
+            <p className="font-th ig-content-text">
               ในขณะที่ผู้ประกอบการส่วนใหญ่มาจาก อุตสาหกรรมอาหาร อุตสาหกรรมเคมี และอุตสาหกรรมยางและพลาสติก
             </p>
           </div>
-          <div className="col-8">
+          <div className="col-8" data-aos="fade-left">
             <Bar data={dataII} options={optionsII} plugins={plugins} />
           </div>
         </div>
