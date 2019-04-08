@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `RDI Survey`,
-    description: `RDI Survey.`,
+    title: `RDI Survey 2018`,
+    description: `RDI Survey 2018`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
