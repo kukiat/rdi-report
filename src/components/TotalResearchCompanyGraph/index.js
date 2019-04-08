@@ -113,7 +113,7 @@ const TotalResearchCompanyGraph = () => {
         </div>
         <div className="col-7" data-aos="fade-left">
           <Line data={data} />
-          <div className="tr-graph-desc" data-aos="fade-up">
+          <div className="tr-graph-desc">
             <p className="font-th">จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
           </div>
         </div>
@@ -122,7 +122,7 @@ const TotalResearchCompanyGraph = () => {
       <div className="row tr-graph-detail-wrapper">
         <div className="col-7" data-aos="fade-right">
           <Line data={data2} />
-          <div className="col-12 tr-graph-desc" data-aos="fade-up">
+          <div className="col-12 tr-graph-desc">
             <p className="font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>
         </div>

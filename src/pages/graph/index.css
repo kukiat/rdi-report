@@ -7,14 +7,13 @@
   color: #7f7f7f;
 }
 .graph-title {
-  padding: 30px 0;
   font-size: 25px;
   color: #2079ad;
   text-align: center;
 }
 .graph-desc {
-  width: 90%;
-  margin-top: 10px;
+  width: 100%;
+  margin: 25px auto;
   text-align: center;
   color: #7f7f7f;
 }
