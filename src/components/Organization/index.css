@@ -7,7 +7,7 @@
 }
 .org-content-header > h1 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 400;
   color: #755682;
   margin-bottom: 30px;
 }
@@ -23,7 +23,7 @@
   margin: 10px 0;
 }
 .org-content-desc-text {
-  color: #7d7d7d;
+  color: #7f7f7f;
   font-size: 17px;
   text-indent: 20px;
 }
@@ -32,7 +32,7 @@
   margin-top: 30px;
 }
 .org-content-desc-bottom-text {
-  color: #7d7d7d;
+  color: #7f7f7f;
   font-size: 16px;
   text-indent: 20px;
 }

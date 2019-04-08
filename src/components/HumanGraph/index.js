@@ -7,7 +7,7 @@ const LaborIcon = ({ total, text }) => {
   for (let index = 0; index < amount; index += 1) {
     icons.push(
       <div className="graph-human-icon" key={index}>
-        <span className="tooltiptext">{total}</span>
+        <span className="tooltiptext">{text} คน</span>
         <img src={require('../../static/images/graph/labor.png')} alt="" height="33px" />
       </div>
     )
@@ -15,7 +15,7 @@ const LaborIcon = ({ total, text }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      {text}
+      {text} คน
     </div>
   )
 
@@ -28,7 +28,7 @@ const ServiceIcon = ({ total, text }) => {
   for (let index = 0; index < amount; index += 1) {
     icons.push(
       <div className="graph-human-icon" key={index}>
-        <span className="tooltiptext">{text}</span>
+        <span className="tooltiptext">{text} คน</span>
         <img src={require('../../static/images/graph/service.png')} alt="" height="33px" width="15px" />
       </div>
     )
@@ -36,7 +36,7 @@ const ServiceIcon = ({ total, text }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      {text}
+      {text} คน
     </div>
   )
 
@@ -49,7 +49,7 @@ const MerchantIcon = ({ total, text }) => {
   for (let index = 0; index < amount; index += 1) {
     icons.push(
       <div className="graph-human-icon" key={index}>
-        <span className="tooltiptext">{total}</span>
+        <span className="tooltiptext">{text} คน</span>
         <img src={require('../../static/images/graph/merchant.png')} alt="" height="33px" />
       </div>
     )
@@ -57,7 +57,7 @@ const MerchantIcon = ({ total, text }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      {text}
+      {text} คน
     </div>
   )
 
@@ -69,10 +69,11 @@ export default () => {
     <div className="human-graph">
       <div className="graph-header">
         <div className="graph-human-title font-th" data-aos="fade-up">
-          ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการในปี 2560
+          บุคลากรด้านการวิจัยและพัฒนาแบบรายหัวและแบบเทียบเป็นการทำงานเต็มเวลา
+          <br />
+          (Head CountFull vs Time Equivalent)
         </div>
-        <div className="graph-desc align-center font-th" data-aos="fade-up">
-          บุคลากรด้านการวิจัยและพัฒนาแบบรายหัว (Head Count) และแบบเทียบเป็นการทำงานเต็มเวลา (Full Time Equivalent)
+        <div className="graph-desc font-th" data-aos="fade-up">
         </div>
       </div>
       <div className="graph-human-graph" data-aos="fade-up">
@@ -143,20 +144,18 @@ export default () => {
           </div>
         </div>
 
-        <div className="graph-human-graph-title-topic font-th" data-aos="fade-up" style={{ color: '#7a5699' }}>
+        <div className="graph-human-graph-title-topic font-th" data-aos="fade-up">
           รวมทั้งสิ้น
         </div>
         <div className="row">
           <div className="col-6">
             <div className="graph-human-graph-left graph-human-total-all font-th" data-aos="fade-right">
-              {' '}
-              92,131{' '}
+              92,131 {' '} คน {' '}
             </div>
           </div>
           <div className="col-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right graph-human-total-all font-th" data-aos="fade-left">
-              {' '}
-              86,343 <span style={{ marginLeft: 20 }}>คน</span>
+              {' '} 86,343 {' '} คน/ปี
             </div>
           </div>
         </div>
