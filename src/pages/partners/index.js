@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import { graphql } from 'gatsby'
-import withBody from '../../hoc/withBody'
 import { LayoutWrapper, PartnersTable, PartnersList } from '../../components'
 import { getPartnersList, getPartnersType } from '../../utils/selector/partners'
 import './index.css'
@@ -42,12 +41,12 @@ export const query = graphql`
 
 const Partners = (props) => {
   const [type, setType] = useState('all')
-  const partnersType = getPartnersType(props.data)
-  const partnersList = getPartnersList(props.data)
+
+  const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
+  const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
 
   const onFilterPartnerType = (_type) => {
-    if (type === _type) return
-    setType(_type)
+    return type === _type || setType(_type)
   }
 
   const filterType = (type) => {
@@ -60,7 +59,7 @@ const Partners = (props) => {
         <div className="row">
           <div className="col-8 offset-2">
             <div className="partners-header">
-              <div className="partners-title">IN OUR CORNER</div>
+              <div className="partners-title">R&D Company</div>
               <div className="partners-content">
                 We're proud of the company we keep. Over 500 customers from 50+ countries and counting. Here's a
                 sampling of the amazing businesses we partner with and their stories.
@@ -81,4 +80,4 @@ const Partners = (props) => {
   )
 }
 
-export default withBody()(Partners)
+export default Partners

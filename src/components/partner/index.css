@@ -63,22 +63,20 @@ a {
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0 20px;
 }
 .partner-content-title {
   font-weight: bold;
 }
 .partner-content {
   padding: 10px 30px;
-  border: 1px solid rgba(184, 141, 221, 0.4);
-  box-shadow: 0px 1px 1px 1px #ccc;
-  border-radius: 10px;
-  border-top-right-radius: 0px;
+  border: 1px solid #e2d6e2;
+  border-radius: 5px;
 }
 .partner-page-card {
   min-height: 400px;
-  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.4);
-  border-radius: 15px;
+  border: 1px solid #e2d6e2;
+  border-radius: 5px;
   margin: 40px 0;
 }
 .partner-content p {
@@ -134,4 +132,9 @@ a {
 }
 .partner-contact-title {
   margin-right: 15px;
+}
+
+.partner-page-left-wrapper {
+  text-align: center;
+  margin: 30px 0 0 0;
 }

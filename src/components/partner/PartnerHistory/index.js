@@ -4,7 +4,7 @@ import './index.css'
 const PartnerHistory = ({ data }) => {
   const { cost, income, status, totalEmployee, year, research, service } = data
   return (
-    <div className="container">
+    <div className="container partner-history-container">
       <div className="partner-content-header font-th">ข้อมูลรายละเอียด</div>
       <div className="partner-history-item row">
         <div className="partner-history-title col-6 font-th">ปีที่ก่อตั้ง</div>

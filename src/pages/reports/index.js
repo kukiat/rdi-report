@@ -1,15 +1,19 @@
 import React from 'react'
-import withBody from '../../hoc/withBody'
 import { LayoutWrapper } from '../../components'
-import _Reports from '../../static/data/report/reports'
-import pdf from '../../static/images/pdf.png'
+import { reports } from '../../static/data'
 import './index.css'
 
 const ReportItem = ({ id, name, detail, date }) => {
   return (
     <div key={id} className="report-item col-4">
       <a href="/static/files/sample-report.pdf" download={name}>
-        <img width={60} src={pdf} alt="" className="report-item-image" width="60px" />
+        <img
+          width={60}
+          src={require('../../static/images/others/pdf.png')}
+          alt=""
+          className="report-item-image"
+          width="60px"
+        />
       </a>
       <div className="report-item-detail">
         <a href="/static/files/sample-report.pdf" download={name} className="report-item-detail-name">
@@ -23,8 +27,6 @@ const ReportItem = ({ id, name, detail, date }) => {
 }
 
 const Reports = () => {
-  const reports = _Reports.map((report) => <ReportItem {...report} />)
-
   return (
     <LayoutWrapper>
       <div className="report-container container">
@@ -35,11 +37,13 @@ const Reports = () => {
           </div>
         </div>
         <div className="report-content row" data-aos="fade-up" data-aos-duration={1000}>
-          {reports}
+          {reports.map((report, index) => (
+            <ReportItem key={index} {...report} />
+          ))}
         </div>
       </div>
     </LayoutWrapper>
   )
 }
 
-export default withBody()(Reports)
+export default Reports

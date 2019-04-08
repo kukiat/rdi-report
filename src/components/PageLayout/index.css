@@ -1,0 +1,41 @@
+body {
+  font-family: defaultFont;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  /* min-width: 1366px; */
+}
+
+.font-th {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  /* word-wrap: break-word;
+  line-height: 24px; */
+  font-family: Helvetica Neue, Arial, sans-serif;
+  /* font-family: 'Noto Sans', 'Noto Sans Thai', 'Bai Jamjuree', sans-serif; */
+}
+
+.font-en {
+  font-family: defaultFont;
+  /* font-family: helvetica, helvetica, helvetica, sans-serif; */
+}
+
+.font-de {
+  font-family: defaultFont;
+}
+
+@font-face {
+  font-family: defaultFont;
+  src: url('/static/fonts/iris2.woff');
+}
+
+@font-face {
+  font-family: irisFont;
+  src: url('/static/fonts/iris.woff');
+}
+
+@font-face {
+  font-family: boldFont;
+  src: url('/static/fonts/iris3.woff');
+}
