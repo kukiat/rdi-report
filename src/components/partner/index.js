@@ -16,8 +16,8 @@ const Partner = ({ data }) => {
           <div className="col-4 partner-page-left">
             <img alt="" width={340} height={120} src={require("../../static/images/company/1.png")} />
             <div className="partner-page-left-wrapper">
-              <b className="partner-page-left-name">{details.partnerName2}</b>
-              <b className="partner-page-left-name">{details.partnerName1}</b>
+              <p className="partner-page-left-name font-th">{details.partnerName2}</p>
+              <p className="partner-page-left-name font-th">{details.partnerName1}</p>
             </div>
           </div>
           <div className="col-8 partner-page-right">
