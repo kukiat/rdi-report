@@ -1,21 +1,21 @@
-import React from "react"
-import { Link } from "gatsby"
-import Styled from "styled-components"
-import logoNav from "../../../static/images/others/sti.png"
-import "./index.css"
+import React from 'react'
+import { Link } from 'gatsby'
+import Styled from 'styled-components'
+import logoNav from '../../../static/images/others/sti.png'
+import './index.css'
 
 const navItemList = [
   {
-    path: "/",
-    name: "Home",
+    path: '/',
+    name: 'Home',
   },
   {
-    path: "/partners",
-    name: "R&D Company",
+    path: '/partners',
+    name: 'R&D Company',
   },
   {
-    path: "/reports",
-    name: "Download",
+    path: '/reports',
+    name: 'Download',
   },
 ]
 
@@ -75,28 +75,32 @@ const NavLogoImage = Styled.img`
 
 const NavBarWrapper = ({ children }) => (
   <NavBarContainer>
-    <div className="container">
+    <div className='container'>
       <NavBarList>{children}</NavBarList>
     </div>
   </NavBarContainer>
 )
 
-export default () => (
+export default (props) => (
   <NavBarWrapper>
-    <Link to="/">
+    <Link to='/'>
       <NavLogo>
-        <NavLogoImage src={logoNav} alt="" />
+        <NavLogoImage src={logoNav} alt='' />
       </NavLogo>
     </Link>
 
-    <NavMenu className="nav-menu">
-      {navItemList.map((nav, index) => (
-        <Link to={nav.path} key={index} style={{ color: "#858583" }}>
-          <NavItem>
-            <p className="nav-text">{nav.name}</p>
-          </NavItem>
-        </Link>
-      ))}
+    <NavMenu className='nav-menu'>
+      {navItemList.map((nav, index) => {
+        const navClass = (window.location.pathname === nav.path)? 'nav-text-active' : 'nav-text';
+
+        return (
+          <Link to={nav.path} key={index}>
+            <NavItem>
+              <p className={navClass}>{nav.name}</p>
+            </NavItem>
+          </Link>
+        )
+      })}
     </NavMenu>
   </NavBarWrapper>
 )

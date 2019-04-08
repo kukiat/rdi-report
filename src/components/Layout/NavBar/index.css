@@ -17,6 +17,12 @@
   border: solid 1px #7a5699 !important;
   outline: none !important;
 }
+.nav-text {
+  color: #858583;
+}
+.nav-text-active {
+  color: #7a5699;
+}
 .nav-text:hover {
   color: #7a5699;
   transition: all 0.2s;
