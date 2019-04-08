@@ -12,7 +12,8 @@
   padding: 3px;
 }
 
-.partner-detail-header-wrapper {
-  padding-bottom: 9px;
+.partner-section-header-wrapper {
+  font-weight: bold;
+  padding-bottom: 10px;
   border-bottom: 1px solid #e2d6e2;
 }

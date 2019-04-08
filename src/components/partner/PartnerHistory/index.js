@@ -5,7 +5,7 @@ const PartnerHistory = ({ data }) => {
   const { cost, income, status, totalEmployee, year, research, service } = data
   return (
     <div className="container partner-history-container">
-      <div className="partner-content-header font-th">ข้อมูลรายละเอียด</div>
+      <div className="partner-content-header partner-section-header-wrapper font-th">ข้อมูลรายละเอียด</div>
       <div className="partner-history-item row">
         <div className="partner-history-title col-6 font-th">ปีที่ก่อตั้ง</div>
         <div className="col-5 font-th">พ.ศ. {year || '-'}</div>
@@ -26,7 +26,6 @@ const PartnerHistory = ({ data }) => {
         <div className="partner-history-title col-6 font-th">จำนวนพนักงานของบริษัทในปี 2560</div>
         <div className="col-5 font-th">{totalEmployee || '-'} คน</div>
       </div>
-      <hr />
       <div className="partner-history-item row">
         <div className="partner-history-title col-6 font-th">การวิจัยและพัฒนาในปี 2560</div>
         <div className="col-5 font-th">{research || '-'} คน</div>
