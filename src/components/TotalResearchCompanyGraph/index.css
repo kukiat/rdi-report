@@ -11,15 +11,15 @@
 }
 
 .awdas {
-  padding-top: 50px;
   color: rgb(122, 86, 153);
   font-size: 25px;
   font-weight: bold;
-  text-align: center;
+  text-align: right !important;
 }
 .adaaaa {
+  margin-top: 20px;
   font-size: 16px;
-  text-align: left !important;
+  text-align: center;
   color: #7f7f7f;
 }
 
