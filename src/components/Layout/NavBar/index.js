@@ -1,21 +1,21 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Styled from 'styled-components'
-import logoNav from '../../../static/images/others/sti.png'
-import './index.css'
+import React from "react"
+import { Link } from "gatsby"
+import Styled from "styled-components"
+import logoNav from "../../../static/images/others/sti.png"
+import "./index.css"
 
 const navItemList = [
   {
-    path: '/',
-    name: 'Home',
+    path: "/",
+    name: "Home",
   },
   {
-    path: '/partners',
-    name: 'R&D Company',
+    path: "/partners",
+    name: "R&D Company",
   },
   {
-    path: '/reports',
-    name: 'Download',
+    path: "/reports",
+    name: "Download",
   },
 ]
 
@@ -91,7 +91,7 @@ export default () => (
 
     <NavMenu className="nav-menu">
       {navItemList.map((nav, index) => (
-        <Link to={nav.path} key={index}>
+        <Link to={nav.path} key={index} style={{ color: "#858583" }}>
           <NavItem>
             <p className="nav-text">{nav.name}</p>
           </NavItem>

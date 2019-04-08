@@ -1,3 +1,7 @@
 .partner-contact-container {
   padding: 18px;
+  color: #464c57;
+}
+.partner-contact-title {
+  font-weight: bold;
 }
