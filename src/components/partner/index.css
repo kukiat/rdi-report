@@ -59,7 +59,7 @@ a {
   border: 1px solid #ccc;
 }
 .partner-content-header {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin: 10px 0 20px;
 }
 .partner-content-title {
@@ -120,4 +120,7 @@ a {
   padding-bottom: 10px;
   border-bottom: 2px solid #eaeaeb;
   font-weight: bold;
+}
+.partner-tag-section {
+  margin-top: 40px;
 }
