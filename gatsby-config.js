@@ -7,6 +7,16 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `manifest`,
+        short_name: `manifest`,
+        start_url: `/`,
+        display: `minimal-ui`,
+        icon: `${__dirname}/src/static/images/others/STI.jpg`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

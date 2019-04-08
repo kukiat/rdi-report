@@ -10,10 +10,6 @@ body {
 .font-th {
   font-family: 'Prompt', sans-serif;
   font-weight: 300;
-  /* word-wrap: break-word;
-  line-height: 24px; */
-  font-family: Helvetica Neue, Arial, sans-serif;
-  /* font-family: 'Noto Sans', 'Noto Sans Thai', 'Bai Jamjuree', sans-serif; */
 }
 
 .font-en {
@@ -27,15 +23,15 @@ body {
 
 @font-face {
   font-family: defaultFont;
-  src: url('/static/fonts/iris2.woff');
+  src: url('/src/static//fonts/iris2.woff');
 }
 
 @font-face {
   font-family: irisFont;
-  src: url('/static/fonts/iris.woff');
+  src: url('/src/static//fonts/iris1.woff');
 }
 
 @font-face {
   font-family: boldFont;
-  src: url('/static/fonts/iris3.woff');
+  src: url('/src/static//fonts/iris3.woff');
 }
