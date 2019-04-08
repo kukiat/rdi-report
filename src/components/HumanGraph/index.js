@@ -75,7 +75,7 @@ export default () => {
           บุคลากรด้านการวิจัยและพัฒนาแบบรายหัว (Head Count) และแบบเทียบเป็นการทำงานเต็มเวลา (Full Time Equivalent)
         </div>
       </div>
-      <div className="graph-human-graph">
+      <div className="graph-human-graph" data-aos="fade-up">
         <div className="row">
           <div className="col-6">
             <div className="graph-human-graph-title align-right" data-aos="fade-right">

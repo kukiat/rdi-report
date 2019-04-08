@@ -8,7 +8,7 @@ const PartnersList = (props) => {
     <div className="partners-list container">
       <div className="images-list row">
         {props.partners.map((partner) => (
-          <div data-aos="fade-up" data-aos-duration={1350} className="partners-list-wrapper col-3" key={uuid()}>
+          <div data-aos="fade-up" className="partners-list-wrapper col-3" key={uuid()}>
             <Link
               style={{
                 width: '100%',

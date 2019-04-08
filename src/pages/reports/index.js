@@ -35,7 +35,7 @@ const Reports = () => {
             เอกสารสถิติข้อมูลย้อนหลังจำนวนทั้งสิ้น {reports.length} ไฟล์พร้อมให้ดาวน์โหลดแล้ว
           </div>
         </div>
-        <div className="report-content row" data-aos="fade-up" data-aos-duration={1000}>
+        <div className="report-content row" data-aos="fade-up">
           {reports.map((report, index) => (
             <ReportItem key={index} {...report} />
           ))}
