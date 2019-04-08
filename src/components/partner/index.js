@@ -1,10 +1,10 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import './index.css'
-import { LayoutWrapper } from '../../components'
-import PartnerDetails from './PartnerDetails'
-import PartnerContacts from './PartnerContacts'
-import PartnerHistory from './PartnerHistory'
+import React from "react"
+import { graphql } from "gatsby"
+import "./index.css"
+import { LayoutWrapper } from "../../components"
+import PartnerDetails from "./PartnerDetails"
+import PartnerContacts from "./PartnerContacts"
+import PartnerHistory from "./PartnerHistory"
 
 const Partner = ({ data }) => {
   const { contacts, details, history } = data.partnersListJson
@@ -14,10 +14,10 @@ const Partner = ({ data }) => {
       <div className="partner-page container">
         <div className="row partner-page-card">
           <div className="col-4 partner-page-left">
-            <img alt="" width={340} height={120} src={require('../../static/images/company/1.png')} />
+            <img alt="" width={340} height={120} src={require("../../static/images/company/1.png")} />
             <div className="partner-page-left-wrapper">
-              <div className="partner-page-left-name">{details.partnerName2}</div>
-              <div className="partner-page-left-name">{details.partnerName1}</div>
+              <b className="partner-page-left-name">{details.partnerName2}</b>
+              <b className="partner-page-left-name">{details.partnerName1}</b>
             </div>
           </div>
           <div className="col-8 partner-page-right">

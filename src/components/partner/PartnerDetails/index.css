@@ -5,6 +5,7 @@
 
 .partner-details-container {
   padding: 18px;
+  color: #464c57;
 }
 
 .partner-detail-header {
@@ -12,8 +13,34 @@
   padding: 3px;
 }
 
-.partner-section-header-wrapper {
+.patner-detail-animation-1 {
+  animation: appear-top 1s ease-in-out;
+}
+
+.patner-detail-animation-2 {
+  animation: appear-top 0.7s ease-in-out;
+}
+.partner-details-header {
   font-weight: bold;
+}
+.partner-details-header-wrapper {
   padding-bottom: 10px;
-  border-bottom: 1px solid #e2d6e2;
+}
+.partner-details-header-wrapper::after {
+  margin-top: 10px;
+  content: "";
+  height: 2px;
+  width: 85%;
+  position: absolute;
+  background-color: #eaeaeb;
+  animation: slide-line 1s ease-in-out;
+}
+
+@keyframes slide-line {
+  0% {
+    width: 0px;
+  }
+  1000% {
+    width: 85%;
+  }
 }
