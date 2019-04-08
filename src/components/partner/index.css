@@ -2,6 +2,9 @@ a {
   margin: 0;
   padding: 0;
 }
+.partner-page {
+  color: #464c57;
+}
 .dot {
   width: 2px;
   height: 2px;
@@ -91,6 +94,7 @@ a {
 }
 .partner-page-left-name {
   color: #464c57;
+  font-weight: bold;
 }
 .partner-page-left {
   padding: 75px 20px;
