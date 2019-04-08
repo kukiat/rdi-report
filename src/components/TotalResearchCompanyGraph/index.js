@@ -100,15 +100,16 @@ const data2 = {
 
 const TotalResearchCompanyGraph = () => {
   return (
-    <div className="tr-graph-page">
-      <div className="row tr-graph-detail-wrapper">
+    <div className="tr-graph-page container">
+      <div className="tr-graph-detail-wrapper row">
         <div className="awdas col-5">
           <p className="graph-human-title font-th" data-aos="fade-right">
             จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
           </p>
           <p className="adaaaa font-th" data-aos="fade-right" data-aos-duration="600">
-            เปรียบเทียบกับจำนวนผู้ประกอบการทั้งหมด ซึ่งประกอบไปด้วยข้อมูลของบริษัทในอุตสาหกรรมการผลิต อุตสาหกรรมบริการ
-            และอุตสาหกรรมค้าส่ง/ค้าปลีก
+            <span>เปรียบเทียบกับจำนวนผู้ประกอบการที่มีกิจกรรมวิจัยในปี 2559</span>
+            <br />
+            <span>ซึ่งประกอบไปด้วยข้อมูลของบริษัทในอุตสาหกรรมการผลิต อุตสาหกรรมบริการและอุตสาหกรรมค้าส่ง/ค้าปลีก</span>
           </p>
         </div>
         <div className="col-7" data-aos="fade-left">
@@ -116,6 +117,11 @@ const TotalResearchCompanyGraph = () => {
           <div className="tr-graph-desc">
             <p className="font-th">จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
           </div>
+        </div>
+      </div>
+      <div className="tr-bottom-text row" data-aos="fade-up">
+        <div className="col-10 offset-1">
+          โดยในปี 2560 มีจำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนาทั้งสิ้น 7,332 บริษัท
         </div>
       </div>
 
@@ -134,6 +140,12 @@ const TotalResearchCompanyGraph = () => {
             โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
             รองลงมาคือภาคการบริการ และอุตสาหกรรมค้าส่ง/ค้าปลีกตามลำดับ
           </p>
+        </div>
+      </div>
+
+      <div className="tr-bottom-text row" data-aos="fade-up">
+        <div className="col-10 offset-1">
+          โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาในปี 2560 อยู่ที่ 123,942 ล้านบาท
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 .tr-graph-desc {
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
   color: #7f7f7f;
 }
@@ -26,6 +26,11 @@
 .tr-graph-detail-wrapper {
   margin-top: 70px;
 }
+.tr-bottom-text {
+  margin-top: 30px;
+  text-align: center;
+}
+
 @keyframes animation-bg {
   0% {
     background-color: #fff;

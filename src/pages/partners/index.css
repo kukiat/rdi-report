@@ -9,7 +9,7 @@
 }
 
 .partners-header {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -24,6 +24,6 @@
 .partners-content {
   font-size: 18px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   animation: appear-bottom 1s ease;
 }
