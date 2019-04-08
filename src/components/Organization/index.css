@@ -3,26 +3,42 @@
 }
 
 .org-content-section {
-  padding: 20px 60px !important;
+  padding: 20px 30px !important;
 }
 .org-content-header > h1 {
-  text-align: right;
+  text-align: center;
   font-weight: bold;
   color: #755682;
+  margin-bottom: 30px;
 }
 
 .org-content-desc {
-  margin-top: 65px;
-  text-align: right;
+  margin-top: 20px;
+}
+.org-content-desc-text-title {
+  color: #696969;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px 0;
 }
 .org-content-desc-text {
-  color: #333333;
-  font-size: 20px;
+  color: #7d7d7d;
+  font-size: 17px;
+  text-indent: 20px;
+}
+.org-content-desc-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+.org-content-desc-bottom-text {
+  color: #7d7d7d;
+  font-size: 16px;
+  text-indent: 20px;
 }
 
 .org-image {
-  width: 470px;
-  height: 310px;
+  width: 100%;
 }
 .mgt20 {
   margin-top: 20px;
