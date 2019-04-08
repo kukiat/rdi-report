@@ -29,10 +29,17 @@ const Reports = () => {
   return (
     <LayoutWrapper>
       <div className="report-container container">
-        <div className="report-header">
-          <div className="report-title font-th">ดาวน์โหลดเอกสาร</div>
-          <div className="report-header-detail font-th">
-            เอกสารสถิติข้อมูลย้อนหลังจำนวนทั้งสิ้น {reports.length} ไฟล์พร้อมให้ดาวน์โหลดแล้ว
+        <div className="report-header row">
+          <div className="report-title col-12 font-th">ดาวน์โหลดเอกสาร</div>
+          <div className="report-header-detail col-10 offset-1 font-th">
+            <p>
+              เอกสารรายงานผลการสำรวจการวิจัยและพัฒนาและกิจกรรมนวัตกรรม ในภาคอุตสาหกรรมของประเทศไทย
+              ประจำปี 2560
+            </p>
+            <p>
+              และทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านวิจัยและพัฒยา
+              และกิจกรรมนวัตกรรม ประจำปี 2561
+            </p>
           </div>
         </div>
         <div className="report-content row" data-aos="fade-up">
