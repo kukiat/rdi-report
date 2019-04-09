@@ -35,14 +35,14 @@ export default () => (
     <FooterTop className="footer-top">
       <div className="container">
         <div className="row">
-          <div className="col-1"></div>
-          <div className="col-5">
+          <div className="col-md-1"></div>
+          <div className="col-md-5">
             <h6>ABOUT IRIS</h6>
             <div style={{ marginTop: '25px' }}>Contrary to popular belief, Lorem Ipsum is not.</div>
             <div style={{ marginTop: '5px' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Contrary to popular belief, Lorem Ipsum is not a random text.</div>
           </div>
-          <div className="col-1"></div>
-          <div className="col-2">
+          <div className="col-md-1"></div>
+          <div className="col-md-2">
             <div>
               <h6>SOLUTIONS</h6>
               <div style={{ marginTop: '25px' }}>
@@ -52,7 +52,7 @@ export default () => (
               </div>
             </div>
           </div>
-          <div className="col-2">
+          <div className="col-md-2">
             <div>
               <h6>RESOURCES</h6>
               <div style={{ marginTop: '25px' }}>
@@ -62,7 +62,7 @@ export default () => (
               </div>
             </div>
           </div>
-          <div className="col-1"></div>
+          <div className="col-md-1"></div>
         </div>
       </div>
     </FooterTop>

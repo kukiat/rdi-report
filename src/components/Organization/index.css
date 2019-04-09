@@ -3,7 +3,7 @@
 }
 
 .org-content-section {
-  padding: 0px 30px !important;
+  padding: 0px 50px !important;
 }
 .org-content-header > h1 {
   text-align: center;
@@ -20,7 +20,7 @@
   font-size: 19px;
   font-weight: bold;
   text-align: left;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
 }
 .org-content-desc-text {
   color: #7a7a7a;

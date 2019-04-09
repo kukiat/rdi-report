@@ -31,7 +31,7 @@ const Reports = () => {
       <div className="report-container container">
         <div className="report-header row">
           <div className="report-title col-12 font-th">ดาวน์โหลดเอกสาร</div>
-          <div className="report-header-detail col-10 offset-1 font-th">
+          <div className="report-header-detail col-md-10 offset-md-1 font-th">
             <p>
               เอกสารรายงานผลการสำรวจการวิจัยและพัฒนาและกิจกรรมนวัตกรรม ในภาคอุตสาหกรรมของประเทศไทย
               ประจำปี 2560

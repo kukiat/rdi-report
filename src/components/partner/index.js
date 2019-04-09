@@ -13,14 +13,14 @@ const Partner = ({ data }) => {
     <LayoutWrapper>
       <div className="partner-page container">
         <div className="row partner-page-card">
-          <div className="col-4 partner-page-left">
+          <div className="col-md-4 partner-page-left">
             <img alt="" width={340} height={120} src={require("../../static/images/company/1.png")} />
             <div className="partner-page-left-wrapper">
               <p className="partner-page-left-name font-th">{details.partnerName2}</p>
               <p className="partner-page-left-name font-th">{details.partnerName1}</p>
             </div>
           </div>
-          <div className="col-8 partner-page-right">
+          <div className="col-md-8 partner-page-right">
             <div className="partner-content">
               <PartnerDetails data={details} />
               <PartnerContacts data={contacts} />

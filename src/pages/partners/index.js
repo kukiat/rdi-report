@@ -57,7 +57,7 @@ const Partners = (props) => {
     <LayoutWrapper>
       <div className="partners-page container">
         <div className="row">
-          <div className="col-10 offset-1">
+          <div className="col-md-10 offset-1">
             <div className="partners-header">
               <div className="partners-title font-th">
                 ทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านการวิจัยและพัฒนา และกิจกรรมนวัตกรรมประจำปี 2561
@@ -72,7 +72,7 @@ const Partners = (props) => {
           <PartnersTable onFilterPartnerType={onFilterPartnerType} partnerlist={partnersType} type={type} />
         </div>
         <div className="row" style={{ width: '100%' }}>
-          <div className="col-10 offset-1">
+          <div className="col-md-10 offset-1">
             <PartnersList partners={filterType(type)} />
           </div>
         </div>
