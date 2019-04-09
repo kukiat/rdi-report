@@ -101,18 +101,27 @@ const data2 = {
 const TotalResearchCompanyGraph = () => {
   return (
     <div className="tr-graph-page container">
+      <p className="tr-graph-title font-th" data-aos="fade-right">
+        จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
+      </p>
+      <p className="tr-graph-subtitle font-th" data-aos="fade-left" data-aos-duration="600">
+        เปรียบเทียบกับจำนวนผู้ประกอบการที่มีกิจกรรมวิจัยในปี 2560
+      </p>
       <div className="tr-graph-detail-wrapper row">
-        <div className="awdas col-lg-5">
-          <p className="graph-human-title font-th" data-aos="fade-right">
-            จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
+        <div className="col-lg-4">
+          <p className="tr-graph-detail-text font-th" data-aos="fade-right" data-aos-duration="600">
+            ซึ่งประกอบไปด้วยข้อมูลของบริษัท
           </p>
-          <p className="adaaaa font-th" data-aos="fade-right" data-aos-duration="600">
-            <span>เปรียบเทียบกับจำนวนผู้ประกอบการที่มีกิจกรรมวิจัยในปี 2559</span>
-            <br />
-            <span>ซึ่งประกอบไปด้วยข้อมูลของบริษัทในอุตสาหกรรมการผลิต อุตสาหกรรมบริการและอุตสาหกรรมค้าส่ง/ค้าปลีก</span>
+          <ul className="tr-graph-detail-list">
+            <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมการผลิต</li>
+            <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมบริการ</li>
+            <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมค้าส่ง/ค้าปลีก</li>
+          </ul>
+          <p className="tr-graph-detail-text-last font-th" data-aos="fade-up">
+            โดยในปี 2560 มีจำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนาทั้งสิ้น 7,332 บริษัท
           </p>
         </div>
-        <div className="col-lg-7" data-aos="fade-left">
+        <div className="col-lg-8" data-aos="fade-left">
           <Line data={data} />
           <div className="tr-graph-desc">
             <p className="font-th">จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
@@ -132,7 +141,7 @@ const TotalResearchCompanyGraph = () => {
             <p className="font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>
         </div>
-        <div className="awdas col-lg-5">
+        <div className="col-lg-5">
           <p className="graph-human-title font-th" data-aos="fade-left">
             ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560
           </p>
