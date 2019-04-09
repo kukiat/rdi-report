@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 
 export default () => (
-  <div className="graph-header graph-content">
+  <div className="graph-header graph-content" style={{marginTop: 50}}>
     <div className="graph-title" data-aos="fade-up">
       <p className="font-th">ค่าใช้จ่ายและจำนวนผู้ประกอบการด้านการวิจัยและพัฒนา</p>
     </div>
