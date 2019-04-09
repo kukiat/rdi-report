@@ -52,27 +52,28 @@ const data = {
 
 const TotalResearchCompanyGraph = () => {
   return (
-    <div className="tr-graph-page container">
-      <div className="row tr-graph-detail-wrapper">
-        <div className="col-lg-7" data-aos="fade-right">
+    <div className="tr2-graph-page container">
+      <p className="tr2-graph-title font-th" data-aos="fade-left">
+        ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560
+      </p>
+      <div className="tr2-graph-detail-wrapper row">
+        <div className="col-lg-8" data-aos="fade-right">
           <Line data={data} />
-          <div className="col-lg-12 tr-graph-desc">
+          <div className="tr2-graph-desc">
             <p className="font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>
         </div>
-        <div className="col-lg-5">
-          <p className="graph-human-title font-th" data-aos="fade-left">
-            ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560
+        <div className="tr2-graph-detail col-lg-4">
+          <p className="tr2-graph-detail-text font-th" data-aos="fade-left">
+            ค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
           </p>
-          <p className="adaaaa font-th" data-aos="fade-left" data-aos-duration="600">
-            โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
-            รองลงมาคือภาคการบริการ และอุตสาหกรรมค้าส่ง/ค้าปลีกตามลำดับ
+          <p className="tr2-graph-detail-text font-th" data-aos="fade-left" data-aos-duration="500">
+            รองลงมาคือภาคการบริการ
+            และอุตสาหกรรมค้าส่ง/ค้าปลีก ตามลำดับ
           </p>
-        </div>
-      </div>
-      <div className="tr-bottom-text row" data-aos="fade-up">
-        <div className="col-lg-10 offset-1">
-          โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาในปี 2560 อยู่ที่ 123,942 ล้านบาท
+          <p className="tr2-graph-detail-text-last font-th" data-aos="fade-up">
+            โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาในปี 2560 อยู่ที่ 123,942 ล้านบาท
+          </p>
         </div>
       </div>
     </div>
