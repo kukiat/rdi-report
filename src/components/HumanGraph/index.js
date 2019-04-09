@@ -78,12 +78,12 @@ export default () => {
       </div>
       <div className="graph-human-graph" data-aos="fade-up">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="graph-human-graph-title align-right" data-aos="fade-right">
               Normal (person)
             </div>
           </div>
-          <div className="col-md-6 spliter" data-aos="fade-up">
+          <div className="col-lg-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-title align-left" data-aos="fade-left">
               FTE (person - year)
             </div>
@@ -94,13 +94,13 @@ export default () => {
           การค้าส่ง / ค้าปลีก
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="graph-human-graph-left" data-aos="fade-right">
               {' '}
               <MerchantIcon total={15707} text={'15,707'} />{' '}
             </div>
           </div>
-          <div className="col-md-6 spliter" data-aos="fade-up">
+          <div className="col-lg-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right" data-aos="fade-left">
               {' '}
               <MerchantIcon total={15373} text={'15,373'} />{' '}
@@ -112,13 +112,13 @@ export default () => {
           การบริการ
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="graph-human-graph-left" data-aos="fade-right">
               {' '}
               <ServiceIcon total={20584} text={'20,584'} />{' '}
             </div>
           </div>
-          <div className="col-md-6 spliter" data-aos="fade-up">
+          <div className="col-lg-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right" data-aos="fade-left">
               {' '}
               <ServiceIcon total={18464} text={'18,464'} />{' '}
@@ -130,13 +130,13 @@ export default () => {
           การผลิต
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="graph-human-graph-left" data-aos="fade-right">
               {' '}
               <LaborIcon total={55840} text={'55,840'} />{' '}
             </div>
           </div>
-          <div className="col-md-6 spliter" data-aos="fade-up">
+          <div className="col-lg-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right" data-aos="fade-left">
               {' '}
               <LaborIcon total={52506} text={'52,506'} />{' '}
@@ -148,12 +148,12 @@ export default () => {
           รวมทั้งสิ้น
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="graph-human-graph-left graph-human-total-all font-th" data-aos="fade-right">
               92,131 {' '} คน {' '}
             </div>
           </div>
-          <div className="col-md-6 spliter" data-aos="fade-up">
+          <div className="col-lg-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right graph-human-total-all font-th" data-aos="fade-left">
               {' '} 86,343 {' '} คน/ปี
             </div>

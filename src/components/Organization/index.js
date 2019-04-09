@@ -4,13 +4,13 @@ import "./index.css"
 const Organization = () => {
   return (
     <div className="org-page row">
-      <div className="org-content-header col-md-12" data-aos="fade-up">
+      <div className="org-content-header col-lg-12" data-aos="fade-up">
         <h1>RDI SURVEY 2018</h1>
       </div>
-      <div className="col-md-6" data-aos="fade-right">
+      <div className="col-lg-6" data-aos="fade-right">
         <img className="org-image" src={require("../../static/images/others/4.png")} alt="" />
       </div>
-      <div className="col-md-6 org-content-section" data-aos="fade-left">
+      <div className="col-lg-6 org-content-section" data-aos="fade-left">
         <div className="org-content-desc">
           <div className="org-content-desc-text-title">วัตถุประสงค์หลักของการสำรวจในครั้งนี้ คือ</div>
           <p className="org-content-desc-text font-th" data-aos="fade-left">
@@ -29,7 +29,7 @@ const Organization = () => {
           </p>
         </div>
       </div>
-      <div className="org-content-desc-bottom col-md-12" data-aos="fade-up">
+      <div className="org-content-desc-bottom col-lg-12" data-aos="fade-up">
         <p className="org-content-desc-bottom-text font-th">
           {/* ทั้งนี้ สวทน.ได้มอบหมายให้จุฬาลงกรณ์มหาวิทยาลัยเป็นผู้ดำเนินการสำรวจข้อมูลและประมวลผล
           โดยใช้ระยะเวลาดำเนินการทั้งสิ้นประมาณ 7 เดือน (สิงหาคม 2561 – กุมภาพันธ์ 2562) */}

@@ -102,7 +102,7 @@ const TotalResearchCompanyGraph = () => {
   return (
     <div className="tr-graph-page container">
       <div className="tr-graph-detail-wrapper row">
-        <div className="awdas col-md-5">
+        <div className="awdas col-lg-5">
           <p className="graph-human-title font-th" data-aos="fade-right">
             จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
           </p>
@@ -112,7 +112,7 @@ const TotalResearchCompanyGraph = () => {
             <span>ซึ่งประกอบไปด้วยข้อมูลของบริษัทในอุตสาหกรรมการผลิต อุตสาหกรรมบริการและอุตสาหกรรมค้าส่ง/ค้าปลีก</span>
           </p>
         </div>
-        <div className="col-md-7" data-aos="fade-left">
+        <div className="col-lg-7" data-aos="fade-left">
           <Line data={data} />
           <div className="tr-graph-desc">
             <p className="font-th">จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
@@ -120,19 +120,19 @@ const TotalResearchCompanyGraph = () => {
         </div>
       </div>
       <div className="tr-bottom-text row" data-aos="fade-up">
-        <div className="col-md-10 offset-1">
+        <div className="col-lg-10 offset-1">
           โดยในปี 2560 มีจำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนาทั้งสิ้น 7,332 บริษัท
         </div>
       </div>
 
       <div className="row tr-graph-detail-wrapper">
-        <div className="col-md-7" data-aos="fade-right">
+        <div className="col-lg-7" data-aos="fade-right">
           <Line data={data2} />
-          <div className="col-md-12 tr-graph-desc">
+          <div className="col-lg-12 tr-graph-desc">
             <p className="font-th">ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>
         </div>
-        <div className="awdas col-md-5">
+        <div className="awdas col-lg-5">
           <p className="graph-human-title font-th" data-aos="fade-left">
             ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560
           </p>
@@ -144,7 +144,7 @@ const TotalResearchCompanyGraph = () => {
       </div>
 
       <div className="tr-bottom-text row" data-aos="fade-up">
-        <div className="col-md-10 offset-1">
+        <div className="col-lg-10 offset-1">
           โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาในปี 2560 อยู่ที่ 123,942 ล้านบาท
         </div>
       </div>
