@@ -5,6 +5,7 @@ import {
   HeaderGraph,
   Organization,
   TotalResearchCompanyGraph,
+  TotalResearchCompanyGraph2,
   HumanGraph,
 } from '../../components'
 import './index.css'
@@ -18,6 +19,7 @@ class Graph extends React.Component {
           <div className="col-lg-12">
             <Organization />
             <TotalResearchCompanyGraph />
+            <TotalResearchCompanyGraph2 />
             <HumanGraph />
             <IndustryGraph />
           </div>
