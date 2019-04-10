@@ -225,10 +225,10 @@ export default () => {
     <div className="industry-graph-page">
       <div className="graph-header graph-content" style={{ marginTop: 50 }}>
         <div data-aos="fade-up">
-          <p className="graph-title font-th">
+          <p className="graph-title">
             ค่าใช้จ่ายด้านการวิจัยและพัฒนา ในภาคอุตสาหกรรมการผลิต
           </p>
-          <p className="industry-graph-subtitle font-th">
+          <p className="industry-graph-subtitle">
             จำแนกตามประเภทอุตสาหกรรม ปี 2560
             </p>
         </div>
@@ -239,13 +239,13 @@ export default () => {
             <Bar data={dataI} options={optionsI} plugins={plugins} />
           </div>
           <div className="ig-content col-lg-4">
-            <p className="ig-content-text font-th" data-aos="fade-left">
+            <p className="ig-content-text" data-aos="fade-left">
               โดยอุตสาหกรรมยานยนต์มีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด
             </p>
-            <p className="ig-content-text font-th" data-aos="fade-left">
+            <p className="ig-content-text" data-aos="fade-left">
               รองลงมาคืออุตสาหกรรมอาหารและอุตสาหกรรมปิโตรเลียมตามลำดับ
             </p>
-            <p className="ig-content-text-last font-th" data-aos="fade-left">
+            <p className="ig-content-text-last" data-aos="fade-left">
               โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการผลิตอยู่ที่ 80,041 ล้านบาท
             </p>
           </div>
@@ -254,24 +254,24 @@ export default () => {
 
         <div className="graph-header graph-content" style={{ marginTop: 50 }}>
           <div data-aos="fade-up">
-            <p className="graph-title font-th">
+            <p className="graph-title">
               ค่าใช้จ่ายด้านการวิจัยและพัฒนา ในภาคอุตสาหกรรมการบริการ
             </p>
-            <p className="industry-graph-subtitle font-th">
+            <p className="industry-graph-subtitle">
               จำแนกตามประเภทอุตสาหกรรม ปี 2560
             </p>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-4 ig-content">
-            <p className="ig-content-text font-th" data-aos="fade-right">
+            <p className="ig-content-text" data-aos="fade-right">
               โดยอุตสาหกรรมการเงินและประกันภัยมีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด
             </p>
-            <p className="ig-content-text font-th" data-aos="fade-right">
+            <p className="ig-content-text" data-aos="fade-right">
               รองลงมาคืออุตสาหกรรมบริการด้านธุรกิจอื่นๆ
               และอุตสาหกรรมการวิจัยและพัฒนาตามลำดับ
             </p>
-            <p className="ig-content-text-last font-th" data-aos="fade-right">
+            <p className="ig-content-text-last" data-aos="fade-right">
               โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการบริการอยู่ที่ 25,154 ล้านบาท
             </p>
           </div>

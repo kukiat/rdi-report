@@ -53,15 +53,15 @@ const data = {
 const TotalResearchCompanyGraph = () => {
   return (
     <div className="tr-graph-page">
-      <p className="tr-graph-title font-th" data-aos="fade-right">
+      <p className="tr-graph-title" data-aos="fade-right">
         จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
       </p>
-      <p className="tr-graph-subtitle font-th" data-aos="fade-left" data-aos-duration="600">
+      <p className="tr-graph-subtitle" data-aos="fade-left" data-aos-duration="600">
         เปรียบเทียบกับจำนวนผู้ประกอบการที่มีกิจกรรมวิจัยในปี 2560
       </p>
       <div className="tr-graph-detail-wrapper row">
         <div className="col-lg-4">
-          <p className="tr-graph-detail-text font-th" data-aos="fade-right" data-aos-duration="600">
+          <p className="tr-graph-detail-text" data-aos="fade-right" data-aos-duration="600">
             ซึ่งประกอบไปด้วยข้อมูลของบริษัท
           </p>
           <ul className="tr-graph-detail-list">
@@ -69,14 +69,14 @@ const TotalResearchCompanyGraph = () => {
             <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมบริการ</li>
             <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมค้าส่ง/ค้าปลีก</li>
           </ul>
-          <p className="tr-graph-detail-text-last font-th" data-aos="fade-up">
+          <p className="tr-graph-detail-text-last" data-aos="fade-up">
             โดยในปี 2560 มีจำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนาทั้งสิ้น 7,332 บริษัท
           </p>
         </div>
         <div className="col-lg-8" data-aos="fade-left">
           <Line data={data} />
           <div className="tr-graph-desc">
-            <p className="font-th">จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
+            <p>จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
           </div>
         </div>
       </div>

@@ -5,34 +5,34 @@ const PartnerHistory = ({ data }) => {
   const { cost, income, status, totalEmployee, year, research, service } = data
   return (
     <div className="container partner-history-container">
-      <div className="partner-content-header partner-section-header-wrapper font-th">ข้อมูลรายละเอียด</div>
+      <div className="partner-content-header partner-section-header-wrapper">ข้อมูลรายละเอียด</div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-lg-6 font-th">ปีที่ก่อตั้ง</div>
-        <div className="col-lg-5 font-th">พ.ศ. {year || '-'}</div>
+        <div className="partner-history-title col-lg-6">ปีที่ก่อตั้ง</div>
+        <div className="col-lg-5">พ.ศ. {year || '-'}</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-lg-6 font-th">สถานะการถือหุ้น</div>
-        <div className="col-lg-5 font-th">{status || '-'}</div>
+        <div className="partner-history-title col-lg-6">สถานะการถือหุ้น</div>
+        <div className="col-lg-5">{status || '-'}</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-lg-6 font-th">ทุนจดทะเบียน</div>
-        <div className="col-lg-5 font-th">{cost || '-'} บาท</div>
+        <div className="partner-history-title col-lg-6">ทุนจดทะเบียน</div>
+        <div className="col-lg-5">{cost || '-'} บาท</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-lg-6 font-th">รายได้หลักของบริษัทในปี 2560</div>
-        <div className="col-lg-5 font-th">{income || '-'} บาท</div>
+        <div className="partner-history-title col-lg-6">รายได้หลักของบริษัทในปี 2560</div>
+        <div className="col-lg-5">{income || '-'} บาท</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-lg-6 font-th">จำนวนพนักงานของบริษัทในปี 2560</div>
-        <div className="col-lg-5 font-th">{totalEmployee || '-'} คน</div>
+        <div className="partner-history-title col-lg-6">จำนวนพนักงานของบริษัทในปี 2560</div>
+        <div className="col-lg-5">{totalEmployee || '-'} คน</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-lg-6 font-th">การวิจัยและพัฒนาในปี 2560</div>
-        <div className="col-lg-5 font-th">{research || '-'} คน</div>
+        <div className="partner-history-title col-lg-6">การวิจัยและพัฒนาในปี 2560</div>
+        <div className="col-lg-5">{research || '-'} คน</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-lg-6 font-th">กิจกรรมนวัตกรรมด้านผลิตภัณฑ์/บริการ</div>
-        <div className="col-lg-5 font-th">{service || '-'} คน</div>
+        <div className="partner-history-title col-lg-6">กิจกรรมนวัตกรรมด้านผลิตภัณฑ์/บริการ</div>
+        <div className="col-lg-5">{service || '-'} คน</div>
       </div>
     </div>
   )

@@ -9,8 +9,10 @@
 }
 
 .report-title {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 400;
   text-align: center;
+  color: #755682;
   animation: appear-top 1s ease;
 }
 

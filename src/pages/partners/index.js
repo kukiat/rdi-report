@@ -59,10 +59,10 @@ const Partners = (props) => {
         <div className="row">
           <div className="col-lg-10 offset-1">
             <div className="partners-header">
-              <div className="partners-title font-th">
+              <div className="partners-title">
                 ทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านการวิจัยและพัฒนา และกิจกรรมนวัตกรรมประจำปี 2561
               </div>
-              <div className="partners-content font-th">
+              <div className="partners-content">
                 รายละเอียดข้อมูลเบื้องต้นเกี่ยวกับกิจการที่ดำเนินการลงทุนวิจัยและพัฒนาในอุตสาหกรรมต่างๆ ของประเทศไทย เพื่อเป็นฐานข้อมูลในการเผยแพร่สำหรับผู้ที่สนใจ
               </div>
             </div>

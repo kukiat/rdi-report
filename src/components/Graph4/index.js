@@ -10,11 +10,11 @@ const Organization = () => {
           <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการในปี 2560</p>
         </div>
         <div className="graph4-content-desc">
-          <p className="graph4-content-desc-text font-th" data-aos="fade-right">
+          <p className="graph4-content-desc-text" data-aos="fade-right">
             โดยอุตสาหกรรมการบริการมีค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการสูงที่สุด
             รองลงมาคืออุตสาหกรรมการผลิตและอุตสาหกรรมค้าส่งค้าปลีกตามลำดับ
           </p>
-          <p className="graph4-content-desc-text font-th" data-aos="fade-right">
+          <p className="graph4-content-desc-text" data-aos="fade-right">
             ซึ่งในภาพรวมทุกอุตสาหกรรมมีค่าใช้จ่ายเฉลี่ยอยู่ที่ 16.9 ล้านบาทต่อกิจการ
           </p>
         </div>

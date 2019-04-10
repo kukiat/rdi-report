@@ -20,7 +20,7 @@ const PartnersList = (props) => {
               <div className="partners-images">
                 <img className="partners-main-images" src={partner.src} alt="" />
               </div>
-              <div className="partners-text font-th">{partner.name}</div>
+              <div className="partners-text">{partner.name}</div>
             </Link>
           </div>
         ))}
