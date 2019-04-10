@@ -12,7 +12,7 @@ export default () => {
             </div>
             <div className="bg-line" />
             <div className="bg-desc">
-              <p className="font-th">
+              <p>
                 รายงานผลการสำรวจการวิจัยและพัฒนาและกิจกรรมนวัตกรรม ในภาคอุตสาหกรรมของประเทศไทย ประจำปี 2561
               </p>
             </div>

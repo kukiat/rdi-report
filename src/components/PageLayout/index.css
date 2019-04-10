@@ -1,23 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Prompt");
+@import url("https://fonts.googleapis.com/css?family=Prompt:300,400,500,700");
 
 @font-face {
   font-family: defaultFont;
   src: url("../../static/fonts/iris2.woff");
 }
 
-@font-face {
-  font-family: irisFont;
-  src: url("../../static/fonts/iris.woff");
-}
-
-@font-face {
-  font-family: boldFont;
-  src: url("../../static/fonts/iris3.woff");
-}
-
-
 body {
-  font-family: defaultFont;
+  font-family: "Prompt", sans-serif !important;
   margin: 0;
   padding: 0;
   position: relative;
@@ -31,9 +20,5 @@ body {
 }
 
 .font-en {
-  font-family: defaultFont;
-}
-
-.font-de {
   font-family: defaultFont;
 }
