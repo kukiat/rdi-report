@@ -65,6 +65,10 @@ const NavBarContainer = Styled.div`
   box-shadow:0px 2px 2px #ddd;
   font-family: helvetica, sans-serif;
   padding-top: 7px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 10;
 `
 
 const NavLogoImage = Styled.img`
@@ -91,7 +95,7 @@ export default (props) => (
 
     <NavMenu className='nav-menu'>
       {navItemList.map((nav, index) => {
-        const navClass = (window.location.pathname === nav.path)? 'nav-text-active' : 'nav-text';
+        const navClass = (window.location.pathname === nav.path) ? 'nav-text-active' : 'nav-text';
 
         return (
           <Link to={nav.path} key={index}>

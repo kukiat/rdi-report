@@ -19,13 +19,19 @@
 }
 .nav-text {
   color: #858583;
+  font-size: 16px;
+  font-weight: 500;
 }
 .nav-text-active {
   color: #7a5699;
+  font-size: 16px;
+  font-weight: 500;
 }
 .nav-text:hover {
   color: #7a5699;
   transition: all 0.2s;
+  font-size: 16px;
+  font-weight: 500;
 }
 .nav-button {
   outline: none;

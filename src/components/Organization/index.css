@@ -15,7 +15,6 @@
 .org-content-desc {
 }
 .org-content-desc-text-title {
-  color: #7a7a7a;
   font-size: 19px;
   font-weight: 400;
   text-align: left;
@@ -23,7 +22,6 @@
   margin-bottom: 20px;
 }
 .org-content-desc-text {
-  color: #7a7a7a;
   font-size: 18px;
   text-indent: 20px;
 }
@@ -32,7 +30,6 @@
   margin-top: 30px;
 }
 .org-content-desc-bottom-text {
-  color: #7a7a7a;
   font-size: 18px;
   text-indent: 20px;
 }

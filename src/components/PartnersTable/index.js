@@ -26,7 +26,7 @@ const ListsStyled = Styled.div`
 
 const ListItemStyled = Styled.div`
   padding: 15px 20px;
-  color: #000;
+  color: #5e5e5e;
 `
 
 const PartnersTableItem = ({ active, onFilterPartnerType, type, name }) => {
