@@ -104,7 +104,7 @@ export default (props) => (
         return (
           <Link to={nav.path} key={index} activeStyle={navItemActive}>
             <NavItem>
-              <p className={navClass}>{nav.name}</p>
+              <p>{nav.name}</p>
             </NavItem>
           </Link>
         )
