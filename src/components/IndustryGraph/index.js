@@ -1,6 +1,5 @@
 import React from 'react'
 import { Bar } from 'react-chartjs-2'
-import Description from '../Description'
 import './index.css'
 
 const dataI = {
@@ -224,7 +223,14 @@ const plugins = {
 export default () => {
   return (
     <div className="industry-graph-page">
-      <Description />
+      <div className="graph-header graph-content" style={{ marginTop: 50 }}>
+        <div className="graph-title" data-aos="fade-up">
+          <p className="font-th">ค่าใช้จ่ายและจำนวนผู้ประกอบการด้านการวิจัยและพัฒนา</p>
+        </div>
+        <div className="graph-desc font-th" data-aos="fade-up">
+          ในภาคอุตสาหกรรมการผลิต จำแนกตามประเภทอุตสาหกรรม
+        </div>
+      </div>
       <div className="industry-graph-detail">
         <div className="row">
           <div className="col-lg-8" data-aos="fade-right">
