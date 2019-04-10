@@ -224,11 +224,13 @@ export default () => {
   return (
     <div className="industry-graph-page">
       <div className="graph-header graph-content" style={{ marginTop: 50 }}>
-        <div className="graph-title" data-aos="fade-up">
-          <p className="font-th">ค่าใช้จ่ายและจำนวนผู้ประกอบการด้านการวิจัยและพัฒนา</p>
-        </div>
-        <div className="graph-desc font-th" data-aos="fade-up">
-          ในภาคอุตสาหกรรมการผลิต จำแนกตามประเภทอุตสาหกรรม
+        <div data-aos="fade-up">
+          <p className="graph-title font-th">
+            ค่าใช้จ่ายด้านการวิจัยและพัฒนา ในภาคอุตสาหกรรมการผลิต
+          </p>
+          <p className="industry-graph-subtitle font-th">
+            จำแนกตามประเภทอุตสาหกรรม ปี 2560
+            </p>
         </div>
       </div>
       <div className="industry-graph-detail">
@@ -236,17 +238,41 @@ export default () => {
           <div className="col-lg-8" data-aos="fade-right">
             <Bar data={dataI} options={optionsI} plugins={plugins} />
           </div>
-          <div className="col-lg-4 ig-content" data-aos="fade-left">
-            <p className="font-th ig-content-text">
-              ค่าใช้จ่ายด้านการวิจัยและพัฒนาส่วนใหญ่มาจาก อุตสาหกรรมยานยนต์ อุตสาหกรรมอาหาร และอุตสาหกรรมปิโตรเลียม
+          <div className="ig-content col-lg-4">
+            <p className="ig-content-text font-th" data-aos="fade-left">
+              โดยอุตสาหกรรมยานยนต์มีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด
+            </p>
+            <p className="ig-content-text font-th" data-aos="fade-left">
+              รองลงมาคืออุตสาหกรรมอาหารและอุตสาหกรรมปิโตรเลียมตามลำดับ
+            </p>
+            <p className="ig-content-text-last font-th" data-aos="fade-left">
+              โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการผลิตอยู่ที่ 80,041 ล้านบาท
             </p>
           </div>
         </div>
-        <div style={{ marginTop: 130 }} />
+
+
+        <div className="graph-header graph-content" style={{ marginTop: 50 }}>
+          <div data-aos="fade-up">
+            <p className="graph-title font-th">
+              ค่าใช้จ่ายด้านการวิจัยและพัฒนา ในภาคอุตสาหกรรมการบริการ
+            </p>
+            <p className="industry-graph-subtitle font-th">
+              จำแนกตามประเภทอุตสาหกรรม ปี 2560
+            </p>
+          </div>
+        </div>
         <div className="row">
-          <div className="col-lg-4 ig-content" data-aos="fade-right">
-            <p className="font-th ig-content-text">
-              ในขณะที่ผู้ประกอบการส่วนใหญ่มาจาก อุตสาหกรรมอาหาร อุตสาหกรรมเคมี และอุตสาหกรรมยางและพลาสติก
+          <div className="col-lg-4 ig-content">
+            <p className="ig-content-text font-th" data-aos="fade-right">
+              โดยอุตสาหกรรมการเงินและประกันภัยมีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด
+            </p>
+            <p className="ig-content-text font-th" data-aos="fade-right">
+              รองลงมาคืออุตสาหกรรมบริการด้านธุรกิจอื่นๆ
+              และอุตสาหกรรมการวิจัยและพัฒนาตามลำดับ
+            </p>
+            <p className="ig-content-text-last font-th" data-aos="fade-right">
+              โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการบริการอยู่ที่ 25,154 ล้านบาท
             </p>
           </div>
           <div className="col-lg-8" data-aos="fade-left">
