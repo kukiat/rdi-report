@@ -7,6 +7,7 @@ import TotalResearchCompanyGraph from './TotalResearchCompanyGraph'
 import TotalResearchCompanyGraph2 from './TotalResearchCompanyGraph2'
 import HumanGraph from './HumanGraph'
 import IndustryGraph from './IndustryGraph'
+import Graph4 from './Graph4'
 
 export {
   IndustryGraph,
@@ -18,4 +19,5 @@ export {
   TotalResearchCompanyGraph,
   TotalResearchCompanyGraph2,
   HumanGraph,
+  Graph4
 }

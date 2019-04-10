@@ -1,0 +1,23 @@
+.graph4-page {
+  margin-top: 50px;
+}
+
+.graph4-content-section {
+  padding: 0px 50px !important;
+}
+.graph4-content-header {
+  color: #2079ad;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px auto;
+}
+.graph4-content-desc-text {
+  color: #7a7a7a;
+  font-size: 18px;
+  text-indent: 20px;
+  text-align: center;
+}
+
+.graph4-image {
+  width: 80%;
+}
