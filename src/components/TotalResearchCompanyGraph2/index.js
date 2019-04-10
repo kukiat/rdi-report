@@ -52,7 +52,7 @@ const data = {
 
 const TotalResearchCompanyGraph = () => {
   return (
-    <div className="tr2-graph-page container">
+    <div className="tr2-graph-page">
       <p className="tr2-graph-title font-th" data-aos="fade-up">
         ค่าใช้จ่ายด้านการวิจัยและพัฒนาปี 2560
       </p>

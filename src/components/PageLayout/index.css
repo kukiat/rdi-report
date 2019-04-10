@@ -1,28 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Prompt");
 
-body {
-  font-family: defaultFont;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  height: 100%;
-  color: #7a7a7a !important;
-  /* min-width: 1366px; */
-}
-
-.font-th {
-  font-family: "Prompt", sans-serif;
-  font-weight: 300;
-}
-
-.font-en {
-  font-family: defaultFont;
-}
-
-.font-de {
-  font-family: defaultFont;
-}
-
 @font-face {
   font-family: defaultFont;
   src: url("../../static/fonts/iris2.woff");
@@ -36,4 +13,27 @@ body {
 @font-face {
   font-family: boldFont;
   src: url("../../static/fonts/iris3.woff");
+}
+
+
+body {
+  font-family: defaultFont;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  color: #7a7a7a !important;
+}
+
+.font-th {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+}
+
+.font-en {
+  font-family: defaultFont;
+}
+
+.font-de {
+  font-family: defaultFont;
 }

@@ -52,7 +52,7 @@ const data = {
 
 const TotalResearchCompanyGraph = () => {
   return (
-    <div className="tr-graph-page container">
+    <div className="tr-graph-page">
       <p className="tr-graph-title font-th" data-aos="fade-right">
         จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
       </p>

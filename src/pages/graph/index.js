@@ -16,8 +16,8 @@ class Graph extends React.Component {
     return (
       <LayoutWrapper>
         <HeaderGraph />
-        <div className="graph-page container">
-          <div className="col-lg-12">
+        <div className="container">
+          <div className="graph-page">
             <Organization />
             <TotalResearchCompanyGraph />
             <TotalResearchCompanyGraph2 />
