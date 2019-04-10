@@ -67,11 +67,11 @@ const TotalResearchCompanyGraph = () => {
           <p className="tr2-graph-detail-text font-th" data-aos="fade-left">
             ค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
           </p>
-          <p className="tr2-graph-detail-text font-th" data-aos="fade-left" data-aos-duration="500">
+          <p className="tr2-graph-detail-text font-th" data-aos="fade-left">
             รองลงมาคือภาคการบริการ
             และอุตสาหกรรมค้าส่ง/ค้าปลีก ตามลำดับ
           </p>
-          <p className="tr2-graph-detail-text-last font-th" data-aos="fade-up">
+          <p className="tr2-graph-detail-text-last font-th" data-aos="fade-up" data-aos-duration="500">
             โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาในปี 2560 อยู่ที่ 123,942 ล้านบาท
           </p>
         </div>
