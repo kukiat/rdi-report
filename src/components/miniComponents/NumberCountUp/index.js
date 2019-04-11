@@ -47,7 +47,6 @@ class NumberCountUp extends React.Component {
       >
         {({ countUpRef, start }) => (
           <Waypoint
-            scrollableAncestor={window}
             onEnter={() => this.onEnter(start)}
           >
             <span ref={countUpRef} className={className} style={style} />
@@ -62,7 +61,7 @@ NumberCountUp.propTypes = {
   startValue: PropTypes.number,
   stopValue: PropTypes.number.isRequired,
   className: PropTypes.string,
-  style: PropTypes.objectOf(StyleSheet),
+  style: PropTypes.object,
   isCountOnlyOnceTime: PropTypes.bool,
   prefix: PropTypes.string,
   suffix: PropTypes.string,
@@ -72,7 +71,7 @@ NumberCountUp.defaultProps = {
   startValue: 0,
   stopValue: 0,
   className: '',
-  style: {},
+  style: { a: 1 },
   isCountOnlyOnceTime: false,
   prefix: '',
   suffix: '',
