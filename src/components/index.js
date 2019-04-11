@@ -10,6 +10,7 @@ import IndustryGraph from './IndustryGraph'
 import Graph4 from './Graph4'
 import Graph8 from './Graph8'
 import Graph9 from './Graph9'
+import Graph10 from './Graph10'
 
 export {
   IndustryGraph,
@@ -24,4 +25,5 @@ export {
   Graph4,
   Graph8,
   Graph9,
+  Graph10,
 }
