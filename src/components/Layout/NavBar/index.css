@@ -5,34 +5,6 @@
   box-shadow:0px 2px 2px #ddd;
   font-family: helvetica, sans-serif;
 }
-.nav-item {
-  display: inline-block;
-  margin-left: 30px;
-  margin-top: 12px;
-  cursor: pointer;
-  text-align: center;
-}
-.nav-item:focus {
-  box-shadow: none !important;
-  border: solid 1px #7a5699 !important;
-  outline: none !important;
-}
-.nav-text {
-  color: #858583;
-  font-size: 16px;
-  font-weight: 500;
-}
-.nav-text-active {
-  color: #7a5699;
-  font-size: 16px;
-  font-weight: 500;
-}
-.nav-text:hover {
-  color: #7a5699;
-  transition: all 0.2s;
-  font-size: 16px;
-  font-weight: 500;
-}
 .nav-button {
   outline: none;
   color: #fff;
@@ -54,8 +26,15 @@
   border: solid #7a5699 1px;
   box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
 }
-.xxx {
-  display: none;
+.nav-text {
+  color: #7a7a7a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-text-active {
+  color: #7a5699;
+  font-size: 16px;
+  font-weight: 500;
 }
 .hamberger {
   display: none;

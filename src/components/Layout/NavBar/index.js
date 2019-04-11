@@ -85,12 +85,6 @@ const NavBarWrapper = ({ children }) => (
   </NavBarContainer>
 )
 
-const navItemActive = {
-  color: "#7a5699",
-  fontSize: 16,
-  fontWeight: 500,
-}
-
 export default (props) => (
   <NavBarWrapper>
     <Link to="/">
@@ -102,7 +96,7 @@ export default (props) => (
     <NavMenu className="nav-menu">
       {navItemList.map((nav, index) => {
         return (
-          <Link to={nav.path} key={index} activeStyle={navItemActive}>
+          <Link to={nav.path} key={index} className="nav-text" activeClassName="nav-text-active">
             <NavItem>
               <p>{nav.name}</p>
             </NavItem>
