@@ -8,7 +8,7 @@ const TableStyled = Styled.div`
   justify-content: center;
   transition: left 0.4s;
   animation: appear-left 1s ease;
-  text-align: center;
+  align-items: center;
   background-color: #fff;
 `
 

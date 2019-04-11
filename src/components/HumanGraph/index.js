@@ -1,5 +1,6 @@
 import React from 'react'
 import NumberCountUp from '../miniComponents/NumberCountUp'
+import AnimatedNumber from '../miniComponents/AnimatedNumber'
 import './index.css'
 
 const LaborIcon = ({ total, text, title }) => {
@@ -15,9 +16,9 @@ const LaborIcon = ({ total, text, title }) => {
   }
 
   icons.push(
-    <div key={amount} className="graph-human-total">
-      <NumberCountUp stopValue={total} /> คน
-    </div>
+    <AnimatedNumber startValue={0} stopValue={total}>
+      {(currentValue) => <p css={{ padding: '13px', color: '#7a5699' }}>{currentValue} คน</p>}
+    </AnimatedNumber>
   )
 
   return icons
@@ -37,7 +38,9 @@ const ServiceIcon = ({ total, text, title }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      <NumberCountUp stopValue={total} /> คน
+      <AnimatedNumber startValue={0} stopValue={total}>
+        {(currentValue) => <p>{currentValue} คน</p>}
+      </AnimatedNumber>
     </div>
   )
 
@@ -58,7 +61,9 @@ const MerchantIcon = ({ total, text, title }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      <NumberCountUp stopValue={total} /> คน
+      <AnimatedNumber startValue={0} stopValue={total}>
+        {(currentValue) => <p>{currentValue} คน</p>}
+      </AnimatedNumber>
     </div>
   )
 
@@ -151,12 +156,16 @@ export default () => {
         <div className="row">
           <div className="col-6">
             <div className="graph-human-graph-left graph-human-total-all" data-aos="fade-right">
-              <NumberCountUp stopValue={92131} suffix=" คน" />
+              <AnimatedNumber startValue={0} stopValue={92131}>
+                {(currentValue) => <div>{currentValue} คน</div>}
+              </AnimatedNumber>
             </div>
           </div>
           <div className="col-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right graph-human-total-all" data-aos="fade-left">
-              <NumberCountUp stopValue={86343} suffix=" คน/ปี" />
+              <AnimatedNumber startValue={0} stopValue={86343}>
+                {(currentValue) => <div>{currentValue} คน</div>}
+              </AnimatedNumber>
             </div>
           </div>
         </div>
