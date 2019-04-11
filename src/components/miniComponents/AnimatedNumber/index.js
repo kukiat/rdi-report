@@ -28,10 +28,14 @@ const AnimatedNumber = ({
   const checkpoint = useOnScrollCheckpoint()
   const duration = 2100
 
+  const setTimer = (value) => {
+    const time = setTimeout(() => setCurrentValue(value), 3)
+    return () => clearTimeout(time)
+  }
+
   useEffect(() => {
     if (currentValue < stopValue && checkpoint) {
-      const time = setTimeout(() => setCurrentValue(currentValue + Math.ceil(stopValue / (duration / 3))), 3)
-      return () => clearTimeout(time)
+      return setTimer(currentValue + Math.ceil(stopValue / (duration / 3)))
     }
   }, [currentValue, checkpoint])
   return children(currentValue.toLocaleString())
