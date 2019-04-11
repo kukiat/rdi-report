@@ -19,7 +19,7 @@ export default () => {
           <div style={{
             width: '100%',
             height: '600px',
-            backgroundColor: '#aa3434',
+            backgroundColor: '#8c63b1',
           }} />
 
         </div>
