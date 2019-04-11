@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react"
+import React, { useState, useMemo, Fragment } from "react"
 import { graphql } from "gatsby"
 import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
 import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
@@ -39,6 +39,17 @@ export const query = graphql`
   }
 `
 
+const PartnerItem = ({ partner, index }) => (
+  <Fragment>
+    <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
+      {partner.name}
+    </div>
+    <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
+      {partner.name}
+    </div>
+  </Fragment>
+)
+
 const Partners = (props) => {
   const [type, setType] = useState("all")
 
@@ -76,12 +87,7 @@ const Partners = (props) => {
           <div className="col-lg-10 offset-1 partner-table-row">
             {filterType(type).map((partner, index) => (
               <div className="row">
-                <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-                  {partner.name}
-                </div>
-                <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-                  {partner.type}
-                </div>
+                <PartnerItem partner={partner} index={index} />
               </div>
             ))}
             {/* <PartnersList partners={filterType(type)} /> */}
