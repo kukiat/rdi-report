@@ -29,15 +29,18 @@ const AnimatedNumber = ({
   const duration = 2100
 
   const setTimer = (value) => {
-    const time = setTimeout(() => setCurrentValue(value), 3)
+    const time = setTimeout(() => setCurrentValue(value), 10)
     return () => clearTimeout(time)
   }
 
   useEffect(() => {
     if (currentValue < stopValue && checkpoint) {
-      return setTimer(currentValue + Math.ceil(stopValue / (duration / 3)))
+      return setTimer(currentValue + Math.ceil(stopValue / (duration / 10)))
+    } else if (currentValue > stopValue) {
+      return setTimer(stopValue)
     }
   }, [currentValue, checkpoint])
+
   return children(currentValue.toLocaleString())
 }
 
