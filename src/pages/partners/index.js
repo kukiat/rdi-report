@@ -1,8 +1,8 @@
-import React, { useState, useMemo } from 'react'
-import { graphql } from 'gatsby'
-import { LayoutWrapper, PartnersTable, PartnersList } from '../../components'
-import { getPartnersList, getPartnersType } from '../../utils/selector/partners'
-import './index.css'
+import React, { useState, useMemo } from "react"
+import { graphql } from "gatsby"
+import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
+import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
+import "./index.css"
 
 export const query = graphql`
   {
@@ -40,7 +40,7 @@ export const query = graphql`
 `
 
 const Partners = (props) => {
-  const [type, setType] = useState('all')
+  const [type, setType] = useState("all")
 
   const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
@@ -50,7 +50,7 @@ const Partners = (props) => {
   }
 
   const filterType = (type) => {
-    return partnersList.filter((partner) => type === 'all' || partner.type === type)
+    return partnersList.filter((partner) => type === "all" || partner.type === type)
   }
 
   return (
@@ -63,7 +63,8 @@ const Partners = (props) => {
                 ทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านการวิจัยและพัฒนา และกิจกรรมนวัตกรรมประจำปี 2561
               </div>
               <div className="partners-content">
-                รายละเอียดข้อมูลเบื้องต้นเกี่ยวกับกิจการที่ดำเนินการลงทุนวิจัยและพัฒนาในอุตสาหกรรมต่างๆ ของประเทศไทย เพื่อเป็นฐานข้อมูลในการเผยแพร่สำหรับผู้ที่สนใจ
+                รายละเอียดข้อมูลเบื้องต้นเกี่ยวกับกิจการที่ดำเนินการลงทุนวิจัยและพัฒนาในอุตสาหกรรมต่างๆ ของประเทศไทย
+                เพื่อเป็นฐานข้อมูลในการเผยแพร่สำหรับผู้ที่สนใจ
               </div>
             </div>
           </div>
@@ -71,9 +72,19 @@ const Partners = (props) => {
         <div className="partner-table-wrapper">
           <PartnersTable onFilterPartnerType={onFilterPartnerType} partnerlist={partnersType} type={type} />
         </div>
-        <div className="row" style={{ width: '100%' }}>
-          <div className="col-lg-10 offset-1">
-            <PartnersList partners={filterType(type)} />
+        <div className="row" style={{ width: "100%" }}>
+          <div className="col-lg-10 offset-1 partner-table-row">
+            {filterType(type).map((partner, index) => (
+              <div className="row">
+                <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
+                  {partner.name}
+                </div>
+                <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
+                  {partner.type}
+                </div>
+              </div>
+            ))}
+            {/* <PartnersList partners={filterType(type)} /> */}
           </div>
         </div>
       </div>
