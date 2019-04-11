@@ -1,4 +1,4 @@
-import React, { useState, useMemo, Fragment } from "react"
+import React, { useState, useMemo } from "react"
 import { graphql, Link } from "gatsby"
 import { LayoutWrapper, PartnersTable } from "../../components"
 import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
@@ -64,7 +64,7 @@ const PartnerList = ({ partners }) => {
 }
 
 const Partners = (props) => {
-  const [type, setType] = useState("all")
+  const [type, setType] = useState('all')
 
   const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
@@ -74,7 +74,7 @@ const Partners = (props) => {
   }
 
   const filterType = (type) => {
-    return partnersList.filter((partner) => type === "all" || partner.type === type)
+    return partnersList.filter((partner) => type === 'all' || partner.type === type)
   }
 
   return (
