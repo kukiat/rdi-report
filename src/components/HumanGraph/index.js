@@ -1,4 +1,5 @@
 import React from 'react'
+import NumberCountUp from '../miniComponents/NumberCountUp'
 import './index.css'
 
 const LaborIcon = ({ total, text, title }) => {
@@ -15,7 +16,7 @@ const LaborIcon = ({ total, text, title }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      {text} คน
+      <NumberCountUp stopValue={total} /> คน
     </div>
   )
 
@@ -36,7 +37,7 @@ const ServiceIcon = ({ total, text, title }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      {text} คน
+      <NumberCountUp stopValue={total} /> คน
     </div>
   )
 
@@ -57,7 +58,7 @@ const MerchantIcon = ({ total, text, title }) => {
 
   icons.push(
     <div key={amount} className="graph-human-total">
-      {text} คน
+      <NumberCountUp stopValue={total} /> คน
     </div>
   )
 
@@ -150,12 +151,12 @@ export default () => {
         <div className="row">
           <div className="col-6">
             <div className="graph-human-graph-left graph-human-total-all" data-aos="fade-right">
-              92,131 {' '} คน {' '}
+              <NumberCountUp stopValue={92131} suffix=" คน" />
             </div>
           </div>
           <div className="col-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right graph-human-total-all" data-aos="fade-left">
-              {' '} 86,343 {' '} คน/ปี
+              <NumberCountUp stopValue={86343} suffix=" คน / ปี" />
             </div>
           </div>
         </div>

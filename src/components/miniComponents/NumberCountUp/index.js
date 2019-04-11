@@ -13,6 +13,13 @@ class NumberCountUp extends React.Component {
 
   onEnter = (startCountUp) => {
     const { isEnteredYet } = this.state
+    const { isCountOnlyOnceTime } = this.props
+
+    const isAlwaysCountAnimate = (isCountOnlyOnceTime === false)
+    if (isAlwaysCountAnimate) {
+      startCountUp()
+      return;
+    }
 
     if (isEnteredYet === false) {
       startCountUp()
@@ -21,14 +28,22 @@ class NumberCountUp extends React.Component {
   }
 
   render() {
-    const { startValue, stopValue, className, style } = this.props
+    const { startValue,
+      stopValue,
+      className,
+      style,
+      prefix,
+      suffix,
+    } = this.props
 
     return (
       <CountUp
         start={startValue}
         end={stopValue}
-        duration={1}
+        duration={1.5}
         separator=","
+        prefix={prefix}
+        suffix={suffix}
       >
         {({ countUpRef, start }) => (
           <Waypoint
@@ -48,6 +63,9 @@ NumberCountUp.propTypes = {
   stopValue: PropTypes.number.isRequired,
   className: PropTypes.string,
   style: PropTypes.objectOf(StyleSheet),
+  isCountOnlyOnceTime: PropTypes.bool,
+  prefix: PropTypes.string,
+  suffix: PropTypes.string,
 };
 
 NumberCountUp.defaultProps = {
@@ -55,6 +73,9 @@ NumberCountUp.defaultProps = {
   stopValue: 0,
   className: '',
   style: {},
+  isCountOnlyOnceTime: false,
+  prefix: '',
+  suffix: '',
 };
 
 
