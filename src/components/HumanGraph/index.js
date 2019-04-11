@@ -156,7 +156,7 @@ export default () => {
           </div>
           <div className="col-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right graph-human-total-all" data-aos="fade-left">
-              <NumberCountUp stopValue={86343} suffix=" คน / ปี" />
+              <NumberCountUp stopValue={86343} suffix=" คน/ปี" />
             </div>
           </div>
         </div>

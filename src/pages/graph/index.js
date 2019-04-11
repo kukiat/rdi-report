@@ -20,16 +20,18 @@ class Graph extends React.Component {
       <LayoutWrapper>
         <HeaderGraph />
         <div className="container">
-          <div className="graph-page">
-            <Organization />
-            <TotalResearchCompanyGraph />
-            <TotalResearchCompanyGraph2 />
-            <Graph4 />
-            <HumanGraph />
-            <IndustryGraph />
-            <Graph8 />
-            <Graph9 />
-            <Graph10 />
+          <div className="graph-page row">
+            <div className="col-lg-10 offset-1">
+              <Organization />
+              <TotalResearchCompanyGraph />
+              <TotalResearchCompanyGraph2 />
+              <Graph4 />
+              <HumanGraph />
+              <IndustryGraph />
+              <Graph8 />
+              <Graph9 />
+              <Graph10 />
+            </div>
           </div>
         </div>
       </LayoutWrapper>
