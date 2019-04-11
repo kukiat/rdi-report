@@ -46,12 +46,6 @@ const NavItem = Styled.div`
   cursor: pointer;
   text-align: center;
 
-  &;hover {
-    box-shadow: none !important;
-    border: solid 1px #7a5699 !important;
-    outline: none !important;
-  }
-
   .nav-text:hover {
     color: #7a5699;
     transition: all 0.2s;
