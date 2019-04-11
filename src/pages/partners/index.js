@@ -39,13 +39,21 @@ export const query = graphql`
   }
 `
 
+const partnerTypeMapper = (type) => {
+  return {
+    ['WHOLESALE/RETAIL']: "ภาคอุตสาหกรรมการผลิต",
+    ['SERVICES']: "ภาคอุตสาหกรรมการบริการ",
+    ['MANUFACTURING']: "ภาคอุตสาหกรรมการค้าส่ง/ปลีก",
+  }[type]
+}
+
 const PartnerItem = ({ partner, index }) => (
   <Fragment>
     <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
       {partner.name}
     </div>
     <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-      {partner.name}
+      {partnerTypeMapper(partner.type)}
     </div>
   </Fragment>
 )
