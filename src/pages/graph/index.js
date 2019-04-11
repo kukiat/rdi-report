@@ -8,6 +8,7 @@ import {
   TotalResearchCompanyGraph2,
   HumanGraph,
   Graph4,
+  Graph8,
 } from '../../components'
 import './index.css'
 
@@ -24,6 +25,7 @@ class Graph extends React.Component {
             <Graph4 />
             <HumanGraph />
             <IndustryGraph />
+            <Graph8 />
           </div>
         </div>
       </LayoutWrapper>
