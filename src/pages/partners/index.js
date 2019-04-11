@@ -1,7 +1,8 @@
 import React, { useState, useMemo, Fragment } from "react"
 import { graphql } from "gatsby"
-import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
+import { LayoutWrapper, PartnersTable } from "../../components"
 import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
+import uuid from 'uuid/v1'
 import "./index.css"
 
 export const query = graphql`
@@ -47,16 +48,22 @@ const partnerTypeMapper = (type) => {
   }[type]
 }
 
-const PartnerItem = ({ partner, index }) => (
-  <Fragment>
-    <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-      {partner.name}
-    </div>
-    <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-      {partnerTypeMapper(partner.type)}
-    </div>
-  </Fragment>
-)
+const PartnerList = ({ partners }) => {
+  return (
+    partners.map((partner, index) => (
+      <div className="row animated-fade" key={uuid()}>
+        <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
+          {partner.name}
+        </div>
+        <div className="col-6" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
+          {partnerTypeMapper(partner.type)}
+        </div>
+      </div>
+    ))
+  )
+}
+
+}
 
 const Partners = (props) => {
   const [type, setType] = useState("all")
@@ -93,12 +100,8 @@ const Partners = (props) => {
         </div>
         <div className="row" style={{ width: "100%" }}>
           <div className="col-lg-10 offset-1 partner-table-row">
-            {filterType(type).map((partner, index) => (
-              <div className="row">
-                <PartnerItem partner={partner} index={index} />
-              </div>
-            ))}
-            {/* <PartnersList partners={filterType(type)} /> */}
+
+            <PartnerList partners={filterType(type)} />
           </div>
         </div>
       </div>
