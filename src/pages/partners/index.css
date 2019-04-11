@@ -35,9 +35,17 @@
 .animated-fade {
   animation: 1s fafaf ease-in-out;
 }
+.aabbaa {
+  text-decoration: none;
+  color: inherit;
+}
+.aabbaa:hover {
+  text-decoration: none;
+  color: inherit;
+}
 @keyframes fafaf {
   0% {
-    opacity: 0.1;
+    opacity: 0.3;
   }
   100% {
     opacity: 1;
