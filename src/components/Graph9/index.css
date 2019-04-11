@@ -1,0 +1,23 @@
+.graph8-graph-page {
+  margin: 50px;
+}
+.graph8-graph-subtitle {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.graph8-graph-detail {
+  padding-top: 30px;
+}
+.graph8-content {
+  text-align: center;
+}
+.graph8-content-text {
+  font-size: 18px;
+}
+.graph8-content-text-last {
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: center;
+}

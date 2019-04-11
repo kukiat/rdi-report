@@ -9,6 +9,7 @@ import HumanGraph from './HumanGraph'
 import IndustryGraph from './IndustryGraph'
 import Graph4 from './Graph4'
 import Graph8 from './Graph8'
+import Graph9 from './Graph9'
 
 export {
   IndustryGraph,
@@ -22,4 +23,5 @@ export {
   HumanGraph,
   Graph4,
   Graph8,
+  Graph9,
 }
