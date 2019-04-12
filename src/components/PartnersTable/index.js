@@ -37,11 +37,11 @@ const PartnersTableItem = ({ active, onFilterPartnerType, type, name }) => {
   )
 }
 
-const PartnersTable = ({ partnerlist, onFilterPartnerType, type }) => {
+const PartnersTable = ({ partnersType, onFilterPartnerType, type }) => {
   return (
     <TableStyled>
       <ListsStyled>
-        {partnerlist.map((partner, index) => (
+        {partnersType.map((partner, index) => (
           <PartnersTableItem
             key={index}
             active={type === partner.type}

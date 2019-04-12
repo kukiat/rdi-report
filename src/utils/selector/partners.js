@@ -1,14 +1,11 @@
 export const getPartnersList = (data) => {
-  const { allPartnersListJson, allFile } = data
-  return allPartnersListJson.edges.map((partner, index) => ({
-    ...partner.node,
-    ...allFile.edges[index].node.childImageSharp.fixed,
+  return data.allPartnersListJson.edges.map((partner) => ({
+    ...partner.node
   }))
 }
 
 export const getPartnersType = (data) => {
-  const { allPartnersTypeJson } = data
-  return allPartnersTypeJson.edges.map((type) => ({
+  return data.allPartnersTypeJson.edges.map((type) => ({
     ...type.node,
   }))
 }
