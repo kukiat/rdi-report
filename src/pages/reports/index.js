@@ -32,7 +32,7 @@ const Reports = () => {
         <div className="report-header row">
           <div className="report-title col-12">ดาวน์โหลดเอกสาร</div>
           <div className="report-header-detail col-lg-10 offset-md-1">
-            <p data-aos="fade-down">
+            <p>
               เอกสารรายงานผลการสำรวจการวิจัยและพัฒนาและกิจกรรมนวัตกรรม ในภาคอุตสาหกรรมของประเทศไทย
               ประจำปี 2560
             </p>
