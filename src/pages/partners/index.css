@@ -31,23 +31,3 @@
   border: 2px solid #f3edf2;
   border-radius: 8px;
 }
-
-.animated-fade {
-  animation: 0.3s appearance ease-in-out;
-}
-.aabbaa {
-  text-decoration: none;
-  color: inherit;
-}
-.aabbaa:hover {
-  text-decoration: none;
-  color: inherit;
-}
-@keyframes appearance {
-  0% {
-    opacity: 0.3;
-  }
-  100% {
-    opacity: 1;
-  }
-}

@@ -1,8 +1,7 @@
 import React, { useState, useMemo } from "react"
 import { graphql, Link } from "gatsby"
-import { LayoutWrapper, PartnersTable } from "../../components"
+import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
 import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
-import uuid from 'uuid/v1'
 import "./index.css"
 
 export const query = graphql`
@@ -30,31 +29,7 @@ export const query = graphql`
   }
 `
 
-const partnerTypeMapper = (type) => {
-  return {
-    ['WHOLESALE/RETAIL']: "ภาคอุตสาหกรรมการค้าส่ง/ปลีก",
-    ['SERVICES']: "ภาคอุตสาหกรรมการบริการ",
-    ['MANUFACTURING']: "ภาคอุตสาหกรรมการผลิต",
-  }[type]
-}
-
-const PartnerList = ({ partners }) => {
-  return (
-    partners.map((partner, index) => (
-      <Link className="row aabbaa" key={uuid()} to={`/partners/${partner.partnerId}`}>
-        <div className="col-6 animated-fade" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-          {partner.name}
-        </div>
-        <div className="col-6 animated-fade" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-          {partnerTypeMapper(partner.type)}
-        </div>
-      </Link>
-    ))
-  )
-}
-
 const Partners = (props) => {
-  console.log(props)
   const [type, setType] = useState('all')
 
   const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
@@ -89,7 +64,7 @@ const Partners = (props) => {
         </div>
         <div className="row" style={{ width: "100%" }}>
           <div className="col-lg-10 offset-1 partner-table-row">
-            <PartnerList partners={filterType(type)} />
+            <PartnersList partners={filterType(type)} />
           </div>
         </div>
       </div>
