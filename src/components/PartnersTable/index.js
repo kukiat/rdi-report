@@ -1,6 +1,7 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useRef, useState, useEffect } from 'react'
 import classNames from 'classnames'
 import Styled from 'styled-components'
+import Modal from 'react-modal'
 import './index.css'
 
 const TableStyled = Styled.div`
@@ -14,6 +15,7 @@ const TableStyled = Styled.div`
 
 const ListsStyled = Styled.div`
   display: flex;
+  position: relative;
   flex-direction: row;
   font-size: 16px;
   list-style-type: none;
@@ -29,25 +31,66 @@ const ListItemStyled = Styled.div`
   color: #5e5e5e;
 `
 
-const PartnersTableItem = ({ subType, active, onFilterPartnerType, type, name }) => {
+const customStyles = {
+  overlay: {
+    backgroundColor: 'transparent',
+    position: 'fixed',
+    zIndex: 1024,
+  },
+  content: {
+    width: '500px',
+    height: '300px',
+    padding: '-20px',
+    top: '25%',
+    left: '50%',
+    transform: 'translate(-50%)'
+  }
+}
+
+const ModalPartnerList = (props) => {
   return (
     <div>
-      <ListItemStyled className={classNames('list-item', { active })} onClick={() => onFilterPartnerType(type)}>
-        <div className="list-content">{name}</div>
-      </ListItemStyled>
-      {
-        active && (
-          <div className='dropdown-list'>
-            {subType.map(sub => (
-              <div className='dropdown-item'>{sub}</div>
-            ))}
-          </div>)
-      }
+      <Modal
+        style={customStyles}
+        isOpen={props.isOpen}
+        onAfterOpen={() => document.body.style.overflow = 'hidden'}
+        onRequestClose={() => {
+          document.body.style.overflow = 'auto'
+          props.setModal(false)
+        }}
+      >
+
+        <div className=''>
+          {props.subType.map((sub, index) => (
+            <div className='dropdown-item' key={index}>{sub.name}</div>
+          ))}
+        </div>
+      </Modal>
     </div>
+  )
+}
+const PartnersTableItem = ({
+  active,
+  onFilterPartnerType,
+  type,
+  name,
+}) => {
+  return (
+    <ListItemStyled
+      className={classNames('list-item', { active })}
+      onClick={() => onFilterPartnerType(type)}
+    >
+      <div className="list-content">{name}</div>
+    </ListItemStyled>
   )
 }
 
 const PartnersTable = ({ partnersType, onFilterPartnerType, type }) => {
+  const [isOpenModal, setModal] = useState(false)
+  const getSubType = () => {
+    return partnersType.find(partner => partner.type === type).subType
+  }
+
   return (
     <TableStyled>
       <ListsStyled>
@@ -55,10 +98,19 @@ const PartnersTable = ({ partnersType, onFilterPartnerType, type }) => {
           <PartnersTableItem
             key={index}
             active={type === partner.type}
-            onFilterPartnerType={onFilterPartnerType}
+            onFilterPartnerType={(type) => {
+              onFilterPartnerType(type, () => {
+                setModal(true)
+              })
+            }}
             {...partner}
           />
         ))}
+        <ModalPartnerList
+          isOpen={isOpenModal}
+          setModal={setModal}
+          subType={getSubType()}
+        />
       </ListsStyled>
     </TableStyled>
   )

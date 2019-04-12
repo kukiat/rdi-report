@@ -12,7 +12,10 @@ export const query = graphql`
         node {
           name
           type
-          subType
+          subType {
+            type
+            name
+          }
         }
       }
     }
@@ -36,8 +39,12 @@ const Partners = (props) => {
   const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
 
-  const onFilterPartnerType = (_type) => {
-    return type === _type || setType(_type)
+  const onFilterPartnerType = (_type, callback) => {
+    if (type === _type) {
+      return
+    }
+    setType(_type)
+    callback()
   }
 
   const filterType = (type) => {

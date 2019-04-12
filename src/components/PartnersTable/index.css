@@ -24,16 +24,19 @@
     opacity: 2;
   }
 }
-
+.partner-table-item {
+  position: relative;
+}
 .dropdown-list {
-  z-index: 2;
+  z-index: 3;
+  position: absolute;
+  top: -200px;
+  left: 30px;
   border: 1px solid #000;
-  position: fixed;
   background-color: #fff;
   max-height: 200px;
   overflow-y: scroll;
-  width: 200px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
 }
 .dropdown-item {
   cursor: pointer;
