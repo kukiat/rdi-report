@@ -8,7 +8,15 @@ import PartnerHistory from "./PartnerHistory"
 import { partnerDetails } from '../../static/data'
 
 const Partner = ({ data }) => {
-  const { contacts, details, history } = partnerDetails
+  console.log(partnerDetails);
+  const { THName, ENName, description } = partnerDetails
+  const { contacts, history } = partnerDetails
+
+  const details = {
+    THName,
+    ENName,
+    description,
+  }
 
   return (
     < LayoutWrapper >
