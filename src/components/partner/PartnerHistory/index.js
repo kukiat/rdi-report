@@ -1,4 +1,5 @@
 import React from 'react'
+import { string, shape } from 'prop-types'
 import './index.css'
 
 const PartnerHistory = ({ data }) => {
@@ -38,4 +39,19 @@ const PartnerHistory = ({ data }) => {
   )
 }
 
+PartnerHistory.defaultProps = {
+  data: { cost: '', income: '', status: '', totalEmployee: '', year: '', research: '', service: '' }
+}
+
+PartnerHistory.defaultProps = {
+  data: shape({
+    cost: string,
+    income: string,
+    status: string,
+    totalEmployee: string,
+    year: string,
+    research: string,
+    service: string
+  })
+}
 export default PartnerHistory

@@ -1,4 +1,5 @@
 import React from "react"
+import { string, shape } from 'prop-types'
 import "./index.css"
 
 const PartnerContacts = ({ data: contacts }) => {
@@ -31,6 +32,36 @@ const PartnerContacts = ({ data: contacts }) => {
       </div>
     </div>
   )
+}
+
+PartnerContacts.defaultProps = {
+  data: {
+    contactName: {
+      name: '',
+      role: '',
+      tel: '',
+      email: ''
+    },
+    tel1: '',
+    tel2: '',
+    website: '',
+    contact: ''
+  }
+}
+
+PartnerContacts.propTypes = {
+  data: shape({
+    contactName: shape({
+      name: string,
+      role: string,
+      tel: string,
+      email: string
+    }),
+    tel1: string,
+    tel2: string,
+    website: string,
+    contact: string
+  })
 }
 
 export default PartnerContacts

@@ -91,6 +91,12 @@ const PartnersTable = ({ partnersType, onFilterPartnerType, type }) => {
     return partnersType.find(partner => partner.type === type).subType
   }
 
+  useEffect(() => {
+    if (type === 'all') {
+
+    }
+  }, [type])
+
   return (
     <TableStyled>
       <ListsStyled>

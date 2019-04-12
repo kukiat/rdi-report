@@ -1,4 +1,5 @@
 import React from "react"
+import { string, shape } from 'prop-types'
 import "./index.css"
 
 const PartnerDetails = ({ data }) => {
@@ -14,6 +15,22 @@ const PartnerDetails = ({ data }) => {
       </div>
     </div>
   )
+}
+
+PartnerDetails.defaultProps = {
+  data: {
+    description: '',
+    THName: '',
+    ENName: '',
+  }
+}
+
+PartnerDetails.propTypes = {
+  data: shape({
+    description: string,
+    THName: string,
+    ENName: string,
+  })
 }
 
 export default PartnerDetails
