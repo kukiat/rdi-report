@@ -34,7 +34,7 @@
   width: 85%;
   position: absolute;
   background-color: #eaeaeb;
-  animation: slide-line 1s ease-in-out;
+  animation: slide-line 1s ease-in;
 }
 
 @keyframes slide-line {

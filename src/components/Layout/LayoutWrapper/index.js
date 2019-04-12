@@ -5,8 +5,8 @@ import "./index.css"
 
 export default (props) => {
   useEffect(() => {
-    console.log(window)
   }, [])
+
   return (
     <div>
       <NavBar />
