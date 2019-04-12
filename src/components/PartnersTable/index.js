@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import classNames from 'classnames'
 import Styled from 'styled-components'
 import './index.css'
@@ -17,9 +17,9 @@ const ListsStyled = Styled.div`
   flex-direction: row;
   font-size: 16px;
   list-style-type: none;
-  border: 1px solid #e2e2e2;
-  border-radius: 10px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid #e2e2e2; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); */
   margin-top: 20px;
   margin-bottom: 30px;
 `
@@ -29,11 +29,21 @@ const ListItemStyled = Styled.div`
   color: #5e5e5e;
 `
 
-const PartnersTableItem = ({ active, onFilterPartnerType, type, name }) => {
+const PartnersTableItem = ({ subType, active, onFilterPartnerType, type, name }) => {
   return (
-    <ListItemStyled className={classNames('list-item', { active })} onClick={() => onFilterPartnerType(type)}>
-      <div className="list-content">{name}</div>
-    </ListItemStyled>
+    <div>
+      <ListItemStyled className={classNames('list-item', { active })} onClick={() => onFilterPartnerType(type)}>
+        <div className="list-content">{name}</div>
+      </ListItemStyled>
+      {
+        active && (
+          <div className='dropdown-list'>
+            {subType.map(sub => (
+              <div className='dropdown-item'>{sub}</div>
+            ))}
+          </div>)
+      }
+    </div>
   )
 }
 

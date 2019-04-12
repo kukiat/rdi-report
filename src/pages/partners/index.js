@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react"
 import { graphql, Link } from "gatsby"
+import Dropdown from 'react-dropdown'
 import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
 import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
 import "./index.css"
