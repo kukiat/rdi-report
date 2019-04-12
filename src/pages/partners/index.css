@@ -33,7 +33,7 @@
 }
 
 .animated-fade {
-  animation: 1s fafaf ease-in-out;
+  animation: 0.3s appearance ease-in-out;
 }
 .aabbaa {
   text-decoration: none;
@@ -43,7 +43,7 @@
   text-decoration: none;
   color: inherit;
 }
-@keyframes fafaf {
+@keyframes appearance {
   0% {
     opacity: 0.3;
   }
