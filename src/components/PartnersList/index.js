@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Link } from 'gatsby'
 import uuid from 'uuid/v1'
 import './index.css'
@@ -12,6 +12,7 @@ const partnerTypeMapper = (type) => {
 }
 
 const PartnersList = ({ partners }) => {
+  console.log('partners', partners)
   return (
     partners.length === 0 ? (
       <div css={{
@@ -34,4 +35,4 @@ const PartnersList = ({ partners }) => {
   )
 }
 
-export default PartnersList
+export default memo(PartnersList)

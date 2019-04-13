@@ -1,7 +1,11 @@
 import React, { useState, useMemo } from "react"
 import { graphql } from "gatsby"
 import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
-import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
+import {
+  getPartnersList,
+  getPartnersType,
+  getPartnersData,
+} from "../../utils/selector/partners"
 import "./index.css"
 
 export const query = graphql`
@@ -40,9 +44,7 @@ const Partners = (props) => {
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
 
   const onFilterPartnerType = (_type, setDropdown) => {
-    if (_type === 'all') {
-      setSubType(_type)
-    }
+    if (_type === 'all') setSubType(_type)
     setType(_type)
     setDropdown()
   }
@@ -52,9 +54,11 @@ const Partners = (props) => {
     setDropdown()
   }
 
-  const filterSubType = (_type) => {
-    return partnersList.filter((partner) => _type === 'all' || partner.subType === _type)
+  const getPartnersBySubType = (_type) => {
+    const partners = partnersList.filter((partner) => _type === 'all' || partner.subType === _type)
+    return partners.map(partner => getPartnersData(partner)(partnersType))
   }
+
   return (
     <LayoutWrapper>
       <div className="partners-page container">
@@ -81,7 +85,9 @@ const Partners = (props) => {
         </div>
         <div className="row" style={{ width: "100%" }}>
           <div className="col-lg-10 offset-1 partner-table-row">
-            <PartnersList partners={useMemo(() => filterSubType(subType), [subType])} />
+            <PartnersList
+              partners={useMemo(() => getPartnersBySubType(subType), [subType])}
+            />
           </div>
         </div>
       </div>

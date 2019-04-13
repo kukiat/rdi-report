@@ -3,31 +3,16 @@ import classNames from 'classnames'
 import OutsideClickHandler from 'react-outside-click-handler';
 import './index.css'
 
-const PartnersTableItem = ({
-  active,
-  activeDropdown,
+const PartnersTable = ({
   onFilterPartnerType,
+  onFilterSubType,
+  partnersType,
   type,
-  name,
 }) => {
-  return (
-    <div
-      className={classNames('list-item', {
-        active,
-        'active-dropdown': activeDropdown
-      })}
-      onClick={() => onFilterPartnerType(type)}
-    >
-      <div className="list-content">{name}</div>
-    </div>
-  )
-}
-
-const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, type }) => {
   const [isOpenDropdown, setDropdown] = useState([false, false, false, false])
 
-  const getSubType = () => {
-    return partnersType.find(partner => partner.type === type).subType
+  const getSubType = (partnerType) => {
+    return partnersType.find(partner => partner.type === partnerType).subType
   }
 
   const setNewDropDown = (indexType) => {
@@ -47,19 +32,20 @@ const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, typ
                 className={classNames('partner-table-item', partnerType.type.toLowerCase())}
                 key={indexType}
               >
-                <PartnersTableItem
-                  active={type === partnerType.type}
-                  activeDropdown={isOpenDropdown[indexType]}
-                  onFilterPartnerType={(type) => {
-                    onFilterPartnerType(type, () => setNewDropDown(indexType))
-                  }}
-                  {...partnerType}
-                />
+                <div
+                  className={classNames('list-item', {
+                    'active': type === partnerType.type,
+                    'active-dropdown': isOpenDropdown[indexType]
+                  })}
+                  onClick={() => onFilterPartnerType(partnerType.type, () => setNewDropDown(indexType))}
+                >
+                  <div className="list-content">{partnerType.name}</div>
+                </div>
                 {
                   isOpenDropdown[indexType] && (
                     <div className='dropdown-list'>
                       {
-                        getSubType().map(((subType, i) => (
+                        getSubType(partnerType.type).map(((subType, i) => (
                           <div
                             key={i}
                             className='__dropdown-item'
