@@ -5,9 +5,9 @@ import './index.css'
 
 const partnerTypeMapper = (type) => {
   return {
-    ['WHOLESALE/RETAIL']: "ภาคอุตสาหกรรมการค้าส่ง/ปลีก",
-    ['SERVICES']: "ภาคอุตสาหกรรมการบริการ",
-    ['MANUFACTURING']: "ภาคอุตสาหกรรมการผลิต",
+    'WHOLESALE/RETAIL': "ภาคอุตสาหกรรมการค้าส่ง/ปลีก",
+    'SERVICES': "ภาคอุตสาหกรรมการบริการ",
+    'MANUFACTURING': "ภาคอุตสาหกรรมการผลิต",
   }[type]
 }
 

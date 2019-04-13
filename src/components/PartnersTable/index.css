@@ -15,7 +15,18 @@
   cursor: pointer;
   transition: all 0.5s ease;
 }
-
+.list-item {
+  padding: 15px 20px;
+  color: #5e5e5e;
+}
+.partner-table-container {
+  display: flex;
+  justify-content: center;
+  transition: left 0.4s;
+  animation: appear-left 1s ease;
+  align-items: center;
+  background-color: #fff;
+}
 @keyframes opacityA {
   0% {
     opacity: 0;

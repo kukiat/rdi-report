@@ -1,5 +1,4 @@
 import React from 'react'
-import NumberCountUp from '../miniComponents/NumberCountUp'
 import AnimatedNumber from '../miniComponents/AnimatedNumber'
 import './index.css'
 
@@ -16,7 +15,7 @@ const LaborIcon = ({ total, text, title }) => {
   }
 
   icons.push(
-    <AnimatedNumber startValue={0} stopValue={total}>
+    <AnimatedNumber startValue={0} stopValue={total} key={amount}>
       {(currentValue) => <p css={{ padding: '13px', color: '#7a5699' }}>{currentValue} คน</p>}
     </AnimatedNumber>
   )
@@ -138,14 +137,12 @@ export default () => {
         <div className="row">
           <div className="col-6">
             <div className="graph-human-graph-left" data-aos="fade-right">
-              {' '}
-              <LaborIcon total={55840} text={'55,840'} title={'การผลิต'} />{' '}
+              <LaborIcon total={55840} text={'55,840'} title={'การผลิต'} />
             </div>
           </div>
           <div className="col-6 spliter" data-aos="fade-up">
             <div className="graph-human-graph-right" data-aos="fade-left">
-              {' '}
-              <LaborIcon total={52506} text={'52,506'} title={'การผลิต'} />{' '}
+              <LaborIcon total={52506} text={'52,506'} title={'การผลิต'} />
             </div>
           </div>
         </div>

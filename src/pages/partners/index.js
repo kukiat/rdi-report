@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from "react"
-import { graphql, Link } from "gatsby"
-import Dropdown from 'react-dropdown'
+import { graphql } from "gatsby"
 import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
 import { getPartnersList, getPartnersType } from "../../utils/selector/partners"
 import "./index.css"
@@ -48,9 +47,9 @@ const Partners = (props) => {
     setDropdown()
   }
 
-  const filterType = (type) => {
-    return partnersList.filter((partner) => type === 'all' || partner.type === type)
-  }
+  // const filterType = (type) => {
+  //   return partnersList.filter((partner) => type === 'all' || partner.type === type)
+  // }
 
   const onFilterSubType = (_type, setDropdown) => {
     setSubType(_type)
