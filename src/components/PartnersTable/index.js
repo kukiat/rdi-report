@@ -56,7 +56,7 @@ const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, typ
                   <div className='dropdown-list'>
                     {
                       getSubType().map(((subType, i) => (
-                        <div key={i} className='dropdown-item' onClick={() => {
+                        <div key={i} className='__dropdown-item' onClick={() => {
                           onFilterSubType(subType.type, () => setNewDropDown(type))
                         }}>
                           {subType.name}
