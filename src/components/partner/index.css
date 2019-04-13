@@ -67,8 +67,9 @@ a {
 }
 .partner-content {
   padding: 10px 30px;
-  border: 2px solid #eaeaeb;
+  border: 1px solid #eaeaeb;
   border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
 .partner-page-card {
