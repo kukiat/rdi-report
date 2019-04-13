@@ -5,13 +5,17 @@ import './index.css'
 
 const PartnersTableItem = ({
   active,
+  activeDropdown,
   onFilterPartnerType,
   type,
   name,
 }) => {
   return (
     <div
-      className={classNames('list-item', { active })}
+      className={classNames('list-item', {
+        active,
+        'active-dropdown': activeDropdown
+      })}
       onClick={() => onFilterPartnerType(type)}
     >
       <div className="list-content">{name}</div>
@@ -42,6 +46,7 @@ const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, typ
               >
                 <PartnersTableItem
                   active={type === partnerType.type}
+                  activeDropdown={isOpenDropdown[indexType]}
                   onFilterPartnerType={(type) => {
                     onFilterPartnerType(type, () => setNewDropDown(indexType))
                   }}
