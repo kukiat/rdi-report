@@ -3,6 +3,7 @@ import { string, shape } from 'prop-types'
 import "./index.css"
 
 const PartnerContacts = ({ data: contacts }) => {
+  console.log(contacts)
   return (
     <div className="container partner-contact-container">
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลการติดต่อ</div>
@@ -36,31 +37,35 @@ const PartnerContacts = ({ data: contacts }) => {
 
 PartnerContacts.defaultProps = {
   data: {
-    contactName: {
-      name: '',
-      role: '',
+    contacts: {
+      contactName: {
+        name: '',
+        role: '',
+        tel: '',
+        email: ''
+      },
+      address: '',
       tel: '',
-      email: ''
-    },
-    tel1: '',
-    tel2: '',
-    website: '',
-    contact: ''
+      fax: '',
+      homepage: ''
+    }
   }
 }
 
 PartnerContacts.propTypes = {
   data: shape({
-    contactName: shape({
-      name: string,
-      role: string,
+    contacts: shape({
+      contactName: shape({
+        name: string,
+        role: string,
+        tel: string,
+        email: string
+      }),
+      address: string,
       tel: string,
-      email: string
-    }),
-    tel1: string,
-    tel2: string,
-    website: string,
-    contact: string
+      fax: string,
+      homepage: string
+    })
   })
 }
 

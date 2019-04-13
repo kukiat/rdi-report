@@ -7,7 +7,7 @@ import PartnerContacts from "./PartnerContacts"
 import PartnerHistory from "./PartnerHistory"
 
 const Partner = ({ data }) => {
-  const { THName, ENName, description, contacts, history } = data
+  const { THName, ENName, description, contacts, history } = data.partnerDetailsJson
 
   const details = {
     THName,
@@ -43,6 +43,12 @@ export const query = graphql`
         tel
         fax
         homepage
+        contactName {
+          name
+          role
+          tel
+          email
+        }
       }
       history {
         year
