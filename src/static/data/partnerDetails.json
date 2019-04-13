@@ -199,7 +199,9 @@
     "history": {
       "year": "2521",
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 51-99",
-      "registeredCapital": "200000000"
+      "registeredCapital": "200000000",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "product": "ยากลัยมิพิไรด์ ชนิดเม็ด ขนาด 2 มิลลิกรัม ยาแอมโลดิปีน ชนิดเม็ด ขนาด 5 มิลลิกรัม ยาเลโวฟล็อกซาซิน ชนิดเม็ด ขนาด 500 มิลลิกรัม",
@@ -1306,7 +1308,9 @@
     "history": {
       "year": "2533",
       "stockStatus": "ร่วมถือหุ้นโดยคนไทยและเกาหลี",
-      "registeredCapital": "150000000"
+      "registeredCapital": "150000000",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "product": "ไม่ระบุ",
@@ -2202,7 +2206,9 @@
     "history": {
       "year": "2551",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "100000000"
+      "registeredCapital": "100000000",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ออกแบบพัฒนาชิ้นส่วนยานยนต์ให้มีความทันสมัย และเป็นมิตรกับสิ่งแวดล้อม",
