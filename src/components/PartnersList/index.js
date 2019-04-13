@@ -1,18 +1,8 @@
 import React, { memo } from 'react'
 import { Link } from 'gatsby'
-import uuid from 'uuid/v1'
 import './index.css'
 
-const partnerTypeMapper = (type) => {
-  return {
-    'WHOLESALE/RETAIL': "ภาคอุตสาหกรรมการค้าส่ง/ปลีก",
-    'SERVICES': "ภาคอุตสาหกรรมการบริการ",
-    'MANUFACTURING': "ภาคอุตสาหกรรมการผลิต",
-  }[type]
-}
-
 const PartnersList = ({ partners }) => {
-  console.log('partners', partners)
   return (
     partners.length === 0 ? (
       <div css={{
@@ -27,7 +17,7 @@ const PartnersList = ({ partners }) => {
               {partner.name}
             </div>
             <div className="col-6 animated-fade" css={{ padding: "13px", backgroundColor: index % 2 && "#f8f8f8" }}>
-              {partnerTypeMapper(partner.type)}
+              {partner.subTypeName}
             </div>
           </Link>
         ))

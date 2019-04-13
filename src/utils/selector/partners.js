@@ -16,7 +16,7 @@ export const getPartnersData = (partner) => createSelector(
   (partnersType) => partnersType.find(partnerType => partnerType.type === partner.type),
   (partnerType) => ({
     ...partner,
-    typeName: partnerType.subType.find(subType => subType.type === partner.subType).name,
-    subTypeName: partnerType.name,
+    subTypeName: partnerType.subType.find(subType => subType.type === partner.subType).name,
+    typeName: partnerType.name,
   })
 )
