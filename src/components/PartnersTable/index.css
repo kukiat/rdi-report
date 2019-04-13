@@ -1,8 +1,8 @@
-.list-item:first-child {
+.partner-table-item.all .list-item  {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.list-item:last-child {
+.partner-table-item.sales .list-item {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -15,9 +15,16 @@
   cursor: pointer;
   transition: all 0.5s ease;
 }
+.partner-table-item.sales .active {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+}
 .list-item {
   padding: 15px 20px;
   color: #5e5e5e;
+}
+.partner-table-item {
+  position: relative;
 }
 .partner-table-container {
   display: flex;

@@ -47,10 +47,6 @@ const Partners = (props) => {
     setDropdown()
   }
 
-  // const filterType = (type) => {
-  //   return partnersList.filter((partner) => type === 'all' || partner.type === type)
-  // }
-
   const onFilterSubType = (_type, setDropdown) => {
     setSubType(_type)
     setDropdown()
@@ -77,7 +73,6 @@ const Partners = (props) => {
         </div>
         <div className="partner-table-wrapper">
           <PartnersTable
-            filterSubType={filterSubType}
             onFilterPartnerType={onFilterPartnerType}
             onFilterSubType={onFilterSubType}
             partnersType={partnersType}
