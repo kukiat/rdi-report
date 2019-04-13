@@ -3,7 +3,6 @@ import { string, shape } from 'prop-types'
 import "./index.css"
 
 const PartnerContacts = ({ data: contacts }) => {
-  console.log(contacts)
   return (
     <div className="container partner-contact-container">
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลการติดต่อ</div>

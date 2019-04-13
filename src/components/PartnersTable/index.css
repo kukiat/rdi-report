@@ -1,11 +1,11 @@
-/* .list-item:first-child {
+.list-item:first-child {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-} */
-/* .list-item:last-child {
+}
+.list-item:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-} */
+}
 .list-item.active {
   background-color: #906cb3 !important;
   color: #fff;
@@ -30,15 +30,14 @@
 .dropdown-list {
   z-index: 3;
   position: absolute;
-  top: -200px;
-  left: 30px;
-  border: 1px solid #000;
+  border: 1px solid rgb(231, 223, 223);
+  border-top: 0 solid #000;
   background-color: #fff;
-  max-height: 200px;
+  max-height: 230px;
   overflow-y: scroll;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
 }
 .dropdown-item {
   cursor: pointer;
-  padding: 15px;
+  padding: 14px;
 }

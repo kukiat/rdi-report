@@ -35,22 +35,31 @@ export const query = graphql`
 
 const Partners = (props) => {
   const [type, setType] = useState('all')
+  const [subType, setSubType] = useState('all')
 
   const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
 
-  const onFilterPartnerType = (_type, callback) => {
-    if (type === _type) {
-      return
+  const onFilterPartnerType = (_type, setDropdown) => {
+    if (_type === 'all') {
+      setSubType(_type)
     }
     setType(_type)
-    callback()
+    setDropdown()
   }
 
   const filterType = (type) => {
     return partnersList.filter((partner) => type === 'all' || partner.type === type)
   }
 
+  const onFilterSubType = (_type, setDropdown) => {
+    setSubType(_type)
+    setDropdown()
+  }
+
+  const filterSubType = (_type) => {
+    return partnersList.filter((partner) => _type === 'all' || partner.subType === _type)
+  }
   return (
     <LayoutWrapper>
       <div className="partners-page container">
@@ -68,11 +77,17 @@ const Partners = (props) => {
           </div>
         </div>
         <div className="partner-table-wrapper">
-          <PartnersTable onFilterPartnerType={onFilterPartnerType} partnersType={partnersType} type={type} />
+          <PartnersTable
+            filterSubType={filterSubType}
+            onFilterPartnerType={onFilterPartnerType}
+            onFilterSubType={onFilterSubType}
+            partnersType={partnersType}
+            type={type}
+          />
         </div>
         <div className="row" style={{ width: "100%" }}>
           <div className="col-lg-10 offset-1 partner-table-row">
-            <PartnersList partners={filterType(type)} />
+            <PartnersList partners={useMemo(() => filterSubType(subType), [subType])} />
           </div>
         </div>
       </div>

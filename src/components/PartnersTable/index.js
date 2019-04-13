@@ -31,44 +31,6 @@ const ListItemStyled = Styled.div`
   color: #5e5e5e;
 `
 
-const customStyles = {
-  overlay: {
-    backgroundColor: 'transparent',
-    position: 'fixed',
-    zIndex: 1024,
-  },
-  content: {
-    width: '500px',
-    height: '300px',
-    padding: '-20px',
-    top: '25%',
-    left: '50%',
-    transform: 'translate(-50%)'
-  }
-}
-
-const ModalPartnerList = (props) => {
-  return (
-    <div>
-      <Modal
-        style={customStyles}
-        isOpen={props.isOpen}
-        onAfterOpen={() => document.body.style.overflow = 'hidden'}
-        onRequestClose={() => {
-          document.body.style.overflow = 'auto'
-          props.setModal(false)
-        }}
-      >
-
-        <div className=''>
-          {props.subType.map((sub, index) => (
-            <div className='dropdown-item' key={index}>{sub.name}</div>
-          ))}
-        </div>
-      </Modal>
-    </div>
-  )
-}
 const PartnersTableItem = ({
   active,
   onFilterPartnerType,
@@ -85,38 +47,53 @@ const PartnersTableItem = ({
   )
 }
 
-const PartnersTable = ({ partnersType, onFilterPartnerType, type }) => {
-  const [isOpenModal, setModal] = useState(false)
+const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, type, filterSubType }) => {
+  const [isOpenDropdown, setDropdown] = useState([false, false, false, false])
+
   const getSubType = () => {
     return partnersType.find(partner => partner.type === type).subType
   }
+  const getIndexType = (type) => {
+    return {
+      'all': 0,
+      'MANUFACTURING': 1,
+      'SERVICES': 2,
+      'SALES': 3
+    }[type]
+  }
 
-  useEffect(() => {
-    if (type === 'all') {
-
-    }
-  }, [type])
+  const getNewSubType = (type) => {
+    return isOpenDropdown.map((bool, i) => i === getIndexType(type) && !bool)
+  }
 
   return (
     <TableStyled>
       <ListsStyled>
         {partnersType.map((partner, index) => (
-          <PartnersTableItem
-            key={index}
-            active={type === partner.type}
-            onFilterPartnerType={(type) => {
-              onFilterPartnerType(type, () => {
-                setModal(true)
-              })
-            }}
-            {...partner}
-          />
+          <div css={{ position: 'relative' }}>
+            <PartnersTableItem
+              key={index}
+              active={type === partner.type}
+              onFilterPartnerType={(type) => {
+                onFilterPartnerType(type, () => setDropdown(getNewSubType(type)))
+              }}
+              {...partner}
+            />
+            {isOpenDropdown[index] && (
+              <div className='dropdown-list'>
+                {
+                  getSubType().map((subType => (
+                    <div className='dropdown-item' onClick={() => {
+                      onFilterSubType(subType.type, () => setDropdown(getNewSubType(type)))
+                    }}>
+                      {subType.name}
+                    </div>
+                  )))
+                }
+              </div>
+            )}
+          </div>
         ))}
-        <ModalPartnerList
-          isOpen={isOpenModal}
-          setModal={setModal}
-          subType={getSubType()}
-        />
       </ListsStyled>
     </TableStyled>
   )

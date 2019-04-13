@@ -4,7 +4,6 @@ import { convertMoney, convertPeople, convertYear } from '../../../utils/general
 import './index.css'
 
 const PartnerHistory = ({ data }) => {
-  console.log('data', data)
   const { cost, income, status, totalEmployee, year, research, service } = data
   return (
     <div className="container partner-history-container">
