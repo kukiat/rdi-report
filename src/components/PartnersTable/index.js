@@ -1,7 +1,7 @@
 import React, { Fragment, useRef, useState, useEffect } from 'react'
 import classNames from 'classnames'
 import Styled from 'styled-components'
-import Modal from 'react-modal'
+import OutsideClickHandler from 'react-outside-click-handler';
 import './index.css'
 
 const TableStyled = Styled.div`
@@ -11,19 +11,6 @@ const TableStyled = Styled.div`
   animation: appear-left 1s ease;
   align-items: center;
   background-color: #fff;
-`
-
-const ListsStyled = Styled.div`
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  font-size: 16px;
-  list-style-type: none;
-  /* border: 1px solid #e2e2e2; */
-  /* border-radius: 10px; */
-  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); */
-  margin-top: 20px;
-  margin-bottom: 30px;
 `
 
 const ListItemStyled = Styled.div`
@@ -49,6 +36,7 @@ const PartnersTableItem = ({
 
 const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, type, filterSubType }) => {
   const [isOpenDropdown, setDropdown] = useState([false, false, false, false])
+  const dropdownRef = useRef()
 
   const getSubType = () => {
     return partnersType.find(partner => partner.type === type).subType
@@ -62,39 +50,41 @@ const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, typ
     }[type]
   }
 
-  const getNewSubType = (type) => {
-    return isOpenDropdown.map((bool, i) => i === getIndexType(type) && !bool)
+  const setNewDropDown = (_type) => {
+    setDropdown(isOpenDropdown.map((bool, i) => i === getIndexType(_type) && !bool))
   }
 
   return (
     <TableStyled>
-      <ListsStyled>
-        {partnersType.map((partner, index) => (
-          <div css={{ position: 'relative' }}>
-            <PartnersTableItem
-              key={index}
-              active={type === partner.type}
-              onFilterPartnerType={(type) => {
-                onFilterPartnerType(type, () => setDropdown(getNewSubType(type)))
-              }}
-              {...partner}
-            />
-            {isOpenDropdown[index] && (
-              <div className='dropdown-list'>
-                {
-                  getSubType().map((subType => (
-                    <div className='dropdown-item' onClick={() => {
-                      onFilterSubType(subType.type, () => setDropdown(getNewSubType(type)))
-                    }}>
-                      {subType.name}
-                    </div>
-                  )))
-                }
-              </div>
-            )}
-          </div>
-        ))}
-      </ListsStyled>
+      <OutsideClickHandler onOutsideClick={() => setDropdown([false, false, false, false])}>
+        <div className='partner-table-list' ref={dropdownRef}>
+          {partnersType.map((partner, index) => (
+            <div css={{ position: 'relative' }}>
+              <PartnersTableItem
+                key={index}
+                active={type === partner.type}
+                onFilterPartnerType={(type) => {
+                  onFilterPartnerType(type, () => setNewDropDown(type))
+                }}
+                {...partner}
+              />
+              {isOpenDropdown[index] && (
+                <div className='dropdown-list'>
+                  {
+                    getSubType().map((subType => (
+                      <div className='dropdown-item' onClick={() => {
+                        onFilterSubType(subType.type, () => setNewDropDown(type))
+                      }}>
+                        {subType.name}
+                      </div>
+                    )))
+                  }
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </OutsideClickHandler>
     </TableStyled>
   )
 }
