@@ -33,6 +33,8 @@
   animation: appear-left 1s ease;
   align-items: center;
   background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 @keyframes opacityA {
   0% {
@@ -74,6 +76,4 @@
   border: 1px solid #e2e2e2;
   border-radius: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  margin-top: 20px;
-  margin-bottom: 30px;
 }

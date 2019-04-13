@@ -36,7 +36,10 @@ const PartnersTable = ({ onFilterSubType, partnersType, onFilterPartnerType, typ
 
   return (
     <div className='partner-table-container'>
-      <OutsideClickHandler onOutsideClick={() => setDropdown([false, false, false, false])}>
+      <OutsideClickHandler
+        display='inline-block'
+        onOutsideClick={() => setDropdown([false, false, false, false])}
+      >
         <div className='partner-table-list'>
           {
             partnersType.map((partnerType, indexType) => (
