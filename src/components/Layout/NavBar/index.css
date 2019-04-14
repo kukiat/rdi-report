@@ -14,6 +14,10 @@
   font-weight: 500;
 }
 
+.logo-slide {
+  animation: slide-down456 800ms ease;
+}
+
 @keyframes appear {
   0% {
     opacity: 0;
@@ -31,5 +35,14 @@
   }
   100% {
     opacity: 2;
+  }
+}
+
+@keyframes slide-down456 {
+  0% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }

@@ -39,7 +39,7 @@ const NavMenu = Styled.div`
   padding: 5px;
 `
 
-const navSliwd = keyframes`
+const slideRight = keyframes`
   0% {
     transform: translateX(-250px);
     opacity: 0;
@@ -56,7 +56,7 @@ const NavItem = Styled.div`
   margin-top: 12px;
   cursor: pointer;
   text-align: center;
-  animation: ${navSliwd} ${props => props.duration} ease;
+  animation: ${slideRight} ${props => props.duration} ease;
 `
 
 
@@ -92,12 +92,11 @@ const NavBar = () => {
 
   return (
     <NavBarWrapper>
-      <Link to="/">
+      <Link to="/" className='logo-slide'>
         <NavLogo>
           <NavLogoImage src={logoNav} alt="" />
         </NavLogo>
       </Link>
-
       <NavMenu>
         {navItemList.map((nav, index) => {
           return (

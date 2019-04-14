@@ -13,31 +13,27 @@ import {
   Graph10,
 } from '../../components'
 import './index.css'
-import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
 class Graph extends React.Component {
   render() {
     return (
       <LayoutWrapper>
-        <ParallaxProvider>
-          <HeaderGraph />
-
-          <div className="container">
-            <div className="graph-page row">
-              <div className="col-lg-10 offset-1">
-                <Organization />
-                <TotalResearchCompanyGraph />
-                <TotalResearchCompanyGraph2 />
-                <Graph4 />
-                <HumanGraph />
-                <IndustryGraph />
-                <Graph8 />
-                <Graph9 />
-                <Graph10 />
-              </div>
+        <HeaderGraph />
+        <div className="container">
+          <div className="graph-page row">
+            <div className="col-lg-10 offset-1">
+              <Organization />
+              <TotalResearchCompanyGraph />
+              <TotalResearchCompanyGraph2 />
+              <Graph4 />
+              <HumanGraph />
+              <IndustryGraph />
+              <Graph8 />
+              <Graph9 />
+              <Graph10 />
             </div>
           </div>
-        </ParallaxProvider>
+        </div>
       </LayoutWrapper >
     )
   }
