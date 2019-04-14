@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Styled from "styled-components"
+import Styled, { keyframes } from "styled-components"
 import logoNav from "../../../static/images/others/sti.png"
 import "./index.css"
 
@@ -39,13 +39,26 @@ const NavMenu = Styled.div`
   padding: 5px;
 `
 
+const navSliwd = keyframes`
+  0% {
+    transform: translateX(-250px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
+
 const NavItem = Styled.div`
   display: inline-block;
   margin-left: 30px;
   margin-top: 12px;
   cursor: pointer;
   text-align: center;
+  animation: ${navSliwd} ${props => props.duration} ease;
 `
+
 
 const NavBarContainer = Styled.div`
   background-color: #fff;
@@ -74,24 +87,30 @@ const NavBarWrapper = ({ children }) => (
   </NavBarContainer>
 )
 
-export default (props) => (
-  <NavBarWrapper>
-    <Link to="/">
-      <NavLogo>
-        <NavLogoImage src={logoNav} alt="" />
-      </NavLogo>
-    </Link>
+const NavBar = () => {
+  const getDuration = (index) => `${200 + (index + 1) * 200}ms`
 
-    <NavMenu className="nav-menu">
-      {navItemList.map((nav, index) => {
-        return (
-          <Link to={nav.path} key={index} className="nav-text" activeClassName="nav-text-active">
-            <NavItem>
-              <p>{nav.name}</p>
-            </NavItem>
-          </Link>
-        )
-      })}
-    </NavMenu>
-  </NavBarWrapper>
-)
+  return (
+    <NavBarWrapper>
+      <Link to="/">
+        <NavLogo>
+          <NavLogoImage src={logoNav} alt="" />
+        </NavLogo>
+      </Link>
+
+      <NavMenu className="nav-menu">
+        {navItemList.map((nav, index) => {
+          return (
+            <Link to={nav.path} key={index} className="nav-text" activeClassName="nav-text-active">
+              <NavItem duration={getDuration(index)}>
+                <p>{nav.name}</p>
+              </NavItem>
+            </Link>
+          )
+        })}
+      </NavMenu>
+    </NavBarWrapper>
+  )
+}
+
+export default NavBar
