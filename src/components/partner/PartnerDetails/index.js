@@ -10,7 +10,7 @@ const PartnerDetails = ({ data }) => {
         <div className="partner-details-header patner-detail-animation-1">{ENName}</div>
         <div className="partner-details-header patner-detail-animation-2">{THName}</div>
       </div>
-      <div className="partner-description">
+      <div className="partner-description" data-aos="fade-up">
         <p>{description}</p>
       </div>
     </div>
