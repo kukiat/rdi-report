@@ -10,6 +10,9 @@ const PartnersTable = ({
   type,
 }) => {
   const [isOpenDropdown, setDropdown] = useState([false, false, false, false])
+  const [searchKeyword, setSearchKeyword] = useState('')
+
+  const handleSearch = ({ target }) => setSearchKeyword(target.value)
 
   const getSubType = (partnerType) => {
     return partnersType.find(partner => partner.type === partnerType).subType
@@ -25,6 +28,18 @@ const PartnersTable = ({
         display='inline-block'
         onOutsideClick={() => setDropdown([false, false, false, false])}
       >
+        <div className="input-group search-box">
+          <input
+            type="text"
+            className="form-control search-box-input"
+            placeholder="ค้นหาบริษัท"
+            value={searchKeyword}
+            onChange={handleSearch}
+          />
+          <div className="input-group-append search-box-button">
+            <button className="btn btn-outline-secondary" type="button">ค้นหา</button>
+          </div>
+        </div>
         <div className='partner-table-list'>
           {
             partnersType.map((partnerType, indexType) => (
