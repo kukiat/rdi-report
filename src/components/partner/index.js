@@ -21,7 +21,11 @@ const Partner = ({ data }) => {
         <div className="row partner-content">
           <div className="col-lg-12">
             <PartnerDetails data={details} />
+          </div>
+          <div className='col-lg-7'>
             <PartnerContacts data={contacts} />
+          </div>
+          <div className='col-lg-5'>
             <PartnerHistory data={history} />
           </div>
         </div>

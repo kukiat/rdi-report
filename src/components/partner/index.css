@@ -3,6 +3,7 @@ a {
   padding: 0;
 }
 .partner-page {
+  font-size: 15px;
   margin: 0 auto;
   max-width: 920px;
   padding: 20px 0;
@@ -13,7 +14,7 @@ a {
   margin: 10px 0 20px;
 }
 .partner-content {
-  padding: 10px 30px;
+  padding: 5px;
   border: 1px solid #eee;
   border-radius: 4px;
   /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); */
