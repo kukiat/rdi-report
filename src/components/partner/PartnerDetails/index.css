@@ -1,6 +1,7 @@
 .partner-description {
   margin-top: 10px;
   text-indent: 30px;
+  /* padding: 0 20px; */
 }
 
 .partner-details-container {
@@ -26,7 +27,7 @@
   margin-top: 10px;
   content: "";
   height: 2px;
-  width: 85%;
+  width: 90%;
   position: absolute;
   background-color: #eaeaeb;
   animation: slide-line 1s ease-in;
