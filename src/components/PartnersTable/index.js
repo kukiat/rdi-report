@@ -80,6 +80,18 @@ const PartnersTable = ({
                 </div>
               ))
             }
+            <div className="input-group-append search-box-button">
+              <button
+                type="button"
+                className="btn btn-outline-secondary"
+                onClick={() => {
+                  setActiveSearch(!activeSearch)
+                  setDropdown([false, false, false, false])
+                }}
+              >
+                ค้นหา
+              </button>
+            </div>
           </div>
           <div className={classNames('input-group search-box', { 'active': activeSearch })}>
             <input
@@ -91,9 +103,6 @@ const PartnersTable = ({
               onChange={handleSearch}
             // autoFocus={activeSearch}
             />
-          </div>
-          <div className="input-group-append search-box-button">
-            <button onClick={() => setActiveSearch(!activeSearch)} className="btn btn-outline-secondary" type="button">ค้นหา</button>
           </div>
         </div>
       </OutsideClickHandler>
