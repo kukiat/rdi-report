@@ -40,6 +40,7 @@ export const query = graphql`
 const Partners = (props) => {
   const [type, setType] = useState('all')
   const [subType, setSubType] = useState('all')
+  const [searchKeyword, setSearchKeyword] = useState('')
 
   const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
@@ -81,7 +82,9 @@ const Partners = (props) => {
             onFilterPartnerType={onFilterPartnerType}
             onFilterSubType={onFilterSubType}
             partnersType={partnersType}
+            setSearchKeyword={setSearchKeyword}
             type={type}
+            searchKeyword={searchKeyword}
           />
         </div>
         <div className="row">
