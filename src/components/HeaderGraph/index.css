@@ -1,10 +1,10 @@
 .header-graph-container {
   /* nothing */
 }
+
 .bg-header-graph {
   height: 600px;
-  background-image: linear-gradient(
-    to right bottom,
+  background-image: linear-gradient(to right bottom,
     #c32a90,
     #ae218c,
     #991a88,
@@ -16,19 +16,21 @@
     #440b74,
     #3e0b74,
     #380b74,
-    #320b74
-  );
+    #320b74);
 }
+
 .bg-header-graph-landing {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 80px;
 }
+
 .bg-header-graph-landing-text {
   position: block;
   top: 160px;
 }
+
 .bg-image {
   display: block;
   animation: appear-right 1.6s ease;
@@ -41,12 +43,14 @@
   line-height: 1.24;
   animation: appear-left 1s ease;
 }
-.bg-title > b {
+
+.bg-title>b {
   letter-spacing: 0.02em;
   font-size: 36px;
   font-weight: bold;
   color: #f2f2f2;
 }
+
 .bg-line {
   margin: 20px 0;
   height: 3px;
@@ -61,6 +65,7 @@
   animation: appear-bottom 1.6s ease;
   max-width: 510px;
 }
+
 /* 
 @keyframes appear-left-title {
 

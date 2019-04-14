@@ -2,14 +2,17 @@
   margin: 0 auto;
   padding: 30px 0;
 }
+
 .graph-content {
   color: #7f7f7f;
 }
+
 .graph-title {
   font-size: 25px;
   color: #2079ad;
   text-align: center;
 }
+
 .graph-desc {
   width: 100%;
   margin: 25px auto;
@@ -17,10 +20,12 @@
   font-size: 18px;
   color: #7f7f7f;
 }
-.graph-desc > p {
+
+.graph-desc>p {
   text-indent: 30px;
   font-size: 15px;
 }
+
 .group-btn {
   position: fixed;
   top: 50%;

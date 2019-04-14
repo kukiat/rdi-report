@@ -2,13 +2,16 @@
   padding: 18px;
   color: #464c57;
 }
+
 .partner-contact-title {
   font-weight: bold;
 }
+
 .link-homepage {
   text-decoration: none;
   color: #464c57;
 }
+
 .link-homepage:hover {
   color: #464c57;
 }

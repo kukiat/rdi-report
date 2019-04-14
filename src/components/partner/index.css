@@ -2,43 +2,52 @@ a {
   margin: 0;
   padding: 0;
 }
+
 .partner-page {
   font-size: 15px;
   margin: 0 auto;
   max-width: 920px;
   padding: 20px 0;
 }
+
 .partner-content-header {
   font-size: 1.25rem;
   margin: 10px 0 20px;
 }
+
 .partner-content {
   padding: 5px;
   padding-bottom: 20px;
   border: 1px solid #eee;
-  box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 25px 0;
 }
+
 .partner-content p {
   padding-top: 8px;
 }
+
 .partner-content-link {
   color: #405bb2 !important;
   text-decoration-line: underline !important;
   cursor: pointer;
 }
+
 .partner-content-item {
   line-height: 180%;
 }
-.partner-content > h5 {
+
+.partner-content>h5 {
   font-weight: bold;
   padding: 9px 0;
 }
+
 .partner-page-left-name {
   color: #464c57;
   font-weight: bold;
 }
+
 .partner-page-left {
   padding: 75px 20px;
 }

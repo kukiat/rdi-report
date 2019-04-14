@@ -1,21 +1,26 @@
 .graph9-graph-page {
   margin: 50px;
 }
+
 .graph9-graph-subtitle {
   font-size: 20px;
   text-align: center;
   margin-top: -10px;
   margin-bottom: 20px;
 }
+
 .graph9-graph-detail {
   padding-top: 30px;
 }
+
 .graph9-content {
   text-align: center;
 }
+
 .graph9-content-text {
   font-size: 18px;
 }
+
 .graph9-content-text-last {
   margin-top: 40px;
   font-size: 16px;
