@@ -36,7 +36,7 @@ const PartnerContacts = ({ data: contacts }) => {
               <a
                 className='link-homepage' t
                 arget='__blank'
-                href={contacts.homepage}
+                href={`http://${contacts.homepage}`}
               >
                 {contacts.homepage}
               </a> : '-'
