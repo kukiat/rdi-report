@@ -77,8 +77,8 @@
   box-shadow: none !important;
 }
 
-.search-box-input {
-  border-color: #fff;
+.search-box-input:focus {
+  border-color: #fff !important;
 }
 
 .search-box-button {
