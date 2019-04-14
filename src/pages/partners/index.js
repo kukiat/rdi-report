@@ -83,8 +83,8 @@ const Partners = (props) => {
             type={type}
           />
         </div>
-        <div className="row" style={{ width: "100%" }}>
-          <div className="col-lg-10 offset-1 partner-table-row">
+        <div className="row">
+          <div className="col-lg-10 offset-1">
             <PartnersList
               partners={useMemo(() => getPartnersBySubType(subType), [subType])}
             />
