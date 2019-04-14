@@ -3,8 +3,6 @@ import { string, shape } from 'prop-types'
 import "./index.css"
 
 const PartnerContacts = ({ data: contacts }) => {
-  const { homepage } = contacts
-
   let homepageLink = (
     contacts.homepage ?
       <a className='link-homepage' target='__blank' href={`http://${contacts.homepage}`} >
