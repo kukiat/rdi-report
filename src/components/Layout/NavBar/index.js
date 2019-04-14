@@ -64,7 +64,7 @@ const NavBarContainer = Styled.div`
   background-color: #fff;
   height: 70px;
   max-width: 100vw;
-  box-shadow:0px 2px 2px #ddd;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
   font-family: helvetica, sans-serif;
   padding-top: 7px;
   position: fixed;
@@ -98,7 +98,7 @@ const NavBar = () => {
         </NavLogo>
       </Link>
 
-      <NavMenu className="nav-menu">
+      <NavMenu>
         {navItemList.map((nav, index) => {
           return (
             <Link to={nav.path} key={index} className="nav-text" activeClassName="nav-text-active">
