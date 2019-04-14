@@ -7,7 +7,6 @@ a {
   margin: 0 auto;
   max-width: 920px;
   padding: 20px 0;
-  color: #464c57;
 }
 .partner-content-header {
   font-size: 1.25rem;
@@ -17,7 +16,6 @@ a {
   padding: 5px;
   border: 1px solid #eee;
   border-radius: 4px;
-  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); */
 }
 .partner-content p {
   padding-top: 8px;
