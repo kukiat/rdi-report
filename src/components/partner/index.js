@@ -17,14 +17,12 @@ const Partner = ({ data }) => {
 
   return (
     <LayoutWrapper >
-      <div className="partner-page container">
-        <div className="row partner-page-card">
-          <div className="col-lg-12 partner-page-right">
-            <div className="partner-content">
-              <PartnerDetails data={details} />
-              <PartnerContacts data={contacts} />
-              <PartnerHistory data={history} />
-            </div>
+      <div className="container partner-page">
+        <div className="row partner-content">
+          <div className="col-lg-12">
+            <PartnerDetails data={details} />
+            <PartnerContacts data={contacts} />
+            <PartnerHistory data={history} />
           </div>
         </div>
       </div>
