@@ -5,7 +5,7 @@ import './index.css'
 
 const ReportItem = ({ id, name, detail, date }) => {
   return (
-    <div key={id} className="report-item col-4">
+    <div key={id} className="report-item col-6">
       <a href="/static/files/sample-report.pdf" download={name}>
         <img
           width={60}
@@ -43,9 +43,13 @@ const Reports = () => {
           </div>
         </div>
         <div className="report-content row" data-aos="fade-up">
-          {reports.map((report, index) => (
-            <ReportItem key={index} {...report} />
-          ))}
+          <div className="col-lg-10 offset-lg-1">
+            <div className="row">
+              {reports.map((report, index) => (
+                <ReportItem key={index} {...report} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </LayoutWrapper>
