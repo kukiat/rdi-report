@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import classNames from 'classnames'
 import OutsideClickHandler from 'react-outside-click-handler';
 import './index.css'
@@ -11,6 +11,7 @@ const PartnersTable = ({
   searchKeyword,
   type,
 }) => {
+  const refInputText = useRef()
   const [isOpenDropdown, setDropdown] = useState([false, false, false, false])
   const [activeSearch, setActiveSearch] = useState(false)
 
@@ -24,11 +25,21 @@ const PartnersTable = ({
     setDropdown(isOpenDropdown.map((bool, i) => i === indexType && !bool))
   }
 
+  useEffect(() => {
+    if (activeSearch) {
+      refInputText.current.focus()
+      refInputText.current.value = ''
+    }
+  }, [activeSearch])
+
   return (
     <div className='partner-table-container'>
       <OutsideClickHandler
         display='inline-block'
-        onOutsideClick={() => setDropdown([false, false, false, false])}
+        onOutsideClick={() => {
+          setDropdown([false, false, false, false])
+          setActiveSearch(false)
+        }}
       >
         <div className='row' css={{ position: 'relative' }}>
           <div className='partner-table-list'>
@@ -72,11 +83,13 @@ const PartnersTable = ({
           </div>
           <div className={classNames('input-group search-box', { 'active': activeSearch })}>
             <input
+              ref={refInputText}
               type="text"
               className="form-control search-box-input"
               placeholder="ค้นหาบริษัท"
               value={searchKeyword}
               onChange={handleSearch}
+            // autoFocus={activeSearch}
             />
           </div>
           <div className="input-group-append search-box-button">
