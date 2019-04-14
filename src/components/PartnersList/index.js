@@ -2,33 +2,25 @@ import React, { memo } from 'react'
 import { Link } from 'gatsby'
 import './index.css'
 
+import manufactureImg from '../../static/images/partnerType/manufacture.png'
+import serviceImg from '../../static/images/partnerType/services.png'
+import storeImg from '../../static/images/partnerType/store.png'
+
 const PartnerListItem = ({ partner, index }) => {
-  const getImage = (index) => {
-    if (index % 9 === 0)
-      return 'https://static.wixstatic.com/media/fa873f_b33c59801ca24998996655244834f965~mv2.png/v1/crop/x_26,y_0,w_303,h_200,q_85/fa873f_b33c59801ca24998996655244834f965~mv2.webp'
-    if (index % 9 === 1)
-      return 'https://static.wixstatic.com/media/fa873f_5fa5704bcea44d62830bfed6c8a5e760~mv2.png/v1/crop/x_26,y_1,w_303,h_199,q_85/fa873f_5fa5704bcea44d62830bfed6c8a5e760~mv2.webp'
-    if (index % 9 === 2)
-      return 'https://static.wixstatic.com/media/fa873f_6c011493a469441998d898a0e06562bc~mv2.png/v1/crop/x_26,y_0,w_303,h_200,q_85/fa873f_6c011493a469441998d898a0e06562bc~mv2.webp'
-    if (index % 9 === 3)
-      return 'https://static.wixstatic.com/media/fa873f_404c09baef7d4a528e37d78bb45ace8c~mv2.png/v1/crop/x_26,y_0,w_303,h_200,q_85/fa873f_404c09baef7d4a528e37d78bb45ace8c~mv2.webp'
-    if (index % 9 === 4)
-      return 'https://static.wixstatic.com/media/fa873f_4f6623b92acd447d8442bd979a628511~mv2.png/v1/crop/x_26,y_0,w_303,h_200,q_85/fa873f_4f6623b92acd447d8442bd979a628511~mv2.webp'
-    if (index % 9 === 5)
-      return 'https://static.wixstatic.com/media/fa873f_53135deab5774880846fe69f1628b2da~mv2.png/v1/crop/x_79,y_32,w_303,h_200,q_85/fa873f_53135deab5774880846fe69f1628b2da~mv2.webp'
-    if (index % 9 === 6)
-      return 'https://static.wixstatic.com/media/fa873f_660136d6214b47d0acd8beffcf9931e9~mv2.png/v1/crop/x_26,y_0,w_303,h_200,q_85/fa873f_660136d6214b47d0acd8beffcf9931e9~mv2.webp'
-    if (index % 9 === 7)
-      return 'https://static.wixstatic.com/media/fa873f_67dfbcb8de8b4bb3adca4ac4a8f31a4b~mv2.png/v1/crop/x_26,y_1,w_303,h_198,q_85/fa873f_67dfbcb8de8b4bb3adca4ac4a8f31a4b~mv2.webp'
-    if (index % 9 === 8)
-      return 'https://static.wixstatic.com/media/fa873f_3264d3e671d74ce19011a2c8248b1994~mv2.png/v1/crop/x_26,y_0,w_303,h_200,q_85/fa873f_3264d3e671d74ce19011a2c8248b1994~mv2.webp'
+  const getImage = (type) => {
+    if (type === 'MANUFACTURING')
+      return manufactureImg
+    if (type === 'SERVICES')
+      return serviceImg
+    if (type === 'SALES')
+      return storeImg
   }
 
   return (
     <div className='partners-list-wrapper col-lg-4' key={`partner-${index}`} data-aos="fade-up">
       <Link to={`/partners/${partner.partnerId}`}>
         <div className='partners-images'>
-          <img className='partners-main-images' src={getImage(index)} />
+          <img className='partners-main-images' src={getImage(partner.type)} />
           <div className='placeholder-content'>
             {partner.name}
           </div>
@@ -52,8 +44,8 @@ const PartnersList = ({ partners }) => {
             <h3>ไม่พบหัวข้อที่เลือก</h3>
           </div>
         ) : (
-          partners.map((partner, index) => <PartnerListItem partner={partner} index={index} />)
-        )
+            partners.map((partner, index) => <PartnerListItem partner={partner} index={index} />)
+          )
       }
     </div >
   )
