@@ -25,7 +25,7 @@ const PartnerListItem = ({ partner, index }) => {
   }
 
   return (
-    <div className='partners-list-wrapper col-lg-4' key={`partner-${index}`}>
+    <div className='partners-list-wrapper col-lg-4' key={`partner-${index}`} data-aos="fade-up">
       <Link to={`/partners/${partner.partnerId}`}>
         <div className='partners-images'>
           <img className='partners-main-images' src={getImage(index)} />
