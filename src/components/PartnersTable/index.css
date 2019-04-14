@@ -25,6 +25,7 @@
 }
 
 .list-item {
+  height: 100%;
   padding: 15px 20px;
   color: #5e5e5e;
 }
@@ -52,10 +53,6 @@
   100% {
     opacity: 2;
   }
-}
-
-.partner-table-item {
-  position: relative;
 }
 
 .dropdown-list {

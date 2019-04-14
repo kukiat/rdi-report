@@ -30,6 +30,7 @@ export const query = graphql`
           subType
           type
           name
+          shortName
         }
       }
     }

@@ -17,12 +17,12 @@ const PartnerListItem = ({ partner, index }) => {
   }
 
   return (
-    <div className='partners-list-wrapper col-lg-4' key={`partner-${index}`} data-aos="fade-up">
+    <div className='partners-list-wrapper col-lg-4 col-sm-6' key={`partner-${index}`} data-aos="fade-up">
       <Link to={`/partners/${partner.partnerId}`}>
         <div className='partners-images'>
           <img className='partners-main-images' src={getImage(partner.type)} />
           <div className='placeholder-content'>
-            {partner.name}
+            {partner.shortName}
           </div>
           <div className="placeholder-content-second">
             {partner.subTypeName}
@@ -34,8 +34,6 @@ const PartnerListItem = ({ partner, index }) => {
 }
 
 const PartnersList = ({ partners }) => {
-
-
   return (
     <div className="partners-list row">
       {
