@@ -3,13 +3,16 @@
   padding-bottom: 30px;
   border-radius: 20px;
 }
+
 .tr2-graph-detail-wrapper {
   margin-top: 50px;
 }
+
 .tr2-graph-desc {
   padding-top: 10px;
   text-align: center;
 }
+
 .tr2-graph-title {
   color: #2079ad;
   font-size: 25px;
@@ -21,15 +24,18 @@
   font-size: 18px;
   text-align: center;
 }
+
 .tr2-graph-detail {
   padding-top: 40px;
 }
+
 .tr2-graph-detail-text {
   text-indent: 20px;
   font-size: 18px;
   text-align: left;
   line-height: 1.7;
 }
+
 .tr2-graph-detail-text-last {
   margin-top: 80px;
   font-size: 16px;
@@ -40,6 +46,7 @@
   0% {
     background-color: #fff;
   }
+
   100.0% {
     background-color: #f4f4f4;
   }

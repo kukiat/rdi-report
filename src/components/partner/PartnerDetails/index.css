@@ -16,13 +16,16 @@
 .patner-detail-animation-2 {
   animation: appear-top 0.7s ease-in-out;
 }
+
 .partner-details-header {
   font-weight: bold;
   font-size: 1.25rem;
 }
+
 .partner-details-header-wrapper {
   padding-bottom: 10px;
 }
+
 .partner-details-header-wrapper::after {
   margin-top: 10px;
   content: "";
@@ -37,6 +40,7 @@
   0% {
     width: 0px;
   }
+
   1000% {
     width: 85%;
   }

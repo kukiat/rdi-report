@@ -2,38 +2,46 @@
   padding-top: 10px;
   text-align: center;
 }
+
 .tr-graph-page {
   margin-top: 60px;
   padding-bottom: 30px;
   border-radius: 20px;
 }
+
 .tr-graph-title {
   color: #2079ad;
   font-size: 25px;
   text-align: center;
   margin: 10px auto;
 }
+
 .tr-graph-subtitle {
   font-size: 18px;
   text-align: center;
 }
+
 .tr-graph-detail-text {
   margin-top: 30px;
   font-size: 18px;
   text-align: left;
 }
+
 .tr-graph-detail-list {
   margin-left: 20px;
   font-size: 18px;
 }
-.tr-graph-detail-list > li {
+
+.tr-graph-detail-list>li {
   margin-top: 20px;
 }
+
 .tr-graph-detail-text-last {
   margin-top: 50px;
   font-size: 16px;
   text-align: center;
 }
+
 .tr-graph-detail-wrapper {
   margin-top: 50px;
 }
@@ -42,6 +50,7 @@
   0% {
     background-color: #fff;
   }
+
   100.0% {
     background-color: #f4f4f4;
   }

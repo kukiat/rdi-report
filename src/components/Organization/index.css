@@ -5,15 +5,16 @@
 .org-content-section {
   padding: 0px 10px !important;
 }
-.org-content-header > h1 {
+
+.org-content-header>h1 {
   text-align: center;
   font-weight: 400;
   color: #755682;
   margin-bottom: 70px;
 }
 
-.org-content-desc {
-}
+.org-content-desc {}
+
 .org-content-desc-text-title {
   font-size: 19px;
   font-weight: 400;
@@ -21,14 +22,17 @@
   margin-top: -10px;
   margin-bottom: 20px;
 }
+
 .org-content-desc-text {
   font-size: 18px;
   text-indent: 20px;
 }
+
 .org-content-desc-bottom {
   text-align: center;
   margin-top: 30px;
 }
+
 .org-content-desc-bottom-text {
   font-size: 18px;
   text-indent: 20px;

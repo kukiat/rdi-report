@@ -1,21 +1,26 @@
 .industry-graph-page {
   margin: 50px;
 }
+
 .industry-graph-subtitle {
   font-size: 20px;
   text-align: center;
   margin-top: -10px;
   margin-bottom: 20px;
 }
+
 .industry-graph-detail {
   padding-top: 30px;
 }
+
 .ig-content {
   text-align: center;
 }
+
 .ig-content-text {
   font-size: 18px;
 }
+
 .ig-content-text-last {
   margin-top: 40px;
   font-size: 16px;
