@@ -42,13 +42,19 @@ const PartnerListItem = ({ partner, index }) => {
 }
 
 const PartnersList = ({ partners }) => {
-  const imageItems = partners.map((partner, index) => (
-    <PartnerListItem partner={partner} index={index} />
-  ))
+
 
   return (
     <div className="partners-list row">
-      {imageItems}
+      {
+        !partners.length ? (
+          <div css={{ textAlign: 'center', width: '100%' }}>
+            <h3>ไม่พบหัวข้อที่เลือก</h3>
+          </div>
+        ) : (
+          partners.map((partner, index) => <PartnerListItem partner={partner} index={index} />)
+        )
+      }
     </div >
   )
 }
