@@ -22,13 +22,26 @@ const PartnerContacts = ({ data: contacts }) => {
         <div className="partner-contact-title col-lg-2">โทรศัพท์</div>
         <div className="col-lg-4">{contacts.tel1 || "-"}</div>
         <div className="partner-contact-title col-lg-2">โทรสาร</div>
-        <div className="col-lg-4">{contacts.tel2 || "-"}</div>
+        <div className="col-lg-4">{contacts.fax || "-"}</div>
+      </div>
+      <div className="partner-content-item row">
+        <div className="partner-contact-title col-lg-2">ที่อยู่</div>
+        <div className="col-lg-4">{contacts.contact || "-"}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-lg-2">เว็บไซต์</div>
-        <div className="col-lg-4">{contacts.website || "-"}</div>
-        <div className="partner-contact-title col-lg-2">ที่อยู่</div>
-        <div className="col-lg-4">{contacts.contact || "-"}</div>
+        <div className="col-lg-4">
+          {
+            contacts.homepage ?
+              <a
+                className='link-homepage' t
+                arget='__blank'
+                href={contacts.homepage}
+              >
+                {contacts.homepage}
+              </a> : '-'
+          }
+        </div>
       </div>
     </div>
   )

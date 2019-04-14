@@ -7,7 +7,7 @@ import PartnerContacts from "./PartnerContacts"
 import PartnerHistory from "./PartnerHistory"
 
 const Partner = ({ data }) => {
-  const { THName, ENName, description, contacts, history } = data.partnerDetailsJson
+  const { THName, ENName, description, contacts, history, portfolio } = data.partnerDetailsJson
 
   const details = {
     THName,
@@ -22,11 +22,11 @@ const Partner = ({ data }) => {
           <div className="col-lg-12">
             <PartnerDetails data={details} />
           </div>
-          <div className='col-lg-7'>
-            <PartnerContacts data={contacts} />
-          </div>
           <div className='col-lg-5'>
             <PartnerHistory data={history} />
+          </div>
+          <div className='col-lg-7'>
+            <PartnerContacts data={{ ...contacts, ...portfolio }} />
           </div>
         </div>
       </div>
