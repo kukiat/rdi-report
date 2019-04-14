@@ -4,7 +4,7 @@ import "./index.css"
 
 const PartnerContacts = ({ data: contacts }) => {
   return (
-    <div className="partner-contact-container">
+    <div className="partner-contact-container" data-aos="fade-left">
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลการติดต่อ</div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-lg-2">ชื่อผู้ติดต่อ</div>
