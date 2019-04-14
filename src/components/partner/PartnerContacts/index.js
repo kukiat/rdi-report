@@ -21,36 +21,37 @@ const PartnerContacts = ({ data: contacts }) => {
     <div className="partner-contact-container" data-aos="fade-left">
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลการติดต่อ</div>
       <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">ชื่อผู้ติดต่อ</div>
-        <div className="col-lg-8">{contacts.contactName.name || "-"}</div>
+        <div className="partner-contact-title col-4">ที่อยู่</div>
+        <div className="col-8">{contacts.contact || "-"}</div>
       </div>
       <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">ตำแหน่ง</div>
-        <div className="col-lg-8">{contacts.contactName.role || "-"}</div>
+        <div className="partner-contact-title col-4">โทรศัพท์</div>
+        <div className="col-8">{contacts.tel1 || "-"}</div>
       </div>
       <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">เบอร์ติดต่อ</div>
-        <div className="col-lg-8">{contacts.contactName.tel || "-"}</div>
+        <div className="partner-contact-title col-4">โทรสาร</div>
+        <div className="col-8">{contacts.fax || "-"}</div>
       </div>
       <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">Email</div>
-        <div className="col-lg-8">{emailLink}</div>
+        <div className="partner-contact-title col-4">เว็บไซต์</div>
+        <div className="col-8">{homepageLink}</div>
+      </div>
+
+      <div className="partner-content-item row" style={{ marginTop: 50 }}>
+        <div className="partner-contact-title col-4">ชื่อผู้ติดต่อ</div>
+        <div className="col-8">{contacts.contactName.name || "-"}</div>
       </div>
       <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">โทรศัพท์</div>
-        <div className="col-lg-8">{contacts.tel1 || "-"}</div>
+        <div className="partner-contact-title col-4">ตำแหน่ง</div>
+        <div className="col-8">{contacts.contactName.role || "-"}</div>
       </div>
       <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">โทรสาร</div>
-        <div className="col-lg-8">{contacts.fax || "-"}</div>
+        <div className="partner-contact-title col-4">เบอร์ติดต่อ</div>
+        <div className="col-8">{contacts.contactName.tel || "-"}</div>
       </div>
       <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">ที่อยู่</div>
-        <div className="col-lg-8">{contacts.contact || "-"}</div>
-      </div>
-      <div className="partner-content-item row">
-        <div className="partner-contact-title col-lg-4">เว็บไซต์</div>
-        <div className="col-lg-8">{homepageLink}</div>
+        <div className="partner-contact-title col-4">Email</div>
+        <div className="col-8">{emailLink}</div>
       </div>
     </div>
   )

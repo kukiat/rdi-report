@@ -64,7 +64,7 @@ const Partners = (props) => {
     <LayoutWrapper>
       <div className="partners-page container">
         <div className="row">
-          <div className="col-lg-10 offset-1">
+          <div className="col-lg-10 offset-lg-1">
             <div className="partners-header">
               <div className="partners-title">
                 ทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านการวิจัยและพัฒนา และกิจกรรมนวัตกรรมประจำปี 2561
@@ -85,7 +85,7 @@ const Partners = (props) => {
           />
         </div>
         <div className="row">
-          <div className="col-lg-10 offset-1">
+          <div className="col-lg-10 offset-lg-1">
             <PartnersList
               partners={useMemo(() => getPartnersBySubType(subType), [subType])}
             />
