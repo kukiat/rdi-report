@@ -2,6 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
+import { defaults } from 'react-chartjs-2'
+
+defaults.global.defaultFontFamily = "Prompt, sans-serif";
 
 const DocumentHead = ({ description, lang, meta, keywords, title }) => {
   const { site } = useStaticQuery(
