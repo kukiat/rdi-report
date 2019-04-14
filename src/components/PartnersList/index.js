@@ -48,7 +48,7 @@ const PartnersList = ({ partners }) => {
     <div className="partners-list row">
       {
         !partners.length ? (
-          <div css={{ textAlign: 'center', width: '100%' }}>
+          <div css={{ textAlign: 'center', width: '100%', marginTop: '50px' }}>
             <h3>ไม่พบหัวข้อที่เลือก</h3>
           </div>
         ) : (
