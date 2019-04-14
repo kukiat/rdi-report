@@ -6,14 +6,18 @@ const PartnerContacts = ({ data: contacts }) => {
   const { homepage } = contacts
 
   let homepageLink = (
-    <a className='link-homepage' target='__blank' href={`http://${contacts.homepage}`} >
-      {contacts.homepage}
-    </a>
+    contacts.homepage ?
+      <a className='link-homepage' target='__blank' href={`http://${contacts.homepage}`} >
+        {contacts.homepage}
+      </a> : "-"
   )
 
-  if (String(homepage).includes('ถ้ามี') || String(homepage).includes('กรุณาระบุ')) {
-    homepageLink = '-'
-  }
+  const emailLink = (
+    contacts.contactName.email ?
+      <a href={`mailto:${contacts.contactName.email}`}> {contacts.contactName.email} </a>
+      :
+      "-"
+  )
 
   return (
     <div className="partner-contact-container" data-aos="fade-left">
@@ -32,11 +36,7 @@ const PartnerContacts = ({ data: contacts }) => {
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-lg-4">Email</div>
-        <div className="col-lg-8">
-          <a href={`mailto:${contacts.contactName.email}`}>
-            {contacts.contactName.email || "-"}
-          </a>
-        </div>
+        <div className="col-lg-8">{emailLink}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-lg-4">โทรศัพท์</div>
@@ -52,7 +52,7 @@ const PartnerContacts = ({ data: contacts }) => {
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-lg-4">เว็บไซต์</div>
-        <div className="col-lg-8"> {homepageLink} </div>
+        <div className="col-lg-8">{homepageLink}</div>
       </div>
     </div>
   )

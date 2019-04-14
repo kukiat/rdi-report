@@ -3,12 +3,12 @@
     "partnerId": "0105511003114",
     "THName": "บริษัท แอคดอน จำกัด",
     "ENName": "ACKON CO. LTD.",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "24 ซอยลาดพร้าว 110 (สนธิวัฒนา แยก 2) ถนนลาดพร้าว พลับพลา เขตวังทองหลาง กรุงเทพมหานคร 10310",
       "tel": "02-514-2458-17",
       "fax": "02-514-0791 Ext. 17",
-      "homepage": "กรุณาระบุ (ถ้ามี)",
+      "homepage": "",
       "contactName": {
         "name": "ชนัญญา เหรียญไพโรจน์",
         "role": "R&D Production",
@@ -26,7 +26,7 @@
     "portfolio": {
       "research": "ปรับปรุงผลิตภัณฑ์ และพัฒนากระบวนการผลิต พัฒนาสูตรตำรับยาแผนปัจจุบัน",
       "product": "ผลิตภัณฑ์สมุนไพรเสริมอาหาร และการพัฒนาผลิตภัณฑ์ยาแผนโบราณจากสมุนไพร",
-      "process": "กรุณาระบุ (ถ้ามี)"
+      "process": ""
     }
   },
   {
@@ -56,7 +56,7 @@
     "portfolio": {
       "research": "ปรับปรุงกระบวนการผลิต",
       "product": "เสริมอาหาร",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -86,7 +86,7 @@
     "portfolio": {
       "research": "พัฒนายาสูตรใหม่",
       "product": "ยาสูตรใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -115,7 +115,7 @@
     },
     "portfolio": {
       "research": "พัฒนาสูตรยาตัวเดิม",
-      "product": "ไม่ระบุ",
+      "product": "",
       "process": "เปลี่ยนเครื่องจักรอัตโนมัติ ลดขั้นตอนและกำลังคน"
     }
   },
@@ -146,14 +146,14 @@
     "portfolio": {
       "research": "ออกแบบผลิตภัณฑ์ใหม่ และปรับปรุงผลิตภัณฑ์เดิม",
       "product": "เม็ดอมสมุนไพร ยาน้ำ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0115529000842",
     "THName": "บริษัท ไฮ คิว ผลิตภัณฑ์อาหาร จำกัด",
     "ENName": "HI Q FOOD PRODUCTS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "16/17 หมู่ที่ 7 ซอยวัดสลุด ถนนบางนา-ตราด กม.9 บางแก้ว บางพลี สมุทรปราการ 10540",
       "tel": "038-593-532",
@@ -176,7 +176,7 @@
     "portfolio": {
       "research": "พัฒนาสูตร",
       "product": "ปรับรสชาติให้ดีขึ้น",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -205,7 +205,7 @@
     },
     "portfolio": {
       "product": "ยากลัยมิพิไรด์ ชนิดเม็ด ขนาด 2 มิลลิกรัม ยาแอมโลดิปีน ชนิดเม็ด ขนาด 5 มิลลิกรัม ยาเลโวฟล็อกซาซิน ชนิดเม็ด ขนาด 500 มิลลิกรัม",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -235,14 +235,14 @@
     "portfolio": {
       "research": "วิจัยยาสมุนไพร/นาโนเทค/ยาแผนปัจจุบัน/เครื่องสำอาง/ผลิตภัณฑ์เสริมอาหาร",
       "product": "ยา/ผลิตภัณฑ์เสริมอาหาร",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0605528000062",
     "THName": "บริษัท บูรพาโอสถ จำกัด",
     "ENName": "BURAPHA DISPENSARY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "19/19 หมู่ที่ 9 ซอยงามวงศ์วาน 6 ถนนงามวงศ์วาน บางเขน เมืองนนทบุรี นนทบุรี 11000",
       "tel": "02-589-2750",
@@ -265,14 +265,14 @@
     "portfolio": {
       "research": "พัฒนาตัวยาใหม่",
       "product": "ตัวยาใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105543070666",
     "THName": "บริษัท โรงงานเภสัชกรรม เกร๊ทเตอร์ฟาร์ม่า จำกัด",
     "ENName": "GREATER PHARMA MANUFACTURING COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "55/2 55/7 55/11 หมู่ที่ 1 ถนนศาลายา-นครชัยศรี ศาลายา พุทธมณฑล นครปฐม 73170",
       "tel": "081-638-2825 02-886-8190-9 Ext.615 130 062-459-2959",
@@ -302,7 +302,7 @@
     "partnerId": "0107537000076",
     "THName": "บริษัท ทรอปิคอลแคนนิ่ง (ประเทศไทย) จำกัด (มหาชน)",
     "ENName": "TROPICAL CANNING (THAILAND) PUBLIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "1/1 หมู่ที่ 2 ทุ่งใหญ่ หาดใหญ่ สงขลา 90110",
       "tel": "074-273-600",
@@ -325,14 +325,14 @@
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์",
       "product": "ซอสชนิดต่างๆ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0735529000511",
     "THName": "บริษัท ยางโอตานิ จำกัด",
     "ENName": "OTANI TIRE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "55 หมู่ที่ 7 คลองใหม่ สามพราน นครปฐม 73110",
       "tel": "034-325-000 034-324-888",
@@ -362,7 +362,7 @@
     "partnerId": "0105511002924",
     "THName": "บริษัท ผลิตอุปกรณ์ก่อสร้าง จำกัด",
     "ENName": "CONSTRUCTION ACCESSORIES COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "84 ซอยรามคำแหง 32 (วิเศษสุข) หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240",
       "tel": "02-374-7019 086-983-1742",
@@ -422,37 +422,37 @@
     "partnerId": "0103531002049",
     "THName": "ห้างหุ้นส่วนจำกัด ชัยเลิศ บอลลูน",
     "ENName": "CHAILERT BALLOON LIMITED PARTNERSHIP",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "6 ซอยพระรามที่ 2 ซอย 28/1 บางมด เขตจอมทอง กรุงเทพมหานคร 10150",
       "tel": "090-986-8975 02-840-2948",
       "fax": "02-840-2945",
       "homepage": "www.chailertballoon.co.th",
       "contactName": {
-        "name": "ไม่ระบุ",
-        "role": "ไม่ระบุ",
+        "name": "",
+        "role": "",
         "tel": "-",
         "email": "chailert_balloon@hotmail.com"
       }
     },
     "history": {
       "year": "2531",
-      "stockStatus": "ไม่ระบุ",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "stockStatus": "",
+      "registeredCapital": "",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ผลิตสินค้าใหม่ รูปแบบลูกโป่ง",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0245544000571",
     "THName": "บริษัท นิตโต้ มาเทค (ประเทศไทย) จำกัด",
     "ENName": "NITTO MATEX (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "700/611 หมู่ที่ 7 ถนนบางนา-ตราด กม. 57 ดอนหัวฬ่อ เมืองชลบุรี ชลบุรี 20000",
       "tel": "038-047-015 Ext.261",
@@ -475,14 +475,14 @@
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์เก่าและใหม่",
       "product": "ชิ้นงานของลำโพง",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105545128513",
     "THName": "บริษัท ยูโรไทร์ จำกัด",
     "ENName": "EUROTYRE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "37 ซอยเพชรเกษม 86 ถนนเพชรเกษม บางแคเหนือ เขตบางแค กรุงเทพมหานคร 10160",
       "tel": "02-804-8642",
@@ -504,15 +504,15 @@
     },
     "portfolio": {
       "research": "ปรับปรุงสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0107547000753",
     "THName": "บริษัท ซีพีพีซี จำกัด (มหาชน)",
     "ENName": "CPPC PUBLIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "313 อาคารซี.พี.ทาวเวอร์ ชั้น 18 ถนนสีลม สีลม เขตบางรัก กรุงเทพมหานคร 10500",
       "tel": "02-766-8090 092-642-4419",
@@ -534,8 +534,8 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้าตัวใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -565,14 +565,14 @@
     "portfolio": {
       "research": "พัฒนาสินค้าใหม่",
       "product": "ข้อต่อที่เคลือบด้วยสีฝุ่น",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105531001141",
     "THName": "บริษัท เอ็น.แอล. ซานิทารีฟิตติ้งส์ จำกัด",
     "ENName": "N.L. SANITARY FITTINGS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "103 หมู่ที่ 2 ถนนเทพารักษ์ บางเสาธง บางเสาธง สมุทรปราการ 10540",
       "tel": "02-338-1229-31",
@@ -595,22 +595,22 @@
     "portfolio": {
       "research": "ออกแบบผลิตภัณฑ์ใหม่",
       "product": "กลุ่มก๊อกน้ำ ฝักบัว",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0107537000386",
     "THName": "บริษัท ไทยฟิล์มอินดัสตรี่ จำกัด (มหาชน)",
     "ENName": "THAI FILM INDUSTRIES PUBLIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "73/3 หมู่ที่ 4 ถนนบางนา-ตราด กม.13 บางโฉลง บางพลี สมุทรปราการ 10540",
       "tel": "038-636-094-6",
       "fax": "038-636-093",
       "homepage": "www.thaifilmind.com",
       "contactName": {
-        "name": "ไม่ระบุ",
-        "role": "ไม่ระบุ",
+        "name": "",
+        "role": "",
         "tel": "038-636-094-6",
         "email": "rd@thaifilmind.com"
       }
@@ -625,14 +625,14 @@
     "portfolio": {
       "research": "ปรับปรุงพัฒนาสินค้าใหม่",
       "product": "ไบโอ ย่อยสลาย",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105539113500",
     "THName": "บริษัท โพลีพลาสติกส์ มาร์เก็ตติ้ง (ที) จำกัด",
     "ENName": "POLYPLASTICS MARKETING (T) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "193 อาคารเลครัชดา ชั้นที่ 15 ถนนรัชดาภิเษก คลองเตย เขตคลองเตย กรุงเทพมหานคร 10110",
       "tel": "02-117-8980 Ext.2101",
@@ -650,19 +650,19 @@
       "stockStatus": "ถือหุ้นโดยต่างชาติทั้งหมด",
       "registeredCapital": "603000000",
       "income": "2526251180",
-      "totalEmployee": "ไม่ระบุ"
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ให้คำปรึกษาพัฒนาชิ้นส่วนพลาสติก และการใช้งาน+แก้ปัญหา",
       "product": "ASEAN TECHNICAL SOLUTION CENTER",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0205514000123",
     "THName": "บริษัท อุตสาหกรรมไทยปรีดา จำกัด",
     "ENName": "THAI PREEDA INDUSTRY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "691 ต ซอยเสริมสันติ ถนนวชิรปราการ มะขามหย่ง เมืองชลบุรี ชลบุรี 20000",
       "tel": "038-274-314 Ext.19",
@@ -685,14 +685,14 @@
     "portfolio": {
       "research": "ปรับปรุงกระบวนการ และผลิตภัณฑ์ชนิดใหม่ๆให้ทันสมัย และให้ได้ตามความต้องการของลูกค้า",
       "product": "ซอง น้ำจิ้มสูตรใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105537133449",
     "THName": "บริษัท มิตซุยไกรน์ดิ้ง เทคโนโลยี (ประเทศไทย) จำกัด",
     "ENName": "MITSUI GRINDING TECHNOLOGY (THAILAND) CO. LTD.",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "700/338 นิคมอุตสาหกรรมอมตะนคร หมู่ที่ 6 ถนนบางนา-ตราด ดอนหัวฬ่อ เมืองชลบุรี ชลบุรี 20000",
       "tel": "038-213-382-3",
@@ -714,15 +714,15 @@
     },
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์หินขัดข้าวสำหรับโรงสีข้าว",
-      "product": "กรุณาระบุ (ถ้ามี)",
-      "process": "กรุณาระบุ (ถ้ามี)"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105535115681",
     "THName": "บริษัท ชัยภัทรพันธุ์ จำกัด",
     "ENName": "CHAIPHADPHAND COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "24/5 หมู่ที่ 3 คลองสี่ คลองหลวง ปทุมธานี 12120",
       "tel": "02-904-9917",
@@ -743,9 +743,9 @@
       "totalEmployee": "100"
     },
     "portfolio": {
-      "research": "ไม่ระบุ",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "research": "",
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -775,14 +775,14 @@
     "portfolio": {
       "research": "พัฒนาสินค้าเดิม พัฒนาสินค้าใหม่",
       "product": "ตัดตามรูปทรงที่ต้องการ ประยุกต์ใช้ ปรับปรุงประสิทธิภาพลวด",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0115540002279",
     "THName": "บริษัท เมทเทิล เมท จำกัด",
     "ENName": "METAL MATE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "555 หมู่ที่ 2 ถนนพุทธรักษา แพรกษา เมืองสมุทรปราการ สมุทรปราการ 10280",
       "tel": "02-701-1571-5",
@@ -804,15 +804,15 @@
     },
     "portfolio": {
       "research": "ออกแบบผลิตภัณฑ์ และทำตัวต้นแบบ",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105544014620",
     "THName": "บริษัท ฟูรูกาวา ไฟเทล (ประเทศไทย) จำกัด",
     "ENName": "FURUKAWA FITEL (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "1/71 หมู่ที่ 5 คานหาม อุทัย พระนครศรีอยุธยา 13210",
       "tel": "035-226-581-4",
@@ -842,7 +842,7 @@
     "partnerId": "0105546020414",
     "THName": "บริษัท เซ็นเซอร์นิกส์ จำกัด",
     "ENName": "SENSORNIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "699/37 ซอยวงศ์สว่าง 29 ถนนวงศ์สว่าง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800",
       "tel": "02-910-9536 062-425-4654",
@@ -902,7 +902,7 @@
     "partnerId": "0105530046401",
     "THName": "บริษัท ซัมมิท อีเล็คโทรนิค คอมโพเน้นท์ จำกัด",
     "ENName": "SUMMIT ELECTRONICS COMPONENT COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "99 หมู่ที่ 5 ซอยวัดศรีวารีน้อย ถนนบางนา-ตราด ศีรษะจรเข้ใหญ่ บางเสาธง สมุทรปราการ 10540",
       "tel": "02-337-1553-67 Ext.782",
@@ -955,7 +955,7 @@
     "portfolio": {
       "research": "รับออกแบบผลิตภัณฑ์ต้นแบบ ผลิตภัณฑ์ไฟฟ้า/อิเล็กทรอนิกส์/ไอที",
       "product": "SOFTWARE VERSION ใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -984,8 +984,8 @@
     },
     "portfolio": {
       "research": "พัฒนาระบบการออกแบบหีบห่อผลิตภัณฑ์ ",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -1015,14 +1015,14 @@
     "portfolio": {
       "research": "สายอากาศ และอุปกรณ์สื่อสารโทรคมนาคมที่ย่านความถี่วิทยุ 100 Mhz – 6 Ghz",
       "product": "วิจัยและพัฒนาผลิตภัณฑ์ร่วมกับลูกค้า",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0115543007697",
     "THName": "บริษัท นีโอ ทรอนิก้า (ประเทศไทย) จำกัด",
     "ENName": "NEO TRONICA (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "967 หมู่ที่ 8 ถนนบางพลี-ตำหรุ บางปูใหม่ เมืองสมุทรปราการ สมุทรปราการ 10280",
       "tel": "02-710-9880",
@@ -1044,15 +1044,15 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0215546002296",
     "THName": "บริษัท มูนซุง อิเล็คทรอนิค (ไทยแลนด์) จำกัด",
     "ENName": "MOON SUNG ELECTRONIC (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "25/1 หมู่ 3 แม่น้ำคู้ ปลวกแดง ระยอง 21140",
       "tel": "038-606-514",
@@ -1074,8 +1074,8 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้าเดิม",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -1105,7 +1105,7 @@
     "portfolio": {
       "research": "วิจัยผลิตภัณฑ์ของบริษัท",
       "product": "เครื่องตอบคำถามแบบไร้สาย(เครื่องโหวต) เครื่องประเมินความพึงพอใจแบบไร้สาย",
-      "process": "กรุณาระบุ (ถ้ามี)"
+      "process": ""
     }
   },
   {
@@ -1142,7 +1142,7 @@
     "partnerId": "0105530068137",
     "THName": "บริษัท ไทยตาบูชิอีเล็คทริค จำกัด",
     "ENName": "THAI TABUCHI ELECTRIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "88 หมู่ที่ 5 ถนนบางนา-ตราด บางสมัคร บางปะกง ฉะเชิงเทรา 24180",
       "tel": "038-538-982-6",
@@ -1172,7 +1172,7 @@
     "partnerId": "0105534087497",
     "THName": "บริษัท มารูเกอิ อินดัสตรีย์ (ประเทศไทย) จำกัด",
     "ENName": "MARUKEI INDUSTRY (THAILAND) COPMANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "283 ซอยฉลองกรุง 31 (นิคมอุตสาหกรรมลาดกระบัง) ถนนฉลองกรุง ลำปลาทิว เขตลาดกระบัง กรุงเทพมหานคร 10520",
       "tel": "089-765-2008 02-739-4859",
@@ -1194,8 +1194,8 @@
     },
     "portfolio": {
       "research": "ปรับปรุงผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -1232,12 +1232,12 @@
     "partnerId": "0107557000039",
     "THName": "บริษัท เพาเวอร์ โซลูชั่น เทคโนโลยี จำกัด (มหาชน)",
     "ENName": "POWER SOLUTION TECHNOLOGY PUBLIC COMPANY LIMITED",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "325/1 อาคารพีเอสที ถนนพหลโยธิน สายไหม เขตสายไหม กรุงเทพมหานคร 10220",
       "tel": "02-993-8982",
-      "fax": "กรุณาระบุ (ถ้ามี)",
-      "homepage": "กรุณาระบุ (ถ้ามี)",
+      "fax": "",
+      "homepage": "",
       "contactName": {
         "name": "ชัชพล",
         "role": "พัฒนาธุรกิจพลังงาน",
@@ -1254,7 +1254,7 @@
     },
     "portfolio": {
       "research": "พัฒนา/ปรับปรุงเพิ่มเทคโนโลยีในการผลิตไฟฟ้า",
-      "product": "กรุณาระบุ (ถ้ามี)",
+      "product": "",
       "process": "นำเทคโนโลยีมาช่วยในการทำโรงไฟฟ้าพลังงานทดแทน/น้ำ"
     }
   },
@@ -1313,15 +1313,15 @@
       "totalEmployee": ""
     },
     "portfolio": {
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0107537002150",
     "THName": "บริษัท กุลธรเคอร์บี้ จำกัด (มหาชน)",
     "ENName": "KULTHORN KIRBY PUBLIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "126 ซอยฉลองกรุง 31 ถนนฉลองกรุง ลำปลาทิว เขตลาดกระบัง กรุงเทพมหานคร 10520",
       "tel": "02-326-0831",
@@ -1343,8 +1343,8 @@
     },
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -1374,14 +1374,14 @@
     "portfolio": {
       "research": "เพื่อปรับปรุงพัฒนาคุณภาพสินค้าให้ดีขึ้น",
       "product": "เครื่องมือเตรียมดิน",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105532022762",
     "THName": "บริษัท ไทยเซ็นทรัล เมคคานิคส์ จำกัด",
     "ENName": "THAI CENTRAL MECHANICS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "1 หมู่ที่ 10 ซอยวัดมหาวงษ์ ถนนปู่เจ้าสมิงพราย สำโรง พระประแดง สมุทรปราการ 10130",
       "tel": "02-748-5313-5",
@@ -1404,7 +1404,7 @@
     "portfolio": {
       "research": "รับจ้างทำวิจัย ให้กับหน่วยงานต่างๆ",
       "product": "รับจ้างวิจัย ให้ข้อมูลกับลูกค้า",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -1428,7 +1428,7 @@
       "year": "2548",
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 1-50",
       "registeredCapital": "120000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "1600"
     },
     "portfolio": {
@@ -1464,14 +1464,14 @@
     "portfolio": {
       "research": "ปรับปรุงตัวเก่า",
       "product": "ด้านรถยนต์",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0135538004626",
     "THName": "บริษัท เน็กซ์ โปรดักส์ จำกัด",
     "ENName": "NEXT PRODUCTS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "1051 หมู่ที่ 3 ถนนรังสิต-ปทุมธานี บางพูน เมืองปทุมธานี ปทุมธานี 12000",
       "tel": "02-959-6600",
@@ -1494,14 +1494,14 @@
     "portfolio": {
       "research": "พัฒนาสินค้า",
       "product": "เปลี่ยนลาย สีผ้าประดับรถยนต์",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105532104629",
     "THName": "บริษัท มหาชัยฟู้ดโปรเซสซิ่ง จำกัด",
     "ENName": "MAHACHAI FOODS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "259/13 ซอยปรีดีพนมยงค์ 13 ถนนสุขุมวิท 71 (ปรีดี พนมยงค์) พระโขนงเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
       "tel": "034-816-413",
@@ -1523,8 +1523,8 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้าตัวเดิม และมีตัวใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -1553,8 +1553,8 @@
     },
     "portfolio": {
       "research": "สร้างรูปแบบสินค้าหรือชิ้นส่วนต่างๆใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -1583,15 +1583,15 @@
     },
     "portfolio": {
       "research": "พัฒนาปรับปรุงคุณภาพของสินค้าทั้งใหม่และเก่า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105537061405",
     "THName": "บริษัท สี่พระยาเฟอร์นิเจอร์ จำกัด",
     "ENName": "SIPHYA FURNITURE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "555/9 หมู่ที่ 10 ถนนปู่เจ้าสมิงพราย สำโรงใต้ พระประแดง สมุทรปราการ 10130",
       "tel": "02-757-9555 Ext.1163",
@@ -1613,7 +1613,7 @@
     },
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
+      "product": "",
       "process": "เปลี่ยน PROCESS ใหม่ในการผลิตผลิตภัณฑ์"
     }
   },
@@ -1638,12 +1638,12 @@
       "year": "2538",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "60000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "234"
     },
     "portfolio": {
       "research": "การพัฒนาสินค้าเฟอร์นิเจอร์สำนักงานเหล็ก แบบถอดประกอบได้ (KNOCK DOWN STEEL FURNITURE)",
-      "product": "ไม่ระบุ",
+      "product": "",
       "process": "การเลือกใช้เคมีล้างทำความสะอาดและเคลือบผิวชิ้นงาน เลือกใช้เคมีที่เป็นมิตรกับสิ่งแวดล้อม (GREEN TECHNOLOGY)"
     }
   },
@@ -1673,8 +1673,8 @@
     },
     "portfolio": {
       "research": "พัฒนารูปแบบของเฟอร์นิเจอร์ใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -1699,7 +1699,7 @@
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "20000000",
       "income": "74861565.59",
-      "totalEmployee": "ไม่ระบุ"
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "สำรวจ ศึกษา วิจัยผู้ใช้งานผ่านช่องทางออนไลน์",
@@ -1728,20 +1728,20 @@
       "year": "2520",
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 1-50 ",
       "registeredCapital": "80000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "400"
     },
     "portfolio": {
       "research": "พัฒนาสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105528034743",
     "THName": "บริษัท ซีอองฮองเอ็นเทอไพรซ์ จำกัด",
     "ENName": "SIONG HONG ENTERPRISE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "462/1-5 ถนนสี่พระยา มหาพฤฒาราม เขตบางรัก กรุงเทพมหานคร 10500",
       "tel": "085-126-6461",
@@ -1764,7 +1764,7 @@
     "portfolio": {
       "research": "ปรับปรุงผลิตภัณฑ์เดิม",
       "product": "ผลไม้อบแห้ง เปลี่ยนรูปแบบ เปลี่ยนสูตร",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -1793,15 +1793,15 @@
     },
     "portfolio": {
       "research": "พัฒนากระบวนการผลิตก๊าซธรรมชาติเหลว",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105539001710",
     "THName": "บริษัท วี อาร์ ฟู้ดส์ จำกัด",
     "ENName": "V R FOODS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "39/94 หมู่ที่ 2 บางกระเจ้า เมืองสมุทรสาคร สมุทรสาคร 74000",
       "tel": "088-209-4481",
@@ -1819,11 +1819,11 @@
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "40000000",
       "income": "227025250.24",
-      "totalEmployee": "ไม่ระบุ"
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "พัฒนาสินค้าเดิม",
-      "product": "ไม่ระบุ",
+      "product": "",
       "process": "วิธีการให้มีขั้นตอนลดลง"
     }
   },
@@ -1831,7 +1831,7 @@
     "partnerId": "0105552006479",
     "THName": "บริษัท พัทยาฟู้ด เอ็นเนอร์ยี่ จำกัด",
     "ENName": "PATAYA FOOD ENERGY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "729/68-72 ถนนรัชดาภิเษก บางโพงพาง เขตยานนาวา กรุงเทพมหานคร 10120",
       "tel": "034-816-244 Ext.310",
@@ -1854,7 +1854,7 @@
     "portfolio": {
       "research": "ผลิตภัณฑ์ใหม่",
       "product": "ทูน่าในกระป๋อง ในซอส",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -1890,12 +1890,12 @@
     "partnerId": "0745549001482",
     "THName": "บริษัท ไทยยูเนี่ยน แฮชเชอรี่ จำกัด",
     "ENName": "THAI UNION HATCHERY CO. LTD.",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "89/1 หมู่ที่ 2  กาหลง เมืองสมุทรสาคร สมุทรสาคร 74000",
       "tel": "076-5004000/076-584-000-27",
       "fax": "076-584-028",
-      "homepage": "กรุณาระบุ (ถ้ามี)",
+      "homepage": "",
       "contactName": {
         "name": "ปิยะพล",
         "role": "รองผู้จัดการ HR",
@@ -1908,19 +1908,19 @@
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "510000000",
       "income": "31296412",
-      "totalEmployee": "กรุณาระบุ (ถ้ามี)"
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "พัฒนาสายพันธุ์กุ้ง",
-      "product": "กรุณาระบุ (ถ้ามี)",
-      "process": "กรุณาระบุ (ถ้ามี)"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105491000387",
     "THName": "บริษัท วิทยุการบินแห่งประเทศไทย จำกัด",
     "ENName": "AERONAUTICAL RADIO OF THAILAND LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "102 ซอยงามดูพลี ถนนพระราม 4 ทุ่งมหาเมฆ เขตสาทร กรุงเทพมหานคร 10120",
       "tel": "02-287-8596",
@@ -1942,15 +1942,15 @@
     },
     "portfolio": {
       "research": "พัฒนาอุปกรณ์ใช้ในการทำงาน",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105536123296",
     "THName": "บริษัท สีฟ้าลุมพินี จำกัด",
     "ENName": "SEE FAH LUMPINI COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "47/26 ชั้น 5 ถนนราชดำริ ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330",
       "tel": "02-655-0251",
@@ -1973,14 +1973,14 @@
     "portfolio": {
       "research": "พัฒนาสูตรใหม่",
       "product": "น้ำซอสสูตรใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105531014375",
     "THName": "บริษัท โรงงานเครื่องกระป๋องฮั่วเซ้ง จำกัด",
     "ENName": "HUA SENG CANNING COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "38/255 หมู่ที่ 5 จอมทอง เขตจอมทอง กรุงเทพมหานคร 10150",
       "tel": "02-468-0517",
@@ -2003,7 +2003,7 @@
     "portfolio": {
       "research": "ผลิตสินค้าใหม่",
       "product": "เงาะยัดไส้สับปะรด แห้ว",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -2027,8 +2027,8 @@
       "year": "2547",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "375000000",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "วิจัย พัฒนาสินค้า",
@@ -2057,7 +2057,7 @@
       "year": "2545",
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 1-50",
       "registeredCapital": "3500000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "50"
     },
     "portfolio": {
@@ -2070,7 +2070,7 @@
     "partnerId": "0105548106715",
     "THName": "บริษัท เทโลจิค เทคโนโลยี (ไทยแลนด์) จำกัด",
     "ENName": "TELOGIC TECHNOLOGY (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "128/198-199 อาคารพญาไทพลาซ่า ชั้น 18 ถนนพญาไท ทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร 10400",
       "tel": "02-215-6199",
@@ -2087,20 +2087,20 @@
       "year": "2548",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "5000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "16"
     },
     "portfolio": {
       "research": "ปรับปรุงและพัฒนา กระบวนการการผลิตและผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105536103171",
     "THName": "บริษัท พาวเวอร์กริด อินเตอร์เนชั่นแนล จำกัด",
     "ENName": "POWERGRID INTERNATIONAL COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "18 อาคารศรีเจริญชัย ชั้นที่ 8 ถนนติวานนท์ ตลาดขวัญ เมืองนนทบุรี นนทบุรี 11000",
       "tel": "02-968-9832-4",
@@ -2122,15 +2122,15 @@
     },
     "portfolio": {
       "research": "ออกแบบดีไซน์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0835551002228",
     "THName": "บริษัท เซ้าเทิร์นไทยคอนซัลติ้ง จำกัด",
     "ENName": "SOUTHERN THAI CONSULTING COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "59/45 หมู่ที่ 5 ศรีสุนทร ถลาง ภูเก็ต 83110",
       "tel": "088-199-1016 076-250-304 088-199-1016",
@@ -2152,8 +2152,8 @@
     },
     "portfolio": {
       "research": "ปรับปรุงด้านการให้บริการ",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -2182,8 +2182,8 @@
     },
     "portfolio": {
       "research": "พัฒนายางสังเคราะห์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -2242,8 +2242,8 @@
     },
     "portfolio": {
       "research": "แก้ปัญหาภายในบริษัท พัฒนาสูตรใหม่และปรับปรุงสูตรเดิม",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -2273,14 +2273,14 @@
     "portfolio": {
       "research": "พัฒนาการวิเคราะห์ตัวอย่าง",
       "product": "ทดสอบสารอินทรีย์ระเหยในดิน",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105533113443",
     "THName": "บริษัท ยูไนเต็ด แอนนาลิสต์ แอนด์ เอ็นจิเนียริ่ง คอนซัลแตนท์ จำกัด",
     "ENName": "UNITED ANALYST AND ENGINEERING CONSULTANT COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "3 ซอยอุดมสุข 41 ถนนสุขุมวิท บางจาก เขตพระโขนง กรุงเทพมหานคร 10260",
       "tel": "02-763-2828 Ext.2912",
@@ -2297,20 +2297,20 @@
       "year": "2533",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "31000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "350"
     },
     "portfolio": {
       "research": "ปรับปรุงและพัฒนากระบวนการวิเคราะห์ และวิจัยทางด้านสิ่งแวดล้อม",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105535158703",
     "THName": "บริษัท นวบุตร จำกัด",
     "ENName": "NAWABUTR COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "1 อาคารคิวเฮ้าส์ลุมพินี ชั้นที่ 2 ยูนิต 219บี-220 ถนนสาทรใต้ ทุ่งมหาเมฆ เขตสาทร กรุงเทพมหานคร 10120",
       "tel": "02-677-7370",
@@ -2327,13 +2327,13 @@
       "year": "2536",
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 51-99",
       "registeredCapital": "22000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "25"
     },
     "portfolio": {
       "research": "ทำเลเซอร์ยิงไปที่ตัวอ่อน",
       "product": "พัฒนาการตรวจโครโมโซมตัวอ่อน",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -2362,15 +2362,15 @@
     },
     "portfolio": {
       "research": "พัฒนาและปรับปรุงระบบ พัฒนาและปรับปรุงระบบความปลอดภัยและสิ่งแวดล้อม",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0765537000524",
     "THName": "บริษัท ลินิน ด็อกเตอร์ จำกัด",
     "ENName": "LINEN DOCTOR COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "60 ถนนนราธิป ชำอะ ชะอำ เพชรบุรี 76120",
       "tel": "086-328-6401",
@@ -2392,15 +2392,15 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้าเดิม",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105535168407",
     "THName": "บริษัท แสงมิตร อีเลคตริค จำกัด",
     "ENName": "SAENGMITR ELECTRIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "77/21-24 หมู่ที่ 11 ถนนสวนผัก ตลิ่งชัน เขตตลิ่งชัน กรุงเทพมหานคร 10170",
       "tel": "02-882-2033 Ext.501 081-619-2654",
@@ -2423,14 +2423,14 @@
     "portfolio": {
       "research": "พัฒนาสินค้า",
       "product": "ไฟฉุกเฉิน",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105519003547",
     "THName": "บริษัท อาร์เอ็กซ์ จำกัด",
     "ENName": "RX COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "93/90 ซอยประชานุกูล 2 ถนนรัชดาภิเษก บางซื่อ เขตบางซื่อ กรุงเทพมหานคร 10800",
       "tel": "02-910-0950",
@@ -2452,8 +2452,8 @@
     },
     "portfolio": {
       "research": "พัฒนาตำหรับยาใหม่เพื่อเพิ่มโอกาสการเข้าถึงยาของผู้ป่วย",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -2483,19 +2483,19 @@
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์ใหม่",
       "product": "ผลิตกาวที่ใช้สำหรับรถยนต์",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105536081704",
     "THName": "บริษัท อาจจิตต์อินเตอร์เนชั่นแนลเพ็พเพอร์แอนด์สไปซ์ จำกัด",
     "ENName": "ARTCHIT INTERNATIONAL PEPPER AND SPICE COMPANY LIMITED",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "83/4 หมู่ที่ 5 ซอยสุขสวัสดิ์ 2 ถนนสุขสวัสดิ์ จอมทอง เขตจอมทอง กรุงเทพมหานคร 10150",
       "tel": "02-468-1232",
-      "fax": "กรุณาระบุ (ถ้ามี)",
-      "homepage": "กรุณาระบุ (ถ้ามี)",
+      "fax": "",
+      "homepage": "",
       "contactName": {
         "name": "จิตติมา เบญจรัศมีโรจน์",
         "role": "QC MANAGER",
@@ -2511,8 +2511,8 @@
       "totalEmployee": "180"
     },
     "portfolio": {
-      "research": "กรุณาระบุ (ถ้ามี)",
-      "product": "กรุณาระบุ (ถ้ามี)",
+      "research": "",
+      "product": "",
       "process": "เปลี่ยนเครื่องจักร คัดแยกสิ่งปลอมปนได้ดีขึ้น เพิ่มเครื่องจักรใหม่ ช่วยเพิ่มกำลังการผลิต"
     }
   },
@@ -2520,7 +2520,7 @@
     "partnerId": "0105531030885",
     "THName": "บริษัท อินเทลโนเวชั่น จำกัด",
     "ENName": "INTELNOVATION COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "103/3 หมู่ที่ 2 ซอยงามวงศ์วาน 25 ถนนงามวงศ์วาน บางเขน เมืองนนทบุรี นนทบุรี 11000",
       "tel": "02-952-5653 Ext.401 095-396-2632 085-872-1009 085-319-0123",
@@ -2542,8 +2542,8 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -2573,22 +2573,22 @@
     "portfolio": {
       "research": "BIO PLASTIC",
       "product": "พลาสติกชีวภาพ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0305554002118",
     "THName": "บริษัท เขาใหญ่ พาโนราม่า ฟาร์ม จำกัด",
     "ENName": "KHAOYAI PANORAMA FARM COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "297 หมู่ที่ 6  หนองน้ำแดง ปากช่อง นครราชสีมา 30130",
       "tel": "044-756-234",
       "fax": "044-756-238",
       "homepage": "-",
       "contactName": {
-        "name": "ไม่ระบุ",
-        "role": "ไม่ระบุ",
+        "name": "",
+        "role": "",
         "tel": "044-756-234",
         "email": "-"
       }
@@ -2596,29 +2596,29 @@
     "history": {
       "year": "2554",
       "stockStatus": "ถือหุ้นโดยต่างชาติทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "registeredCapital": "",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ปรับปรุงผลิตภัณฑ์",
       "product": "แปรรูปเมล็ดกาแฟ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105542034658",
     "THName": "บริษัท เอ็นบีดี เฮลท์แคร์ จำกัด",
     "ENName": "NBD HEALTHCARE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "898 ซอยนวลจันทร์ 56 นวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10230",
       "tel": "02-791-3888 Ext.1440",
       "fax": "-",
       "homepage": "-",
       "contactName": {
-        "name": "ไม่ระบุ",
-        "role": "ไม่ระบุ",
+        "name": "",
+        "role": "",
         "tel": "02-791-3888",
         "email": "paisarn@nbd.co.th"
       }
@@ -2626,21 +2626,21 @@
     "history": {
       "year": "2542",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "registeredCapital": "",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ปรับปรุงสินค้าเดิม ผลิตสินค้าใหม่",
       "product": "สูตรใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0575532000048",
     "THName": "บริษัท ไทยคอสมอสฟู้ดส์ จำกัด",
     "ENName": "THAI COSMOS FOODS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "262 หมู่ที่ 6 สันกลาง พาน เชียงราย 57120",
       "tel": "053-721-651",
@@ -2663,14 +2663,14 @@
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์",
       "product": "บลูเบอร์รี่และราสเบอร์รี่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0715521000040",
     "THName": "บริษัท เค.ซี.เกษตรกรรม จำกัด",
     "ENName": "K.C. GENERAL FARM CORPORATION COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "14/2 หมู่ที่ 10 ถนนแสงชูโต ท่ามะกา ท่ามะกา กาญจนบุรี 71120",
       "tel": "034-510-401 081-941-5101",
@@ -2692,8 +2692,8 @@
     },
     "portfolio": {
       "research": "ปรับปรุง และพัฒนาผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -2717,12 +2717,12 @@
       "year": "2510",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "19000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "55"
     },
     "portfolio": {
       "research": "พัฒนาตัวสินค้า",
-      "product": "ไม่ระบุ",
+      "product": "",
       "process": "ปรับกระบวนการขั้นตอนการผสมอบ"
     }
   },
@@ -2730,7 +2730,7 @@
     "partnerId": "0735528000312",
     "THName": "บริษัท วราฟู้ดแอนด์ดริ๊ง จำกัด",
     "ENName": "VARA FOOD AND DRINK COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "127 หมู่ที่ 3 ห้วยพระ ดอนตูม นครปฐม 73150",
       "tel": "089-925-6503",
@@ -2748,19 +2748,19 @@
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "80000000",
       "income": "1789928429",
-      "totalEmployee": "ไม่ระบุ"
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0715546000108",
     "THName": "บริษัท กาญจน์คอร์น จำกัด",
     "ENName": "KARN CORN COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "68 หมู่ที่ 7 แสนตอ ท่ามะกา กาญจนบุรี 71120",
       "tel": "034-641-495",
@@ -2782,7 +2782,7 @@
     },
     "portfolio": {
       "research": "ออกแบบ และคิดค้นผลิตภัณฑ์ใหม่ พร้อมที่ปรับปรุงผลิตภัณฑ์เดิม",
-      "product": "ไม่ระบุ",
+      "product": "",
       "process": "ใช้เครื่องจักรแทนกำลังคน"
     }
   },
@@ -2790,7 +2790,7 @@
     "partnerId": "0105543065778",
     "THName": "บริษัท ชบาบางกอก จำกัด",
     "ENName": "CHABAA BANGKOK COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "470 หมู่ที่ 1 ถนนสุขุมวิท บางปูใหม่ เมืองสมุทรปราการ สมุทรปราการ 10280",
       "tel": "02-323-1111",
@@ -2813,7 +2813,7 @@
     "portfolio": {
       "research": "พัฒนาสินค้าตัวใหม่",
       "product": "น้ำอดลม",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -2842,15 +2842,15 @@
     },
     "portfolio": {
       "research": "ปรับปรุงผลิตภัณฑ์ทั้งใหม่และเก่า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105551079804",
     "THName": "บริษัท ไทยซุนฟู้ดส์ จำกัด",
     "ENName": "THAI SOON FOODS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "75/45 อาคารริชมอนด์ ออฟฟิต ชั้นที่ 14 ซอยสุขุมวิท 26 ถนนสุขุมวิท คลองตัน เขตคลองเตย กรุงเทพมหานคร 10110",
       "tel": "042-451-816-7",
@@ -2872,15 +2872,15 @@
     },
     "portfolio": {
       "research": "พัฒนาระบบการผลิต",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0245551000760",
     "THName": "บริษัท แอ๊ดวานซ์อาเชี่ยน จำกัด",
     "ENName": "ADVANCE ASIAN COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "131 อาคารกลุ่มนวัตกรรม 1 ชั้นที่ 4 อุทยานวิทยาศาสตร์แห่งประเทศไทย หมู่ที่ 9 ถนนพหลโยธิน  คลองหนึ่ง คลองหลวง ปทุมธานี 12120",
       "tel": "02-564-7200",
@@ -2910,7 +2910,7 @@
     "partnerId": "0245538000557",
     "THName": "บริษัท ผลไม้แปรรูปวรพร จำกัด",
     "ENName": "WORAPORN FRUIT PROCESSING COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "5 ถนนสุวินทวงศ์ หน้าเมือง เมืองฉะเชิงเทรา ฉะเชิงเทรา 24000",
       "tel": "038-813-444",
@@ -2932,15 +2932,15 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้าตัวอย่างของทางบริษัท",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105529035841",
     "THName": "บริษัท พี เอ เอส พืชผลส่งออกและไซโล จำกัด",
     "ENName": "P A S EXPORT&SILO COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "2/11 ถนนพิศาลสุนทรกิจ เมืองสวรรคโลก สวรรคโลก สุโขทัย 64110",
       "tel": "055-641-200",
@@ -2957,20 +2957,20 @@
       "year": "2529",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "463000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "140"
     },
     "portfolio": {
       "research": "ปรับปรุงสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105517009831",
     "THName": "บริษัท ธนากรผลิตภัณฑ์น้ำมันพืช จำกัด",
     "ENName": "THANAKORN VEGETABLE OIL PRODUCTS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "99 หมู่ที่ 2 ซอยธนากร ถนนพระสมุทรเจดีย์ ปากคลองบางปลากด พระสมุทรเจดีย์ สมุทรปราการ 10290",
       "tel": "02-819-7470 Ext.710",
@@ -2986,21 +2986,21 @@
     "history": {
       "year": "2517",
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 1-50 ",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
+      "registeredCapital": "",
+      "income": "",
       "totalEmployee": "294"
     },
     "portfolio": {
       "research": "พัฒนากระบวนการผลิต และพัฒนาผลิตภัณฑ์ใหม่",
       "product": "ผลิตภัณฑ์น้ำมันพืช เลทินจากถั่วเหลือง และกากพืชน้ำมัน",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0107543000066",
     "THName": "บริษัท ยูนิวานิชน้ำมันปาล์ม จำกัด (มหาชน)",
     "ENName": "UNIVANICH PALM OIL PUBLIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "258 หมู่ที่ 2 ถนนอ่าวลึก-แหลมสัก อ่าวลึกใต้ อ่าวลึก กระบี่ 81120",
       "tel": "075-652-068 081-969-2709",
@@ -3023,14 +3023,14 @@
     "portfolio": {
       "research": "เพื่อเป็นการปรับปรุงสินค้าให้มีประสิทธิภาพ",
       "product": "พันธุ์ปาล์มตัวใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105520005299",
     "THName": "บริษัท น้ำมันบริโภคไทย จำกัด",
     "ENName": "THAI EDIBLE OIL COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "3366/6-8 ถนนพระราม 4 คลองตัน เขตคลองเตย กรุงเทพมหานคร 10110",
       "tel": "02-249-9348-52 Ext.2044 02-394-0356-7",
@@ -3052,15 +3052,15 @@
     },
     "portfolio": {
       "research": "ปรับปรุงกระบวนการผลิต ผลิตภัณฑ์ และแอพลิเคชั่น",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105543088956",
     "THName": "บริษัท บูโอโน่ (ประเทศไทย) จำกัด",
     "ENName": "BUONO THAILAND COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "104/2 หมู่ที่ 1 ไทยาวาส นครชัยศรี นครปฐม 73120",
       "tel": "034-331-984-6 Ext.109",
@@ -3090,7 +3090,7 @@
     "partnerId": "0735539002192",
     "THName": "บริษัท เอบีเจ ฟาร์ม จำกัด",
     "ENName": "ABJ FARM COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "140 หมู่ที่ 1 หนองดินแดง เมืองนครปฐม นครปฐม 73000",
       "tel": "034-377-933",
@@ -3120,7 +3120,7 @@
     "partnerId": "0845532000037",
     "THName": "บริษัท ฟรีซแลนด์ โปรดักส์ จำกัด",
     "ENName": "FREEZE LAND PRODUCTS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "70/7 หมู่ที่ 2 มะขามเตี้ย เมืองสุราษฎร์ธานี สุราษฎร์ธานี 84000",
       "tel": "077-203-193 077-203-194",
@@ -3143,7 +3143,7 @@
     "portfolio": {
       "research": "ปรับปรุงผลิตภัณฑ์",
       "product": "ขนมไทยแบบดั้งเดิมและมาปรับปรุง",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -3173,7 +3173,7 @@
     "portfolio": {
       "research": "พัฒนาสินค้าใหม่",
       "product": "เจลาโต้",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -3201,7 +3201,7 @@
       "totalEmployee": "500"
     },
     "portfolio": {
-      "research": "กรุณาระบุ (ถ้ามี)",
+      "research": "",
       "product": "การปรับเปลี่ยนบรรจุภัณฑ์และเพิ่มข้อมูลและการดูแลพืชที่สามารถนำไปใช้ได้ทันที ",
       "process": "มีการนำระบบ application มาใช้ในการประมวลผลการขายแบบ real time"
     }
@@ -3227,7 +3227,7 @@
       "year": "2524",
       "stockStatus": "ถือหุ้นโดยต่างชาติ",
       "registeredCapital": "60000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "148"
     },
     "portfolio": {
@@ -3257,20 +3257,20 @@
       "year": "2544",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "305000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "300"
     },
     "portfolio": {
       "research": "ปรับปรุงพัฒนาสินค้า",
       "product": "ก๋วยเตี๋ยวที่ทำจากออร์แกนิค เพิ่มความเฮลตี้",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105527039679",
     "THName": "บริษัท เจ้าคุณเกษตรพืชผล จำกัด",
     "ENName": "CHAO KHUN AGRO PRODUCTS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "44 หมู่ที่ 2 ถนนอดิเรกสาร สองคอน แก่งคอย สระบุรี 18110",
       "tel": "036-251-935",
@@ -3292,15 +3292,15 @@
     },
     "portfolio": {
       "research": "ปรับปรุงกระบวนการเดิมให้มีประสิทธิภาพ และพัฒนาผลิตภัณฑ์ใหม่ เพื่อให้เป็นไปตามความต้องการของลูกค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105532085217",
     "THName": "บริษัท ชอไชยวัฒน์ อุตสาหกรรม จำกัด",
     "ENName": "CHORCHAIWAT INDUSTRY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "3/16 ซอยสุขุมวิท 31(ซอยสวัสดี) ถนนสุขุมวิท คลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
       "tel": "038-239-122-3",
@@ -3317,20 +3317,20 @@
       "year": "2532",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "120000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "119"
     },
     "portfolio": {
       "research": "ปรับปรุงและต่อยอดผลิตภัณฑ์ตัวใหม่",
       "product": "ไซรัป",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0305553000626",
     "THName": "บริษัท เชาวน์ดี โมดิฟาย สตาร์ช จำกัด",
     "ENName": "CHAODEE MODIFIED STARCH COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "345 หมู่ที่ 14  หินดาด ด่านขุนทด นครราชสีมา 30210",
       "tel": "044-756-586",
@@ -3352,15 +3352,15 @@
     },
     "portfolio": {
       "research": "วิจัยแป้งโมดิฟาย",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0305536000206",
     "THName": "บริษัท แป้งมันเอี่ยมเฮงอุตสาหกรรม จำกัด",
     "ENName": "EIAMHENG TAPIOCA STARCH INDUSTRY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "15 หมู่ที่ 12 กุดโบสถ์ เสิงสาง นครราชสีมา 30330",
       "tel": "044-457-040",
@@ -3382,8 +3382,8 @@
     },
     "portfolio": {
       "research": "พัฒนาประสิทธิภาพสินค้าให้ดียิ่งขึ้น",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -3424,7 +3424,7 @@
     "contacts": {
       "address": "47/26 ชั้น 5 ถนนราชดำริ ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330",
       "tel": "02-655-0251 ต่อ 72 73",
-      "fax": "กรุณาระบุ (ถ้ามี)",
+      "fax": "",
       "homepage": "http://seefah.com",
       "contactName": {
         "name": "กัญญาวีร์ โกลากุล หรือปรัชสิญา นราฐปนนท์",
@@ -3443,7 +3443,7 @@
     "portfolio": {
       "research": "1. ปรับปรุงคุณภาพผลิตภัณฑ์ให้มีคุณภาพตรงตามมาตรฐานสากล 2. ศึกษาอายุการเก็บของผลิตภัณฑ์ให้นานมากขึ้น 3. พัฒนาผลิตภัณฑ์ตามความต้องการของลูกค้า",
       "product": "1.ปรับปรุงคุณภาพผลิตภัณฑ์เนื้อหมูให้มีคุณภาพตามมาตรฐาน 2.ศึกษาอายุการเก็บและคุณลักษณะของผลิตภัณฑ์อาหารแช่เยือกแข็ง เช่น บะหมี่ ซาลาเปา เป็ดย่าง หมูแดง ",
-      "process": "กรุณาระบุ (ถ้ามี)"
+      "process": ""
     }
   },
   {
@@ -3473,7 +3473,7 @@
     "portfolio": {
       "research": "พัฒนาสินค้าเดิม",
       "product": "เปลี่ยนกลิ่น เปลี่ยนสี",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -3502,8 +3502,8 @@
     },
     "portfolio": {
       "research": "พัฒนาสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -3540,7 +3540,7 @@
     "partnerId": "0107537001439",
     "THName": "บริษัท ไทย อกริ ฟู้ดส์ จำกัด (มหาชน)",
     "ENName": "THAI AGRI FOODS PUBLIC COMPANY LIMITED ",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "155/1 หมู่ที่ 1 ถนนเทพารักษ์  บางเสาธง บางเสาธง สมุทรปราการ 10540",
       "tel": "02-315-4171-6",
@@ -3562,15 +3562,15 @@
     },
     "portfolio": {
       "research": "พัฒนาอาหารใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105539096702",
     "THName": "บริษัท อัลเฟรโด เอ็นเตอร์ไพรส์ จำกัด",
     "ENName": "ALFREDO ENTERPRISE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "57 หมู่ที่ 5 อุทัย อุทัย พระนครศรีอยุธยา 13210",
       "tel": "035-332-111 Ext.248",
@@ -3593,7 +3593,7 @@
     "portfolio": {
       "research": "ออกแบบและพัฒนาสินค้า",
       "product": "รสชาติของผลิตภัณฑ์",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -3630,7 +3630,7 @@
     "partnerId": "0105539027948",
     "THName": "บริษัท สยาม ยูเคเอฟ จำกัด",
     "ENName": "SIAM UKF COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "39/91 หมู่ที่ 2 บางกระเจ้า เมืองสมุทรสาคร สมุทรสาคร 74000",
       "tel": "081-526-6829 034-490-258",
@@ -3652,8 +3652,8 @@
     },
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์ใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -3743,7 +3743,7 @@
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์ใหม่และปรับปรุงการผลิต",
       "product": "ข้าวตังรสใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -3767,13 +3767,13 @@
       "year": "2533",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "35000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "75"
     },
     "portfolio": {
       "research": "พัฒนาสินค้าใหม่กลุ่มผลิตภัณฑ์ออร์แกนิค",
       "product": "สารสกัดสมุนไพร เครื่องเทศออร์แกนิค",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -3797,20 +3797,20 @@
       "year": "2530",
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 1-50",
       "registeredCapital": "33000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "550"
     },
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์ตามความต้องการลูกค้า",
       "product": "พัฒนาสูตรการผลิต เพื่อคุณค่าทางโภชนาการด้วยการเติมโปรตีนจากพืชในเส้นหมี่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0735547000837",
     "THName": "บริษัท สามพราน ซลอเทอร์เฮาส์ จำกัด",
     "ENName": "SAMPRAN SLAUGHTERHOUSE COMPANY LIMITED",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "170 หมู่ที่ 6 ท่าข้าม สามพราน นครปฐม 73110",
       "tel": "034-322-838 061-965-4636",
@@ -3856,21 +3856,21 @@
     "history": {
       "year": "2546",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
+      "registeredCapital": "",
+      "income": "",
       "totalEmployee": "280"
     },
     "portfolio": {
       "research": "ขยายการพัฒนาผลิตภัณฑ์เก่าและมีการคิดผลิตภัณฑ์ใหม่",
       "product": "คุ๊กกี้ วาฟเฟิลรสชาติใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105496000831",
     "THName": "บริษัท กรีนสปอต จำกัด",
     "ENName": "GREEN SPOT COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "288 ถนนศรีนครินทร์ หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240",
       "tel": "02-533-0280 02-274-0823 02-533-0280",
@@ -3886,21 +3886,21 @@
     "history": {
       "year": "2496",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
+      "registeredCapital": "",
+      "income": "",
       "totalEmployee": "850"
     },
     "portfolio": {
       "research": "พัฒนาสินค้า",
       "product": "นม UHT สูตรใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105510004311",
     "THName": "บริษัท เจริญสุขเภสัชฮุ่นชิว จำกัด",
     "ENName": "C.S.B. DRUG FACTORY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "99/9 ซอยวัดสุวรรณาราม หมู่ที่ 2 ถนนปิ่นเกล้า-นครชัยศรี บางเตย สามพราน นครปฐม 73110",
       "tel": "02-889-2530 Ext.800",
@@ -3922,8 +3922,8 @@
     },
     "portfolio": {
       "research": "วิจัยและพัฒนาผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -3951,7 +3951,7 @@
       "totalEmployee": "200"
     },
     "portfolio": {
-      "research": "ไม่ระบุ",
+      "research": "",
       "product": "รสชาติใหม่ และผลิตภัณฑ์ใหม่",
       "process": "ระยะเวลาลดลง ใช้วัตถุดิบมากขึ้น"
     }
@@ -4007,12 +4007,12 @@
       "year": "2544",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "5550000000",
-      "income": "ไม่ระบุ",
+      "income": "",
       "totalEmployee": "600"
     },
     "portfolio": {
       "research": "ปรับปรุงกระบวนการในการผลิตเบียร์ น้ำดื่ม และโซดา",
-      "product": "ไม่ระบุ",
+      "product": "",
       "process": "การวิจัยและพัฒนาเทคโนโลยีระบบ Automation โดยนำครื่องจักรและหุ่นยนต์มาใช้ในกระบวนการผลิต เพื่อเพิ่มประสิทธิภาพและคุณภาพการผลิต เพิ่มความปลอดภัยแก่พนักงาน ลดความเสี่ยงในด้านการขาดแคลนแรงงาน"
     }
   },
@@ -4020,7 +4020,7 @@
     "partnerId": "0105530010295",
     "THName": "บริษัท เอช แอนด์ บี อินเตอร์เท็กซ์ จำกัด",
     "ENName": "H & B INTERTEX COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "522/215 ซอยพัฒนาการ 1 ถนนสาธุประดิษฐ์ บางโพงพาง เขตยานนาวา กรุงเทพมหานคร 10120",
       "tel": "02-294-8870-4 Ext.216",
@@ -4050,7 +4050,7 @@
     "partnerId": "0735549000044",
     "THName": "บริษัท เฟธ แอนด์ โค จำกัด",
     "ENName": "FAITH & CO COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "91 หมู่ที่ 4 ถนนพุทธมณฑลสาย 7 หอมเกร็ด สามพราน นครปฐม 73110",
       "tel": "061-619-5693",
@@ -4080,7 +4080,7 @@
     "partnerId": "0115527001183",
     "THName": "บริษัท โรงงานฟอกหนังชาญกิจ จำกัด",
     "ENName": "CHANKIJ TANNING INDUSTRY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "589 489 หมู่ที่ 2 ถนนสุขุมวิท ท้ายบ้าน เมืองสมุทรปราการ สมุทรปราการ 10280",
       "tel": "02-389-2346",
@@ -4101,16 +4101,16 @@
       "totalEmployee": "120"
     },
     "portfolio": {
-      "research": "ไม่ระบุ",
+      "research": "",
       "product": "เพิ่มหนังในการผลิตรองเท้า",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105532001170",
     "THName": "บริษัท บิ๊กสตาร์ จำกัด",
     "ENName": "BIG STAR COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "15 ซอยพระรามที่ 2 ซอย 100 ถนนพระราม 2 แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150",
       "tel": "082-446-2466",
@@ -4133,14 +4133,14 @@
     "portfolio": {
       "research": "คิดค้นรองเท้าแบบใหม่",
       "product": "รองเท้ารูปแบบใหม่ๆ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0107545000039",
     "THName": "บริษัท สตาร์ปริ๊นท์ จำกัด (มหาชน)",
     "ENName": "STARPRINT PUBLIC COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "189/46 หมู่ที่ 4 บางเพรียง บางบ่อ สมุทรปราการ 10560",
       "tel": "02-022-1515",
@@ -4156,14 +4156,14 @@
     "history": {
       "year": "2545",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "registeredCapital": "",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "พัฒนารูปแบบเฟอร์นิเจอร์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -4186,26 +4186,26 @@
     "history": {
       "year": "2536",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "registeredCapital": "",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ปรับปรุงพัฒนาสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0115538005045",
     "THName": "บริษัท มอเรสโก้ (ไทยแลนด์) จำกัด",
     "ENName": "MORESCO (THAILAND) CO. LTD.",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "700/358 หมู่ที่ 6 หนองไม้แดง เมืองชลบุรี ชลบุรี 20000",
       "tel": "038-458-606",
-      "fax": "กรุณาระบุ (ถ้ามี)",
-      "homepage": "กรุณาระบุ (ถ้ามี)",
+      "fax": "",
+      "homepage": "",
       "contactName": {
         "name": "สุวิจักร",
         "role": "ผู้จัดการทั่วไปฝ่ายโรงงาน",
@@ -4253,22 +4253,22 @@
     "portfolio": {
       "research": "พัฒนาสินค้า",
       "product": "ปรับปรุงจากสินค้าเก่า",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0205540001379",
     "THName": "บริษัท พนัสโพลทรี่ จำกัด",
     "ENName": "PANUS POULTRY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "1 หมู่ที่ 5 หมอนนาง พนัสนิคม ชลบุรี 20140",
       "tel": "038-460-000 Ext.273",
       "fax": "038-464-245",
       "homepage": "-",
       "contactName": {
-        "name": "ไม่ระบุ",
-        "role": "ไม่ระบุ",
+        "name": "",
+        "role": "",
         "tel": "038-460-000 Ext.273",
         "email": "-"
       }
@@ -4276,14 +4276,14 @@
     "history": {
       "year": "2540",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "registeredCapital": "",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ปรับปรุงพัฒนาตัวอย่างสินค้า",
       "product": "สินค้าใหม่ตามความต้องการของลูกค้า",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -4308,19 +4308,19 @@
       "stockStatus": "ถือหุ้นโดยคนไทยร้อยละ 1-50 ",
       "registeredCapital": "200000000",
       "income": "1115501948.65",
-      "totalEmployee": "ไม่ระบุ"
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "พัฒนาปรับปรุงผลิตภัณฑ์",
       "product": "พัฒนาให้เป็นคอมมิวนิตี้มากขึ้น",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0115553006103",
     "THName": "บริษัท เอส.ที. ไรซิ่ง จำกัด",
     "ENName": "S.T. RIZING COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "888/102 หมู่ที่ 19 ถนนบางพลี-ตำหรุ บางพลีใหญ่ บางพลี สมุทรปราการ 10540",
       "tel": "02-174-7160-1",
@@ -4343,7 +4343,7 @@
     "portfolio": {
       "research": "พัฒนาสินค้าใหม่",
       "product": "เคลือบแก้วรถ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -4373,14 +4373,14 @@
     "portfolio": {
       "research": "ปรับปรุงสินค้า ออกแบบ พัฒนาสินค้า",
       "product": "พัฒนาให้เหมาะกับตลาดเอเชีย",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0715544000291",
     "THName": "บริษัท ปุ๋ยอินทรีย์เกษตรไทย จำกัด",
     "ENName": "KASET THAI ORGANIC FERTILIZER COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "84/5 หมู่ที่ 15 พระแท่น ท่ามะกา กาญจนบุรี 71120",
       "tel": "034-643-045 084-556-7056",
@@ -4402,8 +4402,8 @@
     },
     "portfolio": {
       "research": "พัฒนาปรับปรุงคุณภาพ",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -4440,7 +4440,7 @@
     "partnerId": "0105518012356",
     "THName": "บริษัท แอ็กโกร (ประเทศไทย) จำกัด",
     "ENName": "AGGRO (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "2922/268 ชั้น 22 อาคารชาญอิสสระทาวเวอร์ 2 ถนนเพชรบุรีตัดใหม่ บางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310",
       "tel": "02-324-0515-6",
@@ -4462,15 +4462,15 @@
     },
     "portfolio": {
       "research": "ทดลองสิ่งใหม่ๆ เคมีเกษตร สูตรสารกำจัดศัตรูพืช",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105548035290",
     "THName": "บริษัท นูกรีน จำกัด",
     "ENName": "NUGREEN COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "49/145 หมู่บ้านวังทองวิลเลจ ซอยเสรีไทย 41 ถนนเสรีไทย คลองกุ่ม เขตบึงกุ่ม กรุงเทพมหานคร 10240",
       "tel": "081-843-8989",
@@ -4491,16 +4491,16 @@
       "totalEmployee": "12"
     },
     "portfolio": {
-      "research": "ไม่ระบุ",
+      "research": "",
       "product": "สินค้าเกษตรฯ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105534074239",
     "THName": "บริษัท พิสิษฐ์ อินเตอร์กรุ๊ป จำกัด",
     "ENName": "PHISIT INTERGROUP COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "199 หมู่ที่ 5 หนองโพรง ศรีมหาโพธิ ปราจีนบุรี 25140",
       "tel": "02-271-1148-9",
@@ -4522,8 +4522,8 @@
     },
     "portfolio": {
       "research": "ปรับปรุงผลิตภัณฑ์",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
@@ -4560,7 +4560,7 @@
     "partnerId": "0105527031686",
     "THName": "บริษัท อินเตอร์อิงค์ จำกัด",
     "ENName": "INTERINK COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "15 ซอยนาคนิวาส 37 แยก 2-11 ถนนนาคนิวาส ลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230",
       "tel": "038-828-454 080-644-4286",
@@ -4594,7 +4594,7 @@
     "contacts": {
       "address": "108 ถนนบางแวก บางแวก เขตภาษีเจริญ กรุงเทพมหานคร 10160",
       "tel": "02-865-7800-7",
-      "fax": "กรุณาระบุ (ถ้ามี)",
+      "fax": "",
       "homepage": "www.jbp.co.th",
       "contactName": {
         "name": "พีรพงษ์ เสือสุข/อรุณชัย",
@@ -4613,14 +4613,14 @@
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์ที่เป็นมิตรกับผู้บริโภคและสิ่งแวดล้อม ที่ได้รับมาตรฐานทั้งในประเทศและต่างประเทศ",
       "product": "พัฒนาผลิตภัณฑ์สีทาภายใน ที่ได้รับมาตรฐาน A+ Emission ",
-      "process": "กรุณาระบุ (ถ้ามี)"
+      "process": ""
     }
   },
   {
     "partnerId": "0105544046220",
     "THName": "บริษัท ไทยมาสเตอร์คัลเลอร์ จำกัด",
     "ENName": "THAI MASTER COLOR COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "43 อาคารไทยซีซีทาวเวอร์ ชั้น 32 ห้องเลขที่ 324-326 ถนนสาทรใต้ ยานนาวา เขตสาทร กรุงเทพมหานคร 10120",
       "tel": "02-673-9809",
@@ -4643,14 +4643,14 @@
     "portfolio": {
       "research": "ผลิตสินค้าใหม่ๆ",
       "product": "ตามออเดอร์ลูกค้า",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105525033371",
     "THName": "บริษัท ดี.ดี. โพลียูเรเทน จำกัด",
     "ENName": "D.D. POLYURETHANE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "88/1 หมู่ที่ 9 ถนนท่าพูด-พุทธมณฑลสาย 5 ไร่ขิงทสามพราน นครปฐม 73210",
       "tel": "02-810-3200 081-495-7685",
@@ -4672,15 +4672,15 @@
     },
     "portfolio": {
       "research": "ปรับปรุงสินค้า",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105549036516",
     "THName": "บริษัท เอสที อาร์ท แมททีเรียล จำกัด",
     "ENName": "ST ART MATERIAL COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "1148/12-15 ถนนริมทางรถไฟ ตลาดพลู เขตธนบุรี กรุงเทพมหานคร 10600",
       "tel": "02-891-3134 086-041-5624",
@@ -4703,14 +4703,14 @@
     "portfolio": {
       "research": "ออกแบบสินค้าสีน้ำมัน สีโปสเตอร์ สีเพนท์ร่างกาย เฉดสีใหม่ๆ ",
       "product": "ปรับเปลี่ยนสีน้ำ สีเพนท์ร่างกาย เพิ่มเฉดสีใหม่ๆ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105538075213",
     "THName": "บริษัท บูเคมี อินดัสตรี จำกัด",
     "ENName": "BU CHEMICAL INDUSTRY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "4/279 หมู่ที่ 3 ซอยหงสกุล ถนนพหลโยธิน คลองหนึ่ง คลองหลวง ปทุมธานี 12120",
       "tel": "02-902-1150-1",
@@ -4732,20 +4732,20 @@
     },
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์ใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105520004438",
     "THName": "บริษัท เจ.เอ็ม.ที.ลาบอเรตอรีส จำกัด",
     "ENName": "J.M.T. LABORATORIES CO. LTD.",
-    "description": "กรุณาระบุ (ถ้ามี)",
+    "description": "",
     "contacts": {
       "address": "338 ถนนบางขุนเทียน-ชายทะเล แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150",
       "tel": "044-917-500-3",
       "fax": "044-917-500-3 Ext 119",
-      "homepage": "กรุณาระบุ (ถ้ามี)",
+      "homepage": "",
       "contactName": {
         "name": "อาทิตย์อุทัย",
         "role": "หัวหน้า QA",
@@ -4756,14 +4756,14 @@
     "history": {
       "year": "2520",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "90000000 ไม่ระบุ",
-      "income": "95007159.3 ไม่ระบุ",
-      "totalEmployee": "กรุณาระบุ (ถ้ามี)"
+      "registeredCapital": "90000000 ",
+      "income": "95007159.3 ",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ปรับปรุงสินค้า",
       "product": "ทรีทเมนต์ แชมพู ครีมเปลี่ยนสีผม น้ำยาย้อมผม ผลิตภัณฑ์แต่งทรงผม ผลิตภัณฑ์บำรุงผิว ",
-      "process": "กรุณาระบุ (ถ้ามี)"
+      "process": ""
     }
   },
   {
@@ -4793,14 +4793,14 @@
     "portfolio": {
       "research": "พัฒนาสินค้า",
       "product": "สกินแคร์ ยาสีฟัน น้ำยาบ้วนปาก",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0105531047265",
     "THName": "บริษัท อุตสาหกรรมเครื่องหอมไทย-จีน จำกัด",
     "ENName": "THAI-CHINA FLAVOURS AND FRAGRANCES INDUSTRY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "99 หมู่ที่ 2 ถนนลาดบัวหลวง-ไม้ตรา ลาดบัวหลวง ลาดบัวหลวง พระนครศรีอยุธยา 13230",
       "tel": "035-379-211-3",
@@ -4860,7 +4860,7 @@
     "partnerId": "0105548143815",
     "THName": "บริษัท พีซีซีเอ แล็บบอราเทอรี่ จำกัด",
     "ENName": "PCCA LABORATORY COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "59 ถนนสตรีวิทยา 2  ลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230",
       "tel": "02-538-4646",
@@ -4883,7 +4883,7 @@
     "portfolio": {
       "research": "พัฒนาผลิตภัณฑ์",
       "product": "SKIN CARE ตัวใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
@@ -4912,15 +4912,15 @@
     },
     "portfolio": {
       "research": "การปรับปรุงพัฒนาผลิตภัณฑ์เดิม และพัฒนาผลิตภัณฑ์ใหม่",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   },
   {
     "partnerId": "0105515000918",
     "THName": "บริษัท คิงฟิชเชอร์ โฮลดิ้งส์ จำกัด",
     "ENName": "KING FISHER HOLDINGS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "127/27 ชั้น 22 อาคารปัญจธานีทาวเวอร์ ถนนนนทรี(รัชดาภิเษก) ช่องนนทรี เขตยานนาวา กรุงเทพมหานคร 10120",
       "tel": "034-419-888",
@@ -4936,8 +4936,8 @@
     "history": {
       "year": "2515",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
+      "registeredCapital": "",
+      "income": "",
       "totalEmployee": "4000"
     },
     "portfolio": {
@@ -4950,7 +4950,7 @@
     "partnerId": "0105528033887",
     "THName": "บริษัท สานิตแอนด์ซันส์ จำกัด",
     "ENName": "SANIT & SONS COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "52 ซอยเจริญราษฎร์ 7 บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ",
       "tel": "02-291-6465",
@@ -4973,14 +4973,14 @@
     "portfolio": {
       "research": "ผลิตภัณฑ์ในครัวเรือนและอุตสาหกรรม",
       "product": "สเปรย์หล่อลื่น ทำความสะอาด ฆ่าเชื้อ กำจัดแมลง และเครื่องสำอาง ",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0745541001220",
     "THName": "บริษัท แอคมี เคม เทค จำกัด",
     "ENName": "ACME CHEM TECH COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "336 หมู่ที่ 4 ซอยว.ป.อ.11(พิเศษ) ถนนเศรษฐกิจ 1 ท่าไม้ กระทุ่มแบน สมุทรสาคร 74110",
       "tel": "02-810-0090",
@@ -5010,7 +5010,7 @@
     "partnerId": "0105540000403",
     "THName": "บริษัท ทรีบอนด์ แมนูแฟคเจอริ่ง (ประเทศไทย) จำกัด",
     "ENName": "THREE BOND MANUFACTURING (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "700/432 หมู่ที่ 7 ถนนบางนา-ตราด ดอนหัวฬ่อ เมืองชลบุรี ชลบุรี 20000",
       "tel": "038-454-351-2",
@@ -5026,21 +5026,21 @@
     "history": {
       "year": "2540",
       "stockStatus": "ถือหุ้นโดยต่างชาติทั้งหมด",
-      "registeredCapital": "ไม่ระบุ",
-      "income": "ไม่ระบุ",
-      "totalEmployee": "ไม่ระบุ"
+      "registeredCapital": "",
+      "income": "",
+      "totalEmployee": ""
     },
     "portfolio": {
       "research": "ปรับปรุงสินค้า",
       "product": "กาวสูตรใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0205551006156",
     "THName": "บริษัท ดันล้อป แอดฮีซีฟส์ (ประเทศไทย) จำกัด",
     "ENName": "DUNLOP ADHESIVES (THAILAND) COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "700/242 นิคมอุตสาหกรรมอมตะนคร หมู่ที่ 1 บ้านเก่า พานทอง ชลบุรี 20160",
       "tel": "038-465-661-2 Ext.402",
@@ -5063,14 +5063,14 @@
     "portfolio": {
       "research": "วิจัยและพัฒนาผลิตภัณฑ์กลุ่มกาว",
       "product": "กาวสูตรใหม่",
-      "process": "ไม่ระบุ"
+      "process": ""
     }
   },
   {
     "partnerId": "0205529000604",
     "THName": "บริษัท น้ำปลา พิไชย จำกัด",
     "ENName": "PICHAI FISH SAUCE COMPANY LIMITED",
-    "description": "ไม่ระบุ",
+    "description": "",
     "contacts": {
       "address": "129 ถนนบางแสนล่าง แสนสุข เมืองชลบุรี ชลบุรี 20130",
       "tel": "038-391-531-4",
@@ -5092,8 +5092,8 @@
     },
     "portfolio": {
       "research": "ปรับปรุงสินค้าตัวเดิม",
-      "product": "ไม่ระบุ",
-      "process": "ไม่ระบุ"
+      "product": "",
+      "process": ""
     }
   }
 ]
