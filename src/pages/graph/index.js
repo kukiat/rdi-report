@@ -21,7 +21,7 @@ class Graph extends React.Component {
         <HeaderGraph />
         <div className="container">
           <div className="graph-page row">
-            <div className="col-lg-10 offset-1">
+            <div className="col-lg-10 offset-lg-1">
               <Organization />
               <TotalResearchCompanyGraph />
               <TotalResearchCompanyGraph2 />

@@ -4,15 +4,15 @@ a {
 }
 
 .partner-page {
-  font-size: 15px;
+  font-size: 16px;
   margin: 0 auto;
-  max-width: 920px;
   padding: 20px 0;
 }
 
 .partner-content-header {
-  font-size: 1.25rem;
+  font-size: 20px;
   margin: 10px 0 20px;
+  font-weight: 500;
 }
 
 .partner-content {
@@ -35,7 +35,7 @@ a {
 }
 
 .partner-content-item {
-  line-height: 180%;
+  margin-top: 15px;
 }
 
 .partner-content>h5 {
@@ -55,5 +55,4 @@ a {
 .partner-section-header-wrapper {
   padding-bottom: 10px;
   border-bottom: 2px solid #eaeaeb;
-  font-weight: bold;
 }
