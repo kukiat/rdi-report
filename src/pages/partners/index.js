@@ -56,7 +56,7 @@ const Partners = (props) => {
     setDropdown()
   }
 
-  const getPartnersBySubType = (_type) => {
+  const filterPartners = (_type) => {
     const partners = partnersList.filter((partner) => _type === 'all' || partner.subType === _type)
     return partners.map(partner => getPartnersData(partner)(partnersType))
   }
@@ -90,7 +90,7 @@ const Partners = (props) => {
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <PartnersList
-              partners={useMemo(() => getPartnersBySubType(subType), [subType])}
+              partners={useMemo(() => filterPartners(subType), [subType])}
             />
           </div>
         </div>

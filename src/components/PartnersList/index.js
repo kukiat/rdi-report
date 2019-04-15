@@ -28,7 +28,7 @@ const PartnerListItem = ({ partner, index }) => {
     <div className='partners-list-wrapper col-lg-4 col-6' key={`partner-${index}`} data-aos="fade-up">
       <Link to={`/partners/${partner.partnerId}`}>
         <div className='partners-images'>
-          <img className='partners-main-images' src={getImage(partner.type)} />
+          <img className='partners-main-images' src={getImage(partner.type)} alt='' />
           <div className='placeholder-content'>
             {partner.shortName}
           </div>
@@ -50,7 +50,7 @@ const PartnersList = ({ partners }) => {
             <h3>ไม่พบหัวข้อที่เลือก</h3>
           </div>
         ) : (
-            partners.map((partner, index) => <PartnerListItem partner={partner} index={index} />)
+            partners.map((partner, index) => <PartnerListItem partner={partner} index={index} key={index} />)
           )
       }
     </div >

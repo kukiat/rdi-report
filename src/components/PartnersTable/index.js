@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef, useLayoutEffect } from 'react'
 import classNames from 'classnames'
 import OutsideClickHandler from 'react-outside-click-handler';
 import './index.css'
@@ -25,7 +25,7 @@ const PartnersTable = ({
     setDropdown(isOpenDropdown.map((bool, i) => i === indexType && !bool))
   }
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (activeSearch) {
       refInputText.current.focus()
       refInputText.current.value = ''
@@ -101,7 +101,6 @@ const PartnersTable = ({
               placeholder="ค้นหาบริษัท"
               value={searchKeyword}
               onChange={handleSearch}
-            // autoFocus={activeSearch}
             />
           </div>
         </div>
