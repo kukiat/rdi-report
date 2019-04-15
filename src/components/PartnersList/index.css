@@ -37,20 +37,20 @@
 .placeholder-content {
   position: absolute;
   transition: opacity 1s ease-in-out;
-  padding: 0px 45% 0 15px;
+  padding: 0px 40% 0 15px;
   width: 100%;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 400;
   color: #7f7f7f;
 }
 
 .placeholder-content-second {
   position: absolute;
   opacity: 0;
-  padding: 0px 45% 0 15px;
+  padding: 0px 40% 0 15px;
   width: 100%;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 400;
   color: #7f7f7f;
 }
 

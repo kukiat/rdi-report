@@ -5,7 +5,7 @@ import './index.css'
 
 const ReportItem = ({ id, name, detail, date }) => {
   return (
-    <div key={id} className="report-item col-6">
+    <div key={id} className="report-item col-md-6">
       <a href="/static/files/sample-report.pdf" download={name}>
         <img
           width={60}
@@ -19,7 +19,6 @@ const ReportItem = ({ id, name, detail, date }) => {
           {name}
         </a>
         <div className="report-item-detail-text">{detail}</div>
-        <div className="report-item-detail-date">{date}</div>
       </div>
     </div>
   )
@@ -37,7 +36,7 @@ const Reports = () => {
               ประจำปี 2560
             </p>
             <p>
-              และทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านวิจัยและพัฒยา
+              และทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านวิจัยและพัฒนา
               และกิจกรรมนวัตกรรม ประจำปี 2561
             </p>
           </div>

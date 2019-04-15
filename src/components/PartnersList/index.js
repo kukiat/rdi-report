@@ -25,7 +25,7 @@ const PartnerListItem = ({ partner, index }) => {
   }
 
   return (
-    <div className='partners-list-wrapper col-lg-4 col-6' key={`partner-${index}`} data-aos="fade-up">
+    <div className='partners-list-wrapper col-md-4 col-6' key={`partner-${index}`} data-aos="fade-up">
       <Link to={`/partners/${partner.partnerId}`}>
         <div className='partners-images'>
           <img className='partners-main-images' src={getImage(partner.type)} />
@@ -33,7 +33,7 @@ const PartnerListItem = ({ partner, index }) => {
             {partner.shortName}
           </div>
           <div className="placeholder-content-second">
-            {partner.subTypeName}
+            {partner.name}
           </div>
         </div>
       </Link>
