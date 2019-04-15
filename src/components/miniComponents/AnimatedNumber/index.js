@@ -22,7 +22,7 @@ const useOnScrollCheckpoint = () => {
 const AnimatedNumber = ({
   startValue = 0,
   stopValue,
-  duration = 1700,
+  duration = 1000,
   children,
 }) => {
   const [currentValue, setCurrentValue] = useState(startValue)

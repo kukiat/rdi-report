@@ -40,6 +40,7 @@ export const query = graphql`
 const Partners = (props) => {
   const [type, setType] = useState('all')
   const [subType, setSubType] = useState('all')
+  const [searchKeyword, setSearchKeyword] = useState('')
 
   const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
@@ -55,7 +56,7 @@ const Partners = (props) => {
     setDropdown()
   }
 
-  const getPartnersBySubType = (_type) => {
+  const filterPartners = (_type) => {
     const partners = partnersList.filter((partner) => _type === 'all' || partner.subType === _type)
     return partners.map(partner => getPartnersData(partner)(partnersType))
   }
@@ -81,13 +82,15 @@ const Partners = (props) => {
             onFilterPartnerType={onFilterPartnerType}
             onFilterSubType={onFilterSubType}
             partnersType={partnersType}
+            setSearchKeyword={setSearchKeyword}
             type={type}
+            searchKeyword={searchKeyword}
           />
         </div>
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <PartnersList
-              partners={useMemo(() => getPartnersBySubType(subType), [subType])}
+              partners={useMemo(() => filterPartners(subType), [subType])}
             />
           </div>
         </div>
