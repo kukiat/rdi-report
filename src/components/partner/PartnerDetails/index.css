@@ -1,9 +1,25 @@
-.partner-description {
-  margin-top: 20px;
+.partner-mainproduct {
+  margin-top: 40px;
+}
+.partner-mainproduct-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.partner-mainproduct > p{
+  margin-top: 10px;
   text-indent: 30px;
   font-size: 17px;
 }
-
+.partner-description { }
+.partner-description-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.partner-description > p {
+  margin-top: 10px;
+  text-indent: 30px;
+  font-size: 17px;
+}
 .partner-details-container {
   padding: 18px 18px 0 18px;
   color: #464c57;
