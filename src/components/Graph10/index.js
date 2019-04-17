@@ -286,7 +286,7 @@ const Graph10Table = () => {
       </thead>
       <thead className="thead-light graph10-table-thead">
         <tr>
-          <th colspan="8">ข้อมูลทั่วไป</th>
+          <th colSpan="8">ข้อมูลทั่วไป</th>
         </tr>
       </thead>
       <tbody>
