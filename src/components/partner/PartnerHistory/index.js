@@ -28,7 +28,7 @@ const PartnerHistory = ({ data }) => {
         <div className="partner-history-title col-6">จำนวนพนักงานในปี 2560</div>
         <div className="col-6">{convertPeople(totalEmployee) || '-'}</div>
       </div>
-      <div className="partner-history-item row">
+      <div className="partner-history-item row" style={{ marginTop: 50 }}>
         <div className="partner-history-title col-6">การวิจัยและพัฒนาในปี 2560</div>
         <div className="col-6">{research || '-'}</div>
       </div>

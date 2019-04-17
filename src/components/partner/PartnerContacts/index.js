@@ -22,11 +22,11 @@ const PartnerContacts = ({ data: contacts }) => {
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลการติดต่อ</div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">ที่อยู่</div>
-        <div className="col-8">{contacts.contact || "-"}</div>
+        <div className="col-8">{contacts.address || "-"}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">โทรศัพท์</div>
-        <div className="col-8">{contacts.tel1 || "-"}</div>
+        <div className="col-8">{contacts.tel || "-"}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">โทรสาร</div>

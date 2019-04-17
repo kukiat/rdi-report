@@ -24,7 +24,7 @@ const Partner = ({ data }) => {
               <PartnerDetails data={details} />
             </div>
             <div className='col-lg-6'>
-              <PartnerHistory data={history} />
+              <PartnerHistory data={{ ...history, ...portfolio }} />
             </div>
             <div className='col-lg-6'>
               <PartnerContacts data={{ ...contacts, ...portfolio }} />
