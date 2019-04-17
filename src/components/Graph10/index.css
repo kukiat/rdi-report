@@ -10,8 +10,16 @@
 }
 
 .graph10-table {
+  margin-top: 40px;
   font-size: 14px !important;
-  /* text-align: center; */
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 10px !important;;
+}
+.graph10-table td:first-child {
+  text-align: initial !important;
+}
+.graph10-table td {
+  text-align: center;
 }
 .graph10-table-head th {
   font-weight: 400 !important;
