@@ -17,7 +17,7 @@ const PartnerDetails = ({ data }) => {
         <p>{mainProduct || '-'}</p>
       </div>
       <div className="partner-description" data-aos="fade-up">
-        <div className="partner-mainproduct-title">
+        <div className="partner-description-title">
           รายละเอียดบริษัท
         </div>
         <p>{description || '-'}</p>
