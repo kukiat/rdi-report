@@ -5,15 +5,11 @@ import './index.css'
 
 const PartnersTable = ({
   onFilterPartnerType,
-  setSearchKeyword,
   onFilterSubType,
   partnersType,
-  searchKeyword,
   type,
 }) => {
   const [isOpenDropdown, setDropdown] = useState([false, false, false, false])
-
-  const handleSearch = ({ target }) => setSearchKeyword(target.value)
 
   const getSubType = (partnerType) => {
     return partnersType.find(partner => partner.type === partnerType).subType
