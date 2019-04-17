@@ -45,7 +45,9 @@ const Partners = (props) => {
   const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
 
   const onFilterPartnerType = (_type, setDropdown) => {
-    setCurrectType(_type)
+    if (_type !== type) {
+      setCurrectType(_type)
+    }
     setType(_type)
     setDropdown()
   }
