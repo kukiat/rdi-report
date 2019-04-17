@@ -508,7 +508,7 @@ export default () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-12 graph10-1" data-aos="fade-left">
+        {/* <div className="col-lg-12 graph10-1" data-aos="fade-left">
           <h3>ข้อมูลทั่วไป</h3>
           <Line data={data1} options={options} />
         </div>
@@ -519,7 +519,7 @@ export default () => {
         <div className="col-lg-12 graph10-3" data-aos="fade-left">
           <h3>ข้อมูลการวิจัยและพัฒนาโดยแบ่งตามบุคลากร</h3>
           <Line data={data3} options={options} />
-        </div>
+        </div> */}
         <div className="col-12 table-responsive  graph10-table" data-aos="fade-up">
           <Graph10Table />
         </div>
