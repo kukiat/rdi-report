@@ -3,11 +3,6 @@
   border-bottom-left-radius: 10px;
 }
 
-.partner-table-item.sales .list-item {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
 .list-item.active {
   background-color: #906cb3 !important;
   color: #fff;
@@ -20,12 +15,11 @@
 }
 
 .partner-table-item.sales .list-item {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .partner-table-item.sales .active-dropdown {
-  border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
@@ -48,62 +42,6 @@
   background-color: #fff;
   margin-top: 20px;
   margin-bottom: 30px;
-}
-
-.input-group {}
-
-.search-box {
-  position: absolute !important;
-  left: 93%;
-  width: 0 !important;
-  transition: all 400ms ease-in;
-  opacity: 0.7;
-}
-
-.search-box.active {
-  left: 0%;
-  opacity: 1;
-  width: 90% !important;
-}
-
-.search-box-input {
-  height: 55px !important;
-  padding: 5px 25px !important;
-  border-top-left-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
-  font-size: 18px !important;
-  font-weight: 300 !important;
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-.search-box-input:focus {
-  border-color: #fff !important;
-}
-
-.search-box-button {
-  z-index: 2;
-  border-top-right-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
-}
-
-.search-box-button>button {
-  border: 1px solid #fff;
-  background-color: #fff !important;
-  color: #5e5e5e;
-  font-weight: 300;
-  padding: 0 20px;
-  outline: none !important;
-  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px !important; */
-}
-
-.btn-outline-secondary {
-  border-radius: 0 !important;
-}
-
-.search-box-button>button:hover {
-  border: 1px solid #a87cd4;
-  background-color: #a87cd4 !important;
 }
 
 @keyframes opacityA {
@@ -145,6 +83,6 @@
   font-size: 16px;
   list-style-type: none;
   border: 1px solid #e2e2e2;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
