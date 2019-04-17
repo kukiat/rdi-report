@@ -16,13 +16,11 @@ export default () => {
       </div>
       <div className="row">
         <div className="col-lg-12" data-aos="fade-left">
-
           <div style={{
             width: '100%',
             height: '600px',
             backgroundColor: '#8c63b1',
           }} />
-
         </div>
       </div>
     </div>

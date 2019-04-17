@@ -26,3 +26,13 @@
   font-size: 16px;
   text-align: center;
 }
+
+.graph9-pie {
+  position: relative;
+  height: 200px;
+  width: 500px;
+}
+
+.graph9-content-section {
+  margin-top: 50px;
+}
