@@ -1,5 +1,5 @@
 .graph10-graph-page {
-  margin: 50px;
+  margin-top: 50px;
 }
 
 .graph10-graph-subtitle {
@@ -8,3 +8,18 @@
   margin-top: -10px;
   margin-bottom: 20px;
 }
+
+.graph10-table {
+  font-size: 14px !important;
+  /* text-align: center; */
+}
+.graph10-table-head th {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+.graph10-table-thead th {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  font-weight: 300 !important;
+}
+
