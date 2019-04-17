@@ -1188,5 +1188,33 @@
     "subType": "SALES-1",
     "name": "บริษัท เอ็นบีดี เฮลท์แคร์ จำกัด",
     "shortName": "NBD HEALTHCARE"
+  },
+  {
+    "partnerId": "0205527001742",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เบอร์ลี่ ยุคเกอร์ ฟู้ดส์ จำกัด",
+    "shortName": "BERLI JUCKER FOODS COMPANY LIMITED"
+  },
+  {
+    "partnerId": "0205529000605",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท มาเจสติค อุตสาหกรรมอาหาร จำกัด",
+    "shortName": "MAJESTIC FOOD INDUSTRY"
+  },
+  {
+    "partnerId": "0205529000606",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท สีไดโน จำกัด",
+    "shortName": "DYNO PAINTS COMPANY"
+  },
+  {
+    "partnerId": "0205529000607",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท วินสัน อิ๊งค์ จำกัด",
+    "shortName": "WINSON INK"
   }
 ]
