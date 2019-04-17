@@ -263,6 +263,12 @@ const data3 = {
   ],
 }
 
+const options = {
+  maintainAspectRatio: false,
+  legend: {
+    position: 'bottom',
+  }
+}
 export default () => {
 
 
@@ -281,15 +287,15 @@ export default () => {
       <div className="row">
         <div className="col-lg-12 graph10-1" data-aos="fade-left">
           <h1>ข้อมูลทั่วไป</h1>
-          <Line data={data1} />
+          <Line data={data1} options={options} />
         </div>
         <div className="col-lg-12 graph10-2" data-aos="fade-left">
           <h1>ข้อมูลการวิจัยและพัฒนาโดยแบ่งตามค่าใช้จ่าย</h1>
-          <Line data={data2} />
+          <Line data={data2} options={options} />
         </div>
         <div className="col-lg-12 graph10-3" data-aos="fade-left">
           <h1>ข้อมูลการวิจัยและพัฒนาโดยแบ่งตามบุคลากร</h1>
-          <Line data={data3} />
+          <Line data={data3} options={options} />
         </div>
       </div>
     </div>

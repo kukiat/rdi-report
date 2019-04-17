@@ -24,6 +24,7 @@ const data = {
 };
 
 const options = {
+  maintainAspectRatio: false,
   legend: {
     position: 'bottom',
   }
