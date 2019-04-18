@@ -20,6 +20,7 @@
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-sharp": "^2.1.17",
+    "numeral": "^2.0.6",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-chartjs-2": "^2.7.6",
