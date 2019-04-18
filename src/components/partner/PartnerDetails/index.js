@@ -10,13 +10,13 @@ const PartnerDetails = ({ data }) => {
         <div className="partner-details-header patner-detail-animation-1">{THName}</div>
         <div className="partner-details-header patner-detail-animation-2">{ENName}</div>
       </div>
-      <div className="partner-mainproduct" data-aos="fade-up">
+      <div className="partner-mainproduct">
         <div className="partner-mainproduct-title">
           ผลิตภัณฑ์หลักของบริษัท
         </div>
         <p>{mainProduct || '-'}</p>
       </div>
-      <div className="partner-description" data-aos="fade-up">
+      <div className="partner-description">
         <div className="partner-description-title">
           รายละเอียดบริษัท
         </div>

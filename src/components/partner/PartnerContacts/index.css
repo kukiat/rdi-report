@@ -1,6 +1,7 @@
 .partner-contact-container {
   padding: 18px;
   color: #464c57;
+  animation: appear-right 1s ease
 }
 
 .partner-contact-title {

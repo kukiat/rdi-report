@@ -12,4 +12,5 @@
 .partner-history-container {
   padding: 18px;
   color: #464c57;
+  animation: appear-left 1s ease
 }
