@@ -7,11 +7,4 @@
   font-weight: 500;
 }
 
-.link-homepage {
-  text-decoration: none;
-  color: #464c57;
-}
-
-.link-homepage:hover {
-  color: #464c57;
-}
+.link-homepage { }
