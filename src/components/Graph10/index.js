@@ -520,7 +520,7 @@ export default () => {
           <h3>ข้อมูลการวิจัยและพัฒนาโดยแบ่งตามบุคลากร</h3>
           <Line data={data3} options={options} />
         </div> */}
-        <div className="col-12 table-responsive  graph10-table" data-aos="fade-up">
+        <div className="col-12 table-responsive" data-aos="fade-up">
           <Graph10Table />
         </div>
       </div>

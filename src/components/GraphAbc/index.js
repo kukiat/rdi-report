@@ -9,17 +9,17 @@ const GraphDef = () => {
       </p>
       <div className="tr2-graph-detail-wrapper row">
         <div className="col-lg-8" data-aos="fade-right">
-          <img width={600} src={require('../../static/images/graph/graph6.png')} />
+          <img width={600} src={require('../../static/images/graph/graph6.png')} alt="" />
           <div className="tr2-graph-desc">
             <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>
         </div>
         <div className="tr2-graph-detail col-lg-4">
-          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center' }}>
+          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center', marginTop: 20 }}>
             โดยอุตสาหกรรมยานยนต์มีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด รองลงมาคืออุตสาหกรรมอาหาร และอุตสาหกรรมปิโตรเลียมตามลำดับ
 
           </p>
-          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center' }}>
+          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center', marginTop: 40 }}>
             โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการผลิตอยู่ที่ 80,041 ล้านบาท
           </p>
         </div>
