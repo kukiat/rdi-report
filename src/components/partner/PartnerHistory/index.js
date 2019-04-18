@@ -37,7 +37,7 @@ const PartnerHistory = ({ data }) => {
         <div className="col-6">{product || '-'}</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">ขั้นตอนด้านการผลิต</div>
+        <div className="partner-history-title col-6">กิจกรรมนวัตกรรมด้านกระบวนการ</div>
         <div className="col-6">{process || '-'}</div>
       </div>
     </div>
