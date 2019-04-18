@@ -13,7 +13,7 @@ const Organization = () => {
       <div className="col-lg-6 org-content-section" >
         <div className="org-content-desc">
           <div className="org-content-desc-text-title" data-aos="fade-left">
-            วัตถุประสงค์หลักของการสำรวจในครั้งนี้ คือ
+            วัตถุประสงค์หลักของการสำรวจ
           </div>
           <p className="org-content-desc-text" data-aos="fade-left">
             {' '}
@@ -26,7 +26,7 @@ const Organization = () => {
             เพื่อพัฒนาเทคโนโลยีของผู้ประกอบการในปี 2560
           </p>
           <p className="org-content-desc-text" data-aos="fade-left">
-            ทั้งนี้ สวทน.ได้มอบหมายให้จุฬาลงกรณ์มหาวิทยาลัยเป็นผู้ดำเนินการสำรวจข้อมูลและประมวลผล
+            ทั้งนี้สวทน.ได้มอบหมายให้จุฬาลงกรณ์มหาวิทยาลัยเป็นผู้ดำเนินการสำรวจข้อมูลและประมวลผล
             โดยใช้ระยะเวลาดำเนินการทั้งสิ้นประมาณ 7 เดือน (สิงหาคม 2561 – กุมภาพันธ์ 2562)
           </p>
         </div>

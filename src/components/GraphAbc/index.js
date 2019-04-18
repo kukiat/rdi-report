@@ -15,11 +15,11 @@ const GraphDef = () => {
           </div>
         </div>
         <div className="tr2-graph-detail col-lg-4">
-          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center', marginTop: 20 }}>
+          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ marginTop: 20 }}>
             โดยอุตสาหกรรมยานยนต์มีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด รองลงมาคืออุตสาหกรรมอาหาร และอุตสาหกรรมปิโตรเลียมตามลำดับ
 
           </p>
-          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center', marginTop: 40 }}>
+          <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ marginTop: 10 }}>
             โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการผลิตอยู่ที่ 80,041 ล้านบาท
           </p>
         </div>
