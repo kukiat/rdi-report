@@ -10,13 +10,37 @@ const PartnerContacts = ({ data: contacts }) => {
       </a> : "-"
   )
 
-  // eslint-disable-next-line
-  const emailLink = (
-    contacts.contactName.email ?
-      <a href={`mailto:${contacts.contactName.email}`}> {contacts.contactName.email} </a>
-      :
-      "-"
-  )
+  let tel1 = '-'
+  const companyTel = contacts.tel
+  if (companyTel) {
+    tel1 = String(companyTel).split(/[/,:]/g).map((tel) => (
+      <div>{tel}</div>
+    ))
+  }
+
+  let tel2 = '-'
+  const contactTel = contacts.contactName.tel
+  if (contactTel) {
+    tel2 = String(contactTel).split(/[/,:]/g).map((tel) => (
+      <div>{tel}</div>
+    ))
+  }
+
+  let emailLink = '-'
+  const { email } = contacts.contactName
+  if (email) {
+    emailLink = String(email).split(/[/, :]/g).map((mail) => (
+      <a className='partner-content-email' href={`mailto:${mail}`}>{mail}</a>
+    ))
+  }
+
+  let faxContact = '-'
+  const fax = contacts.fax
+  if (fax) {
+    faxContact = String(fax).split(/[/,:]/g).map((tel) => (
+      <div>{tel}</div>
+    ))
+  }
 
   return (
     <div className="partner-contact-container" data-aos="fade-left">
@@ -27,11 +51,11 @@ const PartnerContacts = ({ data: contacts }) => {
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">โทรศัพท์</div>
-        <div className="col-8">{contacts.tel || "-"}</div>
+        <div className="col-8">{tel1}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">โทรสาร</div>
-        <div className="col-8">{contacts.fax || "-"}</div>
+        <div className="col-8">{faxContact}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">เว็บไซต์</div>
@@ -48,11 +72,11 @@ const PartnerContacts = ({ data: contacts }) => {
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">เบอร์ติดต่อ</div>
-        <div className="col-8">{contacts.contactName.tel || "-"}</div>
+        <div className="col-8">{tel2}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">Email</div>
-        <div className="col-8">{contacts.contactName.email}</div>
+        <div className="col-8">{emailLink}</div>
       </div>
     </div>
   )

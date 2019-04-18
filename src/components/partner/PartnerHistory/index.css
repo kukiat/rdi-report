@@ -1,6 +1,9 @@
 .partner-history-item {
   margin-top: 15px;
 }
+.partner-history-item > * {
+  word-wrap: break-word;
+}
 
 .partner-history-title {
   font-weight: 500;
