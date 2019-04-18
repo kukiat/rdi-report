@@ -11,8 +11,8 @@ import Graph4 from './Graph4'
 import Graph8 from './Graph8'
 import Graph9 from './Graph9'
 import Graph10 from './Graph10'
-import GraphAbc from './GraphAbc'
-import GraphDef from './GraphDef'
+import GraphSix from './GraphSix'
+import GraphSeven from './GraphSeven'
 
 export {
   IndustryGraph,
@@ -28,6 +28,6 @@ export {
   Graph8,
   Graph9,
   Graph10,
-  GraphAbc,
-  GraphDef,
+  GraphSix,
+  GraphSeven,
 }

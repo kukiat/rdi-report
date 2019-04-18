@@ -11,8 +11,8 @@ import {
   Graph8,
   Graph9,
   Graph10,
-  GraphAbc,
-  GraphDef,
+  GraphSix,
+  GraphSeven,
 } from '../../components'
 import './index.css'
 
@@ -30,8 +30,8 @@ class Graph extends React.Component {
               <Graph4 />
               <HumanGraph />
               <IndustryGraph />
-              <GraphAbc />
-              <GraphDef />
+              <GraphSix />
+              <GraphSeven />
               <Graph8 />
               <Graph9 />
               <Graph10 />
