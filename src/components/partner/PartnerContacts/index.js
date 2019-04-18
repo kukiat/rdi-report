@@ -10,6 +10,7 @@ const PartnerContacts = ({ data: contacts }) => {
       </a> : "-"
   )
 
+  // eslint-disable-next-line
   const emailLink = (
     contacts.contactName.email ?
       <a href={`mailto:${contacts.contactName.email}`}> {contacts.contactName.email} </a>
@@ -51,7 +52,7 @@ const PartnerContacts = ({ data: contacts }) => {
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">Email</div>
-        <div className="col-8">{emailLink}</div>
+        <div className="col-8">{contacts.contactName.email}</div>
       </div>
     </div>
   )

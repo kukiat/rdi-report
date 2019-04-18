@@ -18,7 +18,7 @@ const Graph7 = () => {
           </p>
         </div>
         <div className="tr2-graph-detail col-lg-8" data-aos="fade-left">
-          <img width={500} src={require('../../static/images/graph/graph7.png')} />
+          <img width={500} src={require('../../static/images/graph/graph7.png')} alt="" />
           <div className="tr2-graph-desc">
             <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>
