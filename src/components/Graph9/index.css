@@ -14,10 +14,12 @@
 }
 
 .graph9-content {
+  margin-top: 50px;
   text-align: center;
 }
 
 .graph9-content-text {
+  margin-top: 10px;
   font-size: 18px;
 }
 
@@ -34,5 +36,5 @@
 }
 
 .graph9-content-section {
-  margin-top: 50px;
+  margin-top: 0;
 }

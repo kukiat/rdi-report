@@ -1,12 +1,14 @@
 [
   {
-    "name": "statistic-304261523.pdf",
+    "name": "RDI-SURVEY-REPORT-2018.pdf",
     "detail": "เอกสารรายงานผลการสำรวจการวิจัยและพัฒนาและกิจกรรมนวัตกรรม ในภาคอุตสาหกรรมของประเทศไทย ประจำปี 2561",
-    "filetype": "pdf"
+    "filetype": "pdf",
+    "fileName": "RDI-SURVEY-REPORT-2018.pdf"
   },
   {
     "name": "statistic-304261524.pdf",
     "detail": "และทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านวิจัยและพัฒนาและกิจกรรมนวัตกรรม ประจำปี 2561",
-    "filetype": "pdf"
+    "filetype": "pdf",
+    "fileName": "sample-report.pdf"
   }
 ]
