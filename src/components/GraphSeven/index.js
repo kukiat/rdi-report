@@ -14,8 +14,8 @@ const data = {
       backgroundColor: '#FF6384',
       pointBorderColor: '#FF6384',
       fill: false,
-      pointRadius: 0,
-      pointHoverRadius: 0,
+      pointRadius: 1,
+      pointHoverRadius: 1,
       data: [42, 3, 1, 0, 37, 55, 90, 21, 298, 18, 155, 270, 55, 44, 18, 5],
     },
     {
@@ -51,6 +51,16 @@ const data = {
 }
 
 const options = {
+  tooltips: {
+    callbacks: {
+      label: (tooltipItem, data) => {
+        const { index, datasetIndex } = tooltipItem
+        const { datasets } = data
+        const unit = datasetIndex ? 'บาท' : 'คน'
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} ${unit}`
+      }
+    }
+  },
   responsive: true,
   elements: {
     line: {

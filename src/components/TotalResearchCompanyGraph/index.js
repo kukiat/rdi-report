@@ -1,4 +1,5 @@
 import React from 'react'
+import numeral from 'numeral'
 import { parseLocaleString } from '../../utils/general'
 import { Bar } from 'react-chartjs-2'
 import './index.css'
@@ -53,6 +54,14 @@ const data = {
 }
 
 const options = {
+  tooltips: {
+    callbacks: {
+      label: (tooltipItem, data) => {
+        console.log(tooltipItem, data)
+        return `${data.labels[tooltipItem.datasetIndex]} - ${numeral(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]).format('0,0')}`;
+      }
+    }
+  },
   scales: {
     yAxes: [{
       ticks: {
