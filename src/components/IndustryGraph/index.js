@@ -59,11 +59,16 @@ const optionsI = {
   },
   legend: {
     position: 'bottom',
-    display: false,
+    display: true,
   },
   scales: {
     xAxes: [
       {
+        ticks: {
+          autoSkip: false,
+          maxRotation: 90,
+          minRotation: 90,
+        },
         display: true,
         gridLines: {
           display: false,
@@ -179,12 +184,17 @@ const optionsII = {
   },
   legend: {
     position: 'bottom',
-    display: false,
+    display: true,
     // marginBottom: '30px'
   },
   scales: {
     xAxes: [
       {
+        ticks: {
+          autoSkip: false,
+          maxRotation: 90,
+          minRotation: 90,
+        },
         display: true,
         gridLines: {
           display: false,
