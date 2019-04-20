@@ -4,7 +4,7 @@ const useOnScrollCheckpoint = () => {
   const [checkpoint, setCheckpoint] = useState(false)
 
   const onScroll = () => {
-    if (window.scrollY > 2700) {
+    if (window.scrollY > 2500) {
       return setCheckpoint(true)
     }
     return setCheckpoint(false)

@@ -1,5 +1,5 @@
 import React from 'react'
-import numeral from 'numeral'
+import { parseLocaleString } from '../../utils/general'
 import { Bar } from 'react-chartjs-2'
 import './index.css'
 
@@ -124,7 +124,7 @@ const options = {
         },
         ticks: {
           callback: (value) => {
-            return numeral(value).format('0,0')
+            return parseLocaleString(value)
           }
         },
       },
@@ -141,7 +141,7 @@ const options = {
         },
         ticks: {
           callback: (value) => {
-            return numeral(value).format('0,0')
+            return parseLocaleString(value)
           }
         },
       },

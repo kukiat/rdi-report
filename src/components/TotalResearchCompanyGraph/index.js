@@ -1,5 +1,5 @@
 import React from 'react'
-import numeral from 'numeral'
+import { parseLocaleString } from '../../utils/general'
 import { Bar } from 'react-chartjs-2'
 import './index.css'
 // import 'chartjs-plugin-datalabels'
@@ -57,7 +57,7 @@ const options = {
     yAxes: [{
       ticks: {
         callback: (value, index, values) => {
-          return numeral(value).format('0,0')
+          return parseLocaleString(value)
         }
       }
     }],

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Bar } from 'react-chartjs-2'
-import numeral from 'numeral'
+import { parseLocaleString } from '../../utils/general'
 import './index.css'
 
 const data = {
@@ -52,14 +52,6 @@ const data = {
 
 const options = {
   responsive: true,
-  tooltips: {
-    mode: 'label',
-    callbacks: {
-      label: (tooltipItem, data) => {
-        return `${data.labels[tooltipItem.datasetIndex]} - ${numeral(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]).format('0,0')}`;
-      }
-    }
-  },
   elements: {
     line: {
       fill: false,
@@ -109,7 +101,7 @@ const options = {
         },
         ticks: {
           callback: (value) => {
-            return numeral(value).format('0,0')
+            return parseLocaleString(value)
           }
         },
       },
@@ -126,7 +118,7 @@ const options = {
         },
         ticks: {
           callback: (value) => {
-            return numeral(value).format('0,0')
+            return parseLocaleString(value)
           }
         },
       },
