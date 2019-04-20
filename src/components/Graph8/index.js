@@ -54,6 +54,11 @@ const options = {
   scales: {
     xAxes: [
       {
+        ticks: {
+          autoSkip: false,
+          maxRotation: 90,
+          minRotation: 90,
+        },
         barPercentage: 0.3,
         display: true,
         gridLines: {
