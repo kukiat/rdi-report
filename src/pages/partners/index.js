@@ -39,21 +39,12 @@ const Partners = (props) => {
     setDropdown()
   }
 
-  const shuffle = (array) => {
-    return array.slice().sort(() => Math.random() - 0.5)
-  }
-
   const filterPartners = (_currectType, _searchValue) => {
     const filterWord = (key) => (value) => key.toLowerCase().includes(value)
     const filterByName = ({ name, shortName }) => filterWord(name)(_searchValue) || filterWord(shortName)(_searchValue)
     const filterByType = ({ subType, type }) => _currectType === 'all' || _currectType === subType || _currectType === type
 
-    const filteredList = partnersList.filter(partner => filterByType(partner) && filterByName(partner))
-
-    if (_currectType === 'all') {
-      return shuffle(filteredList)
-    }
-    return filteredList
+    return partnersList.filter(partner => filterByType(partner) && filterByName(partner))
   }
 
   return (

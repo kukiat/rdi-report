@@ -1,472 +1,10 @@
 [
   {
-    "partnerId": "0505510000029",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-1",
-    "name": "บริษัท ชาระมิงค์ จำกัด",
-    "shortName": "RAMING TEA"
-  },
-  {
-    "partnerId": "0105524017208",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-1",
-    "name": "บริษัท แปซิฟิค เมล็ดพันธุ์ จำกัด",
-    "shortName": "PACIFIC SEEDS"
-  },
-  {
-    "partnerId": "0745549001482",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-1",
-    "name": "บริษัท ไทยยูเนี่ยน แฮชเชอรี่ จำกัด",
-    "shortName": "THAI UNION HATCHERY"
-  },
-  {
-    "partnerId": "0715521000040",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-1",
-    "name": "บริษัท เค.ซี.เกษตรกรรม จำกัด",
-    "shortName": "K.C. GENERAL FARM CORPORATION"
-  },
-  {
-    "partnerId": "0245551000760",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-1",
-    "name": "บริษัท แอ๊ดวานซ์อาเชี่ยน จำกัด",
-    "shortName": "ADVANCE ASIAN"
-  },
-  {
-    "partnerId": "0735539002192",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-1",
-    "name": "บริษัท เอบีเจ ฟาร์ม จำกัด",
-    "shortName": "ABJ FARM"
-  },
-  {
-    "partnerId": "0105527004948",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-1",
-    "name": "บริษัท อีสท์ เวสท์ ซีด จำกัด",
-    "shortName": "EAST-WEST SEED"
-  },
-  {
-    "partnerId": "0105538061468",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-8",
-    "name": "บริษัท กรีนแคล(ประเทศไทย) จำกัด",
-    "shortName": "GREENCAL (THAILAND)"
-  },
-  {
-    "partnerId": "0107537001471",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท จีเอฟพีที จำกัด (มหาชน)",
-    "shortName": "GFPT PLC"
-  },
-  {
-    "partnerId": "0305539000801",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เตียหงี่เฮียง (เจ้าสัว) จำกัด",
-    "shortName": "TIA NGEE HIANG (CHAOSUA)"
-  },
-  {
-    "partnerId": "0735547000837",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท สามพราน ซลอเทอร์เฮาส์ จำกัด",
-    "shortName": "SAMPRAN SLAUGHTERHOUSE"
-  },
-  {
-    "partnerId": "0205540001379",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท พนัสโพลทรี่ จำกัด",
-    "shortName": "PANUS POULTRY"
-  },
-  {
-    "partnerId": "0505530000598",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท บีโปรดักส์อินดัสตรี้ จำกัด",
-    "shortName": "BEE PRODUCTS INDUSTRY"
-  },
-  {
-    "partnerId": "0855542000048",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ระนองโฟรเซ่นฟู้ดส์ จำกัด",
-    "shortName": "RANONG FROZEN FOODS"
-  },
-  {
-    "partnerId": "0105515000918",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท คิงฟิชเชอร์ โฮลดิ้งส์ จำกัด",
-    "shortName": "KING FISHER HOLDINGS"
-  },
-  {
-    "partnerId": "0205529000604",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท น้ำปลา พิไชย จำกัด",
-    "shortName": "PICHAI FISH SAUCE"
-  },
-  {
-    "partnerId": "0115529000842",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ไฮ คิว ผลิตภัณฑ์อาหาร จำกัด",
-    "shortName": "HI Q FOOD PRODUCTS"
-  },
-  {
-    "partnerId": "0107537000076",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ทรอปิคอลแคนนิ่ง (ประเทศไทย) จำกัด (มหาชน)",
-    "shortName": "TROPICAL CANNING (THAILAND) PLC"
-  },
-  {
-    "partnerId": "0205514000123",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท อุตสาหกรรมไทยปรีดา จำกัด",
-    "shortName": "THAI PREEDA INDUSTRY"
-  },
-  {
-    "partnerId": "0105533075568",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ลัคกี้ ยูเนี่ยน ฟู้ดส์ จำกัด",
-    "shortName": "LUCKY UNION FOODS"
-  },
-  {
-    "partnerId": "0745548001772",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เคแอนด์ยู เอ็นเตอร์ไพรซ์ จำกัด",
-    "shortName": "K&U ENTERPRISE"
-  },
-  {
-    "partnerId": "0105532104629",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท มหาชัยฟู้ดโปรเซสซิ่ง จำกัด",
-    "shortName": "MAHACHAI FOODS"
-  },
-  {
-    "partnerId": "0107537000751",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ซีเฟรชอินดัสตรี จำกัด (มหาชน)",
-    "shortName": "SEAFRESH INDUSTRY PLC"
-  },
-  {
-    "partnerId": "0105528034743",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ซีอองฮองเอ็นเทอไพรซ์ จำกัด",
-    "shortName": "SIONG HONG ENTERPRISE"
-  },
-  {
-    "partnerId": "0105539001710",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท วี อาร์ ฟู้ดส์ จำกัด",
-    "shortName": "V R FOODS"
-  },
-  {
-    "partnerId": "0105531014375",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท โรงงานเครื่องกระป๋องฮั่วเซ้ง จำกัด",
-    "shortName": "HUA SENG CANNING"
-  },
-  {
-    "partnerId": "0575532000048",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ไทยคอสมอสฟู้ดส์ จำกัด",
-    "shortName": "THAI COSMOS FOODS"
-  },
-  {
-    "partnerId": "0735528000312",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท วราฟู้ดแอนด์ดริ๊ง จำกัด",
-    "shortName": "VARA FOOD AND DRINK"
-  },
-  {
     "partnerId": "0715546000108",
     "type": "MANUFACTURING",
     "subType": "MANUFACTURING-15",
     "name": "บริษัท กาญจน์คอร์น จำกัด",
     "shortName": "KARN CORN"
-  },
-  {
-    "partnerId": "0105543065778",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ชบาบางกอก จำกัด",
-    "shortName": "CHABAA BANGKOK"
-  },
-  {
-    "partnerId": "0105533042091",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท นิวแหลมทองฟูดส์อินดัสทรีส์ จำกัด",
-    "shortName": "NEW LAMTHONG FOODS INDUSTRIES"
-  },
-  {
-    "partnerId": "0105551079804",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ไทยซุนฟู้ดส์ จำกัด",
-    "shortName": "THAI SOON FOODS"
-  },
-  {
-    "partnerId": "0245538000557",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ผลไม้แปรรูปวรพร จำกัด",
-    "shortName": "WORAPORN FRUIT PROCESSING"
-  },
-  {
-    "partnerId": "0105529035841",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท พี เอ เอส พืชผลส่งออกและไซโล จำกัด",
-    "shortName": "P A S EXPORT&SILO"
-  },
-  {
-    "partnerId": "0105517009831",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ธนากรผลิตภัณฑ์น้ำมันพืช จำกัด",
-    "shortName": "THANAKORN VEGETABLE OIL PRODUCTS"
-  },
-  {
-    "partnerId": "0107543000066",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ยูนิวานิชน้ำมันปาล์ม จำกัด (มหาชน)",
-    "shortName": "UNIVANICH PALM OIL PLC"
-  },
-  {
-    "partnerId": "0105520005299",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท น้ำมันบริโภคไทย จำกัด",
-    "shortName": "THAI EDIBLE OIL"
-  },
-  {
-    "partnerId": "0105543088956",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท บูโอโน่ (ประเทศไทย) จำกัด",
-    "shortName": "BUONO THAILAND"
-  },
-  {
-    "partnerId": "0845532000037",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ฟรีซแลนด์ โปรดักส์ จำกัด",
-    "shortName": "FREEZE LAND PRODUCTS"
-  },
-  {
-    "partnerId": "0505535000707",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เชียงใหม่เฟรชมิลค์ จำกัด",
-    "shortName": "CHIANGMAI FRESHMILK"
-  },
-  {
-    "partnerId": "0705543000620",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เอเชี่ยน สุพีเรียฟู้ดส์ จำกัด",
-    "shortName": "ASIAN SUPERIOR FOODS"
-  },
-  {
-    "partnerId": "0105527039679",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เจ้าคุณเกษตรพืชผล จำกัด",
-    "shortName": "CHAO KHUN AGRO PRODUCTS"
-  },
-  {
-    "partnerId": "0105532085217",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ชอไชยวัฒน์ อุตสาหกรรม จำกัด",
-    "shortName": "CHORCHAIWAT INDUSTRY"
-  },
-  {
-    "partnerId": "0305553000626",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เชาวน์ดี โมดิฟาย สตาร์ช จำกัด",
-    "shortName": "CHAODEE MODIFIED STARCH"
-  },
-  {
-    "partnerId": "0305536000206",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท แป้งมันเอี่ยมเฮงอุตสาหกรรม จำกัด",
-    "shortName": "EIAMHENG TAPIOCA STARCH INDUSTRY"
-  },
-  {
-    "partnerId": "0105532071062",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท สีฟ้าฟู้ด จำกัด",
-    "shortName": "SEEFAH RESTAURANT"
-  },
-  {
-    "partnerId": "0105526012521",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เยเนอรัลแคนดี้ จำกัด",
-    "shortName": "GENERAL CANDY"
-  },
-  {
-    "partnerId": "0505548004714",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท พรีม่า เฮิร์บ (ประเทศไทย) จำกัด",
-    "shortName": "PRIMA HERB (THAILAND)"
-  },
-  {
-    "partnerId": "0105553030586",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท โอโว่ ฟู้ดเทค จำกัด",
-    "shortName": "OVO FOODTECH"
-  },
-  {
-    "partnerId": "0107537001439",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท ไทย อกริ ฟู้ดส์ จำกัด (มหาชน)",
-    "shortName": "THAI AGRI FOODS PLC"
-  },
-  {
-    "partnerId": "0105539096702",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท อัลเฟรโด เอ็นเตอร์ไพรส์ จำกัด",
-    "shortName": "ALFREDO ENTERPRISE"
-  },
-  {
-    "partnerId": "0735542001380",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เอฟ-พลัส จำกัด",
-    "shortName": "F-PLUS"
-  },
-  {
-    "partnerId": "0105539027948",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท สยาม ยูเคเอฟ จำกัด",
-    "shortName": "SIAM UKF"
-  },
-  {
-    "partnerId": "0105515002287",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท โรงงานผลิตภัณฑ์อาหารไทย จำกัด",
-    "shortName": "THAI PRESERVED FOOD FACTORY"
-  },
-  {
-    "partnerId": "0105533092241",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เอ็น เอส ที ฟู้ด อินกรีเดียนท์ จำกัด",
-    "shortName": "N S T FOOD INDUSTRY GROUP"
-  },
-  {
-    "partnerId": "0105530065286",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เคนมิน ฟู้ดส์ (ไทยแลนด์) จำกัด",
-    "shortName": "KENMIN FOODS (THAILAND)"
-  },
-  {
-    "partnerId": "0105546115563",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท มอนเด นิสซิน (ประเทศไทย) จำกัด",
-    "shortName": "MONDE NISSIN (THAILAND)"
-  },
-  {
-    "partnerId": "0105496000831",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท กรีนสปอต จำกัด",
-    "shortName": "GREEN SPOT"
-  },
-  {
-    "partnerId": "0105510004311",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เจริญสุขเภสัชฮุ่นชิว จำกัด",
-    "shortName": "C.S.B. DRUG FACTORY"
-  },
-  {
-    "partnerId": "0105525006439",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท แฟนซี เวิลด์ จำกัด",
-    "shortName": "FANCY WORLD"
-  },
-  {
-    "partnerId": "0735537001768",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เอส.เอส.การสุรา จำกัด",
-    "shortName": "S.S. KARNSURA"
-  },
-  {
-    "partnerId": "0107544000060",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-15",
-    "name": "บริษัท เบียร์ไทย (1991) จำกัด (มหาชน)",
-    "shortName": "BEER THAI (1991) PLC"
-  },
-  {
-    "partnerId": "0105530010295",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-17",
-    "name": "บริษัท เอช แอนด์ บี อินเตอร์เท็กซ์ จำกัด",
-    "shortName": "H & B INTERTEX"
-  },
-  {
-    "partnerId": "0735549000044",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-6",
-    "name": "บริษัท เฟธ แอนด์ โค จำกัด",
-    "shortName": "FAITH & CO"
-  },
-  {
-    "partnerId": "0115527001183",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-20",
-    "name": "บริษัท โรงงานฟอกหนังชาญกิจ จำกัด",
-    "shortName": "CHANKIJ TANNING INDUSTRY"
-  },
-  {
-    "partnerId": "0105532001170",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-20",
-    "name": "บริษัท บิ๊กสตาร์ จำกัด",
-    "shortName": "BIG STAR"
-  },
-  {
-    "partnerId": "0107545000039",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-10",
-    "name": "บริษัท สตาร์ปริ๊นท์ จำกัด (มหาชน)",
-    "shortName": "STARPRINT PLC"
   },
   {
     "partnerId": "0105536123512",
@@ -476,95 +14,39 @@
     "shortName": "PATARA CONTAINER"
   },
   {
-    "partnerId": "0115538005045",
+    "partnerId": "0205529000605",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-11",
-    "name": "บริษัท มอเรสโก้ (ไทยแลนด์) จำกัด",
-    "shortName": "MORESCO (THAILAND)"
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท มาเจสติค อุตสาหกรรมอาหาร จำกัด",
+    "shortName": "MAJESTIC FOOD INDUSTRY"
   },
   {
-    "partnerId": "0125539005316",
+    "partnerId": "0115540002279",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-11",
-    "name": "บริษัท เอส.คิว.ไอ. ปิโตรเคม อินดัสตรี้ส์ จำกัด",
-    "shortName": "S.Q.I. PETROCHEM INDUSTRIES"
+    "subType": "MANUFACTURING-13",
+    "name": "บริษัท เมทเทิล เมท จำกัด",
+    "shortName": "METAL MATE"
   },
   {
-    "partnerId": "0745529000219",
+    "partnerId": "0105552064096",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท วีระสุวรรณ จำกัด",
-    "shortName": "VERASUWAN"
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท อินเด็กซ์ อินเตอร์เฟิร์น จำกัด",
+    "shortName": "INDEX INTERFURN"
   },
   {
-    "partnerId": "0115553006103",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท เอส.ที. ไรซิ่ง จำกัด",
-    "shortName": "S.T. RIZING"
+    "partnerId": "0105542034658",
+    "type": "SALES",
+    "subType": "SALES-1",
+    "name": "บริษัท เอ็นบีดี เฮลท์แคร์ จำกัด",
+    "shortName": "NBD HEALTHCARE"
   },
   {
-    "partnerId": "0107553000042",
+    "partnerId": "0745548001772",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท อูเบะ เคมิคอลส์ (เอเชีย) จำกัด (มหาชน)",
-    "shortName": "UBE CHEMICALS (ASIA) PLC"
-  },
-  {
-    "partnerId": "0715544000291",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท ปุ๋ยอินทรีย์เกษตรไทย จำกัด",
-    "shortName": "KASET THAI ORGANIC FERTILIZER"
-  },
-  {
-    "partnerId": "0735551000927",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท เอสที เฟอร์ทิลิตี้ จำกัด",
-    "shortName": "ST FERTILITY"
-  },
-  {
-    "partnerId": "0105518012356",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท แอ็กโกร (ประเทศไทย) จำกัด",
-    "shortName": "AGGRO (THAILAND)"
-  },
-  {
-    "partnerId": "0105548035290",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท นูกรีน จำกัด",
-    "shortName": "NUGREEN"
-  },
-  {
-    "partnerId": "0105534074239",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท พิสิษฐ์ อินเตอร์กรุ๊ป จำกัด",
-    "shortName": "PHISIT INTERGROUP"
-  },
-  {
-    "partnerId": "0105527031686",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท อินเตอร์อิงค์ จำกัด",
-    "shortName": "INTERINK"
-  },
-  {
-    "partnerId": "0105529012191",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท เจ.บี.พี.อินเตอร์เนชั่นแนล เพ็นท์ จำกัด",
-    "shortName": "J.B.P. INTERNATIONAL PAINT"
-  },
-  {
-    "partnerId": "0105544046220",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท ไทยมาสเตอร์คัลเลอร์ จำกัด",
-    "shortName": "THAI MASTER COLOR"
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เคแอนด์ยู เอ็นเตอร์ไพรซ์ จำกัด",
+    "shortName": "K&U ENTERPRISE"
   },
   {
     "partnerId": "0105525033371",
@@ -574,18 +56,46 @@
     "shortName": "D.D. POLYURETHANE"
   },
   {
-    "partnerId": "0105549036516",
+    "partnerId": "0115538006912",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท เอสที อาร์ท แมททีเรียล จำกัด",
-    "shortName": "ST ART MATERIAL"
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท ลัคกี้เวิลด์กรุ๊ป จำกัด",
+    "shortName": "LUCKYWORLD GROUP"
   },
   {
-    "partnerId": "0105538075213",
+    "partnerId": "0765537000524",
+    "type": "SERVICES",
+    "subType": "SERVICES-7",
+    "name": "บริษัท ลินิน ด็อกเตอร์ จำกัด",
+    "shortName": "LINEN DOCTOR"
+  },
+  {
+    "partnerId": "0105520014328",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท บูเคมี อินดัสตรี จำกัด",
-    "shortName": "BU CHEMICAL INDUSTRY"
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท วายเคเค (ประเทศไทย) จำกัด",
+    "shortName": "YKK (THAILAND)"
+  },
+  {
+    "partnerId": "0735539002192",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-1",
+    "name": "บริษัท เอบีเจ ฟาร์ม จำกัด",
+    "shortName": "ABJ FARM"
+  },
+  {
+    "partnerId": "0105531083555",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท วันเดอร์เวิร์ล โปรดัคส์ จำกัด",
+    "shortName": "WONDERWORLD PRODUCTS"
+  },
+  {
+    "partnerId": "0105546020414",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-18",
+    "name": "บริษัท เซ็นเซอร์นิกส์ จำกัด",
+    "shortName": "SENSORNIC"
   },
   {
     "partnerId": "0105520004438",
@@ -595,18 +105,74 @@
     "shortName": "J.M.T. LABORATORIES"
   },
   {
-    "partnerId": "0735535001981",
+    "partnerId": "0105525006439",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท เกรทเตอร์ โพลี แมนูแฟคเจอริ่ง จำกัด",
-    "shortName": "GREATER POLY MANUFACTURING"
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท แฟนซี เวิลด์ จำกัด",
+    "shortName": "FANCY WORLD"
   },
   {
-    "partnerId": "0105531047265",
+    "partnerId": "0105534074239",
     "type": "MANUFACTURING",
     "subType": "MANUFACTURING-2",
-    "name": "บริษัท อุตสาหกรรมเครื่องหอมไทย-จีน จำกัด",
-    "shortName": "THAI-CHINA FLAVOURS AND FRAGRANCES INDUSTRY"
+    "name": "บริษัท พิสิษฐ์ อินเตอร์กรุ๊ป จำกัด",
+    "shortName": "PHISIT INTERGROUP"
+  },
+  {
+    "partnerId": "0107557000039",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-19",
+    "name": "บริษัท เพาเวอร์ โซลูชั่น เทคโนโลยี จำกัด (มหาชน)",
+    "shortName": "POWER SOLUTION TECHNOLOGY PLC"
+  },
+  {
+    "partnerId": "0105518012356",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท แอ็กโกร (ประเทศไทย) จำกัด",
+    "shortName": "AGGRO (THAILAND)"
+  },
+  {
+    "partnerId": "0105548106715",
+    "type": "SERVICES",
+    "subType": "SERVICES-3",
+    "name": "บริษัท เทโลจิค เทคโนโลยี (ไทยแลนด์) จำกัด",
+    "shortName": "TELOGIC TECHNOLOGY (THAILAND)"
+  },
+  {
+    "partnerId": "0835551002228",
+    "type": "SERVICES",
+    "subType": "SERVICES-2",
+    "name": "บริษัท เซ้าเทิร์นไทยคอนซัลติ้ง จำกัด",
+    "shortName": "SOUTHERN THAI CONSULTING"
+  },
+  {
+    "partnerId": "0105527004948",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-1",
+    "name": "บริษัท อีสท์ เวสท์ ซีด จำกัด",
+    "shortName": "EAST-WEST SEED"
+  },
+  {
+    "partnerId": "0105517009831",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ธนากรผลิตภัณฑ์น้ำมันพืช จำกัด",
+    "shortName": "THANAKORN VEGETABLE OIL PRODUCTS"
+  },
+  {
+    "partnerId": "0105547114781",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-14",
+    "name": "บริษัท ซี เอส รับเบอร์ อินดัสทรี่ จำกัด",
+    "shortName": "CS RUBBER INDUSTRY"
+  },
+  {
+    "partnerId": "0205540001379",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท พนัสโพลทรี่ จำกัด",
+    "shortName": "PANUS POULTRY"
   },
   {
     "partnerId": "0105548143815",
@@ -616,95 +182,18 @@
     "shortName": "PCCA LABORATORY"
   },
   {
-    "partnerId": "0745547003135",
+    "partnerId": "0735537001768",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท ดีเอฟที (ประเทศไทย) จำกัด",
-    "shortName": "DFT (THAILAND)"
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เอส.เอส.การสุรา จำกัด",
+    "shortName": "S.S. KARNSURA"
   },
   {
-    "partnerId": "0105528033887",
+    "partnerId": "0105552006479",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท สานิตแอนด์ซันส์ จำกัด",
-    "shortName": "SANIT & SONS"
-  },
-  {
-    "partnerId": "0745541001220",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท แอคมี เคม เทค จำกัด",
-    "shortName": "ACME CHEM TECH"
-  },
-  {
-    "partnerId": "0105540000403",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท ทรีบอนด์ แมนูแฟคเจอริ่ง (ประเทศไทย) จำกัด",
-    "shortName": "THREE BOND MANUFACTURING (THAILAND)"
-  },
-  {
-    "partnerId": "0205551006156",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท ดันล้อป แอดฮีซีฟส์ (ประเทศไทย) จำกัด",
-    "shortName": "DUNLOP ADHESIVES (THAILAND)"
-  },
-  {
-    "partnerId": "0105511003114",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท แอคดอน จำกัด",
-    "shortName": "ACKON"
-  },
-  {
-    "partnerId": "0105548150111",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท โรงงานเภสัชอุตสาหกรรม เจเอสพี (ประเทศไทย) จำกัด",
-    "shortName": "JSP PHARMACEUTICAL MANUFACTORY (THAILAND)"
-  },
-  {
-    "partnerId": "0105530050297",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท นิวไลฟ์ฟาร์ม่า จำกัด",
-    "shortName": "NEW LIFE PHARMA"
-  },
-  {
-    "partnerId": "0105552069781",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท เวสโก ฟาร์มาซูติคอล จำกัด",
-    "shortName": "VESCO PHARMACEUTICAL"
-  },
-  {
-    "partnerId": "0105529022242",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท อ้วยอันโอสถ จำกัด",
-    "shortName": "OUAY UN DISPENSARY"
-  },
-  {
-    "partnerId": "0105521023592",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท โปลิฟาร์ม จำกัด",
-    "shortName": "POLIPHARM"
-  },
-  {
-    "partnerId": "0105552111701",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท เกร๊ทเตอร์ฟาร์ม่า จำกัด",
-    "shortName": "GREATER PHARMA"
-  },
-  {
-    "partnerId": "0605528000062",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-2",
-    "name": "บริษัท บูรพาโอสถ จำกัด",
-    "shortName": "BURAPHA DISPENSARY"
+    "subType": "MANUFACTURING-21",
+    "name": "บริษัท พัทยาฟู้ด เอ็นเนอร์ยี่ จำกัด",
+    "shortName": "PATAYA FOOD ENERGY"
   },
   {
     "partnerId": "0105543070666",
@@ -714,11 +203,172 @@
     "shortName": "GREATER PHARMA MANUFACTURING"
   },
   {
+    "partnerId": "0105529035841",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท พี เอ เอส พืชผลส่งออกและไซโล จำกัด",
+    "shortName": "P A S EXPORT&SILO"
+  },
+  {
+    "partnerId": "0105548035290",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท นูกรีน จำกัด",
+    "shortName": "NUGREEN"
+  },
+  {
+    "partnerId": "0745549001482",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-1",
+    "name": "บริษัท ไทยยูเนี่ยน แฮชเชอรี่ จำกัด",
+    "shortName": "THAI UNION HATCHERY"
+  },
+  {
+    "partnerId": "0105535028729",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-18",
+    "name": "บริษัท ยิ่งเจริญคอมมิวนิเคชั่น จำกัด",
+    "shortName": "YINGCHAROEN COMMUNICATION"
+  },
+  {
+    "partnerId": "0135538004626",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-16",
+    "name": "บริษัท เน็กซ์ โปรดักส์ จำกัด",
+    "shortName": "NEXT PRODUCTS"
+  },
+  {
+    "partnerId": "0105544046220",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท ไทยมาสเตอร์คัลเลอร์ จำกัด",
+    "shortName": "THAI MASTER COLOR"
+  },
+  {
+    "partnerId": "0105545128513",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-14",
+    "name": "บริษัท ยูโรไทร์ จำกัด",
+    "shortName": "EUROTYRE"
+  },
+  {
+    "partnerId": "0107543000066",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ยูนิวานิชน้ำมันปาล์ม จำกัด (มหาชน)",
+    "shortName": "UNIVANICH PALM OIL PLC"
+  },
+  {
     "partnerId": "0735529000511",
     "type": "MANUFACTURING",
     "subType": "MANUFACTURING-14",
     "name": "บริษัท ยางโอตานิ จำกัด",
     "shortName": "OTANI TIRE"
+  },
+  {
+    "partnerId": "0505530000598",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท บีโปรดักส์อินดัสตรี้ จำกัด",
+    "shortName": "BEE PRODUCTS INDUSTRY"
+  },
+  {
+    "partnerId": "0107537002150",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท กุลธรเคอร์บี้ จำกัด (มหาชน)",
+    "shortName": "KULTHORN KIRBY PLC"
+  },
+  {
+    "partnerId": "0735547000837",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท สามพราน ซลอเทอร์เฮาส์ จำกัด",
+    "shortName": "SAMPRAN SLAUGHTERHOUSE"
+  },
+  {
+    "partnerId": "0107553000042",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท อูเบะ เคมิคอลส์ (เอเชีย) จำกัด (มหาชน)",
+    "shortName": "UBE CHEMICALS (ASIA) PLC"
+  },
+  {
+    "partnerId": "0105551079804",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ไทยซุนฟู้ดส์ จำกัด",
+    "shortName": "THAI SOON FOODS"
+  },
+  {
+    "partnerId": "0107545000039",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-10",
+    "name": "บริษัท สตาร์ปริ๊นท์ จำกัด (มหาชน)",
+    "shortName": "STARPRINT PLC"
+  },
+  {
+    "partnerId": "0735528000312",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท วราฟู้ดแอนด์ดริ๊ง จำกัด",
+    "shortName": "VARA FOOD AND DRINK"
+  },
+  {
+    "partnerId": "0105553030586",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท โอโว่ ฟู้ดเทค จำกัด",
+    "shortName": "OVO FOODTECH"
+  },
+  {
+    "partnerId": "0715544000291",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท ปุ๋ยอินทรีย์เกษตรไทย จำกัด",
+    "shortName": "KASET THAI ORGANIC FERTILIZER"
+  },
+  {
+    "partnerId": "0105542064981",
+    "type": "SERVICES",
+    "subType": "SERVICES-2",
+    "name": "บริษัท เอ็นไวรอนเมนท์ รีเสริช แอนด์ เทคโนโลยี จำกัด",
+    "shortName": "ENVIRONMENT RESEARCH & TECHNOLOGY"
+  },
+  {
+    "partnerId": "0105548150111",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท โรงงานเภสัชอุตสาหกรรม เจเอสพี (ประเทศไทย) จำกัด",
+    "shortName": "JSP PHARMACEUTICAL MANUFACTORY (THAILAND)"
+  },
+  {
+    "partnerId": "0305554002118",
+    "type": "SALES",
+    "subType": "SALES-2",
+    "name": "บริษัท เขาใหญ่ พาโนราม่า ฟาร์ม จำกัด",
+    "shortName": "KHAOYAI PANORAMA FARM"
+  },
+  {
+    "partnerId": "0105528034743",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ซีอองฮองเอ็นเทอไพรซ์ จำกัด",
+    "shortName": "SIONG HONG ENTERPRISE"
+  },
+  {
+    "partnerId": "0105535115681",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-9",
+    "name": "บริษัท ชัยภัทรพันธุ์ จำกัด",
+    "shortName": "CHAIPHADPHAND"
+  },
+  {
+    "partnerId": "0105538075213",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท บูเคมี อินดัสตรี จำกัด",
+    "shortName": "BU CHEMICAL INDUSTRY"
   },
   {
     "partnerId": "0105511002924",
@@ -728,11 +378,88 @@
     "shortName": "CONSTRUCTION ACCESSORIES"
   },
   {
-    "partnerId": "0105547114781",
+    "partnerId": "0735549000044",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-14",
-    "name": "บริษัท ซี เอส รับเบอร์ อินดัสทรี่ จำกัด",
-    "shortName": "CS RUBBER INDUSTRY"
+    "subType": "MANUFACTURING-6",
+    "name": "บริษัท เฟธ แอนด์ โค จำกัด",
+    "shortName": "FAITH & CO"
+  },
+  {
+    "partnerId": "0245538000557",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ผลไม้แปรรูปวรพร จำกัด",
+    "shortName": "WORAPORN FRUIT PROCESSING"
+  },
+  {
+    "partnerId": "0505535000707",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เชียงใหม่เฟรชมิลค์ จำกัด",
+    "shortName": "CHIANGMAI FRESHMILK"
+  },
+  {
+    "partnerId": "0107547000150",
+    "type": "SERVICES",
+    "subType": "SERVICES-4",
+    "name": "บริษัท โออิชิ กรุ๊ป จำกัด (มหาชน)",
+    "shortName": "OISHI GROUP PLC"
+  },
+  {
+    "partnerId": "0105496000831",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท กรีนสปอต จำกัด",
+    "shortName": "GREEN SPOT"
+  },
+  {
+    "partnerId": "0125551015172",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-18",
+    "name": "บริษัท อินโนว่า เทเลคอมมิวนิเคชั่น จำกัด",
+    "shortName": "INNOVA TELECOMMUNICATION"
+  },
+  {
+    "partnerId": "0855542000048",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ระนองโฟรเซ่นฟู้ดส์ จำกัด",
+    "shortName": "RANONG FROZEN FOODS"
+  },
+  {
+    "partnerId": "0105553028361",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-18",
+    "name": "บริษัท ซี โบ จำกัด",
+    "shortName": "CYBO"
+  },
+  {
+    "partnerId": "0105530050297",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท นิวไลฟ์ฟาร์ม่า จำกัด",
+    "shortName": "NEW LIFE PHARMA"
+  },
+  {
+    "partnerId": "0105529022242",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท อ้วยอันโอสถ จำกัด",
+    "shortName": "OUAY UN DISPENSARY"
+  },
+  {
+    "partnerId": "0107550000262",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-9",
+    "name": "บริษัท แม่น้ำสแตนเลสไวร์ จำกัด (มหาชน)",
+    "shortName": "MENAM STAINLESS WIRE PLC"
+  },
+  {
+    "partnerId": "0205551006156",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท ดันล้อป แอดฮีซีฟส์ (ประเทศไทย) จำกัด",
+    "shortName": "DUNLOP ADHESIVES (THAILAND)"
   },
   {
     "partnerId": "0103531002049",
@@ -749,165 +476,11 @@
     "shortName": "NITTO MATEX (THAILAND)"
   },
   {
-    "partnerId": "0105545128513",
+    "partnerId": "0105521023592",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-14",
-    "name": "บริษัท ยูโรไทร์ จำกัด",
-    "shortName": "EUROTYRE"
-  },
-  {
-    "partnerId": "0107547000753",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-14",
-    "name": "บริษัท ซีพีพีซี จำกัด (มหาชน)",
-    "shortName": "CPPC PLC"
-  },
-  {
-    "partnerId": "0105520017149",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-14",
-    "name": "บริษัท สยามฟิตติ้งส์ จำกัด",
-    "shortName": "SIAM FITTINGS"
-  },
-  {
-    "partnerId": "0105531001141",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-14",
-    "name": "บริษัท เอ็น.แอล. ซานิทารีฟิตติ้งส์ จำกัด",
-    "shortName": "N.L. SANITARY FITTINGS"
-  },
-  {
-    "partnerId": "0107537000386",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-14",
-    "name": "บริษัท ไทยฟิล์มอินดัสตรี่ จำกัด (มหาชน)",
-    "shortName": "THAI FILM INDUSTRIES PLC"
-  },
-  {
-    "partnerId": "0105539113500",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-14",
-    "name": "บริษัท โพลีพลาสติกส์ มาร์เก็ตติ้ง (ที) จำกัด",
-    "shortName": "POLYPLASTICS MARKETING (T)"
-  },
-  {
-    "partnerId": "0105537133449",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-12",
-    "name": "บริษัท มิตซุยไกรน์ดิ้ง เทคโนโลยี (ประเทศไทย) จำกัด",
-    "shortName": "MITSUI GRINDING TECHNOLOGY (THAILAND)"
-  },
-  {
-    "partnerId": "0105535115681",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-9",
-    "name": "บริษัท ชัยภัทรพันธุ์ จำกัด",
-    "shortName": "CHAIPHADPHAND"
-  },
-  {
-    "partnerId": "0107550000262",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-9",
-    "name": "บริษัท แม่น้ำสแตนเลสไวร์ จำกัด (มหาชน)",
-    "shortName": "MENAM STAINLESS WIRE PLC"
-  },
-  {
-    "partnerId": "0115540002279",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-13",
-    "name": "บริษัท เมทเทิล เมท จำกัด",
-    "shortName": "METAL MATE"
-  },
-  {
-    "partnerId": "0105544014620",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-18",
-    "name": "บริษัท ฟูรูกาวา ไฟเทล (ประเทศไทย) จำกัด",
-    "shortName": "FURUKAWA FITEL (THAILAND)"
-  },
-  {
-    "partnerId": "0105546020414",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-18",
-    "name": "บริษัท เซ็นเซอร์นิกส์ จำกัด",
-    "shortName": "SENSORNIC"
-  },
-  {
-    "partnerId": "0105553028361",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-18",
-    "name": "บริษัท ซี โบ จำกัด",
-    "shortName": "CYBO"
-  },
-  {
-    "partnerId": "0105530046401",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-18",
-    "name": "บริษัท ซัมมิท อีเล็คโทรนิค คอมโพเน้นท์ จำกัด",
-    "shortName": "SUMMIT ELECTRONICS COMPONENT"
-  },
-  {
-    "partnerId": "0105530031632",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-5",
-    "name": "บริษัท อาร์ แอนด์ ดี คอมพิวเตอร์ ซิสเท็ม จำกัด",
-    "shortName": "R & D COMPUTER SYSTEM"
-  },
-  {
-    "partnerId": "0105535028729",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-18",
-    "name": "บริษัท ยิ่งเจริญคอมมิวนิเคชั่น จำกัด",
-    "shortName": "YINGCHAROEN COMMUNICATION"
-  },
-  {
-    "partnerId": "0125551015172",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-18",
-    "name": "บริษัท อินโนว่า เทเลคอมมิวนิเคชั่น จำกัด",
-    "shortName": "INNOVA TELECOMMUNICATION"
-  },
-  {
-    "partnerId": "0115543007697",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-7",
-    "name": "บริษัท นีโอ ทรอนิก้า (ประเทศไทย) จำกัด",
-    "shortName": "NEO TRONICA (THAILAND)"
-  },
-  {
-    "partnerId": "0215546002296",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-19",
-    "name": "บริษัท มูนซุง อิเล็คทรอนิค (ไทยแลนด์) จำกัด",
-    "shortName": "MOON SUNG ELECTRONIC (THAILAND)"
-  },
-  {
-    "partnerId": "0105537048905",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-19",
-    "name": "บริษัท อีดีแอล จำกัด",
-    "shortName": "EDL"
-  },
-  {
-    "partnerId": "0107553000158",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-19",
-    "name": "บริษัท คิวทีซี เอนเนอร์ยี่ จำกัด (มหาชน)",
-    "shortName": "QTC ENERGY PLC"
-  },
-  {
-    "partnerId": "0105530068137",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-19",
-    "name": "บริษัท ไทยตาบูชิอีเล็คทริค จำกัด",
-    "shortName": "THAI TABUCHI ELECTRIC"
-  },
-  {
-    "partnerId": "0105534087497",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-19",
-    "name": "บริษัท มารูเกอิ อินดัสตรีย์ (ประเทศไทย) จำกัด",
-    "shortName": "MARUKEI INDUSTRY (THAILAND) COPMANY LIMITED"
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท โปลิฟาร์ม จำกัด",
+    "shortName": "POLIPHARM"
   },
   {
     "partnerId": "0105521020208",
@@ -917,109 +490,11 @@
     "shortName": "FEDERAL ELECTRIC CORPORATION LIMITED"
   },
   {
-    "partnerId": "0107557000039",
+    "partnerId": "0305539000801",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-19",
-    "name": "บริษัท เพาเวอร์ โซลูชั่น เทคโนโลยี จำกัด (มหาชน)",
-    "shortName": "POWER SOLUTION TECHNOLOGY PLC"
-  },
-  {
-    "partnerId": "0105535006784",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-19",
-    "name": "บริษัท แอล แอนด์ อี แมนูแฟคเจอริ่ง จำกัด",
-    "shortName": "L&E MANUFACTURING"
-  },
-  {
-    "partnerId": "0107537002150",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท กุลธรเคอร์บี้ จำกัด (มหาชน)",
-    "shortName": "KULTHORN KIRBY PLC"
-  },
-  {
-    "partnerId": "0655548000441",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท สยามอิมพลีเม้น จำกัด",
-    "shortName": "SIAM IMPLEMENT"
-  },
-  {
-    "partnerId": "0105532022762",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท ไทยเซ็นทรัล เมคคานิคส์ จำกัด",
-    "shortName": "THAI CENTRAL MECHANICS"
-  },
-  {
-    "partnerId": "0745550001237",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-16",
-    "name": "บริษัท ซีไอเอ็มซี วีฮีเคิล (ประเทศไทย) จำกัด",
-    "shortName": "CIMC VEHICLE (THAILAND)"
-  },
-  {
-    "partnerId": "0135538004626",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-16",
-    "name": "บริษัท เน็กซ์ โปรดักส์ จำกัด",
-    "shortName": "NEXT PRODUCTS"
-  },
-  {
-    "partnerId": "0107547000664",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-16",
-    "name": "บริษัท สมบูรณ์ แอ๊ดวานซ์ เทคโนโลยี จำกัด (มหาชน)",
-    "shortName": "SOMBOON ADVANCE TECHNOLOGY PLC"
-  },
-  {
-    "partnerId": "0105537061405",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท สี่พระยาเฟอร์นิเจอร์ จำกัด",
-    "shortName": "SIPHYA FURNITURE"
-  },
-  {
-    "partnerId": "0115538006912",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท ลัคกี้เวิลด์กรุ๊ป จำกัด",
-    "shortName": "LUCKYWORLD GROUP"
-  },
-  {
-    "partnerId": "0105552064096",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท อินเด็กซ์ อินเตอร์เฟิร์น จำกัด",
-    "shortName": "INDEX INTERFURN"
-  },
-  {
-    "partnerId": "0105531083555",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท วันเดอร์เวิร์ล โปรดัคส์ จำกัด",
-    "shortName": "WONDERWORLD PRODUCTS"
-  },
-  {
-    "partnerId": "0105520014328",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
-    "name": "บริษัท วายเคเค (ประเทศไทย) จำกัด",
-    "shortName": "YKK (THAILAND)"
-  },
-  {
-    "partnerId": "0135546005105",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-21",
-    "name": "บริษัท ครัยโอไทย จำกัด",
-    "shortName": "CRYOTHAI"
-  },
-  {
-    "partnerId": "0105552006479",
-    "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-21",
-    "name": "บริษัท พัทยาฟู้ด เอ็นเนอร์ยี่ จำกัด",
-    "shortName": "PATAYA FOOD ENERGY"
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เตียหงี่เฮียง (เจ้าสัว) จำกัด",
+    "shortName": "TIA NGEE HIANG (CHAOSUA)"
   },
   {
     "partnerId": "0105555047036",
@@ -1029,130 +504,39 @@
     "shortName": "GLOBAL R&D"
   },
   {
-    "partnerId": "0105491000387",
-    "type": "SERVICES",
-    "subType": "SERVICES-6",
-    "name": "บริษัท วิทยุการบินแห่งประเทศไทย จำกัด",
-    "shortName": "AERONAUTICAL RADIO OF THAILAND LIMITED"
+    "partnerId": "0107537000076",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ทรอปิคอลแคนนิ่ง (ประเทศไทย) จำกัด (มหาชน)",
+    "shortName": "TROPICAL CANNING (THAILAND) PLC"
   },
   {
-    "partnerId": "0105536123296",
-    "type": "SERVICES",
-    "subType": "SERVICES-4",
-    "name": "บริษัท สีฟ้าลุมพินี จำกัด",
-    "shortName": "SEE FAH LUMPINI"
+    "partnerId": "0105530010295",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-17",
+    "name": "บริษัท เอช แอนด์ บี อินเตอร์เท็กซ์ จำกัด",
+    "shortName": "H & B INTERTEX"
   },
   {
-    "partnerId": "0107547000150",
-    "type": "SERVICES",
-    "subType": "SERVICES-4",
-    "name": "บริษัท โออิชิ กรุ๊ป จำกัด (มหาชน)",
-    "shortName": "OISHI GROUP PLC"
+    "partnerId": "0745547003135",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท ดีเอฟที (ประเทศไทย) จำกัด",
+    "shortName": "DFT (THAILAND)"
   },
   {
-    "partnerId": "0505545000203",
-    "type": "SERVICES",
-    "subType": "SERVICES-1",
-    "name": "บริษัท มายคอส เทคโนโลยีส์ จำกัด",
-    "shortName": "MYCOS TECHNOLOGIES"
+    "partnerId": "0105546115563",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท มอนเด นิสซิน (ประเทศไทย) จำกัด",
+    "shortName": "MONDE NISSIN (THAILAND)"
   },
   {
-    "partnerId": "0105548106715",
-    "type": "SERVICES",
-    "subType": "SERVICES-3",
-    "name": "บริษัท เทโลจิค เทคโนโลยี (ไทยแลนด์) จำกัด",
-    "shortName": "TELOGIC TECHNOLOGY (THAILAND)"
-  },
-  {
-    "partnerId": "0105536103171",
-    "type": "SERVICES",
-    "subType": "SERVICES-5",
-    "name": "บริษัท พาวเวอร์กริด อินเตอร์เนชั่นแนล จำกัด",
-    "shortName": "POWERGRID INTERNATIONAL"
-  },
-  {
-    "partnerId": "0835551002228",
-    "type": "SERVICES",
-    "subType": "SERVICES-2",
-    "name": "บริษัท เซ้าเทิร์นไทยคอนซัลติ้ง จำกัด",
-    "shortName": "SOUTHERN THAI CONSULTING"
-  },
-  {
-    "partnerId": "0215547003156",
-    "type": "SERVICES",
-    "subType": "SERVICES-2",
-    "name": "บริษัท อูเบะ เทคนิคอล เซ็นเตอร์ (เอเชีย) จำกัด",
-    "shortName": "UBE TECHNICAL CENTER (ASIA)"
-  },
-  {
-    "partnerId": "0115551011835",
-    "type": "SERVICES",
-    "subType": "SERVICES-2",
-    "name": "บริษัท ซัมมิท อาร์แอนด์ดี เซ็นเตอร์ จำกัด",
-    "shortName": "SUMMIT R&D CENTER"
-  },
-  {
-    "partnerId": "0105531000862",
-    "type": "SERVICES",
-    "subType": "SERVICES-2",
-    "name": "บริษัท บ้านแพนรีเสิร์ช แลบบอราทอรี่ จำกัด",
-    "shortName": "BANPAN RESEARCH LABORATORY"
-  },
-  {
-    "partnerId": "0105542064981",
-    "type": "SERVICES",
-    "subType": "SERVICES-2",
-    "name": "บริษัท เอ็นไวรอนเมนท์ รีเสริช แอนด์ เทคโนโลยี จำกัด",
-    "shortName": "ENVIRONMENT RESEARCH & TECHNOLOGY"
-  },
-  {
-    "partnerId": "0105533113443",
-    "type": "SERVICES",
-    "subType": "SERVICES-2",
-    "name": "บริษัท ยูไนเต็ด แอนนาลิสต์ แอนด์ เอ็นจิเนียริ่ง คอนซัลแตนท์ จำกัด",
-    "shortName": "UNITED ANALYST AND ENGINEERING CONSULTANT"
-  },
-  {
-    "partnerId": "0105535158703",
-    "type": "SERVICES",
-    "subType": "SERVICES-7",
-    "name": "บริษัท นวบุตร จำกัด",
-    "shortName": "NAWABUTR"
-  },
-  {
-    "partnerId": "0505537002391",
-    "type": "SERVICES",
-    "subType": "SERVICES-7",
-    "name": "บริษัท เทพปัญญาธุรกิจ จำกัด",
-    "shortName": "THEPPANYA BUSINESS"
-  },
-  {
-    "partnerId": "0765537000524",
-    "type": "SERVICES",
-    "subType": "SERVICES-7",
-    "name": "บริษัท ลินิน ด็อกเตอร์ จำกัด",
-    "shortName": "LINEN DOCTOR"
-  },
-  {
-    "partnerId": "0105535168407",
-    "type": "SALES",
-    "subType": "SALES-2",
-    "name": "บริษัท แสงมิตร อีเลคตริค จำกัด",
-    "shortName": "SAENGMITR ELECTRIC"
-  },
-  {
-    "partnerId": "0105519003547",
-    "type": "SALES",
-    "subType": "SALES-2",
-    "name": "บริษัท อาร์เอ็กซ์ จำกัด",
-    "shortName": "RX"
-  },
-  {
-    "partnerId": "0105533032273",
-    "type": "SALES",
-    "subType": "SALES-2",
-    "name": "บริษัท สตาร์-บอนด์ (ไทยแลนด์) จำกัด",
-    "shortName": "STAR-BOND (THAILAND)"
+    "partnerId": "0105543088956",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท บูโอโน่ (ประเทศไทย) จำกัด",
+    "shortName": "BUONO THAILAND"
   },
   {
     "partnerId": "0105536081704",
@@ -1162,32 +546,81 @@
     "shortName": "ARTCHIT INTERNATIONAL PEPPER AND SPICE"
   },
   {
-    "partnerId": "0105531030885",
-    "type": "SALES",
-    "subType": "SALES-2",
-    "name": "บริษัท อินเทลโนเวชั่น จำกัด",
-    "shortName": "INTELNOVATION"
+    "partnerId": "0105532001170",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-20",
+    "name": "บริษัท บิ๊กสตาร์ จำกัด",
+    "shortName": "BIG STAR"
   },
   {
-    "partnerId": "0105531041071",
-    "type": "SALES",
-    "subType": "SALES-2",
-    "name": "บริษัท ฟาร์โก อินเตอร์เนชั่นแนล จำกัด",
-    "shortName": "FARCO INTERNATIONAL"
+    "partnerId": "0105539096702",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท อัลเฟรโด เอ็นเตอร์ไพรส์ จำกัด",
+    "shortName": "ALFREDO ENTERPRISE"
   },
   {
-    "partnerId": "0305554002118",
-    "type": "SALES",
-    "subType": "SALES-2",
-    "name": "บริษัท เขาใหญ่ พาโนราม่า ฟาร์ม จำกัด",
-    "shortName": "KHAOYAI PANORAMA FARM"
+    "partnerId": "0305536000206",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท แป้งมันเอี่ยมเฮงอุตสาหกรรม จำกัด",
+    "shortName": "EIAMHENG TAPIOCA STARCH INDUSTRY"
   },
   {
-    "partnerId": "0105542034658",
-    "type": "SALES",
-    "subType": "SALES-1",
-    "name": "บริษัท เอ็นบีดี เฮลท์แคร์ จำกัด",
-    "shortName": "NBD HEALTHCARE"
+    "partnerId": "0505545000203",
+    "type": "SERVICES",
+    "subType": "SERVICES-1",
+    "name": "บริษัท มายคอส เทคโนโลยีส์ จำกัด",
+    "shortName": "MYCOS TECHNOLOGIES"
+  },
+  {
+    "partnerId": "0305553000626",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เชาวน์ดี โมดิฟาย สตาร์ช จำกัด",
+    "shortName": "CHAODEE MODIFIED STARCH"
+  },
+  {
+    "partnerId": "0107547000753",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-14",
+    "name": "บริษัท ซีพีพีซี จำกัด (มหาชน)",
+    "shortName": "CPPC PLC"
+  },
+  {
+    "partnerId": "0105532071062",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท สีฟ้าฟู้ด จำกัด",
+    "shortName": "SEEFAH RESTAURANT"
+  },
+  {
+    "partnerId": "0705543000620",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เอเชี่ยน สุพีเรียฟู้ดส์ จำกัด",
+    "shortName": "ASIAN SUPERIOR FOODS"
+  },
+  {
+    "partnerId": "0105531047265",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท อุตสาหกรรมเครื่องหอมไทย-จีน จำกัด",
+    "shortName": "THAI-CHINA FLAVOURS AND FRAGRANCES INDUSTRY"
+  },
+  {
+    "partnerId": "0105549036516",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท เอสที อาร์ท แมททีเรียล จำกัด",
+    "shortName": "ST ART MATERIAL"
+  },
+  {
+    "partnerId": "0105533113443",
+    "type": "SERVICES",
+    "subType": "SERVICES-2",
+    "name": "บริษัท ยูไนเต็ด แอนนาลิสต์ แอนด์ เอ็นจิเนียริ่ง คอนซัลแตนท์ จำกัด",
+    "shortName": "UNITED ANALYST AND ENGINEERING CONSULTANT"
   },
   {
     "partnerId": "0205527001742",
@@ -1197,11 +630,312 @@
     "shortName": "BERLI JUCKER FOODS COMPANY LIMITED"
   },
   {
-    "partnerId": "0205529000605",
+    "partnerId": "0105539027948",
     "type": "MANUFACTURING",
     "subType": "MANUFACTURING-15",
-    "name": "บริษัท มาเจสติค อุตสาหกรรมอาหาร จำกัด",
-    "shortName": "MAJESTIC FOOD INDUSTRY"
+    "name": "บริษัท สยาม ยูเคเอฟ จำกัด",
+    "shortName": "SIAM UKF"
+  },
+  {
+    "partnerId": "0105552069781",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท เวสโก ฟาร์มาซูติคอล จำกัด",
+    "shortName": "VESCO PHARMACEUTICAL"
+  },
+  {
+    "partnerId": "0115538005045",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-11",
+    "name": "บริษัท มอเรสโก้ (ไทยแลนด์) จำกัด",
+    "shortName": "MORESCO (THAILAND)"
+  },
+  {
+    "partnerId": "0115553006103",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท เอส.ที. ไรซิ่ง จำกัด",
+    "shortName": "S.T. RIZING"
+  },
+  {
+    "partnerId": "0107537000386",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-14",
+    "name": "บริษัท ไทยฟิล์มอินดัสตรี่ จำกัด (มหาชน)",
+    "shortName": "THAI FILM INDUSTRIES PLC"
+  },
+  {
+    "partnerId": "0505510000029",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-1",
+    "name": "บริษัท ชาระมิงค์ จำกัด",
+    "shortName": "RAMING TEA"
+  },
+  {
+    "partnerId": "0105532104629",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท มหาชัยฟู้ดโปรเซสซิ่ง จำกัด",
+    "shortName": "MAHACHAI FOODS"
+  },
+  {
+    "partnerId": "0505548004714",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท พรีม่า เฮิร์บ (ประเทศไทย) จำกัด",
+    "shortName": "PRIMA HERB (THAILAND)"
+  },
+  {
+    "partnerId": "0105535168407",
+    "type": "SALES",
+    "subType": "SALES-2",
+    "name": "บริษัท แสงมิตร อีเลคตริค จำกัด",
+    "shortName": "SAENGMITR ELECTRIC"
+  },
+  {
+    "partnerId": "0105530031632",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-5",
+    "name": "บริษัท อาร์ แอนด์ ดี คอมพิวเตอร์ ซิสเท็ม จำกัด",
+    "shortName": "R & D COMPUTER SYSTEM"
+  },
+  {
+    "partnerId": "0105552111701",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท เกร๊ทเตอร์ฟาร์ม่า จำกัด",
+    "shortName": "GREATER PHARMA"
+  },
+  {
+    "partnerId": "0105533032273",
+    "type": "SALES",
+    "subType": "SALES-2",
+    "name": "บริษัท สตาร์-บอนด์ (ไทยแลนด์) จำกัด",
+    "shortName": "STAR-BOND (THAILAND)"
+  },
+  {
+    "partnerId": "0105519003547",
+    "type": "SALES",
+    "subType": "SALES-2",
+    "name": "บริษัท อาร์เอ็กซ์ จำกัด",
+    "shortName": "RX"
+  },
+  {
+    "partnerId": "0107547000664",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-16",
+    "name": "บริษัท สมบูรณ์ แอ๊ดวานซ์ เทคโนโลยี จำกัด (มหาชน)",
+    "shortName": "SOMBOON ADVANCE TECHNOLOGY PLC"
+  },
+  {
+    "partnerId": "0745550001237",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-16",
+    "name": "บริษัท ซีไอเอ็มซี วีฮีเคิล (ประเทศไทย) จำกัด",
+    "shortName": "CIMC VEHICLE (THAILAND)"
+  },
+  {
+    "partnerId": "0505537002391",
+    "type": "SERVICES",
+    "subType": "SERVICES-7",
+    "name": "บริษัท เทพปัญญาธุรกิจ จำกัด",
+    "shortName": "THEPPANYA BUSINESS"
+  },
+  {
+    "partnerId": "0105529012191",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท เจ.บี.พี.อินเตอร์เนชั่นแนล เพ็นท์ จำกัด",
+    "shortName": "J.B.P. INTERNATIONAL PAINT"
+  },
+  {
+    "partnerId": "0105527039679",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เจ้าคุณเกษตรพืชผล จำกัด",
+    "shortName": "CHAO KHUN AGRO PRODUCTS"
+  },
+  {
+    "partnerId": "0135546005105",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-21",
+    "name": "บริษัท ครัยโอไทย จำกัด",
+    "shortName": "CRYOTHAI"
+  },
+  {
+    "partnerId": "0655548000441",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท สยามอิมพลีเม้น จำกัด",
+    "shortName": "SIAM IMPLEMENT"
+  },
+  {
+    "partnerId": "0105535158703",
+    "type": "SERVICES",
+    "subType": "SERVICES-7",
+    "name": "บริษัท นวบุตร จำกัด",
+    "shortName": "NAWABUTR"
+  },
+  {
+    "partnerId": "0105537061405",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท สี่พระยาเฟอร์นิเจอร์ จำกัด",
+    "shortName": "SIPHYA FURNITURE"
+  },
+  {
+    "partnerId": "0105536103171",
+    "type": "SERVICES",
+    "subType": "SERVICES-5",
+    "name": "บริษัท พาวเวอร์กริด อินเตอร์เนชั่นแนล จำกัด",
+    "shortName": "POWERGRID INTERNATIONAL"
+  },
+  {
+    "partnerId": "0105531000862",
+    "type": "SERVICES",
+    "subType": "SERVICES-2",
+    "name": "บริษัท บ้านแพนรีเสิร์ช แลบบอราทอรี่ จำกัด",
+    "shortName": "BANPAN RESEARCH LABORATORY"
+  },
+  {
+    "partnerId": "0107537001471",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท จีเอฟพีที จำกัด (มหาชน)",
+    "shortName": "GFPT PLC"
+  },
+  {
+    "partnerId": "0205529000607",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท วินสัน อิ๊งค์ จำกัด",
+    "shortName": "WINSON INK"
+  },
+  {
+    "partnerId": "0105515000918",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท คิงฟิชเชอร์ โฮลดิ้งส์ จำกัด",
+    "shortName": "KING FISHER HOLDINGS"
+  },
+  {
+    "partnerId": "0115551011835",
+    "type": "SERVICES",
+    "subType": "SERVICES-2",
+    "name": "บริษัท ซัมมิท อาร์แอนด์ดี เซ็นเตอร์ จำกัด",
+    "shortName": "SUMMIT R&D CENTER"
+  },
+  {
+    "partnerId": "0107537000751",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ซีเฟรชอินดัสตรี จำกัด (มหาชน)",
+    "shortName": "SEAFRESH INDUSTRY PLC"
+  },
+  {
+    "partnerId": "0105544014620",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-18",
+    "name": "บริษัท ฟูรูกาวา ไฟเทล (ประเทศไทย) จำกัด",
+    "shortName": "FURUKAWA FITEL (THAILAND)"
+  },
+  {
+    "partnerId": "0105520005299",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท น้ำมันบริโภคไทย จำกัด",
+    "shortName": "THAI EDIBLE OIL"
+  },
+  {
+    "partnerId": "0735535001981",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท เกรทเตอร์ โพลี แมนูแฟคเจอริ่ง จำกัด",
+    "shortName": "GREATER POLY MANUFACTURING"
+  },
+  {
+    "partnerId": "0125539005316",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-11",
+    "name": "บริษัท เอส.คิว.ไอ. ปิโตรเคม อินดัสตรี้ส์ จำกัด",
+    "shortName": "S.Q.I. PETROCHEM INDUSTRIES"
+  },
+  {
+    "partnerId": "0575532000048",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ไทยคอสมอสฟู้ดส์ จำกัด",
+    "shortName": "THAI COSMOS FOODS"
+  },
+  {
+    "partnerId": "0115527001183",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-20",
+    "name": "บริษัท โรงงานฟอกหนังชาญกิจ จำกัด",
+    "shortName": "CHANKIJ TANNING INDUSTRY"
+  },
+  {
+    "partnerId": "0105527031686",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท อินเตอร์อิงค์ จำกัด",
+    "shortName": "INTERINK"
+  },
+  {
+    "partnerId": "0105532085217",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ชอไชยวัฒน์ อุตสาหกรรม จำกัด",
+    "shortName": "CHORCHAIWAT INDUSTRY"
+  },
+  {
+    "partnerId": "0107537001439",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ไทย อกริ ฟู้ดส์ จำกัด (มหาชน)",
+    "shortName": "THAI AGRI FOODS PLC"
+  },
+  {
+    "partnerId": "0115543007697",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-7",
+    "name": "บริษัท นีโอ ทรอนิก้า (ประเทศไทย) จำกัด",
+    "shortName": "NEO TRONICA (THAILAND)"
+  },
+  {
+    "partnerId": "0745541001220",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท แอคมี เคม เทค จำกัด",
+    "shortName": "ACME CHEM TECH"
+  },
+  {
+    "partnerId": "0105526012521",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เยเนอรัลแคนดี้ จำกัด",
+    "shortName": "GENERAL CANDY"
+  },
+  {
+    "partnerId": "0735542001380",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เอฟ-พลัส จำกัด",
+    "shortName": "F-PLUS"
+  },
+  {
+    "partnerId": "0105530068137",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-19",
+    "name": "บริษัท ไทยตาบูชิอีเล็คทริค จำกัด",
+    "shortName": "THAI TABUCHI ELECTRIC"
+  },
+  {
+    "partnerId": "0105531014375",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท โรงงานเครื่องกระป๋องฮั่วเซ้ง จำกัด",
+    "shortName": "HUA SENG CANNING"
   },
   {
     "partnerId": "0205529000606",
@@ -1211,10 +945,276 @@
     "shortName": "DYNO PAINTS COMPANY"
   },
   {
-    "partnerId": "0205529000607",
+    "partnerId": "0105539113500",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-14",
+    "name": "บริษัท โพลีพลาสติกส์ มาร์เก็ตติ้ง (ที) จำกัด",
+    "shortName": "POLYPLASTICS MARKETING (T)"
+  },
+  {
+    "partnerId": "0215546002296",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-19",
+    "name": "บริษัท มูนซุง อิเล็คทรอนิค (ไทยแลนด์) จำกัด",
+    "shortName": "MOON SUNG ELECTRONIC (THAILAND)"
+  },
+  {
+    "partnerId": "0105532022762",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-3",
+    "name": "บริษัท ไทยเซ็นทรัล เมคคานิคส์ จำกัด",
+    "shortName": "THAI CENTRAL MECHANICS"
+  },
+  {
+    "partnerId": "0105538061468",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-8",
+    "name": "บริษัท กรีนแคล(ประเทศไทย) จำกัด",
+    "shortName": "GREENCAL (THAILAND)"
+  },
+  {
+    "partnerId": "0105535006784",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-19",
+    "name": "บริษัท แอล แอนด์ อี แมนูแฟคเจอริ่ง จำกัด",
+    "shortName": "L&E MANUFACTURING"
+  },
+  {
+    "partnerId": "0735551000927",
     "type": "MANUFACTURING",
     "subType": "MANUFACTURING-2",
-    "name": "บริษัท วินสัน อิ๊งค์ จำกัด",
-    "shortName": "WINSON INK"
+    "name": "บริษัท เอสที เฟอร์ทิลิตี้ จำกัด",
+    "shortName": "ST FERTILITY"
+  },
+  {
+    "partnerId": "0205529000604",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท น้ำปลา พิไชย จำกัด",
+    "shortName": "PICHAI FISH SAUCE"
+  },
+  {
+    "partnerId": "0205514000123",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท อุตสาหกรรมไทยปรีดา จำกัด",
+    "shortName": "THAI PREEDA INDUSTRY"
+  },
+  {
+    "partnerId": "0845532000037",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ฟรีซแลนด์ โปรดักส์ จำกัด",
+    "shortName": "FREEZE LAND PRODUCTS"
+  },
+  {
+    "partnerId": "0107553000158",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-19",
+    "name": "บริษัท คิวทีซี เอนเนอร์ยี่ จำกัด (มหาชน)",
+    "shortName": "QTC ENERGY PLC"
+  },
+  {
+    "partnerId": "0105520017149",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-14",
+    "name": "บริษัท สยามฟิตติ้งส์ จำกัด",
+    "shortName": "SIAM FITTINGS"
+  },
+  {
+    "partnerId": "0105533042091",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท นิวแหลมทองฟูดส์อินดัสทรีส์ จำกัด",
+    "shortName": "NEW LAMTHONG FOODS INDUSTRIES"
+  },
+  {
+    "partnerId": "0745529000219",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท วีระสุวรรณ จำกัด",
+    "shortName": "VERASUWAN"
+  },
+  {
+    "partnerId": "0105524017208",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-1",
+    "name": "บริษัท แปซิฟิค เมล็ดพันธุ์ จำกัด",
+    "shortName": "PACIFIC SEEDS"
+  },
+  {
+    "partnerId": "0105531030885",
+    "type": "SALES",
+    "subType": "SALES-2",
+    "name": "บริษัท อินเทลโนเวชั่น จำกัด",
+    "shortName": "INTELNOVATION"
+  },
+  {
+    "partnerId": "0105528033887",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท สานิตแอนด์ซันส์ จำกัด",
+    "shortName": "SANIT & SONS"
+  },
+  {
+    "partnerId": "0105539001710",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท วี อาร์ ฟู้ดส์ จำกัด",
+    "shortName": "V R FOODS"
+  },
+  {
+    "partnerId": "0105531041071",
+    "type": "SALES",
+    "subType": "SALES-2",
+    "name": "บริษัท ฟาร์โก อินเตอร์เนชั่นแนล จำกัด",
+    "shortName": "FARCO INTERNATIONAL"
+  },
+  {
+    "partnerId": "0105543065778",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ชบาบางกอก จำกัด",
+    "shortName": "CHABAA BANGKOK"
+  },
+  {
+    "partnerId": "0215547003156",
+    "type": "SERVICES",
+    "subType": "SERVICES-2",
+    "name": "บริษัท อูเบะ เทคนิคอล เซ็นเตอร์ (เอเชีย) จำกัด",
+    "shortName": "UBE TECHNICAL CENTER (ASIA)"
+  },
+  {
+    "partnerId": "0105536123296",
+    "type": "SERVICES",
+    "subType": "SERVICES-4",
+    "name": "บริษัท สีฟ้าลุมพินี จำกัด",
+    "shortName": "SEE FAH LUMPINI"
+  },
+  {
+    "partnerId": "0105491000387",
+    "type": "SERVICES",
+    "subType": "SERVICES-6",
+    "name": "บริษัท วิทยุการบินแห่งประเทศไทย จำกัด",
+    "shortName": "AERONAUTICAL RADIO OF THAILAND LIMITED"
+  },
+  {
+    "partnerId": "0105537048905",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-19",
+    "name": "บริษัท อีดีแอล จำกัด",
+    "shortName": "EDL"
+  },
+  {
+    "partnerId": "0107544000060",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เบียร์ไทย (1991) จำกัด (มหาชน)",
+    "shortName": "BEER THAI (1991) PLC"
+  },
+  {
+    "partnerId": "0715521000040",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-1",
+    "name": "บริษัท เค.ซี.เกษตรกรรม จำกัด",
+    "shortName": "K.C. GENERAL FARM CORPORATION"
+  },
+  {
+    "partnerId": "0105540000403",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท ทรีบอนด์ แมนูแฟคเจอริ่ง (ประเทศไทย) จำกัด",
+    "shortName": "THREE BOND MANUFACTURING (THAILAND)"
+  },
+  {
+    "partnerId": "0105537133449",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-12",
+    "name": "บริษัท มิตซุยไกรน์ดิ้ง เทคโนโลยี (ประเทศไทย) จำกัด",
+    "shortName": "MITSUI GRINDING TECHNOLOGY (THAILAND)"
+  },
+  {
+    "partnerId": "0105515002287",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท โรงงานผลิตภัณฑ์อาหารไทย จำกัด",
+    "shortName": "THAI PRESERVED FOOD FACTORY"
+  },
+  {
+    "partnerId": "0105530046401",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-18",
+    "name": "บริษัท ซัมมิท อีเล็คโทรนิค คอมโพเน้นท์ จำกัด",
+    "shortName": "SUMMIT ELECTRONICS COMPONENT"
+  },
+  {
+    "partnerId": "0105533092241",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เอ็น เอส ที ฟู้ด อินกรีเดียนท์ จำกัด",
+    "shortName": "N S T FOOD INDUSTRY GROUP"
+  },
+  {
+    "partnerId": "0245551000760",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-1",
+    "name": "บริษัท แอ๊ดวานซ์อาเชี่ยน จำกัด",
+    "shortName": "ADVANCE ASIAN"
+  },
+  {
+    "partnerId": "0105511003114",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท แอคดอน จำกัด",
+    "shortName": "ACKON"
+  },
+  {
+    "partnerId": "0105533075568",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ลัคกี้ ยูเนี่ยน ฟู้ดส์ จำกัด",
+    "shortName": "LUCKY UNION FOODS"
+  },
+  {
+    "partnerId": "0105531001141",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-14",
+    "name": "บริษัท เอ็น.แอล. ซานิทารีฟิตติ้งส์ จำกัด",
+    "shortName": "N.L. SANITARY FITTINGS"
+  },
+  {
+    "partnerId": "0105530065286",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เคนมิน ฟู้ดส์ (ไทยแลนด์) จำกัด",
+    "shortName": "KENMIN FOODS (THAILAND)"
+  },
+  {
+    "partnerId": "0105510004311",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท เจริญสุขเภสัชฮุ่นชิว จำกัด",
+    "shortName": "C.S.B. DRUG FACTORY"
+  },
+  {
+    "partnerId": "0115529000842",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-15",
+    "name": "บริษัท ไฮ คิว ผลิตภัณฑ์อาหาร จำกัด",
+    "shortName": "HI Q FOOD PRODUCTS"
+  },
+  {
+    "partnerId": "0605528000062",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-2",
+    "name": "บริษัท บูรพาโอสถ จำกัด",
+    "shortName": "BURAPHA DISPENSARY"
+  },
+  {
+    "partnerId": "0105534087497",
+    "type": "MANUFACTURING",
+    "subType": "MANUFACTURING-19",
+    "name": "บริษัท มารูเกอิ อินดัสตรีย์ (ประเทศไทย) จำกัด",
+    "shortName": "MARUKEI INDUSTRY (THAILAND) COPMANY LIMITED"
   }
 ]
