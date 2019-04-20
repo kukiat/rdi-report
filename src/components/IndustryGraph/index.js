@@ -14,6 +14,8 @@ const dataI = {
       hoverBackgroundColor: '#FF6384',
       pointRadius: 0,
       pointHoverRadius: 0,
+      pointRadius: 1,
+      pointHoverRadius: 1,
       borderWidth: 1.5,
       fill: false,
       data: [628, 16, 203, 269, 127, 10, 57, 953, 119, 55, 231, 59],
@@ -50,7 +52,13 @@ const optionsI = {
   // pieceLabel: { render: 'value', fontSize: 16 },
   responsive: true,
   tooltips: {
-    mode: 'label',
+    callbacks: {
+      label: (tooltipItem, data) => {
+        const { index, datasetIndex } = tooltipItem
+        const { datasets } = data
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} บาท`
+      }
+    }
   },
   elements: {
     line: {
@@ -130,8 +138,8 @@ const dataII = {
       type: 'line',
       label: 'จำนวนผู้ประกอบการที่ดำเนินกิจกรรมด้านการวิจัยและพัฒนา (กิจการ)',
       borderColor: '#FF6384',
-      pointRadius: 0,
-      pointHoverRadius: 0,
+      pointRadius: 1,
+      pointHoverRadius: 1,
       borderWidth: 1.5,
       pointBorderColor: '#FF6384',
       fill: false,
@@ -139,7 +147,7 @@ const dataII = {
     },
     {
       yAxisID: 'left-position',
-      label: 'ค่าใช้จ่ายด้านการวิจัยและพัฒนา  (ล้านบาท)',
+      label: 'ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)',
       type: 'bar',
       backgroundColor: '#5ce0de',
       borderColor: '#5ce0de',
@@ -167,11 +175,17 @@ const dataII = {
 }
 
 const optionsII = {
+  tooltips: {
+    callbacks: {
+      label: (tooltipItem, data) => {
+        const { index, datasetIndex } = tooltipItem
+        const { datasets } = data
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} บาท`
+      }
+    }
+  },
   // pieceLabel: { render: 'value', fontSize: 16 },
   responsive: true,
-  tooltips: {
-    mode: 'label',
-  },
   elements: {
     line: {
       fill: false,

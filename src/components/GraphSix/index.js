@@ -14,8 +14,8 @@ const data = {
       backgroundColor: '#FF6384',
       pointBorderColor: '#FF6384',
       fill: false,
-      pointRadius: 0,
-      pointHoverRadius: 0,
+      pointRadius: 1,
+      pointHoverRadius: 1,
       data: [153, 20, 953, 3, 87, 86, 24, 21, 57, 33, 56, 628, 336, 231, 41, 235, 120, 10, 127, 270, 154, 34, 204, 17, 50],
     },
     {
@@ -23,8 +23,8 @@ const data = {
       label: 'ค่าใช้จ่ายด้านการวิจัยและพัฒนา  (ล้านบาท)',
       type: 'bar',
       borderWidth: 1.5,
-      pointRadius: 0,
-      pointHoverRadius: 0,
+      pointRadius: 1,
+      pointHoverRadius: 1,
       backgroundColor: '#5ce0de',
       borderColor: '#5ce0de',
       hoverBackgroundColor: '#5ce0de',
@@ -63,7 +63,14 @@ const options = {
   // pieceLabel: { render: 'value', fontSize: 16 },
   responsive: true,
   tooltips: {
-    mode: 'label',
+    callbacks: {
+      label: (tooltipItem, data) => {
+        const { index, datasetIndex } = tooltipItem
+        const { datasets } = data
+        const unit = datasetIndex ? 'บาท' : 'คน'
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} ${unit}`
+      }
+    }
   },
   elements: {
     line: {

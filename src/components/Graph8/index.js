@@ -9,11 +9,12 @@ const data = {
       yAxisID: 'right-position',
       type: 'line',
       label: 'จำนวนผู้ประกอบการ (กิจการ)',
-      pointRadius: 0,
-      pointHoverRadius: 0,
+      pointRadius: 1.5,
+      pointHoverRadius: 1.5,
       borderWidth: 1.5,
+      backgroundColor: '3FF6384',
+      hoverBackgroundColor: '#FF6384',
       borderColor: '#FF6384',
-      pointBorderColor: 'rgba(0,0,0,0)',
       fill: false,
       data: [
         35,
@@ -25,8 +26,8 @@ const data = {
       yAxisID: 'left-position',
       label: 'ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)',
       type: 'bar',
-      pointRadius: 0,
-      pointHoverRadius: 0,
+      pointRadius: 4,
+      pointHoverRadius: 4,
       borderWidth: 1.5,
       backgroundColor: '#5ce0de',
       borderColor: '#5ce0de',
@@ -40,7 +41,14 @@ const options = {
   // pieceLabel: { render: 'value', fontSize: 16 },
   responsive: true,
   tooltips: {
-    mode: 'label',
+    callbacks: {
+      label: (tooltipItem, data) => {
+        const { index, datasetIndex } = tooltipItem
+        const { datasets } = data
+        const unit = datasetIndex ? 'บาท' : 'คน'
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} ${unit}`
+      }
+    }
   },
   elements: {
     line: {

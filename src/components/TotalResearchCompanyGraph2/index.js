@@ -52,6 +52,15 @@ const data = {
 }
 
 const options = {
+  tooltips: {
+    callbacks: {
+      label: function (tooltipItem, data) {
+        const { index, datasetIndex } = tooltipItem
+        const { datasets } = data
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} บาท`
+      }
+    }
+  },
   scales: {
     xAxes: [{
       ticks: {
