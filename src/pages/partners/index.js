@@ -24,14 +24,14 @@ const Partners = (props) => {
     setDropdown()
   }
 
-  const handleChange = (e) => {
-    const text = e.target.value
+  const handleSearch = (e) => {
+    const word = e.target.value
     if (timeout) {
       clearTimeout(timeout);
     }
     timeout = setTimeout(() => {
-      setSearchValue(text)
-    }, 500)
+      setSearchValue(word)
+    }, 300)
   }
 
   const onFilterSubType = (_type, setDropdown) => {
@@ -65,9 +65,9 @@ const Partners = (props) => {
         <div className="partner-table-wrapper">
           <div className="input-group search-box">
             <input
-              onChange={handleChange}
-              type="input"
+              type='input'
               className="form-control search-box-input"
+              onChange={handleSearch}
               placeholder="ค้นหาบริษัท"
             />
           </div>
