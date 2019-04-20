@@ -1,57 +1,43 @@
 import React from 'react'
-import Pie from 'react-pie3d'
+import FusionCharts from 'fusioncharts';
+import Charts from 'fusioncharts/fusioncharts.charts';
+import ReactFC from 'react-fusioncharts';
+import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 import './index.css'
 
-const data = [
-  {
-    value: 67486,
-    color: '#FF6384',
-    label: 'บุคลากรด้านการวิจัยและพัฒนา '
-  },
-  {
-    value: 23875,
-    color: '#5ce0de',
-    label: 'เครื่องจักรและอุปกรณ์ '
-  },
-  {
-    value: 20141,
-    color: '#fed330',
-    label: 'ค่าใช้จ่ายอื่นๆ '
-  },
-]
+ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
 
-const config = {
-  ir: 0,
-  h: 50,
-  angle: 60
-}
-// const data = {
-//   labels: [
-//     'บุคลากรด้านการวิจัยและพัฒนา',
-//     'เครื่องจักรและอุปกรณ์',
-//     'ค่าใช้จ่ายอื่นๆ',
-//   ],
-//   datasets: [{
-//     data: [67486, 23875, 20141],
-//     backgroundColor: [
-//       '#2ecc71',
-//       '#3498db',
-//       '#e67e22',
-//     ],
-//     hoverBackgroundColor: [
-//       '#2ecc71',
-//       '#3498db',
-//       '#e67e22',
-//     ]
-//   }]
-// };
-
-const options = {
-  maintainAspectRatio: false,
-  legend: {
-    position: 'bottom',
-  }
-}
+const chartConfigs = {
+  type: 'Pie3D',
+  width: 800,
+  height: 500,
+  dataSource: {
+    "chart": {
+      "baseFont": "Prompt, sans-serif",
+      "showValues": "1",
+      "showPercentInTooltip": "0",
+      "enableMultiSlicing": "1",
+      "theme": "zune"
+    },
+    "data": [
+      {
+        "label": "บุคลากรด้านการวิจัยและพัฒนา",
+        "value": "67486",
+        "color": '#FF6384'
+      },
+      {
+        "label": "เครื่องจักรและอุปกรณ์",
+        "value": "23875",
+        "color": '#5ce0de'
+      },
+      {
+        "label": "ค่าใช้จ่ายอื่นๆ",
+        "value": "20141",
+        "color": '#192a56'
+      },
+    ]
+  },
+};
 
 const Graph9 = () => {
   return (
@@ -76,7 +62,7 @@ const Graph9 = () => {
             </p>
         </div>
         <div className="col-lg-8 graph9-pie" data-aos="fade-left">
-          <Pie data={data} config={config} />
+          <ReactFC {...chartConfigs} />
         </div>
       </div>
     </div>
