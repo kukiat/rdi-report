@@ -1,12 +1,12 @@
 import React from 'react'
-import { Line } from 'react-chartjs-2'
+import { Bar } from 'react-chartjs-2'
 import './index.css'
 
 const data = {
-  labels: ['การผลิต', 'การบริการ', 'การค้าส่ง/ค้าปลีก', 'รวม'],
+  labels: ['การผลิต', 'การบริการ', 'การค้าส่ง/ค้าปลีก'],
   datasets: [
     {
-      label: '2559',
+      label: 'ปี 2559',
       fill: false,
       lineTension: 0.3,
       backgroundColor: '#68fffc',
@@ -24,10 +24,10 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [20509, 28104, 35057, 90669],
+      data: [3339, 1143, 480],
     },
     {
-      label: '2560',
+      label: 'ปี 2560',
       fill: false,
       lineTension: 0.3,
       backgroundColor: '#ff357f',
@@ -45,9 +45,17 @@ const data = {
       pointHoverBorderWidth: 0,
       pointRadius: 0,
       pointHitRadius: 10,
-      data: [24340, 31931, 39159, 95430],
+      data: [3891, 1112, 2329],
     },
   ],
+}
+
+const options = {
+  scales: {
+    xAxes: [{
+      barPercentage: 0.4
+    }],
+  },
 }
 
 const TotalResearchCompanyGraph = () => {
@@ -74,7 +82,7 @@ const TotalResearchCompanyGraph = () => {
           </p>
         </div>
         <div className="col-lg-8" data-aos="fade-left">
-          <Line data={data} />
+          <Bar data={data} options={options} />
           <div className="tr-graph-desc">
             <p>จำนวนผู้ประกอบการทั้งหมด (กิจการ)</p>
           </div>

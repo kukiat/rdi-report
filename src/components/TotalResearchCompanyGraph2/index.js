@@ -1,12 +1,12 @@
 import React from 'react'
-import { Line } from 'react-chartjs-2'
+import { HorizontalBar } from 'react-chartjs-2'
 import './index.css'
 
 const data = {
-  labels: ['การผลิต', 'การบริการ', 'การค้าส่ง/ค้าปลีก', 'รวม'],
+  labels: ['การผลิต', 'การบริการ', 'การค้าส่ง/ค้าปลีก'],
   datasets: [
     {
-      label: '2559',
+      label: 'ปี 2559',
       fill: false,
       lineTension: 0.3,
       backgroundColor: '#68fffc',
@@ -24,10 +24,10 @@ const data = {
       pointHoverBorderWidth: 0,
       pointRadius: 0,
       pointHitRadius: 10,
-      data: [60590, 15496, 6615, 82701],
+      data: [6615, 15496, 60590],
     },
     {
-      label: '2560',
+      label: 'ปี 2560',
       fill: false,
       lineTension: 0.3,
       backgroundColor: '#ff357f',
@@ -45,9 +45,17 @@ const data = {
       pointHoverBorderWidth: 0,
       pointRadius: 0,
       pointHitRadius: 10,
-      data: [80401, 25154, 18707, 123942],
+      data: [18747, 25154, 80041],
     },
   ],
+}
+
+const options = {
+  scales: {
+    yAxes: [{
+      barPercentage: 0.7
+    }],
+  },
 }
 
 const TotalResearchCompanyGraph = () => {
@@ -58,7 +66,7 @@ const TotalResearchCompanyGraph = () => {
       </p>
       <div className="tr2-graph-detail-wrapper row">
         <div className="col-lg-8" data-aos="fade-right">
-          <Line data={data} />
+          <HorizontalBar data={data} options={options} />
           <div className="tr2-graph-desc">
             <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนา (ล้านบาท)</p>
           </div>

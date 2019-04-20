@@ -48,6 +48,7 @@ const options = {
   scales: {
     xAxes: [
       {
+        barPercentage: 0.3,
         display: true,
         gridLines: {
           display: false,
