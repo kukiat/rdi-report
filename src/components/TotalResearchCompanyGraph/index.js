@@ -58,7 +58,7 @@ const options = {
     callbacks: {
       label: (tooltipItem, data) => {
         console.log(tooltipItem, data)
-        return `${data.labels[tooltipItem.datasetIndex]} - ${numeral(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]).format('0,0')}`;
+        return `${data.labels[tooltipItem.datasetIndex]}: จำนวน ${numeral(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]).format('0,0')} บริษัท`;
       }
     }
   },
