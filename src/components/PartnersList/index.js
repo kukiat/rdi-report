@@ -15,6 +15,7 @@ const PartnerListItem = ({ partner, index }) => {
     if (imgPath) {
       return imgPath
     }
+
     return IMAGES[Math.floor(Math.random() * IMAGES.length)];
   }
 
