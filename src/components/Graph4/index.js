@@ -1,11 +1,66 @@
 import React from "react"
+import numeral from 'numeral'
+import { parseLocaleString } from '../../utils/general'
+import { Bar } from 'react-chartjs-2'
 import "./index.css"
 
-const Organization = () => {
+
+const data = {
+  labels: ['การผลิต', 'การบริการ', 'การค้าส่ง/ค้าปลีก'],
+  datasets: [
+    {
+      fill: false,
+      lineTension: 0.3,
+      backgroundColor: [
+        '#68fffc',
+        "#FF6384",
+        '#4b6584'
+      ],
+      borderColor: '#68fffc',
+      pointBorderColor: '#68fffc',
+      pointBackgroundColor: '#68fffc',
+      pointBorderWidth: 0,
+      pointHoverRadius: 0,
+      pointHoverBackgroundColor: '#68fffc',
+      pointHoverBorderColor: '#68fffc',
+      pointHoverBorderWidth: 2,
+      pointRadius: 1,
+      pointHitRadius: 10,
+      data: [20.57, 22.61, 8.05],
+    }
+  ],
+}
+
+const options = {
+  maintainAspectRatio: true,
+  legend: {
+    display: false,
+  },
+  tooltips: {
+    callbacks: {
+      label: (tooltipItem, data) => {
+        return `${data.labels[tooltipItem.datasetIndex]}: ${data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]} ล้านบาท`
+      }
+    }
+  },
+  scales: {
+    xAxes: [{ barPercentage: 0.3 }],
+    yAxes: [{
+      ticks: {
+        min: 0,
+        callback: (value) => {
+          return parseLocaleString(value)
+        }
+      }
+    }],
+  },
+}
+
+const Graph4 = () => {
   return (
     <div className="graph4-page row">
 
-      <div className="col-lg-7 graph4-content-section" data-aos="fade-right">
+      <div className="col-lg-5 graph4-content-section" data-aos="fade-right">
         <div className="graph4-content-header col-lg-12" data-aos="fade-right">
           <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการในปี 2560</p>
         </div>
@@ -20,12 +75,12 @@ const Organization = () => {
         </div>
       </div>
 
-      <div className="col-lg-5" data-aos="fade-left">
-        <img className="graph4-image" src={require("../../static/images/others/6.png")} alt="" />
+      <div className="col-lg-7 graph-4-section" data-aos="fade-left">
+        <Bar options={options} data={data} />
       </div>
 
     </div>
   )
 }
 
-export default Organization
+export default Graph4
