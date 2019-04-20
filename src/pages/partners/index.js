@@ -63,13 +63,11 @@ const Partners = (props) => {
           </div>
         </div>
         <div className="partner-table-wrapper">
-          <div className="input-group search-box">
-            <input
-              type='input'
-              className="form-control search-box-input"
-              onChange={handleSearch}
-              placeholder="ค้นหาบริษัท"
-            />
+          <div className="input-group search-box col-lg-10 offset-lg-1">
+            <input type="input" class="form-control search-box-input" placeholder="ค้นหาบริษัท" onChange={handleSearch} />
+            <div class="input-group-append search-box-button">
+              <button class="btn btn-outline-secondary" type="button">Button</button>
+            </div>
           </div>
           <PartnersTable
             onFilterPartnerType={onFilterPartnerType}
