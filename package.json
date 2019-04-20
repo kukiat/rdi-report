@@ -30,7 +30,9 @@
     "react-outside-click-handler": "^1.2.3",
     "react-scroll-parallax": "^2.1.2",
     "react-waypoint": "^9.0.1",
+    "recompose": "^0.30.0",
     "reselect": "^4.0.0",
+    "rxjs": "^6.4.0",
     "styled-components": "^4.2.0",
     "uuid": "^3.3.2"
   },

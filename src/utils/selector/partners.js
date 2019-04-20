@@ -12,11 +12,13 @@ export const getPartnersType = (data) => {
   }))
 }
 
-export const getPartnersData = (partner) => createSelector(
+export const getPartnersData = (partner, searchValue) => createSelector(
   (partnersType) => partnersType.find(partnerType => partnerType.type === partner.type),
-  (partnerType) => ({
-    ...partner,
-    subTypeName: partnerType.subType.find(subType => subType.type === partner.subType).name,
-    typeName: partnerType.name,
-  })
+  (partnerType) => {
+    return {
+      ...partner,
+      subTypeName: partnerType.subType.find(subType => subType.type === partner.subType).name,
+      typeName: partnerType.name,
+    }
+  }
 )
