@@ -8,6 +8,7 @@ import {
 import "./index.css"
 
 const Partners = (props) => {
+  let timeout = null
   const [type, setType] = useState('all')
   const [currectType, setCurrectType] = useState('all')
   const [searchValue, setSearchValue] = useState('')
@@ -24,7 +25,13 @@ const Partners = (props) => {
   }
 
   const handleChange = (e) => {
-    setSearchValue(e.target.value)
+    const text = e.target.value
+    if (timeout) {
+      clearTimeout(timeout);
+    }
+    timeout = setTimeout(() => {
+      setSearchValue(text)
+    }, 500)
   }
 
   const onFilterSubType = (_type, setDropdown) => {
@@ -74,7 +81,11 @@ const Partners = (props) => {
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <PartnersList
-              partners={filterPartners(currectType, searchValue)}
+              partners={useMemo(() => filterPartners(
+                currectType,
+                searchValue
+              ), [currectType, searchValue])
+              }
             />
           </div>
         </div>
