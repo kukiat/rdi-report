@@ -38,7 +38,7 @@
 .placeholder-content {
   position: absolute;
   transition: opacity 1s ease-in-out;
-  padding: 0px 40% 0 15px;
+  padding: 0px 50% 0 15px;
   width: 100%;
   font-size: 15px;
   font-weight: 400;
@@ -48,7 +48,7 @@
 .placeholder-content-second {
   position: absolute;
   opacity: 0;
-  padding: 0px 40% 0 15px;
+  padding: 0px 50% 0 15px;
   width: 100%;
   font-size: 15px;
   font-weight: 400;
