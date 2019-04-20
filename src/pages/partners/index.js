@@ -2,9 +2,8 @@ import React, { useState, useMemo } from 'react'
 import { graphql } from 'gatsby'
 import { LayoutWrapper, PartnersTable, PartnersList } from "../../components"
 import {
-  getPartnersList,
-  getPartnersType,
-  getPartnersData,
+  transformPartnerList,
+  transformPartnerType,
 } from "../../utils/selector/partners"
 import "./index.css"
 
@@ -13,8 +12,8 @@ const Partners = (props) => {
   const [currectType, setCurrectType] = useState('all')
   const [searchValue, setSearchValue] = useState('')
 
-  const partnersType = useMemo(() => getPartnersType(props.data), [props.data])
-  const partnersList = useMemo(() => getPartnersList(props.data), [props.data])
+  const partnersType = useMemo(() => transformPartnerType(props.data), [props.data])
+  const partnersList = useMemo(() => transformPartnerList(props.data), [props.data])
 
   const onFilterPartnerType = (_type, setDropdown) => {
     if (_type !== type) {
@@ -32,12 +31,12 @@ const Partners = (props) => {
     setCurrectType(_type)
     setDropdown()
   }
-  const filterWord = (key) => (value) => key.toLowerCase().includes(value)
 
   const filterPartners = (_currectType, _searchValue) => {
+    const filterWord = (key) => (value) => key.toLowerCase().includes(value)
     const filterByName = ({ name, shortName }) => filterWord(name)(_searchValue) || filterWord(shortName)(_searchValue)
     const filterByType = ({ subType, type }) => _currectType === 'all' || _currectType === subType || _currectType === type
-    return partnersList.filter((partner, _searchValue) => filterByType(partner) && filterByName(partner))
+    return partnersList.filter(partner => filterByType(partner) && filterByName(partner))
   }
 
   return (
@@ -56,15 +55,15 @@ const Partners = (props) => {
             </div>
           </div>
         </div>
-        <div className="input-group search-box">
-          <input
-            onChange={handleChange}
-            type="input"
-            className="form-control search-box-input"
-            placeholder="ค้นหาบริษัท"
-          />
-        </div>
         <div className="partner-table-wrapper">
+          <div className="input-group search-box">
+            <input
+              onChange={handleChange}
+              type="input"
+              className="form-control search-box-input"
+              placeholder="ค้นหาบริษัท"
+            />
+          </div>
           <PartnersTable
             onFilterPartnerType={onFilterPartnerType}
             onFilterSubType={onFilterSubType}

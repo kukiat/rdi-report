@@ -1,12 +1,12 @@
 import { createSelector } from 'reselect'
 
-export const getPartnersList = (data) => {
+export const transformPartnerList = (data) => {
   return data.allPartnersListJson.edges.map((partner) => ({
     ...partner.node
   }))
 }
 
-export const getPartnersType = (data) => {
+export const transformPartnerType = (data) => {
   return data.allPartnersTypeJson.edges.map((type) => ({
     ...type.node,
   }))
