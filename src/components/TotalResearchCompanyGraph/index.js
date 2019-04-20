@@ -1,6 +1,8 @@
 import React from 'react'
+import numeral from 'numeral'
 import { Bar } from 'react-chartjs-2'
 import './index.css'
+// import 'chartjs-plugin-datalabels'
 
 const data = {
   labels: ['การผลิต', 'การบริการ', 'การค้าส่ง/ค้าปลีก'],
@@ -52,6 +54,13 @@ const data = {
 
 const options = {
   scales: {
+    yAxes: [{
+      ticks: {
+        callback: (value, index, values) => {
+          return numeral(value).format('0,0')
+        }
+      }
+    }],
     xAxes: [{
       barPercentage: 0.4
     }],

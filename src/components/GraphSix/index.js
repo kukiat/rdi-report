@@ -122,6 +122,11 @@ const options = {
         labels: {
           show: true,
         },
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
+        },
       },
       {
         type: 'linear',
@@ -134,16 +139,13 @@ const options = {
         labels: {
           show: true,
         },
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
+        },
       },
     ],
-  },
-}
-
-const plugins = {
-  maintainAspectRatio: false,
-  datalabels: {
-    display: true,
-    color: 'white',
   },
 }
 
@@ -155,8 +157,7 @@ const GraphSix = () => {
       </p>
       <div className="tr2-graph-detail-wrapper row">
         <div className="col-lg-12" data-aos="fade-right">
-          {/* <img width={600} src={require('../../static/images/graph/graph6.png')} alt="" /> */}
-          <Bar data={data} options={options} plugins={plugins} />
+          <Bar data={data} options={options} />
         </div>
         <div className="tr2-graph-detail col-lg-12">
           <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center', marginTop: 20 }}>

@@ -1,4 +1,5 @@
 import React from 'react'
+import numeral from 'numeral'
 import { Bar } from 'react-chartjs-2'
 import './index.css'
 
@@ -89,6 +90,11 @@ const optionsI = {
         labels: {
           show: true,
         },
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
+        },
       },
       {
         type: 'linear',
@@ -100,6 +106,11 @@ const optionsI = {
         },
         labels: {
           show: true,
+        },
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
         },
       },
     ],
@@ -186,6 +197,11 @@ const optionsII = {
     ],
     yAxes: [
       {
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
+        },
         type: 'linear',
         display: true,
         position: 'left',
@@ -198,6 +214,11 @@ const optionsII = {
         },
       },
       {
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
+        },
         type: 'linear',
         display: true,
         position: 'right',
@@ -213,14 +234,7 @@ const optionsII = {
   },
 }
 
-const plugins = {
-  datalabels: {
-    display: true,
-    color: 'white',
-  },
-}
-
-export default () => {
+const IndustryGraph = () => {
   return (
     <div className="industry-graph-page">
       <div className="graph-header graph-content" style={{ marginTop: 50 }}>
@@ -236,7 +250,7 @@ export default () => {
       <div className="industry-graph-detail">
         <div className="row">
           <div className="col-lg-8" data-aos="fade-right">
-            <Bar data={dataI} options={optionsI} plugins={plugins} />
+            <Bar data={dataI} options={optionsI} />
           </div>
           <div className="ig-content col-lg-4">
             <p className="ig-content-text" data-aos="fade-left">
@@ -276,10 +290,12 @@ export default () => {
             </p>
           </div>
           <div className="col-lg-8" data-aos="fade-left">
-            <Bar data={dataII} options={optionsII} plugins={plugins} />
+            <Bar data={dataII} options={optionsII} />
           </div>
         </div>
       </div>
     </div>
   )
 }
+
+export default IndustryGraph

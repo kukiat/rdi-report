@@ -1,4 +1,5 @@
 import React from 'react'
+import numeral from 'numeral'
 import { HorizontalBar } from 'react-chartjs-2'
 import './index.css'
 
@@ -52,6 +53,13 @@ const data = {
 
 const options = {
   scales: {
+    xAxes: [{
+      ticks: {
+        callback: (value) => {
+          return numeral(value).format('0,0')
+        }
+      },
+    }],
     yAxes: [{
       barPercentage: 0.7
     }],

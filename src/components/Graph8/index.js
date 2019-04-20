@@ -1,4 +1,5 @@
 import React from 'react'
+import numeral from 'numeral'
 import { Bar } from 'react-chartjs-2'
 import './index.css'
 
@@ -72,6 +73,11 @@ const options = {
         labels: {
           show: true,
         },
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
+        },
       },
       {
         type: 'linear',
@@ -84,19 +90,15 @@ const options = {
         labels: {
           show: true,
         },
+        ticks: {
+          callback: (value) => {
+            return numeral(value).format('0,0')
+          }
+        },
       },
     ],
   },
 }
-
-const plugins = {
-  maintainAspectRatio: false,
-  datalabels: {
-    display: true,
-    color: 'white',
-  },
-}
-
 
 const Graph8 = () => {
   return (
@@ -117,12 +119,11 @@ const Graph8 = () => {
             <Bar
               data={data}
               options={options}
-              plugins={plugins}
             />
           </div>
           <div className="graph8-content col-lg-4">
             <p className="graph8-content-text" data-aos="fade-left">
-              โดยอุตสาหกรรมห้าง สะดวกซื้อ ของชำ มีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด
+              โดยอุตสาหกรรมห้าง สะดวกซื้อ ของชำ มี80,041 สูงที่สุด
             </p>
             <p className="graph8-content-text" data-aos="fade-left">
               รองลงมาคืออุตสาหกรรมธุรกิจค้าส่ง/ตัวแทนจำหน่าย และธุรกิจค้าส่ง/ปลีกยานยนต์และอุปกรณ์ ตามลำดับ
