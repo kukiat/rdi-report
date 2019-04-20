@@ -3,9 +3,9 @@ import { LayoutWrapper } from '../../components'
 import { reports } from '../../static/data'
 import './index.css'
 
-const ReportItem = ({ id, name, detail, date }) => {
+const ReportItem = ({ name, detail, fileName }) => {
   return (
-    <div key={id} className="report-item col-md-6">
+    <div className="report-item col-md-6">
       <a href="/static/files/sample-report.pdf" download={name}>
         <img
           width={60}
@@ -15,7 +15,7 @@ const ReportItem = ({ id, name, detail, date }) => {
         />
       </a>
       <div className="report-item-detail">
-        <a href="/static/files/sample-report.pdf" download={name} className="report-item-detail-name">
+        <a href={require(`../../static/files/${fileName}`)} download={name} className="report-item-detail-name">
           {name}
         </a>
         <div className="report-item-detail-text">{detail}</div>
