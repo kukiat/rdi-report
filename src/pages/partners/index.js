@@ -35,9 +35,9 @@ const Partners = (props) => {
   const filterWord = (key) => (value) => key.toLowerCase().includes(value)
 
   const filterPartners = (_currectType, _searchValue) => {
-    const filterSearch = ({ name, shortName }) => filterWord(name)(_searchValue) || filterWord(shortName)(_searchValue)
-    const filterType = ({ subType, type }) => _currectType === 'all' || _currectType === subType || _currectType === type
-    return partnersList.filter((partner, _searchValue) => filterSearch(partner) && filterType(partner))
+    const filterByName = ({ name, shortName }) => filterWord(name)(_searchValue) || filterWord(shortName)(_searchValue)
+    const filterByType = ({ subType, type }) => _currectType === 'all' || _currectType === subType || _currectType === type
+    return partnersList.filter((partner, _searchValue) => filterByType(partner) && filterByName(partner))
   }
 
   return (
