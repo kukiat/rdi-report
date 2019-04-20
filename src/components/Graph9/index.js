@@ -22,7 +22,8 @@ const data = [
 
 const config = {
   ir: 0,
-  h: 50
+  h: 50,
+  angle: 60
 }
 // const data = {
 //   labels: [

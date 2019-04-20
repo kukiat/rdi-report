@@ -64,9 +64,9 @@ const Partners = (props) => {
         </div>
         <div className="partner-table-wrapper">
           <div className="input-group search-box col-lg-10 offset-lg-1" data-aos="fade-left">
-            <input type="input" class="form-control search-box-input" placeholder="ค้นหาบริษัท" onChange={handleSearch} />
-            <div class="input-group-append search-box-button">
-              <button class="btn btn-outline-secondary" type="button">Button</button>
+            <input type="input" className="form-control search-box-input" placeholder="ค้นหาบริษัท" onChange={handleSearch} />
+            <div className="input-group-append search-box-button">
+              <button className="btn btn-outline-secondary" type="button">Button</button>
             </div>
           </div>
           <PartnersTable
