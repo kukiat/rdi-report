@@ -1,11 +1,11 @@
 import React from 'react'
-import FusionCharts from 'fusioncharts';
-import Charts from 'fusioncharts/fusioncharts.charts';
-import ReactFC from 'react-fusioncharts';
-import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+// import FusionCharts from 'fusioncharts';
+// import Charts from 'fusioncharts/fusioncharts.charts';
+// import ReactFC from 'react-fusioncharts';
+// import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 import './index.css'
 
-ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
+// ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
 
 const chartConfigs = {
   type: 'Pie3D',
@@ -62,7 +62,7 @@ const Graph9 = () => {
             </p>
         </div>
         <div className="col-lg-8 graph9-pie" data-aos="fade-left">
-          <ReactFC {...chartConfigs} />
+          {/* <ReactFC {...chartConfigs} /> */}
         </div>
       </div>
     </div>
