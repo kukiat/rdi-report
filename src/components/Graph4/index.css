@@ -3,7 +3,11 @@
 }
 
 .graph4-content-section {
-  padding: 0px 50px !important;
+  padding: 30px 50px !important;
+}
+
+.graph4-container {
+  padding: 10px 0 0 0;
 }
 
 .graph4-content-header {
@@ -27,4 +31,9 @@
   position: relative;
   width: 450px;
   height: 300px;
+}
+
+.graph-4-desc {
+  padding-top: 10px;
+  text-align: center;
 }

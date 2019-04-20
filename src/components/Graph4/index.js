@@ -59,26 +59,30 @@ const options = {
 const Graph4 = () => {
   return (
     <div className="graph4-page row">
-
-      <div className="col-lg-5 graph4-content-section" data-aos="fade-right">
-        <div className="graph4-content-header col-lg-12" data-aos="fade-right">
-          <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการในปี 2560</p>
+      <div className="graph4-content-header col-lg-12" data-aos="fade-right">
+        <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการในปี 2560</p>
+      </div>
+      <div className='row graph4-container'>
+        <div className="col-lg-5 graph4-content-section">
+          <div className="graph4-content-desc">
+            <p className="graph4-content-desc-text" data-aos="fade-right">
+              โดยอุตสาหกรรมการบริการมีค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการสูงที่สุด
+            </p>
+            <p className="graph4-content-desc-text" data-aos="fade-right">
+              รองลงมาคืออุตสาหกรรมการผลิตและอุตสาหกรรมค้าส่งค้าปลีกตามลำดับ
+            </p>
+            <p className="graph4-content-desc-text" data-aos="fade-up">
+              ซึ่งในภาพรวมทุกอุตสาหกรรมมีค่าใช้จ่ายเฉลี่ยอยู่ที่ 16.9 ล้านบาทต่อกิจการ
+          </p>
+          </div>
         </div>
-        <div className="graph4-content-desc">
-          <p className="graph4-content-desc-text" data-aos="fade-right">
-            โดยอุตสาหกรรมการบริการมีค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการสูงที่สุด
-            รองลงมาคืออุตสาหกรรมการผลิตและอุตสาหกรรมค้าส่งค้าปลีกตามลำดับ
-          </p>
-          <p className="graph4-content-desc-text" data-aos="fade-right">
-            ซึ่งในภาพรวมทุกอุตสาหกรรมมีค่าใช้จ่ายเฉลี่ยอยู่ที่ 16.9 ล้านบาทต่อกิจการ
-          </p>
+        <div className="col-lg-7 graph-4-section" data-aos="fade-left">
+          <Bar options={options} data={data} />
+          <div className="graph-4-desc">
+            <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการ (ล้านบาท/กิจการ)</p>
+          </div>
         </div>
       </div>
-
-      <div className="col-lg-7 graph-4-section" data-aos="fade-left">
-        <Bar options={options} data={data} />
-      </div>
-
     </div>
   )
 }
