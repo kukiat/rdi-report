@@ -30,6 +30,7 @@
 .search-box {
   margin-top: 40px;
   margin-bottom: 30px;
+  animation: appear-right 1s ease;
 }
 
 .search-box-input {
