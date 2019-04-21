@@ -20,56 +20,53 @@ const PartnersTable = ({
   }
 
   return (
-    <div className='partner-table-container'>
-      <OutsideClickHandler
-        display='inline-block'
-        onOutsideClick={() => {
-          setDropdown([false, false, false, false])
-        }}
-      >
-        <div className='row' css={{ position: 'relative' }}>
-          <div className='partner-table-list'>
-            {
-              partnersType.map((partnerType, indexType) => (
+    <OutsideClickHandler
+      onOutsideClick={() => {
+        setDropdown([false, false, false, false])
+      }}
+    >
+      <div className='partner-table-container col-lg-10 offset-lg-1'>
+        <div className='partner-table-list col-12'>
+          {
+            partnersType.map((partnerType, indexType) => (
+              <div
+                className={classNames('partner-table-item', partnerType.type.toLowerCase())}
+                key={indexType}
+              >
                 <div
-                  className={classNames('partner-table-item', partnerType.type.toLowerCase())}
-                  key={indexType}
+                  className={classNames('list-item', {
+                    'active': type === partnerType.type,
+                    'active-dropdown': isOpenDropdown[indexType]
+                  })}
+                  onClick={() => onFilterPartnerType(partnerType.type, () => setNewDropDown(indexType))}
                 >
-                  <div
-                    className={classNames('list-item', {
-                      'active': type === partnerType.type,
-                      'active-dropdown': isOpenDropdown[indexType]
-                    })}
-                    onClick={() => onFilterPartnerType(partnerType.type, () => setNewDropDown(indexType))}
-                  >
-                    <div className="list-content">{partnerType.name}</div>
-                  </div>
-                  {
-                    isOpenDropdown[indexType] && (
-                      <div className='dropdown-list'>
-                        {
-                          getSubType(partnerType.type).map(((subType, i) => (
-                            <div
-                              key={i}
-                              className='__dropdown-item'
-                              onClick={() => {
-                                onFilterSubType(subType.type, () => setNewDropDown(indexType))
-                              }}
-                            >
-                              {subType.name}
-                            </div>
-                          )))
-                        }
-                      </div>
-                    )
-                  }
+                  <div className="list-content">{partnerType.name}</div>
                 </div>
-              ))
-            }
-          </div>
+                {
+                  isOpenDropdown[indexType] && (
+                    <div className='dropdown-list'>
+                      {
+                        getSubType(partnerType.type).map(((subType, i) => (
+                          <div
+                            key={i}
+                            className='__dropdown-item'
+                            onClick={() => {
+                              onFilterSubType(subType.type, () => setNewDropDown(indexType))
+                            }}
+                          >
+                            {subType.name}
+                          </div>
+                        )))
+                      }
+                    </div>
+                  )
+                }
+              </div>
+            ))
+          }
         </div>
-      </OutsideClickHandler>
-    </div>
+      </div>
+    </OutsideClickHandler>
   )
 }
 

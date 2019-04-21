@@ -10,15 +10,20 @@ const IMAGES = importAll(require.context('../../static/images/partnerType/', fal
 
 
 const PartnerListItem = ({ partner, index }) => {
-  const getImage = (type) => {
+  const getImage = (subType) => {
+    const imgPath = IMAGES.find((imagePath) => imagePath.includes(subType))
+    if (imgPath) {
+      return imgPath
+    }
+
     return IMAGES[Math.floor(Math.random() * IMAGES.length)];
   }
 
   return (
-    <div className='partners-list-wrapper col-md-4 col-6' key={`partner-${index}`} data-aos="fade-up">
+    <div className='partners-list-wrapper col-md-4 col-6' key={`partner-${partner.partnerId}`} data-aos="fade-up">
       <Link to={`/partners/${partner.partnerId}`}>
         <div className='partners-images'>
-          <img className='partners-main-images' src={getImage(partner.type)} alt='' />
+          <img className='partners-main-images' src={getImage(partner.subType)} alt='' />
           <div className='placeholder-content'>
             {partner.shortName}
           </div>

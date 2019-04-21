@@ -1,3 +1,8 @@
+.partner-table-item {
+  flex-grow: 1;
+  position: relative;
+  text-align: center;
+}
 .partner-table-item.all .list-item {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -27,10 +32,6 @@
   height: 100%;
   padding: 15px 20px;
   color: #5e5e5e;
-}
-
-.partner-table-item {
-  position: relative;
 }
 
 .partner-table-container {
@@ -85,4 +86,5 @@
   border: 1px solid #e2e2e2;
   border-radius: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  padding: 0 !important;
 }
