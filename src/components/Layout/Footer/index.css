@@ -1,8 +1,10 @@
 .footer-link {
   color: #fff !important;
 }
-
 .footer-link:hover {
   color: #FF632A;
   transition: all 0.2s;
+}
+.footer-underline {
+  text-decoration: underline;
 }

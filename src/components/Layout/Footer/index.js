@@ -42,13 +42,13 @@ export default () => (
                 กระทรวงวิทยาศาสตร์และเทคโนโลยี
               </div>
               <div>
-                <a className="footer-link" target="_blank" href="http://www.sti.or.th">http://www.sti.or.th</a>
+                <a className="footer-link footer-underline" target="_blank" href="http://www.sti.or.th">http://www.sti.or.th</a>
               </div>
               <div style={{ marginTop: '20px' }}>
                 IRIS Consulting Company Limited
               </div>
               <div>
-                <a className="footer-link" target="_blank" href="https://www.irisconsulting.co.th">https://www.irisconsulting.co.th</a>
+                <a className="footer-link footer-underline" target="_blank" href="https://www.irisconsulting.co.th">https://www.irisconsulting.co.th</a>
               </div>
             </div>
             <div className="col-sm-4">
@@ -56,13 +56,13 @@ export default () => (
                 <h6>RESOURCES</h6>
                 <div style={{ marginTop: '25px' }}>
                   <div style={{ paddingLeft: '10px' }}>
-                    <Link className="footer-link" to="/">Home</Link>
+                    <Link className="footer-link" to="/">/Home</Link>
                   </div>
                   <div style={{ paddingLeft: '10px', marginTop: 13 }}>
-                    <Link className="footer-link" to="/partners">R&D Company</Link>
+                    <Link className="footer-link" to="/partners">/R&D Company</Link>
                   </div>
                   <div style={{ paddingLeft: '10px', marginTop: 13 }}>
-                    <Link className="footer-link" to="/reports">Download</Link>
+                    <Link className="footer-link" to="/reports">/Download</Link>
                   </div>
                 </div>
               </div>
