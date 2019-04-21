@@ -92,7 +92,21 @@ const NavBarWrapper = ({ children }) => (
 
 const NavBar = () => {
   const [isOpenHamburger, setIsOpenHamburger] = useState(false)
+
+  const toggleHamburger = () => {
+    const newIsOpenHamburger = !isOpenHamburger;
+    if (newIsOpenHamburger) {
+      document.getElementsByTagName('body')[0].style.overflow = 'hidden'
+    } else {
+      document.getElementsByTagName('body')[0].style.overflow = 'auto'
+    }
+
+    setIsOpenHamburger(newIsOpenHamburger)
+
+  }
+
   const hamburgerClassName = classNames('nav-hamburger-bar', { 'nav-hamburger-active': isOpenHamburger })
+  const hamburgerToggleClassName = classNames('nav-hamburger-toggle', { 'nav-hamburger-toggle-show': isOpenHamburger })
 
   const getDuration = (index) => `${200 + (index + 1) * 200}ms`
 
@@ -115,11 +129,14 @@ const NavBar = () => {
         })}
       </NavMenu>
       <div className="nav-hamburger">
-        <div className="nav-hamburger-item" onClick={() => { setIsOpenHamburger(!isOpenHamburger) }}>
+        <div className="nav-hamburger-item" onClick={toggleHamburger}>
           <div className={hamburgerClassName}></div>
           <div className={hamburgerClassName}></div>
           <div className={hamburgerClassName}></div>
         </div>
+      </div>
+      <div className={hamburgerToggleClassName}>
+
       </div>
     </NavBarWrapper>
   )
