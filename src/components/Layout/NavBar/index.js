@@ -100,9 +100,12 @@ const NavBar = () => {
     } else {
       document.getElementsByTagName('body')[0].style.overflow = 'auto'
     }
-
     setIsOpenHamburger(newIsOpenHamburger)
+  }
 
+  const handleLinkClick = () => {
+    document.getElementsByTagName('body')[0].style.overflow = 'auto'
+    setIsOpenHamburger(false)
   }
 
   const hamburgerClassName = classNames('nav-hamburger-bar', { 'nav-hamburger-active': isOpenHamburger })
@@ -136,7 +139,17 @@ const NavBar = () => {
         </div>
       </div>
       <div className={hamburgerToggleClassName}>
-
+        <div className="nav-hamburger-toggle-menu">
+          {navItemList.map((nav, index) => {
+            return (
+              <div key={index} className="nav-hamburger-toggle-item" onClick={handleLinkClick}>
+                <Link to={nav.path} activeClassName="nav-text-active">
+                  <p>{nav.name}</p>
+                </Link>
+              </div>
+            )
+          })}
+        </div>
       </div>
     </NavBarWrapper>
   )
