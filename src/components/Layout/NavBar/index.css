@@ -1,3 +1,6 @@
+.nav-menu {
+  display: block;
+}
 .nav-text {
   color: #7a7a7a;
   font-size: 16px;
@@ -51,5 +54,11 @@
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .nav-menu {
+    display: none;
   }
 }

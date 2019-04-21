@@ -43,6 +43,7 @@
   background-color: #fff;
   margin-top: 20px;
   margin-bottom: 30px;
+  padding: 0 !important;
 }
 
 @keyframes opacityA {

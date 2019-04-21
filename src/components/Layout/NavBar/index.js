@@ -97,7 +97,7 @@ const NavBar = () => {
           <NavLogoImage src={logoNav} alt="" />
         </NavLogo>
       </Link>
-      <NavMenu>
+      <NavMenu className="nav-menu">
         {navItemList.map((nav, index) => {
           return (
             <Link to={nav.path} key={index} className="nav-text" activeClassName="nav-text-active">
