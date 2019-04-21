@@ -30,6 +30,7 @@
     "react-fusioncharts": "^3.0.0",
     "react-helmet": "^5.2.0",
     "react-outside-click-handler": "^1.2.3",
+    "react-pie3d": "git://github.com/kukiat/react-pie3d.git#master",
     "react-waypoint": "^9.0.1",
     "reselect": "^4.0.0",
     "styled-components": "^4.2.0",
