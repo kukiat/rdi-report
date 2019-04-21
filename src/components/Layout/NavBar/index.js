@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import Styled, { keyframes } from "styled-components"
+import classNames from 'classnames'
 import logoNav from "../../../static/images/others/sti.png"
 import "./index.css"
 
@@ -21,8 +22,6 @@ const navItemList = [
 
 const NavBarList = Styled.div`
   display: flex;
-  width: 85%;
-  margin: auto;
 `
 
 const NavLogo = Styled.div`
@@ -82,12 +81,19 @@ const NavLogoImage = Styled.img`
 const NavBarWrapper = ({ children }) => (
   <NavBarContainer>
     <div className="container">
-      <NavBarList>{children}</NavBarList>
+      <div className="row">
+        <div className="col-lg-10 offset-lg-1">
+          <NavBarList>{children}</NavBarList>
+        </div>
+      </div>
     </div>
   </NavBarContainer>
 )
 
 const NavBar = () => {
+  const [isOpenHamburger, setIsOpenHamburger] = useState(false)
+  const hamburgerClassName = classNames('nav-hamburger-bar', { 'nav-hamburger-active': isOpenHamburger })
+
   const getDuration = (index) => `${200 + (index + 1) * 200}ms`
 
   return (
@@ -108,6 +114,13 @@ const NavBar = () => {
           )
         })}
       </NavMenu>
+      <div className="nav-hamburger">
+        <div className="nav-hamburger-item" onClick={() => { setIsOpenHamburger(!isOpenHamburger) }}>
+          <div className={hamburgerClassName}></div>
+          <div className={hamburgerClassName}></div>
+          <div className={hamburgerClassName}></div>
+        </div>
+      </div>
     </NavBarWrapper>
   )
 }

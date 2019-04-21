@@ -1,6 +1,12 @@
 .nav-menu {
   display: block;
 }
+.nav-hamburger {
+  display: none;
+  width: 70px;
+  height: auto;
+  margin-left: auto;
+}
 .nav-text {
   color: #7a7a7a;
   font-size: 16px;
@@ -21,6 +27,37 @@
 
 .logo-slide {
   animation: slide-down456 800ms ease;
+}
+
+.nav-hamburger-item {
+  display: flex;
+  width: 50px;
+  height: 43px;
+  margin: auto;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  padding: 5px;
+  border-radius: 4px;
+  flex-flow: column;
+}
+.nav-hamburger-bar {
+  width: 30px;
+  height: 3px;
+  margin: auto;
+  background-color: #7a7a7a;
+  transition: 0.4s;
+  justify-content: space-between;
+}
+.nav-hamburger-active:nth-child(1) {
+  transform: rotate(-39deg) translate(-7px, 8px);
+  width: 30px;
+}
+.nav-hamburger-active:nth-child(2) {
+  opacity: 0;
+}
+.nav-hamburger-active:nth-child(3) {
+  transform: rotate(39deg) translate(-6px, -8px);
+  width: 30px;
 }
 
 @keyframes appear {
@@ -60,5 +97,8 @@
 @media only screen and (max-width: 576px) {
   .nav-menu {
     display: none;
+  }
+  .nav-hamburger {
+    display: flex;
   }
 }
