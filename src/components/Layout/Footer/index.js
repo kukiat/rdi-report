@@ -61,13 +61,13 @@ export default () => (
                   <h6>RESOURCES</h6>
                   <div className="footer-resources-list">
                     <div className="footer-resources-list-item">
-                      <Link className="footer-link" to="/">/Home</Link>
+                      <Link className="footer-link footer-underline" to="/">/Home</Link>
                     </div>
                     <div className="footer-resources-list-item">
-                      <Link className="footer-link" to="/partners">/R&D Company</Link>
+                      <Link className="footer-link footer-underline" to="/partners">/R&D Company</Link>
                     </div>
                     <div className="footer-resources-list-item">
-                      <Link className="footer-link" to="/reports">/Download</Link>
+                      <Link className="footer-link footer-underline" to="/reports">/Download</Link>
                     </div>
                   </div>
                 </div>
