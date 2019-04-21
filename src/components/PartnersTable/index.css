@@ -29,11 +29,14 @@
 }
 
 .list-item {
+  display: flex;
   height: 100%;
-  padding: 15px 20px;
+  padding: 15px 10px;
   color: #5e5e5e;
 }
-
+.list-content {
+  margin: auto;
+}
 .partner-table-container {
   display: flex;
   justify-content: center;
