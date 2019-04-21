@@ -32,7 +32,7 @@ export default () => (
     <FooterTop className="footer-top">
       <div className="container">
         <div className="row">
-          <div className="col-lg-10 offset-lg-1 row">
+          <div className="col-lg-10 offset-lg-1">
             <div className="row">
               <div className="footer-participator col-sm-9">
                 <h6>PARTICIPATOR</h6>
@@ -43,7 +43,7 @@ export default () => (
                   <div>
                     กระทรวงวิทยาศาสตร์และเทคโนโลยี
                 </div>
-                  <div>
+                  <div style={{ marginTop: 5 }} >
                     <a className="footer-link footer-underline" target="_blank" href="http://www.sti.or.th">http://www.sti.or.th</a>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ export default () => (
                   <div>
                     IRIS Consulting Company Limited
                 </div>
-                  <div>
+                  <div style={{ marginTop: 5 }} >
                     <a className="footer-link footer-underline" target="_blank" href="https://www.irisconsulting.co.th">https://www.irisconsulting.co.th</a>
                   </div>
                 </div>
@@ -61,13 +61,13 @@ export default () => (
                   <h6>RESOURCES</h6>
                   <div className="footer-resources-list">
                     <div className="footer-resources-list-item">
-                      <Link className="footer-link footer-underline" to="/">/Home</Link>
+                      <Link className="footer-link footer-underline" to="/">Home</Link>
                     </div>
                     <div className="footer-resources-list-item">
-                      <Link className="footer-link footer-underline" to="/partners">/R&D Company</Link>
+                      <Link className="footer-link footer-underline" to="/partners">R&D Company</Link>
                     </div>
                     <div className="footer-resources-list-item">
-                      <Link className="footer-link footer-underline" to="/reports">/Download</Link>
+                      <Link className="footer-link footer-underline" to="/reports">Download</Link>
                     </div>
                   </div>
                 </div>
