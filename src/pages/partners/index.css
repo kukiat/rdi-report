@@ -46,7 +46,6 @@
 }
 
 .search-box-button>button {
-  /* border: 1px solid #906cb3 !important; */
   background-color: #906cb3 !important;
   border-top-right-radius: 10px !important;
   border-bottom-right-radius: 10px !important;
@@ -59,4 +58,19 @@
 
 .search-box-button>button:hover {
   background-color: #a87cd4 !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .search-box-input {
+    height: 40px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    font-size: 16px !important;
+    padding: 5px 15px !important;
+  }
+  .search-box-button>button {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+
+  }
 }
