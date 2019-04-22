@@ -1,0 +1,9 @@
+.canvas-container {
+  height: 550px;
+}
+
+@media only screen and (max-width: 576px) {
+  .canvas-container {
+    height: 430px;
+  }
+}
