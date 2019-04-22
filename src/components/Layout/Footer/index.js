@@ -32,37 +32,43 @@ export default () => (
     <FooterTop className="footer-top">
       <div className="container">
         <div className="row">
-          <div className="col-lg-10 offset-lg-1 row">
-            <div className="col-sm-8">
-              <h6>PARTICIPATOR</h6>
-              <div style={{ marginTop: '25px' }}>
-                สำนักงานคณะกรรมการนโยบายวิทยาศาสตร์ เทคโนโลยีและนวัตกรรมแห่งชาติ (สวทน.)
-              </div>
-              <div>
-                กระทรวงวิทยาศาสตร์และเทคโนโลยี
-              </div>
-              <div>
-                <a className="footer-link footer-underline" target="_blank" href="http://www.sti.or.th">http://www.sti.or.th</a>
-              </div>
-              <div style={{ marginTop: '20px' }}>
-                IRIS Consulting Company Limited
-              </div>
-              <div>
-                <a className="footer-link footer-underline" target="_blank" href="https://www.irisconsulting.co.th">https://www.irisconsulting.co.th</a>
-              </div>
-            </div>
-            <div className="col-sm-4">
-              <div>
-                <h6>RESOURCES</h6>
-                <div style={{ marginTop: '25px' }}>
-                  <div style={{ paddingLeft: '10px' }}>
-                    <Link className="footer-link" to="/">/Home</Link>
+          <div className="col-lg-10 offset-lg-1">
+            <div className="row">
+              <div className="footer-participator col-sm-9">
+                <h6>PARTICIPATOR</h6>
+                <div className="footer-participator-item">
+                  <div>
+                    สำนักงานคณะกรรมการนโยบายวิทยาศาสตร์ เทคโนโลยีและนวัตกรรมแห่งชาติ (สวทน.)
+                </div>
+                  <div>
+                    กระทรวงวิทยาศาสตร์และเทคโนโลยี
+                </div>
+                  <div style={{ marginTop: 5 }} >
+                    <a className="footer-link footer-underline" target="_blank" href="http://www.sti.or.th">http://www.sti.or.th</a>
                   </div>
-                  <div style={{ paddingLeft: '10px', marginTop: 13 }}>
-                    <Link className="footer-link" to="/partners">/R&D Company</Link>
+                </div>
+                <div className="footer-participator-item">
+                  <div>
+                    IRIS Consulting Company Limited
+                </div>
+                  <div style={{ marginTop: 5 }} >
+                    <a className="footer-link footer-underline" target="_blank" href="https://www.irisconsulting.co.th">https://www.irisconsulting.co.th</a>
                   </div>
-                  <div style={{ paddingLeft: '10px', marginTop: 13 }}>
-                    <Link className="footer-link" to="/reports">/Download</Link>
+                </div>
+              </div>
+              <div className="footer-resources col-sm-3">
+                <div>
+                  <h6>RESOURCES</h6>
+                  <div className="footer-resources-list">
+                    <div className="footer-resources-list-item">
+                      <Link className="footer-link footer-underline" to="/">Home</Link>
+                    </div>
+                    <div className="footer-resources-list-item">
+                      <Link className="footer-link footer-underline" to="/partners">R&D Company</Link>
+                    </div>
+                    <div className="footer-resources-list-item">
+                      <Link className="footer-link footer-underline" to="/reports">Download</Link>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import Styled, { keyframes } from "styled-components"
+import classNames from 'classnames'
 import logoNav from "../../../static/images/others/sti.png"
 import "./index.css"
 
@@ -21,8 +22,6 @@ const navItemList = [
 
 const NavBarList = Styled.div`
   display: flex;
-  width: 85%;
-  margin: auto;
 `
 
 const NavLogo = Styled.div`
@@ -82,12 +81,36 @@ const NavLogoImage = Styled.img`
 const NavBarWrapper = ({ children }) => (
   <NavBarContainer>
     <div className="container">
-      <NavBarList>{children}</NavBarList>
+      <div className="row">
+        <div className="col-lg-10 offset-lg-1">
+          <NavBarList>{children}</NavBarList>
+        </div>
+      </div>
     </div>
   </NavBarContainer>
 )
 
 const NavBar = () => {
+  const [isOpenHamburger, setIsOpenHamburger] = useState(false)
+
+  const toggleHamburger = () => {
+    const newIsOpenHamburger = !isOpenHamburger;
+    if (newIsOpenHamburger) {
+      document.getElementsByTagName('body')[0].style.overflow = 'hidden'
+    } else {
+      document.getElementsByTagName('body')[0].style.overflow = 'auto'
+    }
+    setIsOpenHamburger(newIsOpenHamburger)
+  }
+
+  const handleLinkClick = () => {
+    document.getElementsByTagName('body')[0].style.overflow = 'auto'
+    setIsOpenHamburger(false)
+  }
+
+  const hamburgerClassName = classNames('nav-hamburger-bar', { 'nav-hamburger-active': isOpenHamburger })
+  const hamburgerToggleClassName = classNames('nav-hamburger-toggle', { 'nav-hamburger-toggle-show': isOpenHamburger })
+
   const getDuration = (index) => `${200 + (index + 1) * 200}ms`
 
   return (
@@ -97,7 +120,7 @@ const NavBar = () => {
           <NavLogoImage src={logoNav} alt="" />
         </NavLogo>
       </Link>
-      <NavMenu>
+      <NavMenu className="nav-menu">
         {navItemList.map((nav, index) => {
           return (
             <Link to={nav.path} key={index} className="nav-text" activeClassName="nav-text-active">
@@ -108,6 +131,26 @@ const NavBar = () => {
           )
         })}
       </NavMenu>
+      <div className="nav-hamburger">
+        <div className="nav-hamburger-item" onClick={toggleHamburger}>
+          <div className={hamburgerClassName}></div>
+          <div className={hamburgerClassName}></div>
+          <div className={hamburgerClassName}></div>
+        </div>
+      </div>
+      <div className={hamburgerToggleClassName}>
+        <div className="nav-hamburger-toggle-menu">
+          {navItemList.map((nav, index) => {
+            return (
+              <div key={index} className="nav-hamburger-toggle-item" onClick={handleLinkClick}>
+                <Link to={nav.path} activeClassName="nav-text-active">
+                  <p>{nav.name}</p>
+                </Link>
+              </div>
+            )
+          })}
+        </div>
+      </div>
     </NavBarWrapper>
   )
 }

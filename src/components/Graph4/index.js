@@ -39,7 +39,7 @@ const options = {
   tooltips: {
     callbacks: {
       label: (tooltipItem, data) => {
-        return `${data.labels[tooltipItem.datasetIndex]}: ${data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]} ล้านบาท`
+        return `ปี 2560: ${data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]}`
       }
     }
   },
