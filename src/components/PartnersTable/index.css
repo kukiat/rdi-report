@@ -49,10 +49,18 @@
   padding: 0 !important;
 }
 .partner-table-container-mobile {
+}
+.partner-table-container-mobile-maintype {
   display: none;
   animation: appear-left 1s ease;
 }
-
+.partner-table-container-mobile-subtype {
+  display: none;
+  animation: appear-left 1s ease;
+}
+.partner-table-visible {
+  display: block !important;
+}
 @keyframes opacityA {
   0% {
     opacity: 0;
@@ -101,7 +109,7 @@
   .partner-table-container {
     display: none;
   }
-  .partner-table-container-mobile {
+  .partner-table-container-mobile-maintype {
     display: block;
   }
 }
