@@ -50,6 +50,7 @@
 }
 .partner-table-container-mobile {
   display: none;
+  animation: appear-left 1s ease;
 }
 
 @keyframes opacityA {

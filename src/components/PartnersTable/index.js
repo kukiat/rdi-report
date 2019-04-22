@@ -68,7 +68,7 @@ const PartnersTable = ({
       </div>
       <div className="partner-table-container-mobile">
         <div className="form-group">
-          <label for="select-type">กรองบริษัทด้วยประเภทอุตสาหกรรม</label>
+          <label htmlFor="select-type">กรองบริษัทด้วยประเภทอุตสาหกรรม</label>
           <select
             className="form-control"
             id="select-type"
