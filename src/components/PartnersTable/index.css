@@ -48,6 +48,9 @@
   margin-bottom: 30px;
   padding: 0 !important;
 }
+.partner-table-container-mobile {
+  display: none;
+}
 
 @keyframes opacityA {
   0% {
@@ -91,4 +94,13 @@
   border-radius: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   padding: 0 !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .partner-table-container {
+    display: none;
+  }
+  .partner-table-container-mobile {
+    display: block;
+  }
 }

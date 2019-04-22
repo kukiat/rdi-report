@@ -66,7 +66,25 @@ const PartnersTable = ({
           }
         </div>
       </div>
-    </OutsideClickHandler>
+      <div className="partner-table-container-mobile">
+        <div className="form-group">
+          <label for="select-type">กรองบริษัทด้วยประเภทอุตสาหกรรม</label>
+          <select
+            className="form-control"
+            id="select-type"
+            onChange={({ target }) => onFilterPartnerType(target.value, () => { })}
+          >
+            {
+              partnersType.map((type, i) => (
+                <option key={`type-${i}`} value={type.type}>
+                  {type.name}
+                </option>
+              ))
+            }
+          </select>
+        </div>
+      </div>
+    </OutsideClickHandler >
   )
 }
 
