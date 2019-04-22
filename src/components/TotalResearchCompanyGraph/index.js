@@ -82,7 +82,7 @@ const TotalResearchCompanyGraph = () => {
         จำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนา ในปี 2560
       </p>
       <p className="tr-graph-subtitle" data-aos="fade-left" data-aos-duration="600">
-        เปรียบเทียบกับจำนวนผู้ประกอบการที่มีกิจกรรมวิจัยในปี 2560
+        เปรียบเทียบกับจำนวนผู้ประกอบการที่มีกิจกรรมวิจัยและพัฒนาในปี 2559
       </p>
       <div className="tr-graph-detail-wrapper row">
         <div className="col-lg-4">
