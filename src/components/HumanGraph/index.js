@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useRef, useEffect, useState, useContext } from 'react'
 import AnimatedNumber from '../miniComponents/AnimatedNumber'
+import ScreenContext from './ScreenContext'
 import './index.css'
 
 const LaborIcon = ({ total, text, title }) => {
@@ -69,107 +70,118 @@ const MerchantIcon = ({ total, text, title }) => {
   return icons
 }
 
-export default () => {
+const HumanGraph = () => {
+  const [offsetTop, setOffsetTop] = useState(0)
+  const humanGraphRef = useRef()
+
+  useEffect(() => {
+    setOffsetTop(humanGraphRef.current.offsetTop)
+  }, [])
+
   return (
-    <div className="human-graph">
-      <div className="graph-header">
-        <div className="graph-human-title" data-aos="fade-up">
-          บุคลากรด้านการวิจัยและพัฒนาแบบรายหัวและแบบเทียบเป็นการทำงานเต็มเวลา
+    <ScreenContext.Provider value={{ offsetTop }}>
+      <div className="human-graph">
+        <div className="graph-header">
+          <div className="graph-human-title" data-aos="fade-up">
+            บุคลากรด้านการวิจัยและพัฒนาแบบรายหัวและแบบเทียบเป็นการทำงานเต็มเวลา
           <br />
-          (Head CountFull vs Time Equivalent)
+            (Head CountFull vs Time Equivalent)
         </div>
-        <div className="graph-desc" data-aos="fade-up">
+          <div className="graph-desc" data-aos="fade-up">
+          </div>
         </div>
+        <div className="graph-human-graph" data-aos="fade-up" ref={humanGraphRef}>
+          <div className="row">
+            <div className="col-6">
+              <div className="graph-human-graph-title align-right" data-aos="fade-right">
+                Normal (person)
+            </div>
+            </div>
+            <div className="col-6 spliter" data-aos="fade-up">
+              <div className="graph-human-graph-title align-left" data-aos="fade-left">
+                FTE (person - year)
+            </div>
+            </div>
+          </div>
+
+          <div className="graph-human-graph-title-topic" data-aos="fade-up">
+            การค้าส่ง / ค้าปลีก
+        </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="graph-human-graph-left" data-aos="fade-right">
+                {' '}
+                <MerchantIcon total={15707} text={'15,707'} title={'การค้าส่ง/ค้าปลีก'} />{' '}
+              </div>
+            </div>
+            <div className="col-6 spliter" data-aos="fade-up">
+              <div className="graph-human-graph-right" data-aos="fade-left">
+                {' '}
+                <MerchantIcon total={15373} text={'15,373'} title={'การค้าส่ง/ค้าปลีก'} />{' '}
+              </div>
+            </div>
+          </div>
+
+          <div className="graph-human-graph-title-topic" data-aos="fade-up">
+            การบริการ
+        </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="graph-human-graph-left" data-aos="fade-right">
+                {' '}
+                <ServiceIcon total={20584} text={'20,584'} title={'การบริการ'} />{' '}
+              </div>
+            </div>
+            <div className="col-6 spliter" data-aos="fade-up">
+              <div className="graph-human-graph-right" data-aos="fade-left">
+                {' '}
+                <ServiceIcon total={18464} text={'18,464'} title={'การบริการ'} />{' '}
+              </div>
+            </div>
+          </div>
+
+          <div className="graph-human-graph-title-topic" data-aos="fade-up">
+            การผลิต
+        </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="graph-human-graph-left" data-aos="fade-right">
+                <LaborIcon total={55840} text={'55,840'} title={'การผลิต'} />
+              </div>
+            </div>
+            <div className="col-6 spliter" data-aos="fade-up">
+              <div className="graph-human-graph-right" data-aos="fade-left">
+                <LaborIcon total={52506} text={'52,506'} title={'การผลิต'} />
+              </div>
+            </div>
+          </div>
+
+          <div className="graph-human-graph-title-topic" data-aos="fade-up">
+            รวมทั้งสิ้น
+        </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="graph-human-graph-left graph-human-total-all" data-aos="fade-right">
+                <AnimatedNumber startValue={0} stopValue={92131}>
+                  {(currentValue) => <div>{currentValue} คน</div>}
+                </AnimatedNumber>
+              </div>
+            </div>
+            <div className="col-6 spliter" data-aos="fade-up">
+              <div className="graph-human-graph-right graph-human-total-all" data-aos="fade-left">
+                <AnimatedNumber startValue={0} stopValue={86343}>
+                  {(currentValue) => <div>{currentValue} คน</div>}
+                </AnimatedNumber>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="graph-desc align-center" data-aos="fade-up" data-aos-duration="500">
+          จากสติถิพบว่า กว่า 2 ใน 3 ของบุคคลากรด้านวิจัยและพัฒนา อยู่ในอุตสาหกรรมการผลิต
       </div>
-      <div className="graph-human-graph" data-aos="fade-up">
-        <div className="row">
-          <div className="col-6">
-            <div className="graph-human-graph-title align-right" data-aos="fade-right">
-              Normal (person)
-            </div>
-          </div>
-          <div className="col-6 spliter" data-aos="fade-up">
-            <div className="graph-human-graph-title align-left" data-aos="fade-left">
-              FTE (person - year)
-            </div>
-          </div>
-        </div>
-
-        <div className="graph-human-graph-title-topic" data-aos="fade-up">
-          การค้าส่ง / ค้าปลีก
-        </div>
-        <div className="row">
-          <div className="col-6">
-            <div className="graph-human-graph-left" data-aos="fade-right">
-              {' '}
-              <MerchantIcon total={15707} text={'15,707'} title={'การค้าส่ง/ค้าปลีก'} />{' '}
-            </div>
-          </div>
-          <div className="col-6 spliter" data-aos="fade-up">
-            <div className="graph-human-graph-right" data-aos="fade-left">
-              {' '}
-              <MerchantIcon total={15373} text={'15,373'} title={'การค้าส่ง/ค้าปลีก'} />{' '}
-            </div>
-          </div>
-        </div>
-
-        <div className="graph-human-graph-title-topic" data-aos="fade-up">
-          การบริการ
-        </div>
-        <div className="row">
-          <div className="col-6">
-            <div className="graph-human-graph-left" data-aos="fade-right">
-              {' '}
-              <ServiceIcon total={20584} text={'20,584'} title={'การบริการ'} />{' '}
-            </div>
-          </div>
-          <div className="col-6 spliter" data-aos="fade-up">
-            <div className="graph-human-graph-right" data-aos="fade-left">
-              {' '}
-              <ServiceIcon total={18464} text={'18,464'} title={'การบริการ'} />{' '}
-            </div>
-          </div>
-        </div>
-
-        <div className="graph-human-graph-title-topic" data-aos="fade-up">
-          การผลิต
-        </div>
-        <div className="row">
-          <div className="col-6">
-            <div className="graph-human-graph-left" data-aos="fade-right">
-              <LaborIcon total={55840} text={'55,840'} title={'การผลิต'} />
-            </div>
-          </div>
-          <div className="col-6 spliter" data-aos="fade-up">
-            <div className="graph-human-graph-right" data-aos="fade-left">
-              <LaborIcon total={52506} text={'52,506'} title={'การผลิต'} />
-            </div>
-          </div>
-        </div>
-
-        <div className="graph-human-graph-title-topic" data-aos="fade-up">
-          รวมทั้งสิ้น
-        </div>
-        <div className="row">
-          <div className="col-6">
-            <div className="graph-human-graph-left graph-human-total-all" data-aos="fade-right">
-              <AnimatedNumber startValue={0} stopValue={92131}>
-                {(currentValue) => <div>{currentValue} คน</div>}
-              </AnimatedNumber>
-            </div>
-          </div>
-          <div className="col-6 spliter" data-aos="fade-up">
-            <div className="graph-human-graph-right graph-human-total-all" data-aos="fade-left">
-              <AnimatedNumber startValue={0} stopValue={86343}>
-                {(currentValue) => <div>{currentValue} คน</div>}
-              </AnimatedNumber>
-            </div>
-          </div>
-        </div>
       </div>
-      <div className="graph-desc align-center" data-aos="fade-up" data-aos-duration="500">
-        จากสติถิพบว่า กว่า 2 ใน 3 ของบุคคลากรด้านวิจัยและพัฒนา อยู่ในอุตสาหกรรมการผลิต
-      </div>
-    </div>
+    </ScreenContext.Provider>
   )
 }
+
+export default HumanGraph

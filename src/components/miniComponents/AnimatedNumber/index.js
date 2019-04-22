@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useContext } from 'react'
+import ScreenContext from '../../HumanGraph/ScreenContext'
 
 const useOnScrollCheckpoint = () => {
+  const { offsetTop } = useContext(ScreenContext)
   const [checkpoint, setCheckpoint] = useState(false)
-
   const onScroll = () => {
-    if (window.scrollY > 2500) {
+    if (window.scrollY > 2700) {
       return setCheckpoint(true)
     }
     return setCheckpoint(false)
