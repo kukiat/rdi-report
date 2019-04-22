@@ -1,6 +1,7 @@
 import React from "react"
 import { LayoutWrapper } from "../components"
 
+
 const NotFoundPage = () => (
   <LayoutWrapper>
     <div css={{ textAlign: "center" }}>
