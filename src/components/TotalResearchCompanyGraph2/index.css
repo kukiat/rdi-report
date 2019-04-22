@@ -42,6 +42,13 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 991px) {
+  .tr2-graph-detail>p {
+    text-align: center;
+    padding: 0;
+  }
+}
+
 @keyframes animation-bg {
   0% {
     background-color: #fff;

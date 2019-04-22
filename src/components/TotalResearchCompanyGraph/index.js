@@ -54,6 +54,7 @@ const data = {
 }
 
 const options = {
+  responsive: true,
   tooltips: {
     callbacks: {
       label: (tooltipItem, data) => {
@@ -89,11 +90,11 @@ const TotalResearchCompanyGraph = () => {
           <p className="tr-graph-detail-text" data-aos="fade-right" data-aos-duration="600">
             ซึ่งประกอบไปด้วยข้อมูลของบริษัท
           </p>
-          <ul className="tr-graph-detail-list">
-            <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมการผลิต</li>
-            <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมบริการ</li>
-            <li data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมค้าส่ง/ค้าปลีก</li>
-          </ul>
+          <div className="tr-graph-detail-list">
+            <p className='tr-graph-item' data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมการผลิต</p>
+            <p className='tr-graph-item' data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมบริการ</p>
+            <p className='tr-graph-item' data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมค้าส่ง/ค้าปลีก</p>
+          </div>
           <p className="tr-graph-detail-text-last" data-aos="fade-up">
             โดยในปี 2560 มีจำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนาทั้งสิ้น 7,332 บริษัท
           </p>

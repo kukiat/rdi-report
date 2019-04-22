@@ -46,6 +46,55 @@
   margin-top: 50px;
 }
 
+.canvas-container-total1 {
+  height: 550px;
+}
+
+.tr-graph-item::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -12px;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  background-color: rgba(65, 67, 68, 0.54);
+  ;
+}
+
+@media only screen and (max-width: 991px) {
+  .tr-graph-detail-wrapper {
+    margin-top: 0;
+  }
+
+  .tr-graph-detail-text {
+    text-align: center;
+  }
+
+  .tr-graph-detail-list {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tr-graph-detail-text {
+    text-align: center;
+  }
+
+  .tr-graph-detail-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .canvas-container-total1 {
+    height: 430px;
+  }
+}
+
 @keyframes animation-bg {
   0% {
     background-color: #fff;

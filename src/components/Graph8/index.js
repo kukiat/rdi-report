@@ -38,7 +38,7 @@ const data = {
 }
 
 const options = {
-  maintainAspectRatio: true,
+  maintainAspectRatio: false,
   responsive: true,
   tooltips: {
     callbacks: {
@@ -64,8 +64,8 @@ const options = {
       {
         ticks: {
           autoSkip: false,
-          maxRotation: 0,
-          minRotation: 0,
+          maxRotation: 90,
+          minRotation: 90,
         },
         barPercentage: 0.3,
         display: true,
