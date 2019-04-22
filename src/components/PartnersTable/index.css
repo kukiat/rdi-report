@@ -49,6 +49,8 @@
   padding: 0 !important;
 }
 .partner-table-container-mobile {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .partner-table-container-mobile-maintype {
   display: none;
@@ -56,7 +58,7 @@
 }
 .partner-table-container-mobile-subtype {
   display: none;
-  animation: appear-left 1s ease;
+  animation: appear-right 1s ease;
 }
 .partner-table-visible {
   display: block !important;
