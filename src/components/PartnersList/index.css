@@ -1,7 +1,7 @@
 .partners-list {}
 
 .partners-list-wrapper {
-  padding: 10px;
+  padding: 10px 7px !important;
   animation: opacity1 1.4s;
 }
 
@@ -154,4 +154,7 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .partners-list-wrapper {
+    padding: 10px 20px !important;
+  }
 }
