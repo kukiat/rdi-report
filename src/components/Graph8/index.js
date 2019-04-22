@@ -38,7 +38,7 @@ const data = {
 }
 
 const options = {
-  // pieceLabel: { render: 'value', fontSize: 16 },
+  maintainAspectRatio: true,
   responsive: true,
   tooltips: {
     callbacks: {
@@ -46,7 +46,7 @@ const options = {
         const { index, datasetIndex } = tooltipItem
         const { datasets } = data
         const unit = datasetIndex ? 'บาท' : 'คน'
-        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} ${unit}`
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])}`
       }
     }
   },
@@ -64,8 +64,8 @@ const options = {
       {
         ticks: {
           autoSkip: false,
-          maxRotation: 90,
-          minRotation: 90,
+          maxRotation: 0,
+          minRotation: 0,
         },
         barPercentage: 0.3,
         display: true,
@@ -133,15 +133,15 @@ const Graph8 = () => {
       </div>
       <div className="graph8-graph-detail">
         <div className="row">
-          <div className="graph8-bar col-lg-8" data-aos="fade-right">
+          <div className="graph8-bar col-lg-9" data-aos="fade-right">
             <Bar
               data={data}
               options={options}
             />
           </div>
-          <div className="graph8-content col-lg-4">
+          <div className="graph8-content col-lg-3">
             <p className="graph8-content-text" data-aos="fade-left">
-              โดยอุตสาหกรรมห้าง สะดวกซื้อ ของชำ มี80,041 สูงที่สุด
+              โดยอุตสาหกรรมห้าง สะดวกซื้อ ของชำ มีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด
             </p>
             <p className="graph8-content-text" data-aos="fade-left">
               รองลงมาคืออุตสาหกรรมธุรกิจค้าส่ง/ตัวแทนจำหน่าย และธุรกิจค้าส่ง/ปลีกยานยนต์และอุปกรณ์ ตามลำดับ

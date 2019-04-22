@@ -1,5 +1,5 @@
 import React from 'react'
-import { parseLocaleString } from '../../utils/general'
+import { parseLocaleString, } from '../../utils/general'
 import { Bar } from 'react-chartjs-2'
 import './index.css'
 
@@ -68,9 +68,22 @@ const options = {
         const { index, datasetIndex } = tooltipItem
         const { datasets } = data
         const unit = datasetIndex ? 'บาท' : 'คน'
-        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} ${unit}`
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])}`
       }
     }
+  },
+  legendCallback: (chart) => {
+    console.log(chart)
+    var text = [];
+    text.push('<ul>');
+    for (var i = 0; i < chart.data.datasets.length; i++) {
+      console.log(chart.data.datasets[i]); // see what's inside the obj.
+      text.push('<li>');
+      text.push('<span style="background-color:' + chart.data.datasets[i].borderColor + '">' + chart.data.datasets[i].label + '</span>');
+      text.push('</li>');
+    }
+    text.push('</ul>');
+    return text.join("");
   },
   elements: {
     line: {
@@ -79,7 +92,7 @@ const options = {
   },
   legend: {
     position: 'bottom',
-    display: true,
+    display: false,
   },
   scales: {
     xAxes: [
