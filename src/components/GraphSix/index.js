@@ -60,6 +60,7 @@ const data = {
 }
 
 const options = {
+  maintainAspectRatio: false,
   // pieceLabel: { render: 'value', fontSize: 16 },
   responsive: true,
   tooltips: {
@@ -72,19 +73,6 @@ const options = {
       }
     }
   },
-  legendCallback: (chart) => {
-    console.log(chart)
-    var text = [];
-    text.push('<ul>');
-    for (var i = 0; i < chart.data.datasets.length; i++) {
-      console.log(chart.data.datasets[i]); // see what's inside the obj.
-      text.push('<li>');
-      text.push('<span style="background-color:' + chart.data.datasets[i].borderColor + '">' + chart.data.datasets[i].label + '</span>');
-      text.push('</li>');
-    }
-    text.push('</ul>');
-    return text.join("");
-  },
   elements: {
     line: {
       fill: false,
@@ -92,7 +80,7 @@ const options = {
   },
   legend: {
     position: 'bottom',
-    display: false,
+    display: true,
   },
   scales: {
     xAxes: [
@@ -182,7 +170,9 @@ const GraphSix = () => {
       </p>
       <div className="tr2-graph-detail-wrapper row">
         <div className="col-lg-12" data-aos="fade-right">
-          <Bar data={data} options={options} />
+          <div className="canvas-container">
+            <Bar data={data} options={options} />
+          </div>
         </div>
         <div className="tr2-graph-detail col-lg-12">
           <p className="tr2-graph-detail-text" data-aos="fade-left" style={{ textAlign: 'center', marginTop: 20 }}>

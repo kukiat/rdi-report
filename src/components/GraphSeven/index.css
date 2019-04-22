@@ -1,0 +1,9 @@
+.canvas-container-graph7 {
+  height: 500px;
+}
+
+@media only screen and (max-width: 576px) {
+  .canvas-container-graph7 {
+    height: 480px;
+  }
+}

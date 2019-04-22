@@ -51,6 +51,7 @@ const data = {
 }
 
 const options = {
+  maintainAspectRatio: false,
   tooltips: {
     callbacks: {
       label: (tooltipItem, data) => {
@@ -148,7 +149,9 @@ const GraphSeven = () => {
       </p>
       <div className="tr2-graph-detail-wrapper row">
         <div className="col-lg-12" data-aos="fade-right">
-          <Bar data={data} options={options} />
+          <div className="canvas-container-graph7">
+            <Bar data={data} options={options} />
+          </div>
         </div>
         <div style={{ marginTop: '40px' }} className="tr2-graph-detail col-lg-12" data-aos="fade-up">
           <p className="tr2-graph-detail-text" style={{ textAlign: 'center' }}>
