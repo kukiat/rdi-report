@@ -44,7 +44,7 @@ export default () => (
                     กระทรวงวิทยาศาสตร์และเทคโนโลยี
                 </div>
                   <div style={{ marginTop: 5 }} >
-                    <a className="footer-link footer-underline" target="_blank" href="http://www.sti.or.th">http://www.sti.or.th</a>
+                    <a className="footer-link footer-underline" target="_blank" href="http://www.sti.or.th" rel="noopener noreferrer">http://www.sti.or.th</a>
                   </div>
                 </div>
                 <div className="footer-participator-item">
@@ -52,7 +52,7 @@ export default () => (
                     IRIS Consulting Company Limited
                 </div>
                   <div style={{ marginTop: 5 }} >
-                    <a className="footer-link footer-underline" target="_blank" href="https://www.irisconsulting.co.th">https://www.irisconsulting.co.th</a>
+                    <a className="footer-link footer-underline" target="_blank" href="https://www.irisconsulting.co.th" rel="noopener noreferrer">https://www.irisconsulting.co.th</a>
                   </div>
                 </div>
               </div>
@@ -80,9 +80,9 @@ export default () => (
     <FooterBottom className="footer-bottom">
       <div className="container">
         <div>
-          <a className="footer-link" target="_blank" href="http://www.sti.or.th">National Science Technology and Innovation Policy Office</a>
+          <a className="footer-link" target="_blank" href="http://www.sti.or.th" rel="noopener noreferrer">National Science Technology and Innovation Policy Office</a>
           {' | '}
-          <a className="footer-link" target="_blank" href="https://www.irisconsulting.co.th">IRIS Consulting Company Limited</a>
+          <a className="footer-link" target="_blank" href="https://www.irisconsulting.co.th" rel="noopener noreferrer">IRIS Consulting Company Limited</a>
         </div>
       </div>
     </FooterBottom>
