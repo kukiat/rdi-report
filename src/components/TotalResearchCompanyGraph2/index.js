@@ -4,7 +4,7 @@ import { HorizontalBar } from 'react-chartjs-2'
 import './index.css'
 
 const data = {
-  labels: ['การผลิต', 'การบริการ', 'การค้าส่ง/ค้าปลีก'],
+  labels: ['การค้าส่ง/ค้าปลีก', 'การบริการ', 'การผลิต'],
   datasets: [
     {
       label: 'ปี 2559',
@@ -57,7 +57,7 @@ const options = {
       label: function (tooltipItem, data) {
         const { index, datasetIndex } = tooltipItem
         const { datasets } = data
-        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])} บาท`
+        return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])}`
       }
     }
   },
