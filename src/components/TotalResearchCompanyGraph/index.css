@@ -46,6 +46,16 @@
   margin-top: 50px;
 }
 
+.canvas-container-total1 {
+  height: 550px;
+}
+
+@media only screen and (max-width: 576px) {
+  .canvas-container-total1 {
+    height: 430px;
+  }
+}
+
 @keyframes animation-bg {
   0% {
     background-color: #fff;

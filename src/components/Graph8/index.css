@@ -33,10 +33,17 @@
 .graph8-bar {
   position: relative;
   width: 500px;
+  height: 350px;
 }
 
 .graph8-summary {
   margin-top: 30px;
   width: 100%;
   text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .graph8-bar {
+    height: 280px;
+  }
 }

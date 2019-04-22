@@ -54,6 +54,7 @@ const data = {
 }
 
 const options = {
+  responsive: true,
   tooltips: {
     callbacks: {
       label: (tooltipItem, data) => {

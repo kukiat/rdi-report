@@ -37,3 +37,10 @@
   padding-top: 10px;
   text-align: center;
 }
+
+
+@media only screen and (max-width: 770px) {
+  .graph4-content-section {
+    padding: 10px 10px !important;
+  }
+}
