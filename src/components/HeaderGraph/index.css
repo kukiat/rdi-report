@@ -34,6 +34,8 @@
 .bg-image {
   display: block;
   animation: appear-right 1.6s ease;
+  width: 600px;
+  height: 400px;
 }
 
 .bg-title {
@@ -66,7 +68,28 @@
   max-width: 510px;
 }
 
-/* 
-@keyframes appear-left-title {
+@media only screen and (max-width: 1100px) {
+  .bg-image {
+    width: 500px;
+    height: 250px;
+  }
 
-} */
+  .bg-header-graph-landing {
+    flex-direction: column;
+  }
+
+  .bg-image-wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .bg-image {
+    width: 380px;
+    height: 190px;
+  }
+
+  .bg-image-wrapper {
+    margin-top: 50px;
+  }
+}

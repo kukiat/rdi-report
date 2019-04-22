@@ -52,3 +52,24 @@
   top: -100px;
   left: 0;
 }
+
+@media only screen and (max-width: 1199px) {
+  .graph9-pie {
+    width: 400px;
+    height: 220px;
+  }
+}
+
+/* @media only screen and (max-width: 767px) {
+  .graph9-pie {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 534px) {
+  .graph9-pie {
+    width: 60px;
+    height: 50px;
+  }
+} */

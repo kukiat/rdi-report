@@ -17,13 +17,13 @@ const HeaderGraph = () => {
               </p>
             </div>
           </div>
-          <img
-            width={600}
-            height={400}
-            className="bg-image"
-            src={require('../../static/images/others/3.png')}
-            alt=""
-          />
+          <div className='bg-image-wrapper'>
+            <img
+              className="bg-image"
+              src={require('../../static/images/others/3.png')}
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

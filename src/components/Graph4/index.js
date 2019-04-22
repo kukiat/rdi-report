@@ -77,7 +77,7 @@ const Graph4 = () => {
           </p>
           </div>
         </div>
-        <div className="col-lg-7 graph-4-section">
+        <div className="col-lg-7 graph-4-section" data-aos="fade-left">
           <Bar options={options} data={data} />
           <div className="graph-4-desc">
             <p>ค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการ (ล้านบาท/กิจการ)</p>

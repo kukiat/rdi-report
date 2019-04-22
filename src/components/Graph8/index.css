@@ -42,8 +42,22 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 991px) {
+  .graph8-summary {
+    margin-top: 0;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .graph8-bar {
-    height: 280px;
+    height: 340px;
+  }
+
+  .graph8-content {
+    margin-top: 10px;
+  }
+
+  .graph8-content>p {
+    text-align: center;
   }
 }
