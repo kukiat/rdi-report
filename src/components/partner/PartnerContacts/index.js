@@ -6,8 +6,8 @@ const PartnerContacts = ({ data: contacts }) => {
   let homepageLink = '-'
   const { homepage } = contacts
   if (homepage) {
-    homepageLink = String(homepage).split(/[/, :]/g).map((link) => (
-      <div>
+    homepageLink = String(homepage).split(/[/, :]/g).map((link, index) => (
+      <div key={index}>
         <a className='link-homepage' target='__blank' href={`http://${link}`} >
           {link}
         </a>
@@ -18,32 +18,32 @@ const PartnerContacts = ({ data: contacts }) => {
   let tel1 = '-'
   const companyTel = contacts.tel
   if (companyTel) {
-    tel1 = String(companyTel).split(/[/,:]/g).map((tel) => (
-      <div>{tel}</div>
+    tel1 = String(companyTel).split(/[/,:]/g).map((tel, index) => (
+      <div key={index}>{tel}</div>
     ))
   }
 
   let tel2 = '-'
   const contactTel = contacts.contactName.tel
   if (contactTel) {
-    tel2 = String(contactTel).split(/[/,:]/g).map((tel) => (
-      <div>{tel}</div>
+    tel2 = String(contactTel).split(/[/,:]/g).map((tel, index) => (
+      <div key={index}>{tel}</div>
     ))
   }
 
   let emailLink = '-'
   const { email } = contacts.contactName
   if (email) {
-    emailLink = String(email).split(/[/, :]/g).map((mail) => (
-      <a className='partner-content-email' href={`mailto:${mail}`}>{mail}</a>
+    emailLink = String(email).split(/[/, :]/g).map((mail, index) => (
+      <a className='partner-content-email' href={`mailto:${mail}`} key={index}>{mail}</a>
     ))
   }
 
   let faxContact = '-'
   const fax = contacts.fax
   if (fax) {
-    faxContact = String(fax).split(/[/,:]/g).map((tel) => (
-      <div>{tel}</div>
+    faxContact = String(fax).split(/[/,:]/g).map((tel, index) => (
+      <div key={index}>{tel}</div>
     ))
   }
 
