@@ -68,7 +68,6 @@ const options = {
       label: (tooltipItem, data) => {
         const { index, datasetIndex } = tooltipItem
         const { datasets } = data
-        const unit = datasetIndex ? 'บาท' : 'คน'
         return `${datasets[datasetIndex].label}: ${parseLocaleString(datasets[datasetIndex].data[index])}`
       }
     }
