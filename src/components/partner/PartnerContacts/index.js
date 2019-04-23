@@ -3,12 +3,17 @@ import { string, shape } from 'prop-types'
 import "./index.css"
 
 const PartnerContacts = ({ data: contacts }) => {
-  let homepageLink = (
-    contacts.homepage ?
-      <a className='link-homepage' target='__blank' href={`http://${contacts.homepage}`} >
-        {contacts.homepage}
-      </a> : "-"
-  )
+  let homepageLink = '-'
+  const { homepage } = contacts
+  if (homepage) {
+    homepageLink = String(homepage).split(/[/, :]/g).map((link) => (
+      <div>
+        <a className='link-homepage' target='__blank' href={`http://${link}`} >
+          {link}
+        </a>
+      </div>
+    ))
+  }
 
   let tel1 = '-'
   const companyTel = contacts.tel
