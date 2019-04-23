@@ -1928,7 +1928,7 @@
       "address": "119/117 หมู่ที่ 8  บางเมือง เมืองสมุทรปราการ สมุทรปราการ 10270",
       "tel": "089-477-6074,083-177-8108",
       "fax": "",
-      "homepage": "www.globalrd.co.th www.grdinnovation.com www.chemengedu.com",
+      "homepage": "www.globalrd.co.th,www.grdinnovation.com,www.chemengedu.com",
       "contactName": {
         "name": "อติกานต์",
         "role": "เจ้าหน้าที่ฝ่ายวิจัยและพัฒนา",
@@ -1944,8 +1944,9 @@
       "totalEmployee": "10"
     },
     "portfolio": {
+      "research": "การแปลงสภาพของเสียจากกระบวนการผลิต ZIEGLER-NATTA CATALYST ให้เป็น TITANIUM DIOXIDE, การผลิตน้ำมัน PYROLYSIS จากขยะพลาสติกที่เหมาะสมกับการใช้แทนดีเซล",
       "product": "MACHINE LEARNING TECHNOLOGY ที่เราพาร์ทเนอร์กับบริษัทนวัตกรรมของสหรัฐอเมริกา เพื่อทำ ADVANCED PROCESS OPTIMIZATION และ EQUIPMENT HEALTH MONITORING ที่สามารถเพิ่มประสิทธิภาพ เพิ่มกำไร หรือลดต้นทุนการผลิตได้ในระดับ 2-7% โดยคืนทุนได้ใน 3-6 เดือน โดยผ่านการทดสอบจากลูกค้าทั่วโลกมาแล้วมากกว่า 30 บริษัท",
-      "process": "การแปลงสภาพของเสียจากกระบวนการผลิต ZIEGLER-NATTA CATALYST ให้เป็น TITANIUM DIOXIDE การผลิตน้ำมัน PYROLYSIS จากขยะพลาสติกที่เหมาะสมกับการใช้แทนดีเซล ระบบประหยัดพลังงาน REFRIGERATION COMPRESSOR ด้วย MACHINE LEARNING ระบบประหยัดเชื้อเพลิงที่เตาเผาและหม้อต้มไอน้ำด้วย MACHINE LEARNING"
+      "process": "การแปลงสภาพของเสียจากกระบวนการผลิต ZIEGLER-NATTA CATALYST ให้เป็น TITANIUM DIOXIDE, การผลิตน้ำมัน PYROLYSIS จากขยะพลาสติกที่เหมาะสมกับการใช้แทนดีเซล, ระบบประหยัดพลังงาน REFRIGERATION COMPRESSOR ด้วย MACHINE LEARNING, ระบบประหยัดเชื้อเพลิงที่เตาเผาและหม้อต้มไอน้ำด้วย MACHINE LEARNING"
     },
     "mainProduct": "การออกแบบกระบวนการผลิตของโรงงานด้านวิศวกรรมเคมี การขยายขนาดกระบวนการจากแล็บขึ้นไปเป็นโรงงานขนาดใหญ่ การออกแบบอุปกรณ์ในโรงงาน เช่น ถังกวน เครื่องแลกเปลี่ยนความร้อน เครื่องกลั่น เครื่องสกัดต่างๆ ซอฟต์แวร์วิศวกรรมด้าน FLUID FLOW & HYDRAULIC ANALYSIS และ MACHINE LEARNING (ARTIFICAL INTELLIGENCE) เพื่อปรับปรุงประสิทธิภาพโรงงาน และตอบโจทย์การทำ DIGITAL TRANSFORMATION ของอุตสาหกรรมไทย"
   },
@@ -2108,7 +2109,7 @@
     "partnerId": "0505545000203",
     "THName": "บริษัท มายคอส เทคโนโลยีส์ จำกัด",
     "ENName": "MYCOS TECHNOLOGIES COMPANY LIMITED",
-    "description": "บริษัท มายคอส เทคโนโลยีส์ จำกัด เป็นบริษัทพัฒนาซอฟต์แวร์ในจังหวัดเชียงใหม่ เราเป็นผู้เชี่ยวชาญในด้านการพัฒนา WEB APPLICATION DEVELOPMENT WINDOWS APPLICATION DEVELOPMENT และ MOBILE APPLICATION DEVELOPMENT (IOS ANDROID) โดยใช้เทคโนโลยี MICROSOFT.NET PLATFORM MICROSOFT SQL SERVER MYCOS TECHNOLOGIES IS A SOFTWARE DEVELOPMENT COMPANY BASED IN CHIANG MAI THAILAND. WE ARE SPECIALISTS IN THE WEB APPLICATION DEVELOPMENT WINDOWS APPLICATION DEVELOPMENT AND MOBILE APPLICATION DEVELOPMENT (IOS ANDROID) BY MICROSOFT .NET PLATFORM AND MICROSOFT SQL SERVER.",
+    "description": "บริษัท มายคอส เทคโนโลยีส์ จำกัด เป็นบริษัทพัฒนาซอฟต์แวร์ในจังหวัดเชียงใหม่ เราเป็นผู้เชี่ยวชาญในด้านการพัฒนา WEB APPLICATION DEVELOPMENT, WINDOWS APPLICATION DEVELOPMENT และ MOBILE APPLICATION DEVELOPMENT (IOS, ANDROID) โดยใช้เทคโนโลยี MICROSOFT.NET PLATFORM, MICROSOFT SQL SERVER. \nMYCOS TECHNOLOGIES IS A SOFTWARE DEVELOPMENT COMPANY BASED IN CHIANG MAI THAILAND. WE ARE SPECIALISTS IN THE WEB APPLICATION DEVELOPMENT, WINDOWS APPLICATION DEVELOPMENT AND MOBILE APPLICATION DEVELOPMENT (IOS, ANDROID) BY MICROSOFT .NET PLATFORM AND MICROSOFT SQL SERVER.",
     "contacts": {
       "address": "12/1 ซอย 13 ถนนนิมมานเหมินทร์ สุเทพ เมืองเชียงใหม่ เชียงใหม่ 50200",
       "tel": "053-894-948",
@@ -2133,7 +2134,7 @@
       "product": "พัฒนาโปรแกรมประยุกต์ที่ใช้ในสายงานธุรกิจ การผลิต การเงิน และการบริการ ให้กับหลากหลายสายงานธุรกิจ เป็นต้น",
       "process": "ใช้เครื่องมือและเทคโนโลยีใหม่อยู่เสมอในกระบวนการพัฒนา"
     },
-    "mainProduct": "บริษัท มายคอส เทคโนโลยีส์ จำกัด ได้ทำการสร้าง พัฒนา และออกแบบซอฟต์แวร์แอพพลิเคชั่นมาแล้วให้กับลูกค้าทั่วโลก ทั้งการพัฒนาโปรแกรมประยุกต์ที่ใช้ในสายงานธุรกิจ การผลิต การเงิน และการบริการ เป็นต้น ประกอบไปด้วย • SOFTWARE DEVELOPMENT (การพัฒนาซอฟต์แวร์) • SOFTWARE CONSULTING (การให้คำปรึกษาด้านซอฟต์แวร์) • MOBILE APPLICATION (การพัฒนาแอพพลิเคชั่นบนมือถือ)"
+    "mainProduct": "บริษัท มายคอส เทคโนโลยีส์ จำกัด ได้ทำการสร้าง พัฒนา และออกแบบซอฟต์แวร์แอพพลิเคชั่นมาแล้วให้กับลูกค้าทั่วโลก ทั้งการพัฒนาโปรแกรมประยุกต์ที่ใช้ในสายงานธุรกิจ การผลิต การเงิน และการบริการ เป็นต้น ประกอบไปด้วย SOFTWARE DEVELOPMENT (การพัฒนาซอฟต์แวร์), SOFTWARE CONSULTING (การให้คำปรึกษาด้านซอฟต์แวร์) และ MOBILE APPLICATION (การพัฒนาแอพพลิเคชั่นบนมือถือ)"
   },
   {
     "partnerId": "0105548106715",
@@ -3170,7 +3171,7 @@
       "address": "104/2 หมู่ที่ 1 ไทยาวาส นครชัยศรี นครปฐม 73120",
       "tel": "034-331-984-6 Ext.109",
       "fax": "",
-      "homepage": "www.buonogelato.com",
+      "homepage": "www.buonogroup.com",
       "contactName": {
         "name": "พนิดา",
         "role": "เจ้าหน้าที่ฝ่ายวิจัยและพัฒนา",
@@ -3461,7 +3462,7 @@
       "year": "2553",
       "stockStatus": "ถือหุ้นโดยคนไทยทั้งหมด",
       "registeredCapital": "125000000",
-      "income": "151082596.5",
+      "income": "151082596.50",
       "totalEmployee": "80"
     },
     "portfolio": {
@@ -3674,7 +3675,7 @@
       "fax": "035-332-120",
       "homepage": "",
       "contactName": {
-        "name": "จรุงโรจน์ อยู่บัว ธนวรรณ",
+        "name": "จรุงโรจน์ อยู่บัว, ธนวรรณ",
         "role": "เจ้าหน้าที่ฝ่ายวิจัยและพัฒนา",
         "tel": "035-332-111 Ext.248",
         "email": "jarungrote@alfredo.co.th"
@@ -3827,7 +3828,7 @@
       "address": "99 หมู่ที่ 9 ถนนมิตรภาพ สุรนารี เมืองนครราชสีมา นครราชสีมา 30000",
       "tel": "044-240-999",
       "fax": "044-240-998",
-      "homepage": "www.chaosua.com www.wholesomethree.com",
+      "homepage": "www.chaosua.com,www.wholesomethree.com",
       "contactName": {
         "name": "อัญชลีพร สิงสมุท",
         "role": "ผู้จัดการฝ่ายประกันคุณภาพและฝ่ายวิจัยและพัฒนา",
@@ -4140,7 +4141,7 @@
       "address": "522/215 ซอยพัฒนาการ 1 ถนนสาธุประดิษฐ์ บางโพงพาง เขตยานนาวา กรุงเทพมหานคร 10120",
       "tel": "02-294-8870-4 Ext.216",
       "fax": "02-683-7475",
-      "homepage": "www.hnbinter.com www.rainflowerclub.com",
+      "homepage": "www.hnbinter.com,www.rainflowerclub.com",
       "contactName": {
         "name": "พรชัย ชัยสิริโรจน์",
         "role": "รองกรรมการผู้จัดการ",
@@ -5281,7 +5282,7 @@
   {
     "partnerId": "0105532071062",
     "THName": "บริษัท สีฟ้าฟู้ด จำกัด",
-    "ENName": "SEEFAH RESTAURANT",
+    "ENName": "SEE FAH FOOD COMPANY LIMITED",
     "description": "เริ่มต้นขึ้นเมื่อ 80 ปีที่แล้ว ชายผู้ข้ามน้ำข้ามทะเลมาจากเมืองจีน ต่อสู้ดิ้นรนทำงานในเมืองไทย จนวันหนึ่งได้ร่วมมือกับเพื่อนอีกคน ร่วมกันก่อตั้งร้านอาหาร ณ อาคารเล็กๆห้องเดียวชั้นเดียวไม่มีชื่อย่านราชวงศ์ เมื่อปีพ.ศ. 2479 ร้านนี้ขายแต่ไอศกรีม กาแฟ และผลไม้ แช่แข็งเท่านั้น แต่กิจการก็ดำเนินด้วยดีจนต้องขยายร้านมากห้องขึ้น เมื่อร้านอาหารบริเวณรอบข้างปิดตัวลง ร้านจึงริเริ่มทำอาหารคาวด้วยตัวเอง โดยจ้างกุ๊กตกงานจากร้านดังกล่าวมาคิดสูตรซึ่งส่วนมากเป็นอาหารจีน ด้วยความที่เป็นย่านมีคนชั้นสูงเป็นเจ้าของตึก ลูกค้าของร้านในช่วงนั้นจึงเป็นเหล่าไฮโซ คนมีระดับที่ขับรถมากิน บ้างก็นั่งกินในรถ โดยมีถาดอาหารติดรถเสิร์ฟ ถือเป็นภาพที่คุ้นตาสำหรับคนแถวนั้น ต่อมามีการขยับขยายร้านอีกครั้ง ด้วยการทาสีผนังใหม่เป็นสีฟ้า แสงไฟจาหลอดนีออนสะท้อนกับผนังในร้านทำให้ผู้คนทั่วไปที่ผ่านมาเห็นเรียก ร้านอาหารแห่งราชวงศ์นี้ว่า “สีฟ้า”",
     "contacts": {
       "address": "47/26 ชั้น 5 ถนนราชดำริ ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330",

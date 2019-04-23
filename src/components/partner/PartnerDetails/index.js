@@ -4,6 +4,21 @@ import "./index.css"
 
 const PartnerDetails = ({ data }) => {
   const { THName, ENName, mainProduct, description } = data
+
+  let mainProducts = '-'
+  if (mainProduct) {
+    mainProducts = String(mainProduct).split(/[\n]/g).map((paragraph, index) => (
+      <p key={index}>{paragraph}</p>
+    ))
+  }
+
+  let descriptions = '-'
+  if (description) {
+    descriptions = String(description).split(/[\n]/g).map((paragraph, index) => (
+      <p key={index}>{paragraph}</p>
+    ))
+  }
+
   return (
     <div className="partner-details-container">
       <div className="partner-content-header partner-details-header-wrapper">
@@ -14,13 +29,13 @@ const PartnerDetails = ({ data }) => {
         <div className="partner-mainproduct-title">
           ผลิตภัณฑ์หลักของบริษัท
         </div>
-        <p>{mainProduct || '-'}</p>
+        {mainProducts}
       </div>
       <div className="partner-description">
         <div className="partner-description-title">
           รายละเอียดบริษัท
         </div>
-        <p>{description || '-'}</p>
+        {descriptions}
       </div>
     </div>
   )
