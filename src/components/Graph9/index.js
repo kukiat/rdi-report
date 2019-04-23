@@ -21,7 +21,7 @@ const data = [
 ]
 
 const config = {
-  angle: 60,
+  angle: 50,
   h: 50,
   ir: 0,
 }
