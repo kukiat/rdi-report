@@ -3,11 +3,6 @@
   padding: 30px 0;
 }
 
-/* Work AOS fade left-right with responsive */
-.graph-page > div > div {
-  overflow-x: hidden;
-}
-
 .graph-content {
   color: #7f7f7f;
 }
