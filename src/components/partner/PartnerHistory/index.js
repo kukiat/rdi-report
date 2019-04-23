@@ -5,6 +5,28 @@ import './index.css'
 
 const PartnerHistory = ({ data }) => {
   const { registeredCapital, income, stockStatus, totalEmployee, year, research, product, process } = data
+
+  let researchs = '-'
+  if (research) {
+    researchs = String(research).split(/[\n]/g).map((paragraph, index) => (
+      <div key={index} style={{ marginBottom: 10 }}>{paragraph}</div>
+    ))
+  }
+
+  let products = '-'
+  if (product) {
+    products = String(product).split(/[\n]/g).map((paragraph, index) => (
+      <div key={index} style={{ marginBottom: 10 }}>{paragraph}</div>
+    ))
+  }
+
+  let processs = '-'
+  if (process) {
+    processs = String(process).split(/[\n]/g).map((paragraph, index) => (
+      <div key={index} style={{ marginBottom: 10 }}>{paragraph}</div>
+    ))
+  }
+
   return (
     <div className="partner-history-container">
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลรายละเอียด</div>
@@ -30,15 +52,21 @@ const PartnerHistory = ({ data }) => {
       </div>
       <div className="partner-history-item row" style={{ marginTop: 50 }}>
         <div className="partner-history-title col-6">การวิจัยและพัฒนาในปี 2560</div>
-        <div className="col-6">{research || '-'}</div>
+        <div className="col-6">
+          {researchs}
+        </div>
       </div>
       <div className="partner-history-item row">
         <div className="partner-history-title col-6">กิจกรรมนวัตกรรมด้านผลิตภัณฑ์/บริการ</div>
-        <div className="col-6">{product || '-'}</div>
+        <div className="col-6">
+          {products}
+        </div>
       </div>
       <div className="partner-history-item row">
         <div className="partner-history-title col-6">กิจกรรมนวัตกรรมด้านกระบวนการ</div>
-        <div className="col-6">{process || '-'}</div>
+        <div className="col-6">
+          {processs}
+        </div>
       </div>
     </div>
   )
