@@ -4,8 +4,9 @@ import ScreenContext from '../../HumanGraph/ScreenContext'
 const useOnScrollCheckpoint = () => {
   const { offsetTop } = useContext(ScreenContext)
   const [checkpoint, setCheckpoint] = useState(false)
+
   const onScroll = () => {
-    if (window.scrollY > 2700) {
+    if (window.scrollY > offsetTop) {
       return setCheckpoint(true)
     }
     return setCheckpoint(false)
@@ -16,7 +17,7 @@ const useOnScrollCheckpoint = () => {
     return () => {
       window.removeEventListener('scroll', onScroll)
     };
-  }, [])
+  }, [offsetTop])
   return checkpoint
 }
 
