@@ -20,7 +20,6 @@ const useOnScrollCheckpoint = () => {
   const [checkpoint, setCheckpoint] = useState(false)
 
   const onScroll = () => {
-    console.log(offsetTop)
     if (window.scrollY > offsetTop) {
       return setCheckpoint(true)
     }
