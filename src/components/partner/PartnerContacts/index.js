@@ -18,7 +18,7 @@ const PartnerContacts = ({ data: contacts }) => {
   let tel1 = '-'
   const companyTel = contacts.tel
   if (companyTel) {
-    tel1 = String(companyTel).split(/[/,:]/g).map((tel, index) => (
+    tel1 = String(companyTel).split(/[/:]/g).map((tel, index) => (
       <div key={index}>{tel}</div>
     ))
   }
@@ -26,7 +26,7 @@ const PartnerContacts = ({ data: contacts }) => {
   let tel2 = '-'
   const contactTel = contacts.contactName.tel
   if (contactTel) {
-    tel2 = String(contactTel).split(/[/,:]/g).map((tel, index) => (
+    tel2 = String(contactTel).split(/[/:]/g).map((tel, index) => (
       <div key={index}>{tel}</div>
     ))
   }
