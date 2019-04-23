@@ -1,6 +1,6 @@
-import React, { useRef, useEffect, useState, useContext } from 'react'
-import AnimatedNumber from '../miniComponents/AnimatedNumber'
+import React from 'react'
 import ScreenContext from './ScreenContext'
+import { useRefScreen, AnimatedNumber } from '../customHook'
 import './index.css'
 
 const LaborIcon = ({ total, text, title }) => {
@@ -71,12 +71,7 @@ const MerchantIcon = ({ total, text, title }) => {
 }
 
 const HumanGraph = () => {
-  const [offsetTop, setOffsetTop] = useState(0)
-  const humanGraphRef = useRef()
-
-  useEffect(() => {
-    setOffsetTop(humanGraphRef.current.offsetTop)
-  }, [])
+  const { offsetTop, ref } = useRefScreen()
 
   return (
     <ScreenContext.Provider value={{ offsetTop }}>
@@ -90,7 +85,7 @@ const HumanGraph = () => {
           <div className="graph-desc" data-aos="fade-up">
           </div>
         </div>
-        <div className="graph-human-graph" data-aos="fade-up" ref={humanGraphRef}>
+        <div className="graph-human-graph" data-aos="fade-up" ref={ref}>
           <div className="row">
             <div className="col-6">
               <div className="graph-human-graph-title align-right" data-aos="fade-right">
