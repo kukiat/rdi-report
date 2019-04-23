@@ -6,7 +6,7 @@ const PartnerContacts = ({ data: contacts }) => {
   let homepageLink = '-'
   const { homepage } = contacts
   if (homepage) {
-    homepageLink = String(homepage).split(/[/, :]/g).map((link, index) => (
+    homepageLink = String(homepage).split(/[, ]/g).map((link, index) => (
       <div key={index}>
         <a className='link-homepage' target='__blank' href={`http://${link}`} >
           {link}

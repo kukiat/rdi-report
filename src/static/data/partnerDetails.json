@@ -596,7 +596,7 @@
       "address": "103 หมู่ที่ 2 ถนนเทพารักษ์ บางเสาธง บางเสาธง สมุทรปราการ 10540",
       "tel": "02-338-1229 Ext.31",
       "fax": "02-338-1228",
-      "homepage": "http://nl-sanitary.com",
+      "homepage": "nl-sanitary.com",
       "contactName": {
         "name": "ร.ต.ต.สุทิน กุลัดนาม",
         "role": "ผู้จัดการฝ่ายทรัพยากรบุคคลและเทคโนโลยีสารสนเทศ",
@@ -844,7 +844,7 @@
       "address": "1/71 หมู่ที่ 5 คานหาม อุทัย พระนครศรีอยุธยา 13210",
       "tel": "035-226-581-4",
       "fax": "035-226-580",
-      "homepage": "http://www.fitel.co.th/fft/index.php",
+      "homepage": "www.fitel.co.th/fft/index.php",
       "contactName": {
         "name": "สงวน อนันตธนะสาร",
         "role": "ผู้ช่วยผู้จัดการทั่วไป",
@@ -875,7 +875,7 @@
       "address": "699/37 ซอยวงศ์สว่าง 29 ถนนวงศ์สว่าง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800",
       "tel": "02-910-9536,062-425-4654",
       "fax": "02-910-9537",
-      "homepage": "https://sensornic.odoo.com",
+      "homepage": "sensornic.odoo.com",
       "contactName": {
         "name": "อนุชิต",
         "role": "กรรมการผู้จัดการ",
@@ -1494,7 +1494,7 @@
       "address": "7/258 หมู่ที่ 6 นิคมอุตสาหกรรมอมตะซิตี้ มาบยางพร ปลวกแดง ระยอง 21140",
       "tel": "038-650-681,086-323-1842",
       "fax": "038-650-684",
-      "homepage": "http://www.cimcthailand.co.th/ ",
+      "homepage": "www.cimcthailand.co.th/ ",
       "contactName": {
         "name": "ธีระยุทธ",
         "role": "ผู้จัดการฝ่ายบัญชี",
@@ -2176,7 +2176,7 @@
       "address": "18 อาคารศรีเจริญชัย ชั้นที่ 8 ถนนติวานนท์ ตลาดขวัญ เมืองนนทบุรี นนทบุรี 11000",
       "tel": "02-968-9832-4",
       "fax": "02-968-9835",
-      "homepage": "https://sites.google.com/a/powgrid.com/home1/",
+      "homepage": "sites.google.com/a/powgrid.com/home1/",
       "contactName": {
         "name": "ณรงค์ฤทธิ์ สุโภภาค",
         "role": "ผู้อำนวยการฝ่ายพัฒนาธุรกิจ",
@@ -4980,7 +4980,7 @@
       "fax": "035-379-504-5",
       "homepage": "www.tcff-thailand.com",
       "contactName": {
-        "name": "สิทธิศักดิ์ ชื่นพิทยาธร พรสุดา",
+        "name": "สิทธิศักดิ์ ชื่นพิทยาธร, พรสุดา",
         "role": "เจ้าหน้าที่ฝ่ายวิจัยและพัฒนา",
         "tel": "035-379-211-3",
         "email": "bsittisak@hotmail.com"
@@ -5288,11 +5288,11 @@
       "address": "47/26 ชั้น 5 ถนนราชดำริ ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330",
       "tel": "02-655-0251 ต่อ 72 73",
       "fax": "",
-      "homepage": "http://seefah.com",
+      "homepage": "seefah.com",
       "contactName": {
-        "name": "กัญญาวีร์ โกลากุล หรือปรัชสิญา นราฐปนนท์",
-        "role": "หัวหน้าแผนก R&D",
-        "tel": "02-655-0251 ต่อ 72 73",
+        "name": "กัญญาวีร์ โกลากุล, ปรัชสิญา นราฐปนนท์",
+        "role": "หัวหน้าแผนกฝ่ายวิจัยและพัฒนา",
+        "tel": "02-655-0251 Ext. 72 73",
         "email": "sauce@seefah.com/rdseefah@gmail.com"
       }
     },
