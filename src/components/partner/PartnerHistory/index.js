@@ -21,6 +21,15 @@ const PartnerHistory = ({ data }) => {
     ))
   }
 
+  let stockStatuses = '-'
+  if (stockStatus) {
+    stockStatuses = String(stockStatus).split(/ /g).map((paragraph, index) => (
+      <span key={index}>
+        {paragraph + ' '}
+      </span>
+    ))
+  }
+
   let products = '-'
   if (product) {
     products = String(product).split(/[\n]/g).map((paragraph, index) => (
@@ -44,7 +53,7 @@ const PartnerHistory = ({ data }) => {
       </div>
       <div className="partner-history-item row">
         <div className="partner-history-title col-6">สถานะการถือหุ้น</div>
-        <div className="col-6">{stockStatus || '-'}</div>
+        <div className="col-6">{stockStatuses}</div>
       </div>
       <div className="partner-history-item row">
         <div className="partner-history-title col-6">ทุนจดทะเบียน</div>
