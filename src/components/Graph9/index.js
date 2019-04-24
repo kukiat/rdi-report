@@ -33,7 +33,7 @@ const Graph9 = () => {
   }
 
   useEffect(() => {
-    setInnerWidth(window.innerWidth);
+    onResize()
     window.addEventListener('resize', onResize)
     return () => window.removeEventListener('resize', onResize)
   }, [])
