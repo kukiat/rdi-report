@@ -48,40 +48,40 @@ const PartnerHistory = ({ data }) => {
     <div className="partner-history-container">
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลรายละเอียด</div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">ปีที่ก่อตั้ง</div>
-        <div className="col-6">{convertYear(year) || '-'}</div>
+        <div className="partner-history-title col-5">ปีที่ก่อตั้ง</div>
+        <div className="col-7">{convertYear(year) || '-'}</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">สถานะการถือหุ้น</div>
-        <div className="col-6">{stockStatuses}</div>
+        <div className="partner-history-title col-5">สถานะการถือหุ้น</div>
+        <div className="col-7">{stockStatuses}</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">ทุนจดทะเบียน</div>
-        <div className="col-6">{convertMoney(registeredCapital) || '-'}</div>
+        <div className="partner-history-title col-5">ทุนจดทะเบียน</div>
+        <div className="col-7">{convertMoney(registeredCapital) || '-'}</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">รายได้หลักในปี 2560</div>
-        <div className="col-6">{convertMoney(income) || '-'}</div>
+        <div className="partner-history-title col-5">รายได้หลักในปี 2560</div>
+        <div className="col-7">{convertMoney(income) || '-'}</div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">จำนวนพนักงานในปี 2560</div>
-        <div className="col-6">{convertPeople(totalEmployee) || '-'}</div>
+        <div className="partner-history-title col-5">จำนวนพนักงานในปี 2560</div>
+        <div className="col-7">{convertPeople(totalEmployee) || '-'}</div>
       </div>
       <div className="partner-history-item row" style={{ marginTop: 50 }}>
-        <div className="partner-history-title col-6">การวิจัยและพัฒนาในปี 2560</div>
-        <div className="col-6">
+        <div className="partner-history-title col-5">การวิจัยและพัฒนาในปี 2560</div>
+        <div className="col-7">
           {researchs}
         </div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">กิจกรรมนวัตกรรมด้านผลิตภัณฑ์/บริการ</div>
-        <div className="col-6">
+        <div className="partner-history-title col-5">กิจกรรมนวัตกรรมด้านผลิตภัณฑ์/บริการ</div>
+        <div className="col-7">
           {products}
         </div>
       </div>
       <div className="partner-history-item row">
-        <div className="partner-history-title col-6">กิจกรรมนวัตกรรมด้านกระบวนการ</div>
-        <div className="col-6">
+        <div className="partner-history-title col-5">กิจกรรมนวัตกรรมด้านกระบวนการ</div>
+        <div className="col-7">
           {processs}
         </div>
       </div>

@@ -24,10 +24,10 @@ const Partner = ({ data }) => {
             <div className="col-lg-12">
               <PartnerDetails data={details} />
             </div>
-            <div className='col-lg-7'>
+            <div className='col-lg-6'>
               <PartnerHistory data={{ ...history, ...portfolio }} />
             </div>
-            <div className='col-lg-5'>
+            <div className='col-lg-6'>
               <PartnerContacts data={{ ...contacts, ...portfolio }} />
             </div>
           </div>
