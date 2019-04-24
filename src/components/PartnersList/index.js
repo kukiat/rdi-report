@@ -19,16 +19,29 @@ const PartnerListItem = ({ partner, index }) => {
     return IMAGES[Math.floor(Math.random() * IMAGES.length)];
   }
 
+  let placeholderNames = String(partner.shortName).split(/ /g).map((word, index) => (
+    <span key={index}>
+      {word + ' '}
+    </span>
+  ))
+
+  let placeholderSecondNames = String(partner.name).split(/ /g).map((word, index) => (
+    <span key={index} style={{ display: 'inline-block', marginRight: 5 }}>
+      {word + ' '}
+    </span>
+  ))
+
+
   return (
     <div className='partners-list-wrapper col-md-4 col-sm-6 col-xs-6' key={`partner-${partner.partnerId}`} data-aos="fade-up" data-aos-duration="500">
       <Link to={`/partners/${partner.partnerId}`}>
         <div className='partners-images'>
           <img className='partners-main-images' src={getImage(partner.subType)} alt='' />
           <div className='placeholder-content'>
-            {partner.shortName}
+            {placeholderNames}
           </div>
           <div className="placeholder-content-second">
-            {partner.name}
+            {placeholderSecondNames}
           </div>
         </div>
       </Link>

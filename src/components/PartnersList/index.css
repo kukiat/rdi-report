@@ -38,28 +38,22 @@
 .placeholder-content {
   position: absolute;
   transition: opacity 1s ease-in-out;
-  padding: 0px 50% 0 15px;
+  padding: 0px 45% 0 15px;
   width: 100%;
   font-size: 1rem;
   font-weight: 300;
   color: #7f7f7f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
 .placeholder-content-second {
   position: absolute;
   opacity: 0;
-  padding: 0px 50% 0 15px;
+  padding: 0px 45% 0 15px;
   width: 100%;
   font-size: 1rem;
   font-weight: 300;
   color: #7f7f7f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 

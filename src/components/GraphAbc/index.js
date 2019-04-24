@@ -5,7 +5,10 @@ const GraphDef = () => {
   return (
     <div className="tr2-graph-page">
       <p className="tr2-graph-title" data-aos="fade-up">
-        ค่าใช้จ่ายด้านการวิจัยและพัฒนา ในภาคอุตสาหกรรมการผลิต จำแนกตามประเภทอุตสาหกรรม ปี 2560
+        ค่าใช้จ่ายด้านการวิจัยและพัฒนาในภาคอุตสาหกรรมการผลิต
+      </p>
+      <p className="tr2-graph-title" data-aos="fade-up">
+        จำแนกตามประเภทอุตสาหกรรม ปี 2560
       </p>
       <div className="tr2-graph-detail-wrapper row">
         <div className="col-lg-8" data-aos="fade-right">

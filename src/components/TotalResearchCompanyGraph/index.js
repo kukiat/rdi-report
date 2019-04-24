@@ -96,7 +96,7 @@ const TotalResearchCompanyGraph = () => {
             <p className='tr-graph-item' data-aos="fade-right" data-aos-duration="500">อุตสาหกรรมค้าส่ง/ค้าปลีก</p>
           </div>
           <p className="tr-graph-detail-text-last" data-aos="fade-up">
-            โดยในปี 2560 มีจำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนาทั้งสิ้น 7,332 บริษัท
+            โดยในปี 2560 มีจำนวนผู้ประกอบการที่มีกิจกรรมการวิจัยและพัฒนาทั้งสิ้น 7,333 บริษัท
           </p>
         </div>
         <div className="col-lg-8" data-aos="fade-left">
