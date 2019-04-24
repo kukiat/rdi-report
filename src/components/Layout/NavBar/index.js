@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import Styled, { keyframes } from "styled-components"
 import classNames from 'classnames'
@@ -96,15 +96,15 @@ const NavBar = () => {
   const toggleHamburger = () => {
     const newIsOpenHamburger = !isOpenHamburger;
     if (newIsOpenHamburger) {
-      document.getElementsByTagName('body')[0].style.overflow = 'hidden'
+      document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
     } else {
-      document.getElementsByTagName('body')[0].style.overflow = 'auto'
+      document.getElementsByTagName('body')[0].style.overflowY = 'auto'
     }
     setIsOpenHamburger(newIsOpenHamburger)
   }
 
   const handleLinkClick = () => {
-    document.getElementsByTagName('body')[0].style.overflow = 'auto'
+    document.getElementsByTagName('body')[0].style.overflowY = 'auto'
     setIsOpenHamburger(false)
   }
 
