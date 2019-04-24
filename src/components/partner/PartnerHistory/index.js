@@ -9,7 +9,15 @@ const PartnerHistory = ({ data }) => {
   let researchs = '-'
   if (research) {
     researchs = String(research).split(/[\n]/g).map((paragraph, index) => (
-      <div key={index} style={{ marginBottom: 10 }}>{paragraph}</div>
+      <div key={index} style={{ marginBottom: 10 }}>
+        {
+          String(paragraph).split(/[ ]/g).map((p, index2) => (
+            <span key={index + index2}>
+              {p + ' '}
+            </span>
+          ))
+        }
+      </div>
     ))
   }
 

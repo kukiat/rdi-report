@@ -3,6 +3,19 @@ import { string, shape } from 'prop-types'
 import "./index.css"
 
 const PartnerContacts = ({ data: contacts }) => {
+  let addresses = '-'
+  const { address } = contacts
+  if (address) {
+    addresses = String(address).split(/[\n]/g).map((paragraph, index) => (
+      String(paragraph).split(/ /g).map((p, index2) => (
+        <span key={index + index2}>
+          {p + ' '}
+        </span>
+      ))
+    ))
+  }
+
+
   let homepageLink = '-'
   const { homepage } = contacts
   if (homepage) {
@@ -52,7 +65,7 @@ const PartnerContacts = ({ data: contacts }) => {
       <div className="partner-content-header partner-section-header-wrapper">ข้อมูลการติดต่อ</div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">ที่อยู่</div>
-        <div className="col-8">{contacts.address || "-"}</div>
+        <div className="col-8">{addresses}</div>
       </div>
       <div className="partner-content-item row">
         <div className="partner-contact-title col-4">โทรศัพท์</div>
