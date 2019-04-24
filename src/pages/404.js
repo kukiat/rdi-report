@@ -4,7 +4,7 @@ import { LayoutWrapper } from "../components"
 
 const NotFoundPage = () => (
   <LayoutWrapper>
-    <div css={{ textAlign: "center" }}>
+    <div css={{ textAlign: "center", paddingTop: 80 }}>
       <p css={{ fontSize: "36px", opacity: 0.3 }}>ไม่พบหน้าที่คุณค้นหา</p>
     </div>
   </LayoutWrapper>
