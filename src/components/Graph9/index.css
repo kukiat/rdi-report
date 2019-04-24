@@ -14,11 +14,12 @@
 }
 
 .graph9-content {
-  margin-top: 50px;
+  margin-top: 60px;
   text-align: center;
 }
 
 .graph9-content-text {
+  text-indent: 20px;
   margin-top: 10px;
   font-size: 18px;
 }
@@ -57,5 +58,8 @@
   .graph9-pie {
     width: 400px;
     height: 220px;
+  }
+  .graph9-content {
+    margin-top: 10px;
   }
 }

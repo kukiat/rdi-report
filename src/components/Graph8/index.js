@@ -132,25 +132,27 @@ const Graph8 = () => {
       </div>
       <div className="graph8-graph-detail">
         <div className="row">
-          <div className="graph8-bar col-lg-9" data-aos="fade-right">
+          <div className="graph8-bar col-lg-8" data-aos="fade-right">
             <Bar
               data={data}
               options={options}
             />
           </div>
-          <div className="graph8-content col-lg-3">
+          <div className="graph8-content col-lg-4">
             <p className="graph8-content-text" data-aos="fade-left">
               โดยอุตสาหกรรมห้าง สะดวกซื้อ ของชำ มีค่าใช้จ่ายด้านการวิจัยและพัฒนาสูงที่สุด
-            </p>
-            <p className="graph8-content-text" data-aos="fade-left">
               รองลงมาคืออุตสาหกรรมธุรกิจค้าส่ง/ตัวแทนจำหน่าย และธุรกิจค้าส่ง/ปลีกยานยนต์และอุปกรณ์ ตามลำดับ
+              โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการค้าส่ง/ค้าปลีกอยู่ที่ 18,747 ล้านบาท
             </p>
+            {/* <p className="graph8-content-text" data-aos="fade-left">
+              รองลงมาคืออุตสาหกรรมธุรกิจค้าส่ง/ตัวแทนจำหน่าย และธุรกิจค้าส่ง/ปลีกยานยนต์และอุปกรณ์ ตามลำดับ
+            </p> */}
           </div>
-          <div className='graph8-summary'>
+          {/* <div className='graph8-summary'>
             <p className="graph8-content-text-last" data-aos="fade-left">
               โดยมีค่าใช้จ่ายรวมของทั้งอุตสาหกรรมการค้าส่ง/ค้าปลีกอยู่ที่ 18,747 ล้านบาท
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
