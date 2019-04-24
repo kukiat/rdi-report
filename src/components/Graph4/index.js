@@ -67,13 +67,15 @@ const Graph4 = () => {
           <div className="graph4-content-desc">
             <p className="graph4-content-desc-text" data-aos="fade-right">
               โดยอุตสาหกรรมการบริการมีค่าใช้จ่ายด้านการวิจัยและพัฒนาเฉลี่ยต่อกิจการสูงที่สุด
+              รองลงมาคืออุตสาหกรรมการผลิตและอุตสาหกรรมค้าส่งค้าปลีกตามลำดับ
+              ซึ่งในภาพรวมทุกอุตสาหกรรมมีค่าใช้จ่ายเฉลี่ยอยู่ที่ 16.9 ล้านบาทต่อกิจการ
             </p>
-            <p className="graph4-content-desc-text" data-aos="fade-right">
+            {/* <p className="graph4-content-desc-text" data-aos="fade-right">
               รองลงมาคืออุตสาหกรรมการผลิตและอุตสาหกรรมค้าส่งค้าปลีกตามลำดับ
             </p>
             <p className="graph4-content-desc-text" data-aos="fade-up">
               ซึ่งในภาพรวมทุกอุตสาหกรรมมีค่าใช้จ่ายเฉลี่ยอยู่ที่ 16.9 ล้านบาทต่อกิจการ
-          </p>
+            </p> */}
           </div>
         </div>
         <div className="col-lg-7 graph-4-section" data-aos="fade-left">

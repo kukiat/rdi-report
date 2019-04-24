@@ -91,14 +91,18 @@ const TotalResearchCompanyGraph = () => {
         <div className="tr2-graph-detail col-lg-4">
           <p className="tr2-graph-detail-text" data-aos="fade-left">
             ค่าใช้จ่ายด้านการวิจัยและพัฒนาเติบโตอย่างต่อเนื่องมาจากภาคอุตสาหกรรมการผลิตเป็นหลัก
+            รองลงมาคือภาคการบริการ
+            และอุตสาหกรรมค้าส่ง/ค้าปลีก ตามลำดับ
+            โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาในปี 2560 อยู่ที่ 123,942 ล้านบาท
           </p>
+          {/* </p>
           <p className="tr2-graph-detail-text" data-aos="fade-left">
             รองลงมาคือภาคการบริการ
             และอุตสาหกรรมค้าส่ง/ค้าปลีก ตามลำดับ
           </p>
           <p className="tr2-graph-detail-text-last" data-aos="fade-left" data-aos-duration="500">
             โดยค่าใช้จ่ายด้านการวิจัยและพัฒนาในปี 2560 อยู่ที่ 123,942 ล้านบาท
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

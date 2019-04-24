@@ -26,7 +26,7 @@
 }
 
 .tr2-graph-detail {
-  padding-top: 30px;
+  margin-top: 20px;
 }
 
 .tr2-graph-detail-text {
@@ -46,6 +46,12 @@
   .tr2-graph-detail>p {
     text-align: center;
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .tr2-graph-detail {
+    margin-top: 0px;
   }
 }
 
