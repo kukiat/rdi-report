@@ -27,12 +27,13 @@ const config = {
 }
 
 const Graph9 = () => {
-  const [innerWidth, setInnerWidth] = useState(window.innerWidth)
+  const [innerWidth, setInnerWidth] = useState(0)
   const onResize = () => {
     setInnerWidth(window.innerWidth)
   }
 
   useEffect(() => {
+    setInnerWidth(window.innerWidth);
     window.addEventListener('resize', onResize)
     return () => window.removeEventListener('resize', onResize)
   }, [])
