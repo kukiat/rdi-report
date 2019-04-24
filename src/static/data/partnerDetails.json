@@ -36,7 +36,7 @@
     "ENName": "JSP PHARMACEUTICAL MANUFACTORY (THAILAND) COMPANY LIMITED",
     "description": "OEM TOLL MANUFACTURING CONTRACT MANUFACTURING SALE DISTRIBUTOR.",
     "contacts": {
-      "address": "255 257 ซอยสาธุประดิษฐ์ 58 บางโพงพาง เขตยานนาวา กรุงเทพมหานคร 10120",
+      "address": "255, 257 ซอยสาธุประดิษฐ์ 58 บางโพงพาง เขตยานนาวา กรุงเทพมหานคร 10120",
       "tel": "02-284-1218 Ext.104",
       "fax": "02-294-9820",
       "homepage": "www.jsppharma.com",
@@ -67,7 +67,7 @@
     "ENName": "NEW LIFE PHARMA COMPANY LIMITED",
     "description": "เป็นบริษัทผลิตยาแผนปัจจุบัน",
     "contacts": {
-      "address": "8 10 ซอยบางกระดี่ 30 แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150",
+      "address": "8/10 ซอยบางกระดี่ 30 แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150",
       "tel": "02-452-5811",
       "fax": "02-452-5815",
       "homepage": "www.newlifepharma.co.th",
@@ -103,8 +103,8 @@
       "fax": "02-511-2785",
       "homepage": "www.vescopharma.com",
       "contactName": {
-        "name": "เพ็ญประภา โสธรประภากร เอกรัฐ ธนานุภาพไพศาล",
-        "role": "เจ้าหน้าที่ฝ่ายประกันคุณภาพ เจ้าหน้าที่ฝ่ายควบคุมคุณภาพ",
+        "name": "เพ็ญประภา โสธรประภากร, เอกรัฐ ธนานุภาพไพศาล",
+        "role": "เจ้าหน้าที่ฝ่ายประกันคุณภาพ, เจ้าหน้าที่ฝ่ายควบคุมคุณภาพ",
         "tel": "02-513-2925",
         "email": "penprapa@vescopharma.com"
       }
@@ -244,7 +244,7 @@
       "product": "ยา/ผลิตภัณฑ์เสริมอาหาร",
       "process": ""
     },
-    "mainProduct": "MYSEPTIC MYBACIN ZINC ALPHA LIPOIC ACID ASTAXANTHIN 2 MG ASTAXANTHIN 4 MG BREWER YEAST 300 MG BREWER YEAST 500 MG COENZYME Q-10 GREATER CAL-D GREATER ELECTROLYTE LUTEIN PLUS SELENIUM YEAST TABLET ENDO OIL4 ENDO OIL1 HERBACID SMOKEE LOZENGE HERBAL"
+    "mainProduct": "MYSEPTIC MYBACIN ZINC, ALPHA LIPOIC ACID, ASTAXANTHIN 2 MG, ASTAXANTHIN 4 MG, BREWER YEAST 300 MG, BREWER YEAST 500 MG, COENZYME Q-10, GREATER CAL-D, GREATER ELECTROLYTE, LUTEIN PLUS, SELENIUM YEAST TABLET, ENDO OIL4, ENDO OIL1, HERBACID, SMOKEE LOZENGE HERBAL"
   },
   {
     "partnerId": "0605528000062",
@@ -1120,7 +1120,7 @@
     "ENName": "EDL COMPANY LIMITED",
     "description": " รับผลิตและออกแบบแผ่นวงจรพิมพ์(PCB) ทั้งงานต้นแบบ งานตามตัวอย่าง งานเร่งด่วน(PCB Express) ไปจนถึงงานผลิตจำนวนมาก ชนิด Single Side Double Side (PTH) ด้วยคุณสมบัติต่างๆ เช่น HAL Lead-Free Electro Chemical Tin Plating Gol Plating Flux Coating Solder Mask สีต่างๆ \nนอกเหนือจากงานผลิต PCB แล้ว ยังมีงานด้านอิเล็กทรอนิกส์ไว้บริการอีกหลากหลายอย่างครบวงจร เช่น รับออกแบบและผลิตแผงวงจรปุ่มกด Sticker และงาน Membrane switch ทุกชนิด รวมถึงงานประกอบอุปกรณ์ลงบนแผงวงจร (PCBA) พร้อมทั้งสามารถจัดหาอุปกรณ์สำหรับลูกค้าได้อีกด้วย ",
     "contacts": {
-      "address": "25 31 33 ซอยลาดพร้าววังหิน 26 ถนนลาดพร้าววังหิน ลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230",
+      "address": "25,31,33 ซอยลาดพร้าววังหิน 26 ถนนลาดพร้าววังหิน ลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230",
       "tel": "02-935-8615-8",
       "fax": "02-935-8619",
       "homepage": "www.edl.co.th",
@@ -1462,7 +1462,7 @@
     "contacts": {
       "address": "1289 ถนนวิเชียรโชฎก มหาชัย เมืองสมุทรสาคร สมุทรสาคร 74000",
       "tel": "034-821-126",
-      "fax": "034-821-077 034-820-888",
+      "fax": "034-821-077:034-820-888",
       "homepage": "",
       "contactName": {
         "name": "จุฑารัตน์ คุ้มวิริยะ",
@@ -1550,7 +1550,7 @@
   {
     "partnerId": "0105532104629",
     "THName": "บริษัท มหาชัยฟู้ดโปรเซสซิ่ง จำกัด",
-    "ENName": "MAHACHAI FOODS COMPANY LIMITED",
+    "ENName": "MAHACHAI FOOD PROCESSING COMPANY LIMITED",
     "description": "",
     "contacts": {
       "address": "259/13 ซอยปรีดีพนมยงค์ 13 ถนนสุขุมวิท 71 (ปรีดี พนมยงค์) พระโขนงเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
@@ -2543,15 +2543,15 @@
     "partnerId": "0105533032273",
     "THName": "บริษัท สตาร์-บอนด์ (ไทยแลนด์) จำกัด",
     "ENName": "STAR-BOND (THAILAND) COMPANY LIMITED",
-    "description": "โรงงานผลิตผลิตภัณฑ์กาวสำหรับอุตสาหกรรมของบริษัท สตาร์บอนด์ (ไทยแลนด์) จำกัด ตั้งอยู่ที่จังหวัดชลบุรี ใกล้กับนิคมอุตสาหกรรมอมตะนคร โรงงานผลิตตั้งอยู่บนเนื้อที่ 16 ไร่ (25 600 ตารางเมตร) เนื้อที่ใช้สอยจริง คือ 2 400 ตารางเมตร ประกอบไปด้วย อาคารสำหรับฝ่ายวิจัยและพัฒนา (RESEARCH & DEVELOPMENT) ฝ่ายตรวจสอบคุณภาพสินค้า (QUALITY CONTROL) ตัวโรงงาน และโกดังสินค้า ปัจจุบันกำลังการผลิตสินค้าอยู่ที่ 600 ตันต่อเดือน (ปัจจุบันเรากำลังปรับปรุงเครื่องจักรให้รองรับการผลิตที่มากขึ้น) การจัดการดูแลระบบ การผลิตและดำเนินงานอยู่ภายใต้ระบบ “5 ส” ISO 9001:2008 CCCF ROHS การจัดการอาชีวอนามัยฯ ",
+    "description": "โรงงานผลิตผลิตภัณฑ์กาวสำหรับอุตสาหกรรมของบริษัท สตาร์บอนด์ (ไทยแลนด์) จำกัด ตั้งอยู่ที่จังหวัดชลบุรี ใกล้กับนิคมอุตสาหกรรมอมตะนคร โรงงานผลิตตั้งอยู่บนเนื้อที่ 16 ไร่ (25,600 ตารางเมตร) เนื้อที่ใช้สอยจริง คือ 2,400 ตารางเมตร ประกอบไปด้วย อาคารสำหรับฝ่ายวิจัยและพัฒนา (RESEARCH & DEVELOPMENT) ฝ่ายตรวจสอบคุณภาพสินค้า (QUALITY CONTROL) ตัวโรงงาน และโกดังสินค้า ปัจจุบันกำลังการผลิตสินค้าอยู่ที่ 600 ตันต่อเดือน (ปัจจุบันเรากำลังปรับปรุงเครื่องจักรให้รองรับการผลิตที่มากขึ้น) การจัดการดูแลระบบ การผลิตและดำเนินงานอยู่ภายใต้ระบบ “5 ส” ISO 9001:2008 CCCF ROHS การจัดการอาชีวอนามัยฯ ",
     "contacts": {
       "address": "41 ซอยเฉลิมพระเกียรติร.9 ซอย 30 แยก 14 ดอกไม้ เขตประเวศ กรุงเทพมหานคร 10250",
       "tel": "02-328-1244:038-148-584-5",
       "fax": "02-328-244-202",
       "homepage": "",
       "contactName": {
-        "name": "วรรณา ทวีสุข วณิดดา",
-        "role": "เจ้าหน้าที่ฝ่ายทรัพยากรบุคคล ผู้จัดการฝ่ายวิจัยและพัฒนา",
+        "name": "วรรณา ทวีสุข, วณิดดา",
+        "role": "เจ้าหน้าที่ฝ่ายทรัพยากรบุคคล, ผู้จัดการฝ่ายวิจัยและพัฒนา",
         "tel": "02-328-1244:038-148-584-5",
         "email": "starbond_per@hotmail.com starbond_rd@hotmail.com"
       }
@@ -2568,7 +2568,7 @@
       "product": "ผลิตกาวที่ใช้สำหรับรถยนต์",
       "process": ""
     },
-    "mainProduct": "SOLVENT - BASED ADHESIVES WATER - BASED ADHESIVES HOT MELT ADHESIVES "
+    "mainProduct": "SOLVENT - BASED ADHESIVES \nWATER - BASED ADHESIVES \nHOT MELT ADHESIVES "
   },
   {
     "partnerId": "0105536081704",
@@ -3330,7 +3330,7 @@
       "contactName": {
         "name": "มนตรี คงแดง",
         "role": "ผู้จัดการฝ่ายวิจัยและพัฒนา",
-        "tel": "036-266-316-9 081-824-1688",
+        "tel": "036-266-316-9:081-824-1688",
         "email": "mkongdang@advantaseeds.com"
       }
     },
@@ -3579,8 +3579,8 @@
       "fax": "053-931-778",
       "homepage": "www.primaherb.com",
       "contactName": {
-        "name": "ศ(เกียรติคุณ) ดร.อุษณีย์ วินิตเขตคำนวณ ธวัฒน์ชัย พวงเงินมาก",
-        "role": "ที่ปรึกษางานวิจัยบริษัทฯ ผู้จัดการทั่วไป ",
+        "name": "ศ(เกียรติคุณ) ดร.อุษณีย์ วินิตเขต, คำนวณ, ธวัฒน์ชัย พวงเงินมาก",
+        "role": "ที่ปรึกษางานวิจัยบริษัทฯ, ผู้จัดการทั่วไป ",
         "tel": "053-931-777 Ext.109 :085-548-5948",
         "email": "golf-simaz@hotmail.com usaneecmru@yahoo.com"
       }
@@ -4200,7 +4200,7 @@
     "ENName": "CHANKIJ TANNING INDUSTRY COMPANY LIMITED",
     "description": "",
     "contacts": {
-      "address": "589 489 หมู่ที่ 2 ถนนสุขุมวิท ท้ายบ้าน เมืองสมุทรปราการ สมุทรปราการ 10280",
+      "address": "589/489 หมู่ที่ 2 ถนนสุขุมวิท ท้ายบ้าน เมืองสมุทรปราการ สมุทรปราการ 10280",
       "tel": "02-389-2346",
       "fax": "02-389-0625",
       "homepage": "",
@@ -4417,7 +4417,7 @@
     "ENName": "VERASUWAN COMPANY LIMITED",
     "description": "ประกอบกิจการกลั่นน้ำมันเพื่ออุตสาหกรรมตัวทำละลาย สี และเชื้อเพลิง ประกอบกิจการผลิตน้ำมันไบโอดีเซล",
     "contacts": {
-      "address": "53/2 53/8 หมู่ที่ 5 ถนนเศรษฐกิจ 1 นาดี เมืองสมุทรสาคร สมุทรสาคร 74000",
+      "address": "53/2,53/8 หมู่ที่ 5 ถนนเศรษฐกิจ 1 นาดี เมืองสมุทรสาคร สมุทรสาคร 74000",
       "tel": "034-468-801 :081-403-2723",
       "fax": "034-468-803",
       "homepage": "www.verasuwan.com",
@@ -4453,7 +4453,7 @@
       "fax": "02-174-7159",
       "homepage": "www.strizing.com",
       "contactName": {
-        "name": "ภาณิชา นนทพันธุ์ วิสุดา คำมีถา ",
+        "name": "ภาณิชา นนทพันธุ์, วิสุดา คำมีถา ",
         "role": "QMR SALE",
         "tel": "02-174-7160-1",
         "email": "strizing@gmail.com"
@@ -4995,7 +4995,7 @@
     },
     "portfolio": {
       "research": "วิจัยและพัฒนาสินค้าใหม่ รวมถึงวิจัยและพัฒนาสินค้าตามความต้องการของลูกค้า",
-      "product": "นาโน ไมโคร เทคโนโลยีไบโอชีวภาพ",
+      "product": "นาโน, ไมโคร, เทคโนโลยีไบโอชีวภาพ",
       "process": "เปลี่ยนเครื่องจักรในการหมัก"
     },
     "mainProduct": ""
