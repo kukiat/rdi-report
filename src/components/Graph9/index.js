@@ -9,14 +9,39 @@ const data = [
     label: 'บุคลากรด้านการวิจัยและพัฒนา '
   },
   {
-    value: 23875,
+    value: 20141,
     color: '#5ce0de',
+    label: 'ค่าใช้จ่ายอื่นๆ '
+  },
+  {
+    value: 168,
+    color: '#fed330',
+    label: 'ที่ดิน '
+  },
+  {
+    value: 6045,
+    color: '#e1b12c',
+    label: 'อาคารและสิ่งปลูกสร้าง '
+  },
+  {
+    value: 23875,
+    color: '#dcdde1',
     label: 'เครื่องจักรและอุปกรณ์ '
   },
   {
-    value: 20141,
-    color: '#fed330',
-    label: 'ค่าใช้จ่ายอื่นๆ '
+    value: 450,
+    color: '#44bd32',
+    label: 'ยานยนต์และพาหนะอื่นๆ '
+  },
+  {
+    value: 1780,
+    color: '#353b48',
+    label: 'ซอฟต์แวร์ '
+  },
+  {
+    value: 3992,
+    color: '#00a8ff',
+    label: 'ไม่ระบุ '
   },
 ]
 
