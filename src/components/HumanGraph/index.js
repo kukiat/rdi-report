@@ -80,7 +80,7 @@ const HumanGraph = () => {
           <div className="graph-human-title" data-aos="fade-up">
             บุคลากรด้านการวิจัยและพัฒนาแบบรายหัวและแบบเทียบเป็นการทำงานเต็มเวลา
           <br />
-            (Head CountFull vs Time Equivalent)
+            (Head Count vs Full Time Equivalent)
         </div>
           <div className="graph-desc" data-aos="fade-up">
           </div>
@@ -172,7 +172,7 @@ const HumanGraph = () => {
           </div>
         </div>
         <div className="graph-desc align-center" data-aos="fade-up" data-aos-duration="500">
-          จากสถิติพบว่า กว่า 2 ใน 3 ของบุคคลากรด้านวิจัยและพัฒนา อยู่ในอุตสาหกรรมการผลิต
+          จากสติถิพบว่า กว่า 2 ใน 3 ของบุคลากรด้านวิจัยและพัฒนา อยู่ในอุตสาหกรรมการผลิต
       </div>
       </div>
     </ScreenContext.Provider>
