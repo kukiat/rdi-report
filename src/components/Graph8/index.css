@@ -3,10 +3,11 @@
 }
 
 .graph8-graph-subtitle {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   margin-top: -10px;
   margin-bottom: 20px;
+  color: #2079ad;
 }
 
 .graph8-graph-detail {

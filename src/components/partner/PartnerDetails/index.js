@@ -23,7 +23,7 @@ const PartnerDetails = ({ data }) => {
     <div className="partner-details-container">
       <div className="partner-content-header partner-details-header-wrapper">
         <div className="partner-details-header patner-detail-animation-1">{THName}</div>
-        <div className="partner-details-header patner-detail-animation-2">{ENName}</div>
+        <div className="partner-details-header patner-detail-animation-2">{ENName.toUpperCase()}</div>
       </div>
       <div className="partner-mainproduct">
         <div className="partner-mainproduct-title">

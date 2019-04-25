@@ -22,7 +22,7 @@ const PartnerContacts = ({ data: contacts }) => {
     homepageLink = String(homepage).split(/[, ]/g).map((link, index) => (
       <div key={index}>
         <a className='link-homepage' target='__blank' href={`http://${link}`} >
-          {link}
+          http://{link}
         </a>
       </div>
     ))
