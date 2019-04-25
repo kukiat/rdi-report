@@ -8,7 +8,6 @@ export const useRefScreen = () => {
   useEffect(() => {
     setOffsetTop(humanGraphRef.current.offsetTop)
   }, [offsetTop])
-
   return {
     offsetTop,
     ref: humanGraphRef
@@ -20,7 +19,7 @@ const useOnScrollCheckpoint = () => {
   const [checkpoint, setCheckpoint] = useState(false)
 
   const onScroll = () => {
-    if (window.scrollY > offsetTop) {
+    if (window.scrollY > 2700) {
       return setCheckpoint(true)
     }
     return setCheckpoint(false)

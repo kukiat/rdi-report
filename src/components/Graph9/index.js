@@ -57,7 +57,8 @@ const Graph9 = () => {
         </div>
       </div>
       <div className="row graph9-content-section">
-        <div className="col-lg-4 graph9-content">
+        {/* ห้ามแก้เป็น col-4 เดียวคอนเท้นของกราฟจะแสดงไม่ครบ */}
+        <div className="col-lg-3 graph9-content">
           <p className="graph9-content-text" data-aos="fade-right">
             <span>โดยค่าใช้จ่ายส่วนใหญ่ร้อยละ 61 </span>
             <span>เป็นค่าใช้จ่ายสำหรับบุคลากรด้านการวิจัยและพัฒนา </span>
@@ -71,7 +72,7 @@ const Graph9 = () => {
             รองลงมาคือค่าใช้จ่ายสำหรับเครื่องจักรและอุปกรณ์ ร้อยละ 19.26 และค่าใช้จ่ายอื่นๆ ร้อยละ 16.25
           </p> */}
         </div>
-        <div className="col-lg-8 graph9-pie" data-aos="fade-left">
+        <div className="col-lg-9 graph9-pie" data-aos="fade-left">
           <Pie
             data={data}
             config={{

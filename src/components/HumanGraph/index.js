@@ -72,7 +72,6 @@ const MerchantIcon = ({ total, text, title }) => {
 
 const HumanGraph = () => {
   const { offsetTop, ref } = useRefScreen()
-
   return (
     <ScreenContext.Provider value={{ offsetTop }}>
       <div className="human-graph">
