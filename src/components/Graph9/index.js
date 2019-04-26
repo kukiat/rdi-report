@@ -1,74 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import Pie from 'react-pie3d'
+import React from 'react'
+import PieChart from './PieChart'
 import './index.css'
 
-const data = [
-  {
-    value: 67486,
-    color: '#FF6384',
-    label: 'บุคลากรด้านการวิจัยและพัฒนา '
-  },
-  {
-    value: 20141,
-    color: '#5ce0de',
-    label: 'ค่าใช้จ่ายอื่นๆ '
-  },
-  {
-    value: 168,
-    color: '#fed330',
-    label: 'ที่ดิน '
-  },
-  {
-    value: 6045,
-    color: '#e1b12c',
-    label: 'อาคารและสิ่งปลูกสร้าง '
-  },
-  {
-    value: 23875,
-    color: '#dcdde1',
-    label: 'เครื่องจักรและอุปกรณ์ '
-  },
-  {
-    value: 450,
-    color: '#44bd32',
-    label: 'ยานยนต์และพาหนะอื่นๆ '
-  },
-  {
-    value: 1780,
-    color: '#353b48',
-    label: 'ซอฟต์แวร์ '
-  },
-  {
-    value: 3992,
-    color: '#00a8ff',
-    label: 'ไม่ระบุ '
-  },
-]
-
-const config = {
-  angle: 50,
-  h: 50,
-  ir: 0,
-}
-
 const Graph9 = () => {
-  const [innerWidth, setInnerWidth] = useState(0)
-  const onResize = () => {
-    setInnerWidth(window.innerWidth)
-  }
-
-  useEffect(() => {
-    onResize()
-    window.addEventListener('resize', onResize)
-    return () => window.removeEventListener('resize', onResize)
-  }, [])
-
-  const getSize = () => {
-    if (innerWidth < 473) return 55
-    if (innerWidth < 768) return Math.ceil(innerWidth / 11)
-    return 100
-  }
-
   return (
     <div className="graph9-graph-page">
       <div className="graph-header graph-content" style={{ marginTop: 50 }}>
@@ -82,29 +16,13 @@ const Graph9 = () => {
         </div>
       </div>
       <div className="row graph9-content-section">
-        {/* ห้ามแก้เป็น col-4 เดียวคอนเท้นของกราฟจะแสดงไม่ครบ */}
         <div className="col-lg-3 graph9-content">
           <p className="graph9-content-text" data-aos="fade-right">
-            <span>โดยค่าใช้จ่ายส่วนใหญ่ร้อยละ 61 </span>
-            <span>เป็นค่าใช้จ่ายสำหรับบุคลากรด้านการวิจัยและพัฒนา </span>
-            <span>รองลงมาคือค่าใช้จ่ายสำหรับเครื่องจักรและอุปกรณ์ </span>
-            <span>ร้อยละ 21 </span>
-            <span>และค่าใช้จ่ายอื่นๆ ร้อยละ 18 </span>
-
-
+            โดยค่าใช้จ่ายส่วนใหญ่ร้อยละ 61 เป็นค่าใช้จ่ายสำหรับบุคลากรด้านการวิจัยและพัฒนา รองลงมาคือค่าใช้จ่ายสำหรับเครื่องจักรและอุปกรณ์ร้อยละ 21 และค่าใช้จ่ายอื่นๆ ร้อยละ 18
           </p>
-          {/* <p className="graph9-content-text" data-aos="fade-right">
-            รองลงมาคือค่าใช้จ่ายสำหรับเครื่องจักรและอุปกรณ์ ร้อยละ 19.26 และค่าใช้จ่ายอื่นๆ ร้อยละ 16.25
-          </p> */}
         </div>
         <div className="col-lg-9 graph9-pie" data-aos="fade-left">
-          <Pie
-            data={data}
-            config={{
-              ...config,
-              size: getSize(),
-            }}
-          />
+          <PieChart />
         </div>
       </div>
     </div>
