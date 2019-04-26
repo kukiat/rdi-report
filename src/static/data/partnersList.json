@@ -275,7 +275,7 @@
   {
     "partnerId": "0107537002150",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
+    "subType": "MANUFACTURING-4",
     "name": "บริษัท กุลธรเคอร์บี้ จำกัด (มหาชน)",
     "shortName": "KULTHORN KIRBY PLC"
   },
@@ -765,7 +765,7 @@
   {
     "partnerId": "0655548000441",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
+    "subType": "MANUFACTURING-4",
     "name": "บริษัท สยามอิมพลีเม้น จำกัด",
     "shortName": "SIAM IMPLEMENT"
   },
@@ -961,7 +961,7 @@
   {
     "partnerId": "0105532022762",
     "type": "MANUFACTURING",
-    "subType": "MANUFACTURING-3",
+    "subType": "MANUFACTURING-4",
     "name": "บริษัท ไทยเซ็นทรัล เมคคานิคส์ จำกัด",
     "shortName": "THAI CENTRAL MECHANICS"
   },
