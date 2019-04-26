@@ -21,7 +21,7 @@ export const useRefScreen = () => {
   const [offsetTop, setOffsetTop] = useState(0)
 
   useEffect(() => {
-    setOffsetTop(humanGraphRef.current.offsetTop)
+    setOffsetTop(ref.current.offsetTop)
   }, [offsetTop])
 
   return { offsetTop, ref }
