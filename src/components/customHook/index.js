@@ -1,6 +1,22 @@
 import { useRef, useEffect, useState, useContext } from 'react'
 import ScreenContext from '../HumanGraph/ScreenContext'
 
+export const useScreenSize = (initialValue = 0) => {
+  const [width, setwidth] = useState(initialValue)
+
+  const onResizeScreen = () => {
+    setwidth(window.innerWidth)
+  }
+
+  useEffect(() => {
+    onResizeScreen()
+    window.addEventListener('resize', onResizeScreen, true)
+    return () => window.removeEventListener('resize', onResizeScreen, true)
+  }, [width])
+
+  return { width }
+}
+
 export const useRefScreen = () => {
   const humanGraphRef = useRef()
   const [offsetTop, setOffsetTop] = useState(0)
@@ -8,6 +24,7 @@ export const useRefScreen = () => {
   useEffect(() => {
     setOffsetTop(humanGraphRef.current.offsetTop)
   }, [offsetTop])
+
   return {
     offsetTop,
     ref: humanGraphRef
