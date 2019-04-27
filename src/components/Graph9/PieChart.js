@@ -9,7 +9,8 @@ am4core.useTheme(am4themes_animated);
 const getPieHeightByWidth = (width) => {
   if (width < 525) return 140
   if (width < 768) return 180
-  if (width < 992) return 230
+  if (width < 992) return 250
+  if (width < 1200) return 210
   return 270
 }
 
