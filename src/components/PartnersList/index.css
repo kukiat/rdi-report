@@ -37,7 +37,6 @@
 
 .placeholder-content {
   position: absolute;
-  transition: opacity 1s ease-in-out;
   padding: 0px 45% 0 15px;
   width: 100%;
   font-size: 1rem;
