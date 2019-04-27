@@ -62,7 +62,7 @@ const PieChart = () => {
     pieSeries.slices.template.states.getKey("hover").properties.shiftRadius = 0;
     pieSeries.slices.template.states.getKey("hover").properties.scale = 1.1;
 
-    document.querySelector("g[aria-labelledby").style.display = 'none'
+    document.querySelector("g[aria-labelledby]").style.display = 'none'
     return () => {
       if (chart) {
         chart.dispose()
