@@ -16,6 +16,7 @@ const getPieHeightByWidth = (width) => {
 const PieChart = () => {
   const { width } = useScreenSize(0)
   const height = getPieHeightByWidth(width)
+
   useEffect(() => {
     let chart = am4core.create("chartdiv", am4charts.PieChart3D);
 
