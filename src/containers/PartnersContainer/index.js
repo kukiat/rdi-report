@@ -49,11 +49,11 @@ const PartnersContainer = (props) => {
 
   return (
     <LayoutWrapper>
-      <div className="partners-page container">
-        <div className="row">
-          <div className="col-lg-10 offset-lg-1">
-            <div className="partners-header">
-              <div className="partners-title">
+      <div className='partners-page container'>
+        <div className='row'>
+          <div className='col-lg-10 offset-lg-1'>
+            <div className='partners-header'>
+              <div className='partners-title'>
                 ทำเนียบบริษัทเอกชนในประเทศไทยที่มีกิจกรรมด้านการวิจัยและพัฒนา และกิจกรรมนวัตกรรมประจำปี 2561
               </div>
             </div>
@@ -61,9 +61,19 @@ const PartnersContainer = (props) => {
         </div>
         <div className="partner-table-wrapper">
           <div className="input-group search-box col-lg-10 offset-lg-1" data-aos="fade-left">
-            <input type="input" className="form-control search-box-input" placeholder="ค้นหาบริษัท" onChange={handleSearch} />
+            <input
+              className="form-control search-box-input"
+              type="input"
+              placeholder="ค้นหาบริษัท"
+              onChange={handleSearch}
+            />
             <div className="input-group-append search-box-button">
-              <button className="btn btn-outline-secondary" type="button">ค้นหา</button>
+              <button
+                className="btn btn-outline-secondary"
+                type="button"
+              >
+                ค้นหา
+              </button>
             </div>
           </div>
           <PartnersTable

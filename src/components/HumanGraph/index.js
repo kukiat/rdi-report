@@ -78,10 +78,8 @@ const HumanGraph = () => {
         <div className="graph-header">
           <div className="graph-human-title" data-aos="fade-up">
             บุคลากรด้านการวิจัยและพัฒนาแบบรายหัวและแบบเทียบเป็นการทำงานเต็มเวลา
-          <br />
+            <br />
             (Head Count vs Full Time Equivalent)
-        </div>
-          <div className="graph-desc" data-aos="fade-up">
           </div>
         </div>
         <div className="graph-human-graph" data-aos="fade-up" ref={ref}>

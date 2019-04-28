@@ -1,28 +1,7 @@
 import React from 'react'
-import { LayoutWrapper } from '../../components'
+import { LayoutWrapper, ReportItem } from '../../components'
 import { reports } from '../../static/data'
 import './index.css'
-
-const ReportItem = ({ name, detail, fileName }) => {
-  return (
-    <div className="report-item col-md-6">
-      <a href="/static/files/sample-report.pdf" download={name}>
-        <img
-          width={60}
-          src={require('../../static/images/others/pdf.png')}
-          alt=""
-          className="report-item-image"
-        />
-      </a>
-      <div className="report-item-detail">
-        <a href={require(`../../static/files/${fileName}`)} download={name} className="report-item-detail-name">
-          {name}
-        </a>
-        <div className="report-item-detail-text">{detail}</div>
-      </div>
-    </div>
-  )
-}
 
 const ReportsContainer = () => {
   return (

@@ -1,0 +1,19 @@
+.report-item {
+  margin-top: 30px;
+}
+
+.report-item-image {
+  margin-left: -10px;
+}
+
+.report-item-detail {
+  margin-top: 15px;
+}
+
+.report-item-detail-name {}
+
+.report-item-detail-text {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #2e2e2e;
+}

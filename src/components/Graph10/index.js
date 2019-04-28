@@ -224,9 +224,7 @@ const Graph10Table = () => {
   )
 }
 
-export default () => {
-
-
+const Graph10 = () => {
   return (
     <div className="graph10-graph-page">
       <div className="graph-header graph-content" style={{ marginTop: 50 }}>
@@ -247,3 +245,5 @@ export default () => {
     </div>
   )
 }
+
+export default Graph10

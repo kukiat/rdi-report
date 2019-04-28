@@ -15,6 +15,7 @@ import GraphSeven from './GraphSeven'
 import PartnerContacts from './PartnerContacts'
 import PartnerDetails from './PartnerDetails'
 import PartnerHistory from './PartnerHistory'
+import ReportItem from './ReportItem'
 
 export {
   LayoutWrapper,
@@ -34,4 +35,5 @@ export {
   PartnerContacts,
   PartnerDetails,
   PartnerHistory,
+  ReportItem,
 }
