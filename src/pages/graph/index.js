@@ -28,7 +28,6 @@ class Graph extends React.Component {
               <TotalResearchCompanyGraph2 />
               <Graph4 />
               <HumanGraph />
-              {/* <IndustryGraph /> */}
               <GraphSix />
               <GraphSeven />
               <Graph8 />
