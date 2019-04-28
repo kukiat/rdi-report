@@ -7,7 +7,7 @@ exports.createPages = async ({ graphql, actions }) => {
   for (let partner of partners) {
     createPage({
       path: `/partners/${partner.partnerId}`,
-      component: pathFile.resolve(`src/components/partner/index.js`),
+      component: pathFile.resolve(`src/pages/partner/index.js`),
       context: {
         id: partner.partnerId,
       },

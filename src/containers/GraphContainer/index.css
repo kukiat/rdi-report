@@ -54,7 +54,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .graph-page > div > div{
+  .graph-page>div>div {
     overflow: hidden !important;
     max-width: 100vw !important;
   }

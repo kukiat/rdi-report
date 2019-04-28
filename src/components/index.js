@@ -12,6 +12,9 @@ import Graph9 from './Graph9'
 import Graph10 from './Graph10'
 import GraphSix from './GraphSix'
 import GraphSeven from './GraphSeven'
+import PartnerContacts from './PartnerContacts'
+import PartnerDetails from './PartnerDetails'
+import PartnerHistory from './PartnerHistory'
 
 export {
   LayoutWrapper,
@@ -28,4 +31,7 @@ export {
   Graph10,
   GraphSix,
   GraphSeven,
+  PartnerContacts,
+  PartnerDetails,
+  PartnerHistory,
 }

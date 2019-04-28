@@ -37,7 +37,8 @@ a {
 .partner-content-item {
   margin-top: 15px;
 }
-.partner-content-item > *{
+
+.partner-content-item>* {
   word-wrap: break-word;
 }
 
@@ -59,6 +60,7 @@ a {
   padding-bottom: 10px;
   border-bottom: 2px solid #eaeaeb;
 }
+
 .partner-content-email {
   display: block;
 }

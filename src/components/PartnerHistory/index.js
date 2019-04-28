@@ -1,6 +1,6 @@
 import React from 'react'
 import { string, shape } from 'prop-types'
-import { convertMoney, convertPeople, convertYear } from '../../../utils/general'
+import { convertMoney, convertPeople, convertYear } from '../../utils/general'
 import './index.css'
 
 const PartnerHistory = ({ data }) => {
