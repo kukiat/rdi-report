@@ -169,7 +169,7 @@ const HumanGraph = () => {
           </div>
         </div>
         <div className="graph-desc align-center" data-aos="fade-up" data-aos-duration="500">
-          จากสติถิพบว่า กว่า 2 ใน 3 ของบุคลากรด้านวิจัยและพัฒนา อยู่ในอุตสาหกรรมการผลิต
+          จากสถิติพบว่า กว่า 2 ใน 3 ของบุคลากรด้านวิจัยและพัฒนา อยู่ในอุตสาหกรรมการผลิต
       </div>
       </div>
     </ScreenContext.Provider>
