@@ -59,6 +59,8 @@ const PieChart = () => {
     pieSeries.slices.template.stroke = am4core.color("#fff");
     pieSeries.slices.template.strokeWidth = 1;
     pieSeries.slices.template.strokeOpacity = 1;
+    pieSeries.labels.template.text = "{category} {value.percent.formatNumber('#.00')}%";
+    pieSeries.slices.template.tooltipText = "{category} {value.percent.formatNumber('#.00')}% ({value})";
 
     pieSeries.slices.template.states.getKey("hover").properties.shiftRadius = 0;
     pieSeries.slices.template.states.getKey("hover").properties.scale = 1.1;
