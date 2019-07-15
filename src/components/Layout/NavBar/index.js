@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import Styled, { keyframes } from "styled-components"
 import classNames from 'classnames'
-import logoNav from "../../../static/images/others/sti.png"
+import logoNav from "../../../static/images/others/S__21291020.jpg"
 import "./index.css"
 
 const navItemList = [
@@ -73,7 +73,6 @@ const NavBarContainer = Styled.div`
 `
 
 const NavLogoImage = Styled.img`
-  width: 50px;
   height: 60px;
   margin-top: 4px;
 `
@@ -82,7 +81,7 @@ const NavBarWrapper = ({ children }) => (
   <NavBarContainer>
     <div className="container">
       <div className="row">
-        <div className="col-lg-10 offset-lg-1">
+        <div className="col-lg-12">
           <NavBarList>{children}</NavBarList>
         </div>
       </div>
