@@ -8,6 +8,7 @@
     "@amcharts/amcharts4": "^4.4.1",
     "aos": "^2.3.4",
     "babel-plugin-styled-components": "^1.10.0",
+    "canvas": "^2.5.0",
     "chart.js": "^2.8.0",
     "classnames": "^2.2.6",
     "gatsby": "^2.3.5",
