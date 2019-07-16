@@ -48,5 +48,8 @@
     "build": "gatsby build",
     "dev": "gatsby develop -p 3000 -o",
     "start": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=10.8.0"
   }
 }
