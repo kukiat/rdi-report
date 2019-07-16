@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import Styled, { keyframes } from "styled-components"
 import classNames from 'classnames'
-import logoNav from "../../../static/images/others/S__21291020.jpg"
+// import logoNav from "../../../static/images/others/S__21291020.jpg"
 import "./index.css"
 
 const navItemList = [
@@ -116,7 +116,8 @@ const NavBar = () => {
     <NavBarWrapper>
       <Link to="/" className='logo-slide'>
         <NavLogo>
-          <NavLogoImage src={logoNav} alt="" />
+          <img alt='logo' src={require('../../../static/images/others/logo.jpg')} style={{ height: '60px', marginTop: '4px' }} />
+          {/* <NavLogoImage src={logoNav} alt="" /> */}
         </NavLogo>
       </Link>
       <NavMenu className="nav-menu">
