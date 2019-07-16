@@ -116,7 +116,7 @@ const NavBar = () => {
     <NavBarWrapper>
       <Link to="/" className='logo-slide'>
         <NavLogo>
-          <img alt='logo' src={require('../../../static/images/others/logo.jpg')} style={{ height: '60px', marginTop: '4px' }} />
+          {/* <img alt='logo' src={require('../../../static/images/others/logo.jpg')} style={{ height: '60px', marginTop: '4px' }} /> */}
           {/* <NavLogoImage src={logoNav} alt="" /> */}
         </NavLogo>
       </Link>
