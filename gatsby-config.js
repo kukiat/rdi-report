@@ -13,7 +13,7 @@ module.exports = {
         short_name: `manifest`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `${__dirname}/src/static/images/others/STI.jpg`,
+        icon: `${__dirname}/src/static/images/others/logo.jpg`,
       },
     },
     {
